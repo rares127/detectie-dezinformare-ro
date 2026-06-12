@@ -1,0 +1,27 @@
+{
+  "versiune_dataset": "v2",
+  "seed": 42,
+  "input_path": "data/raw/dataset_licenta_complet.csv",
+  "n_total": 1483,
+  "n_train": 1038,
+  "n_val": 222,
+  "n_test": 223,
+  "distributie_clase": {
+    "cls0_credibil": 737,
+    "cls1_dezinformare": 746
+  },
+  "distributie_surse": {
+    "veridica.ro": 661,
+    "digi24.ro": 389,
+    "g4media.ro": 348,
+    "stopfals.md": 85
+  },
+  "stratificare": "label_numeric + sursa_site",
+  "coloana_text": "titlu + \\n\\n + stire_citata",
+  "diferente_fata_de_v1": [
+    "volum 1483 (vs 1427 v1)",
+    "include 2022 (lipsă complet în v1)",
+    "Stopfals.md ca sursă nouă clasa 1 (85 articole)",
+    "entity balancing Moldova aplicat (DF diff redus de la +30.8% la +16.1%)"
+  ]
+}

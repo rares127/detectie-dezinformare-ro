@@ -1,0 +1,31 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# macOS
+.DS_Store
+
+# Modele antrenate (~26 GB) — NU intra pe GitHub.
+# Re-antrenare: python src/training/02_train_xlmr_baseline_v2.py (~4 min pe M2 Pro)
+# sau descarcare separata (vezi README, sectiunea "Modele").
+models/
+
+# Date brute din scraping (~550 MB) — regenerabile cu scraperele din src/scraping/
+data/raw/
+
+# CSV-uri intermediare mari (regenerabile din data/raw cu scripturile clean_*)
+data/processed/digi24_v1_clean.csv
+data/processed/g4media_clean_v1.csv
+data/processed/g4media_v2_clean.csv
+data/processed/veridica_clean_v4.csv
+
+# Cache embeddings — regenerat automat la primul startup al aplicatiei
+data/processed/embeddings_cache/
+
+# Logs
+*.log
+
+# Setari locale Claude Code
+.claude/settings.local.json

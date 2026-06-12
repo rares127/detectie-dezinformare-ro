@@ -1,0 +1,33 @@
+{
+  "n_total": 634,
+  "n_cu_prefix": 67,
+  "n_cu_verbe": 0,
+  "n_cu_voce": 1,
+  "n_cu_orice": 68,
+  "pct_orice": 10.725552050473187,
+  "per_sursa": {
+    "veridica.ro": {
+      "total": 562,
+      "cu_prefix": 66,
+      "cu_verbe": 0,
+      "cu_voce": 0,
+      "cu_orice": 66,
+      "pct_orice": 11.743772241992882
+    },
+    "stopfals.md": {
+      "total": 72,
+      "cu_prefix": 1,
+      "cu_verbe": 0,
+      "cu_voce": 1,
+      "cu_orice": 2,
+      "pct_orice": 2.7777777777777777
+    }
+  },
+  "top_patterns": {
+    "prefix_propaganda": 66,
+    "prefix_fals": 1,
+    "cuvant_context": 1
+  },
+  "decizie_automata": "include_cu_curatare_minima",
+  "recomandare": "✓ INCLUDE TITLURILE. Doar 10.7% au pattern, risc mic. Opțional: normalizează cele 67 cu prefix."
+}

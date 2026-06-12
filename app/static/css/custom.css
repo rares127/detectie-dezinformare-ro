@@ -1,0 +1,71 @@
+/**
+ * Override-uri CSS minimale peste Tailwind (CDN).
+ *
+ * Cele mai multe stiluri sunt aplicate prin clase utility direct în HTML.
+ * Aici păstrăm doar:
+ * - Stiluri pentru elemente care nu au echivalent Tailwind elegant
+ * - Tweak-uri de focus pentru accesibilitate
+ */
+
+/* Smooth scrolling pentru ancore */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Font monospace în textarea pentru aliniere mai bună a articolelor lungi */
+#textInput {
+    font-family: ui-monospace, 'SF Mono', Monaco, 'Cascadia Code', 'Roboto Mono', Consolas, monospace;
+    line-height: 1.6;
+}
+
+/* Tweak: outline focus mai vizibil pe butonul principal */
+#btnAnalizeaza:focus-visible {
+    outline: 2px solid #2563eb;
+    outline-offset: 2px;
+}
+
+/* Animație ușoară pentru dezvăluirea rezultatului */
+#rezultat:not(.hidden) {
+    animation: fade-in-up 0.3s ease-out;
+}
+
+@keyframes fade-in-up {
+    from {
+        opacity: 0;
+        transform: translateY(8px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Propoziții colorate — vizualizare granulară Modul 3 */
+.prop-colorata {
+    cursor: pointer;
+    border-radius: 3px;
+    padding: 1px 3px;
+    /* Tranziție lină la hover/selecție */
+    transition: filter 0.12s ease, box-shadow 0.12s ease;
+    /* Păstrăm line-height consistent cu textul înconjurător */
+    line-height: inherit;
+    /* Prevenim selecția accidentală de text la click rapid */
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+.prop-colorata:hover {
+    filter: brightness(0.88);
+}
+
+/* Propoziția selectată — contur vizibil + ușor întunecat */
+.prop-colorata.prop-selectata {
+    box-shadow: 0 0 0 2px #475569;
+    filter: brightness(0.82);
+    border-radius: 3px;
+}
+
+/* Panoul de detalii — apare cu animație */
+#panouDetalii:not(.hidden) {
+    animation: fade-in-up 0.2s ease-out;
+}

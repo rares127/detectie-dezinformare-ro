@@ -1,0 +1,151 @@
+{
+  "config": {
+    "model": "sentence-transformers/paraphrase-multilingual-mpnet-base-v2",
+    "seed": 42,
+    "device": "mps",
+    "downsample_cls1_la": 5290
+  },
+  "volume": {
+    "corpus_cls0": 5290,
+    "corpus_cls1_full": 6048,
+    "corpus_cls1_downsampled": 5290,
+    "test_articole": 167,
+    "test_propozitii": 2066,
+    "test_cls0_articole": 55,
+    "test_cls1_articole": 112
+  },
+  "anti_contaminare": {
+    "test_articole_unice": 167,
+    "cls0_articole_unice": 737,
+    "cls1_articole_unice": 634,
+    "suprapunere_test_cls0": 0,
+    "suprapunere_test_cls1": 0,
+    "exemple_overlap_cls0": [],
+    "exemple_overlap_cls1": []
+  },
+  "rezultate": {
+    "test_A_cls1_only": {
+      "mean": {
+        "auc": 0.7241883116883117,
+        "cohen_d": 0.7038246393203735,
+        "gap_veridica_stopfals": {
+          "veridica_mean": 0.7014501690864563,
+          "stopfals_mean": 0.7016395926475525,
+          "gap": -0.0001894235610961914,
+          "n_veridica": 99,
+          "n_stopfals": 13
+        },
+        "media_cls0": 0.6634140014648438,
+        "media_cls1": 0.7014722228050232
+      },
+      "min": {
+        "auc": 0.7196428571428571,
+        "cohen_d": 0.7791957259178162,
+        "gap_veridica_stopfals": {
+          "veridica_mean": 0.5811340808868408,
+          "stopfals_mean": 0.5839007496833801,
+          "gap": -0.0027666687965393066,
+          "n_veridica": 99,
+          "n_stopfals": 13
+        },
+        "media_cls0": 0.5192723274230957,
+        "media_cls1": 0.5814552307128906
+      },
+      "p10": {
+        "auc": 0.7079545454545454,
+        "cohen_d": 0.6927769184112549,
+        "gap_veridica_stopfals": {
+          "veridica_mean": 0.6188408136367798,
+          "stopfals_mean": 0.6270163059234619,
+          "gap": -0.008175492286682129,
+          "n_veridica": 99,
+          "n_stopfals": 13
+        },
+        "media_cls0": 0.5722194314002991,
+        "media_cls1": 0.619789719581604
+      }
+    },
+    "test_B_cls0_only": {
+      "mean": {
+        "auc": 0.3053571428571428,
+        "cohen_d": -0.7003741264343262,
+        "gap_veridica_stopfals": {
+          "veridica_mean": 0.6634371280670166,
+          "stopfals_mean": 0.654895544052124,
+          "gap": 0.008541584014892578,
+          "n_veridica": 99,
+          "n_stopfals": 13
+        },
+        "media_cls0": 0.7006926536560059,
+        "media_cls1": 0.6624456644058228
+      },
+      "min": {
+        "auc": 0.5214285714285715,
+        "cohen_d": 0.1018393337726593,
+        "gap_veridica_stopfals": {
+          "veridica_mean": 0.5486051440238953,
+          "stopfals_mean": 0.5657998323440552,
+          "gap": -0.017194688320159912,
+          "n_veridica": 99,
+          "n_stopfals": 13
+        },
+        "media_cls0": 0.5420076251029968,
+        "media_cls1": 0.5506009459495544
+      },
+      "p10": {
+        "auc": 0.4199675324675325,
+        "cohen_d": -0.30801504850387573,
+        "gap_veridica_stopfals": {
+          "veridica_mean": 0.5864099860191345,
+          "stopfals_mean": 0.5883361101150513,
+          "gap": -0.001926124095916748,
+          "n_veridica": 99,
+          "n_stopfals": 13
+        },
+        "media_cls0": 0.6076104640960693,
+        "media_cls1": 0.586633563041687
+      }
+    },
+    "test_D_diff": {
+      "mean": {
+        "auc": 0.9689935064935066,
+        "cohen_d": 2.407022476196289,
+        "gap_veridica_stopfals": {
+          "veridica_mean": 0.03801308199763298,
+          "stopfals_mean": 0.046744126826524734,
+          "gap": -0.008731044828891754,
+          "n_veridica": 99,
+          "n_stopfals": 13
+        },
+        "media_cls0": -0.03727862611413002,
+        "media_cls1": 0.03902650624513626
+      },
+      "min": {
+        "auc": 0.7762987012987014,
+        "cohen_d": 1.029364824295044,
+        "gap_veridica_stopfals": {
+          "veridica_mean": 0.03252897039055824,
+          "stopfals_mean": 0.018100963905453682,
+          "gap": 0.01442800648510456,
+          "n_veridica": 99,
+          "n_stopfals": 13
+        },
+        "media_cls0": -0.022735370323061943,
+        "media_cls1": 0.03085428848862648
+      },
+      "p10": {
+        "auc": 0.8988636363636364,
+        "cohen_d": 1.7028062343597412,
+        "gap_veridica_stopfals": {
+          "veridica_mean": 0.032430846244096756,
+          "stopfals_mean": 0.03868018835783005,
+          "gap": -0.006249342113733292,
+          "n_veridica": 99,
+          "n_stopfals": 13
+        },
+        "media_cls0": -0.03539105877280235,
+        "media_cls1": 0.03315621241927147
+      }
+    }
+  }
+}

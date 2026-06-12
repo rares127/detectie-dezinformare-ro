@@ -1,0 +1,22 @@
+{
+  "experiment": "LOSO — held_out=stopfals.md",
+  "dataset_version": "v2",
+  "held_out_source": "stopfals.md",
+  "n_test": 85,
+  "majority_class_test": 1,
+  "n_train_sources": 1188,
+  "n_val_sources": 210,
+  "train_sources_distributie": {
+    "veridica.ro": 562,
+    "digi24.ro": 330,
+    "g4media.ro": 296
+  },
+  "accuracy_test": 0.9529411764705882,
+  "recall_cls1_test": 0.9529411764705882,
+  "mean_prob_cls1": 0.9517544285455883,
+  "median_prob_cls1": 0.9997221827507019,
+  "baseline_recall_cls1_v2": 1.0,
+  "drop_vs_baseline": 0.04705882352941182,
+  "interpretare": "Drop <10pp — modelul învață GENUIN semnalul de dezinformare, nu depinde critic de sursa stopfals.md.",
+  "training_time_seconds": 231.86632704734802
+}

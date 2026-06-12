@@ -1,0 +1,662 @@
+id,sursa_site,an,titlu,label_numeric,pred,prob_cls1,nr_cuvinte,nr_ghilimele,densitate_ghilimele,nr_paragrafe,nr_non_ascii,pct_non_ascii
+vrd_0134,veridica.ro,2022,PROPAGANDĂ DE RĂZBOI: Masacrul de la Izium a fost o înscenare menită să compromită armata rusă,1,0,0.0027013276703655,196,8,0.04081632653061224,1,64,4.930662557781202
+vrd_0446,veridica.ro,2024,Rusia a invadat România doar o dată,1,1,0.673976480960846,312,7,0.022435897435897436,1,131,7.3348264277715565
+vrd_0543,veridica.ro,2025,Propunerea rusă de pace - singura șansă de salvare a Ucrainei,1,1,0.6715071201324463,155,2,0.012903225806451613,1,56,6.021505376344086
+vrd_0642,veridica.ro,2026,"Ucraina e distrusă de liderii săi, nu de război",1,0,0.0016340266447514,188,6,0.031914893617021274,1,43,3.3938437253354383
+vrd_0311,veridica.ro,2023,Aderarea Ucrainei și Moldovei va ruina UE,1,0,0.0173384975641965,142,8,0.056338028169014086,1,51,5.549510337323178
+vrd_0075,veridica.ro,2022,Occidentul luptă cu Rusia prin intermediul Ucrainei,1,1,0.6761296391487122,326,8,0.024539877300613498,1,124,5.975903614457832
+vrd_0054,veridica.ro,2022,Zelenski condiționează drepturile comunității românești din Ucraina de ajutorul Bucureștiului,1,0,0.0062762186862528,283,11,0.038869257950530034,1,109,6.11672278338945
+vrd_0135,veridica.ro,2022,PROPAGANDĂ DE RĂZBOI: Mobilizarea parțială ordonată de Putin va preveni un dezastru nuclear și va duce la o dezescaladare a conflictului și un dialog diplomatic,1,0,0.0019199207890778,172,3,0.01744186046511628,1,53,4.62478184991274
+vrd_0084,veridica.ro,2022,La Chișinău au sosit agenți FBI pentru a împinge Republica Moldova către confruntări militare cu Rusia,1,0,0.0231955926865339,193,9,0.046632124352331605,1,52,4.046692607003891
+vrd_0288,veridica.ro,2023,"Specialiști NATO din România și Olanda, uciși în Ucraina",1,0,0.0027559937443584,170,2,0.011764705882352941,1,49,4.657794676806084
+vrd_0440,veridica.ro,2024,Zelenski prelungește războiul la indicația Occidentului,1,1,0.6721014380455017,162,2,0.012345679012345678,1,52,5.383022774327122
+vrd_0425,veridica.ro,2024,Conducerea Republicii Moldova încearcă să interzică creștinismul și să readucă țara la păgânism,1,0,0.0028145348187536,214,2,0.009345794392523364,1,90,6.36042402826855
+vrd_0575,veridica.ro,2025,România nu primește compensații pentru sprijinul dat Ucrainei,1,1,0.6813578605651855,94,0,0.0,1,39,5.972434915773354
+vrd_0338,veridica.ro,2024,"Rusia apără de nazism teritoriul său, Novorossia",1,1,0.5590872764587402,119,0,0.0,1,44,5.307599517490953
+vrd_0273,veridica.ro,2023,"Maia Sandu a închis 200 de școli, alungând tinerii din R. Moldova",1,1,0.671649158000946,233,19,0.0815450643776824,1,90,5.780346820809249
+vrd_0476,veridica.ro,2025,Șeful NATO este de acord cu cedarea Groenlandei către SUA,1,0,0.0018622170900925,207,2,0.00966183574879227,1,79,6.335204490777866
+vrd_0615,veridica.ro,2025,"Un înalt oficial ucrainean a ""dezertat""",1,0,0.0026702866889536,202,2,0.009900990099009901,1,66,5.427631578947369
+vrd_0291,veridica.ro,2023,"Infrastructura Moldovei, dezvoltată pentru Ucraina",1,0,0.0181684643030166,499,8,0.01603206412825651,1,175,5.185185185185185
+vrd_0632,veridica.ro,2025,Ucraina e o dictatură și nu poate organiza alegeri libere,1,0,0.0573063567280769,285,8,0.028070175438596492,1,80,3.992015968063872
+vrd_0198,veridica.ro,2023,UE a trimis militari în Ucraina înainte de 2022 pentru a slăbi Rusia,1,0,0.0023542908020317,152,6,0.039473684210526314,1,43,4.516806722689076
+vrd_0566,veridica.ro,2025,"Manualele din Moldova, rescrise pentru a justifica confruntarea cu Rusia",1,0,0.0135814137756824,173,8,0.046242774566473986,1,48,4.351767905711696
+vrd_0189,veridica.ro,2022,"PROPAGANDĂ DE RĂZBOI: Zelenski a ucis peste 50 de mii de femei, mobilizându-le în armată",1,1,0.6704566478729248,92,2,0.021739130434782608,1,24,4.606525911708253
+vrd_0317,veridica.ro,2023,Planul de federalizare a Moldovei a avut o largă susținere la Chișinău,1,1,0.6704244613647461,262,4,0.015267175572519083,1,65,3.581267217630854
+vrd_0125,veridica.ro,2022,PROPAGANDĂ DE RĂZBOI: Misiunea AIEA a lăudat armata rusă pentru că apără centrala nucleară Zaporojie de bombardamentele ucrainene,1,0,0.0027564081829041,160,5,0.03125,1,44,4.150943396226415
+vrd_0580,veridica.ro,2025,Bucureștiul îi cere Chișinăului suprimarea opoziției pro-ruse,1,0,0.2289501726627349,165,2,0.012121212121212121,1,86,7.2758037225042305
+vrd_0056,veridica.ro,2022,Kievul torturează prizonierii de război și refuză să respecte Convenția de la Geneva,1,0,0.0055412333458662,127,4,0.031496062992125984,1,40,4.545454545454546
+vrd_0324,veridica.ro,2023,Odesa și sudul Ucrainei sunt ale Rusiei,1,0,0.0050857011228799,134,6,0.04477611940298507,1,35,4.4136191677175285
+vrd_0365,veridica.ro,2024,"Ucraina, o invenție a Rusiei condusă acum de non-ucraineni",1,1,0.6683200001716614,192,0,0.0,1,61,4.995904995904995
+vrd_0640,veridica.ro,2026,Zelenski vrea să fie legitimat ca președinte de Putin,1,0,0.00179935968481,141,12,0.0851063829787234,1,39,4.020618556701031
+vrd_0261,veridica.ro,2023,Ucrainenii vor cetățenia rusă ca să-și apere copiii de UE,1,0,0.0028423541225492,245,5,0.02040816326530612,1,96,5.814657783161721
+vrd_0548,veridica.ro,2025,"Rusia vrea să returneze ucrainenii uciși, dar Kievul refuză",1,0,0.0024047866463661,126,6,0.047619047619047616,1,35,4.353233830845771
+vrd_0552,veridica.ro,2025,"Spre deosebire de Israel, Rusia a intrat în război ca să se apere",1,0,0.0204164553433656,93,2,0.021505376344086023,1,32,4.819277108433735
+vrd_0444,veridica.ro,2024,Maia Sandu este doar președintele diasporei,1,0,0.0020044087432324,341,0,0.0,1,111,4.907161803713528
+vrd_0528,veridica.ro,2025,Rusia are dreptul istoric de a ocupa Ucraina,1,0,0.0048860777169466,195,8,0.041025641025641026,1,76,5.819295558958652
+vrd_0562,veridica.ro,2025,Rusia ajută Ucraina să revină la pace și neutralitate,1,0,0.0032989112660288,187,6,0.03208556149732621,1,56,4.157386785449146
+vrd_0034,veridica.ro,2022,PROPAGANDĂ DE RĂZBOI: Rusia a distrus laboratoare americane de arme biologice din Ucraina,1,0,0.0024842750281095,163,10,0.06134969325153374,1,37,3.3333333333333335
+vrd_0152,veridica.ro,2022,Rusia s-a retras din APCE pentru că n-a vrut gay în Duma de Stat,1,0,0.0015461064176633,326,4,0.012269938650306749,1,100,4.6253469010175765
+vrd_0073,veridica.ro,2022,Rusia va fi forțată să recurgă la arme nucleare,1,0,0.0020449955482035,484,2,0.004132231404958678,1,153,5.189959294436906
+vrd_0611,veridica.ro,2025,Moscova îi va judeca pe criminalii de război ucraineni,1,0,0.4062468409538269,210,4,0.01904761904761905,1,68,5.025868440502587
+vrd_0627,veridica.ro,2025,"Occidentul folosește Ucraina drept ""berbec"" împotriva Rusiei",1,0,0.0025974072050303,228,8,0.03508771929824561,1,84,5.861828332170272
+vrd_0429,veridica.ro,2024,"Rusia poartă un război just și etic, nu ca Israelul",1,1,0.6743482351303101,182,4,0.02197802197802198,1,73,6.654512306289881
+vrd_0602,veridica.ro,2025,Guvernarea de la Chișinău pregătește închiderea școlilor în limba rusă,1,1,0.6776905059814453,132,6,0.045454545454545456,1,52,6.63265306122449
+vrd_0232,veridica.ro,2023,"În 2023, România va pierde Transilvania",1,1,0.6724936366081238,470,2,0.00425531914893617,1,149,5.279943302622254
+vrd_0619,veridica.ro,2025,UE sabotează planul american de pace pentru a prelungi războiul,1,0,0.004019122570753,143,8,0.055944055944055944,1,40,4.329004329004329
+vrd_0289,veridica.ro,2023,Ucrainenii nu învață ceva util din instrucția NATO,1,0,0.0023165524471551,466,6,0.012875536480686695,1,156,5.081433224755701
+vrd_0049,veridica.ro,2022,PROPAGANDĂ DE RĂZBOI: ONU sprijină genocidul îndreptat împotriva rusofonilor din Ucraina,1,0,0.0192677471786737,199,6,0.03015075376884422,1,72,5.369127516778524
+vrd_0064,veridica.ro,2022,"PROPAGANDĂ DE RĂZBOI: Polonia va prelua controlul asupra ""teritoriilor sale istorice"" din Ucraina cu ajutorul SUA",1,0,0.0026033718604594,175,16,0.09142857142857143,1,49,4.073150457190358
+vrd_0028,veridica.ro,2022,Kievul a înscenat pentru presă atacurile separatiștilor din Donbass asupra infrastructurii civile,1,0,0.0064289704896509,355,9,0.02535211267605634,1,100,3.9872408293460926
+vrd_0612,veridica.ro,2025,În Moldova sunt edificate monumente naziste,1,0,0.0187136717140674,376,17,0.04521276595744681,1,114,4.181951577402788
+vrd_0650,veridica.ro,2026,Republica Moldova vrea să rupă relațiile diplomatice cu Rusia,1,0,0.0017926675500348,226,1,0.004424778761061947,1,63,4.2625169147496615
+vrd_0234,veridica.ro,2023,Apropierea de UE aruncă Moldova în sărăcie,1,1,0.6764222979545593,80,4,0.05,1,24,4.8
+vrd_0644,veridica.ro,2026,Zelenski a făcut trafic de minori cu Epstein,1,0,0.0016457346500828,314,4,0.012738853503184714,1,92,4.503181595692609
+vrd_0086,veridica.ro,2022,Statele Unite au provocat războiul din Ucraina pentru a profita economic,1,1,0.6710357666015625,404,2,0.0049504950495049506,1,132,5.196850393700787
+vrd_0284,veridica.ro,2023,Maia Sandu închide școli pentru că Occidentul vrea mână de lucru ieftină,1,1,0.6774649024009705,326,12,0.03680981595092025,1,114,5.523255813953488
+vrd_0493,veridica.ro,2025,"Republica Moldova, românizată în urma presiunilor Bucureștiului",1,0,0.1308833509683609,96,4,0.041666666666666664,1,26,3.869047619047619
+vrd_0439,veridica.ro,2024,Ucrainenii vor să-l ucidă pe secretarul general ONU,1,0,0.0018062285380437,126,2,0.015873015873015872,1,39,4.905660377358491
+vrd_0245,veridica.ro,2023,România este invadată de asiatici,1,1,0.676508367061615,147,2,0.013605442176870748,1,58,6.628571428571428
+vrd_0078,veridica.ro,2022,PROPAGANDĂ DE RĂZBOI: UE se teme de tuberculoza provenită din laboratoare NATO din Ucraina,1,0,0.0017824871465563,130,4,0.03076923076923077,1,32,3.8186157517899764
+vrd_0020,veridica.ro,2022,Forțele speciale britanice vor escalada situația din Donbass fără consimțământul Kievului,1,0,0.0035470810253173,196,8,0.04081632653061224,1,63,4.805491990846682
+vrd_0346,veridica.ro,2024,"Euromaidanul, o acțiune rusofobă și fascistă care a cauzat războiul",1,1,0.6617054343223572,393,4,0.010178117048346057,1,143,5.706304868316042
+vrd_0598,veridica.ro,2025,"Militari britanici, alături de Rusia contra ""noului Hitler"", Zelenski",1,0,0.0016343154711648,171,4,0.023391812865497075,1,46,4.09982174688057
+vrd_0323,veridica.ro,2023,Occidentul pregătește înlocuirea Maiei Sandu,1,0,0.0677706003189086,481,10,0.02079002079002079,1,172,5.619078732440379
+vrd_0181,veridica.ro,2022,"PROPAGANDĂ DE RĂZBOI: Pierderile armatei ucrainene sunt atât de mari, încât elevii sunt forțați să doneze sânge pentru militari",1,0,0.0047967187128961,121,2,0.01652892561983471,1,52,6.869220607661823
+vrd_0258,veridica.ro,2023,Scoaterea Partidului Șor în afara legii e uzurpare a puterii în stat,1,1,0.6791849732398987,1004,15,0.014940239043824702,1,358,5.244652798124816
+vrd_0478,veridica.ro,2025,NATO vrea ca România și Moldova să dea carne de tun pentru un război cu Rusia,1,0,0.0033699173945933,381,20,0.05249343832020997,1,134,5.136067458796473
+vrd_0048,veridica.ro,2022,"Un oficial rus cere ""denazificarea"" statelor baltice, Poloniei, Republicii Moldova și Kazahstanului",1,0,0.0030625169165432,388,16,0.041237113402061855,1,116,4.595879556259905
+vrd_0388,veridica.ro,2024,Armata Republicii Moldova va deveni parte a armatei române,1,1,0.6774470210075378,587,6,0.010221465076660987,1,199,5.13283466597885
+vrd_0665,veridica.ro,2026,"UE ține în viață ""regimul nazist"" de la Kiev care respinge pacea",1,0,0.0027894750237464,165,8,0.048484848484848485,1,60,5.323868677905945
+vrd_0111,veridica.ro,2022,"Dacă Republica Moldova ar fi fost parte a României, era o regiune subdezvoltată, cu o populația de analfabeți aserviți românilor",1,1,0.6772313117980957,311,10,0.03215434083601286,1,110,5.467196819085487
+vrd_0117,veridica.ro,2022,O baschetbalistă din România a murit din cauza vaccinării împotriva COVID-19,1,0,0.0031949190888553,470,8,0.01702127659574468,1,149,4.70625394819962
+vrd_0434,veridica.ro,2024,"Ucraina se pregătește să atace Transnistria, cu sprijinul tacit al Occidentului",1,0,0.0054429648444056,370,8,0.021621621621621623,1,106,4.330065359477124
+vrd_0139,veridica.ro,2022,"PROPAGANDĂ DE RĂZBOI: Pierderi de sute de mii de militari ucraineni, confirmate de un general de la Kiev",1,0,0.003354211570695,158,4,0.02531645569620253,1,35,3.68809272918862
+vrd_0217,veridica.ro,2023,Chișinăul promovează isteria antirusă,1,0,0.0033461630810052,198,11,0.05555555555555555,1,57,4.127443881245474
+vrd_0253,veridica.ro,2023,În Republica Moldova nu există propagandă rusă,1,0,0.0018503272440284,167,6,0.03592814371257485,1,42,3.6553524804177546
+vrd_0364,veridica.ro,2024,Ajutorul american pentru Ucraina va cauza distrugeri și victime,1,1,0.6701540946960449,204,2,0.00980392156862745,1,61,4.60377358490566
+vrd_0037,veridica.ro,2022,PROPAGANDĂ DE RĂZBOI: În laboratoarele secrete din Ucraina era produs coronavirus,1,0,0.0016604861011728,132,2,0.015151515151515152,1,36,3.854389721627409
+vrd_0353,veridica.ro,2024,Guvern ucrainean în exil și război al Occidentului cu Rusia,1,1,0.6672308444976807,233,2,0.008583690987124463,1,97,6.807017543859649
+vrd_0587,veridica.ro,2025,Franța și Marea Britanie vor Transnistria ca să ajungă la Marea Neagră,1,0,0.0177645236253738,358,9,0.025139664804469275,1,138,5.688375927452597
+vrd_0176,veridica.ro,2022,PROPAGANDĂ DE RĂZBOI: În Ucraina sunt mobilizați doar rusofonii din est pentru că se dorește exterminarea lor,1,0,0.00388471246697,92,2,0.021739130434782608,1,21,3.088235294117647
+vrd_0254,veridica.ro,2023,Occidentul forțează Moldova să urmeze calea Ucrainei,1,0,0.0020092227496206,193,6,0.031088082901554404,1,62,5.145228215767634
+vrd_0412,veridica.ro,2024,Germania va reloca migranții în Moldova,1,1,0.675128161907196,188,0,0.0,1,52,4.377104377104377
+vrd_0206,veridica.ro,2023,Guvernarea de la Chișinău vrea să elimine limba moldovenească pentru că pregătește unirea cu România,1,0,0.1908705979585647,154,2,0.012987012987012988,1,42,4.281345565749235
+vrd_0320,veridica.ro,2023,Maia Sandu pregătește Moldova de război cu Rusia,1,0,0.0020740807522088,163,2,0.012269938650306749,1,59,5.108225108225108
+vrd_0071,veridica.ro,2022,PROPAGANDĂ DE RĂZBOI: Președintele Poloniei a recunoscut că Varșovia va anexa teritorii ucrainene,1,0,0.0196856316179037,138,9,0.06521739130434782,1,35,3.875968992248062
+vrd_0303,veridica.ro,2023,"Televiziune închisă în Moldova pentru că promova ""valorile familiei tradiționale""",1,1,0.6785319447517395,148,2,0.013513513513513514,1,50,5.3078556263269645
+vrd_0527,veridica.ro,2025,Ucraina refuză pacea și riscă să rămână fără aliați,1,0,0.0033805600833147,104,4,0.038461538461538464,1,34,4.696132596685083
+vrd_0465,veridica.ro,2024,Zelenski e marioneta naziștilor,1,1,0.6724829077720642,197,4,0.02030456852791878,1,71,6.0220525869380825
+vrd_0212,veridica.ro,2023,Ucraina blochează creare unei zone de protecție la centrala nucleară Zaporojie și vrea să provoace un accident nuclear,1,0,0.0020764232613146,187,4,0.0213903743315508,1,57,4.538216560509554
+vrd_0447,veridica.ro,2024,Ucrainenii locuiesc pe teritoriul istoric al Rusiei,1,0,0.0221373308449983,175,16,0.09142857142857143,1,58,5.197132616487455
+vrd_0035,veridica.ro,2022,"PROPAGANDĂ DE RĂZBOI: Kievul pregătea o agresiune împotriva Donbass-ului în martie, iar Rusia a fost nevoită să intervină pentru a o opri",1,0,0.0024603370111435,126,2,0.015873015873015872,1,48,5.417607223476298
+vrd_0061,veridica.ro,2022,Propagandă de război: Jandarmii francezi vor ascunde urmele crimelor comise de Ucraina la Bucea,1,0,0.0045604496262967,97,2,0.020618556701030927,1,19,2.9141104294478524
+vrd_0336,veridica.ro,2024,NATO a atacat Rusia cu căpușe lansate din Ucraina,1,0,0.0224578361958265,175,0,0.0,1,57,4.6644844517184945
+vrd_0109,veridica.ro,2022,PROPAGANDĂ DE RĂZBOI: ONU și Turcia recunosc dreptul Rusiei de a controla porturile maritime ale Ucrainei,1,0,0.0026174392551183,187,8,0.0427807486631016,1,51,4.285714285714286
+vrd_0285,veridica.ro,2023,Ucrainenii din Polonia vor fi extrădați și trimiși pe front,1,0,0.0039980234578251,190,2,0.010526315789473684,1,90,7.4812967581047385
+vrd_0610,veridica.ro,2025,UE încurajează China să întreţină războiul din Ucraina,1,1,0.6689485311508179,102,0,0.0,1,43,6.80379746835443
+vrd_0275,veridica.ro,2023,Rusia îi salvează pe ucraineni de la autodistrugere,1,1,0.6761704683303833,184,1,0.005434782608695652,1,65,5.078125
+vrd_0589,veridica.ro,2025,Ucraina s-a transformat într-un lagăr de concentrare,1,0,0.0016546372789889,217,8,0.03686635944700461,1,76,5.78386605783866
+vrd_0251,veridica.ro,2023,"Summitul CPE, organizat pentru crearea unei coaliții anti-ruse",1,0,0.0548535473644733,193,3,0.015544041450777202,1,65,5.46218487394958
+vrd_0379,veridica.ro,2024,Ucrainenii își distrug orașele pentru a nu le lăsa Rusiei,1,1,0.6763518452644348,198,0,0.0,1,65,5.443886097152429
+vrd_0250,veridica.ro,2023,Principiile morale împiedică Rusia să încheie războiul,1,1,0.6759694814682007,151,2,0.013245033112582781,1,41,4.239917269906929
+vrd_0358,veridica.ro,2024,Ucrainenii și rușii sunt același popor iar Rusia poartă un război sfânt,1,1,0.6761877536773682,181,0,0.0,1,61,5.27681660899654
+vrd_0597,veridica.ro,2025,"Rusia, forțată să dezmembreze Ucraina ca să prevină războiul în Europa",1,1,0.671958327293396,207,4,0.01932367149758454,1,75,5.778120184899846
+vrd_0565,veridica.ro,2025,UE se opune negocierilor pentru că pregătește un război cu Rusia,1,0,0.0023953604977577,219,0,0.0,1,61,4.501845018450185
+vrd_0222,veridica.ro,2023,Ucraina va continua să asasineze ruși în baza unei liste publicate online,1,0,0.0034631600137799,175,4,0.022857142857142857,1,35,3.1731640979147784
+vrd_0356,veridica.ro,2024,"Rusia, superioară tehnologic și militar Occidentului",1,0,0.0022776783443987,146,2,0.0136986301369863,1,61,6.681270536692223
+vrd_0385,veridica.ro,2024,Liderii ucraineni au cetăţenie americană,1,1,0.647749662399292,195,6,0.03076923076923077,1,72,5.950413223140496
+vrd_0063,veridica.ro,2022,PROPAGANDĂ DE RĂZBOI: Ucraina a atacat cu arme chimice și biologice pozițiile militarilor ruși,1,0,0.002361592138186,234,2,0.008547008547008548,1,77,5.055810899540381
+vrd_0427,veridica.ro,2024,"Referendumul pentru UE din Moldova e, de fapt, referendum pentru LGBT",1,1,0.6775537133216858,126,0,0.0,1,48,5.9775840597758405
+vrd_0367,veridica.ro,2024,Ucraina le interzice ortodocșilor să participe la slujba de Înviere,1,0,0.0151572041213512,375,4,0.010666666666666666,1,150,5.827505827505827
+vrd_0430,veridica.ro,2024,Stoltenberg va răspunde penal pentru războiul din Ucraina,1,0,0.0016165145207196,187,2,0.0106951871657754,1,42,3.2085561497326207
+vrd_0247,veridica.ro,2023,Ucraina este o invenție sovietică,1,0,0.0020901588723063,313,8,0.025559105431309903,1,84,4.061895551257253
+vrd_0210,veridica.ro,2023,Biserica Ortodoxă Ucraineană este persecutată de Kiev ca în perioada comunistă,1,1,0.6680870652198792,143,2,0.013986013986013986,1,54,5.934065934065933
+vrd_0089,veridica.ro,2022,Occidentul împinge Republica Moldova spre război cu Transnistria și Rusia,1,1,0.6745354533195496,199,9,0.04522613065326633,1,52,3.716940671908506
+vrd_0121,veridica.ro,2022,Guvernarea de la Chișinău subminează rolul limbii ruse și încalcă drepturile minorităților naționale,1,1,0.6755512952804565,392,11,0.02806122448979592,1,151,5.531135531135531
+vrd_0375,veridica.ro,2024,"Ucraina se destrămă, iar ucrainenii vor eliberați de Rusia",1,0,0.0054667899385094,189,0,0.0,1,72,5.446293494704992
+vrd_0663,veridica.ro,2026,"Dacă R. Moldova părăsește CSI, nu mai recunoaște destrămarea URSS",1,0,0.0132531793788075,260,8,0.03076923076923077,1,98,5.311653116531166
+vrd_0381,veridica.ro,2024,Rusia este mai democratică decât Ucraina,1,0,0.0016059619374573,159,2,0.012578616352201259,1,63,5.590062111801243
+vrd_0541,veridica.ro,2025,Nu există propagandă rusă în Republica Moldova,1,0,0.0042122518643736,243,4,0.01646090534979424,1,79,5.038265306122449
+vrd_0557,veridica.ro,2025,"70.000 de militari NATO, dislocați în România pentru a ocupa Odesa",1,0,0.0033250525593757,322,12,0.037267080745341616,1,108,5.346534653465347
+vrd_0395,veridica.ro,2024,România pregătește un război în Transnistria,1,0,0.0178055297583341,539,8,0.014842300556586271,1,171,4.765886287625419
+vrd_0546,veridica.ro,2025,Ucraina a devenit un lagăr de concentrare nazist,1,1,0.6176682710647583,140,0,0.0,1,59,6.86046511627907
+vrd_0496,veridica.ro,2025,"UE șantajează Moldova că, fără un guvern european, îi taie finanțarea",1,0,0.0245460551232099,339,6,0.017699115044247787,1,101,4.691128657686948
+vrd_0419,veridica.ro,2024,Militarii ucraineni răpesc copii în Donbas,1,0,0.0023564342409372,141,6,0.0425531914893617,1,63,7.126696832579185
+vrd_0268,veridica.ro,2023,"Pentru a adera la UE, Republica Moldova trebuie să trimită soldați în războiul din Ucraina",1,0,0.0249970629811286,312,14,0.04487179487179487,1,92,4.684317718940937
+vrd_0330,veridica.ro,2024,Occidentul vrea să transforme R. Moldova într-un cap de pod antirusesc,1,0,0.0063940193504095,229,8,0.034934497816593885,1,77,5.373342637822749
+vrd_0094,veridica.ro,2022,DEZINFORMARE În Republica Moldova se introduce cenzura prin interzicerea difuzării unor categorii de programe din Rusia,1,0,0.0076236953027546,194,13,0.06701030927835051,1,48,3.519061583577713
+vrd_0279,veridica.ro,2023,"Forțat de Occident să renunțe la CSI, Chișinăul își distruge economia",1,1,0.6749687194824219,337,12,0.03560830860534125,1,123,5.304010349288486
+vrd_0301,veridica.ro,2023,UE îi recomandă lui Zelenski să-i cedeze Rusiei teritorii,1,0,0.0031891888938844,214,5,0.02336448598130841,1,59,4.426106526631658
+vrd_0536,veridica.ro,2025,"Denazificarea Ucrainei, necesară pentru a salva limba și cultura rusă",1,0,0.002203547861427,128,2,0.015625,1,21,2.7559055118110236
+vrd_0584,veridica.ro,2025,UE împinge SUA și Rusia spre un război nuclear din cauza Ucrainei,1,0,0.0125945154577493,192,2,0.010416666666666666,1,80,6.0606060606060606
+vrd_0235,veridica.ro,2023,Occidentul va ordona Poloniei să atace Belarusul și să ocupe Liovul,1,0,0.0194338615983724,230,4,0.017391304347826087,1,71,4.846416382252559
+vrd_0123,veridica.ro,2022,PROPAGANDĂ DE RĂZBOI: Anthony Fauci a confirmat că virusul SARS-CoV-2 a fost produs în laboratoarele din Ucraina,1,0,0.0016504898667335,201,8,0.03980099502487562,1,47,3.5932721712538225
+vrd_0574,veridica.ro,2025,Rusia trebuie să anexeze Ucraina,1,1,0.6726195216178894,240,4,0.016666666666666666,1,71,4.634464751958225
+vrd_0585,veridica.ro,2025,Chișinăul folosește amenințarea rusă ca șantaj să ceară mai mulți bani de la UE,1,0,0.0023299802560359,264,18,0.06818181818181818,1,94,5.44611819235226
+vrd_0188,veridica.ro,2022,"PROPAGANDĂ DE RĂZBOI: SUA au declarat război Rusiei, permițând armatei ucrainene să bombardeze Crimeea",1,0,0.0033269606065005,170,6,0.03529411764705882,1,60,5.1993067590987865
+vrd_0633,veridica.ro,2025,Europarlamentarii români au votat pentru înarmare și război,1,1,0.6804394125938416,143,2,0.013986013986013986,1,72,8.144796380090497
+vrd_0441,veridica.ro,2024,Referendumul din Moldova permite abandonarea neutralității și unirea cu România,1,1,0.6622354388237,338,4,0.011834319526627219,1,119,5.167173252279635
+vrd_0299,veridica.ro,2023,Zelenski nu mai este sprijinit în Occident și în România,1,0,0.0018011247739195,196,6,0.030612244897959183,1,80,6.482982171799027
+vrd_0036,veridica.ro,2022,"PROPAGANDĂ DE RĂZBOI: Președintele Ucrainei, Volodimir Zelenski, ar putea recunoaște Donbass-ul și Crimeea ca teritorii ale Rusiei",1,0,0.0020024706609547,148,6,0.04054054054054054,1,35,3.4965034965034967
+vrd_0224,veridica.ro,2023,Viitorul stat polono-ucrainean va dezmembra România,1,1,0.668161928653717,243,2,0.00823045267489712,1,78,5.46218487394958
+vrd_0616,veridica.ro,2025,Radu Gyr a fost condamnat la moarte doar pentru o poezie,1,1,0.558017373085022,162,6,0.037037037037037035,1,60,5.623242736644799
+vrd_0368,veridica.ro,2024,Rusia eliberează Ucraina de sub ocupația ucraineană,1,1,0.6736699342727661,189,10,0.05291005291005291,1,87,7.1723000824402305
+vrd_0202,veridica.ro,2023,"""Operațiunea militară specială"" a salvat Rusia de invazia NATO și nazismul ucrainean",1,0,0.0040860450826585,298,4,0.013422818791946308,1,94,4.973544973544974
+vrd_0372,veridica.ro,2024,Rusia luptă în Ucraina pentru valorile tradiționale,1,1,0.6794776916503906,191,0,0.0,1,83,5.627118644067797
+vrd_0621,veridica.ro,2025,Aderarea Republicii Moldova ar distruge economia UE,1,0,0.002163644414395,178,2,0.011235955056179775,1,51,4.670329670329671
+vrd_0453,veridica.ro,2024,Moldova vrea zid la granița cu Ucraina,1,0,0.0035807550884783,167,0,0.0,1,63,5.909943714821764
+vrd_0091,veridica.ro,2022,PROPAGANDĂ DE RĂZBOI: Armata ucraineană masacrează rusofonii în timpul retragerii din Donbass,1,0,0.0026421900838613,167,4,0.023952095808383235,1,54,4.817127564674398
+vrd_0053,veridica.ro,2022,SUA trimite în Ucraina militari afghani care au fugit de talibani în Occident,1,0,0.0026751179248094,546,6,0.01098901098901099,1,189,5.34804753820034
+vrd_0168,veridica.ro,2022,PROPAGANDĂ DE RĂZBOI: Francezii resping politica de sancțiuni față de Rusia și asistența acordată Ucrainei,1,0,0.0021667215041816,109,2,0.01834862385321101,1,53,7.01058201058201
+vrd_0396,veridica.ro,2024,"Cetățean UE, condamnat la închisoare pentru arborarea drapelului rus",1,0,0.0062979208305478,452,8,0.017699115044247787,1,152,5.076820307281229
+vrd_0394,veridica.ro,2024,Occidentul rusofob și nazist distruge sportul mondial,1,0,0.0273631699383258,107,4,0.037383177570093455,1,30,4.225352112676056
+vrd_0193,veridica.ro,2023,Acțiunile militarilor ruși în regiunea Herson sunt un exemplu de comportament uman,1,0,0.0022696498781442,137,2,0.014598540145985401,1,49,5.314533622559653
+vrd_0408,veridica.ro,2024,Ucrainenii nu vor războiul mondial urmărit de Zelenski,1,0,0.0020048734731972,129,4,0.031007751937984496,1,44,4.569055036344756
+vrd_0511,veridica.ro,2025,UE nu-l va lăsa pe Zelenski să pună capăt războiului,1,0,0.0017611276125535,155,0,0.0,1,52,4.868913857677903
+vrd_0377,veridica.ro,2024,Parteneriatul de securitate cu UE duce Moldova în NATO,1,0,0.0892840400338172,108,3,0.027777777777777776,1,35,5.079825834542816
+vrd_0360,veridica.ro,2024,SUA și Occidentul nu oferă sprijin real Republicii Moldova,1,0,0.056671854108572,197,4,0.02030456852791878,1,58,5.065502183406114
+vrd_0436,veridica.ro,2024,Ucrainenii părăsesc UE pentru Rusia,1,0,0.002133579691872,160,4,0.025,1,53,5.331991951710262
+vrd_0590,veridica.ro,2025,UE și NATO vor să ocupe Moldova cu ajutorul Maiei Sandu,1,1,0.6080420017242432,107,4,0.037383177570093455,1,30,4.005340453938585
+vrd_0631,veridica.ro,2025,Republica Moldova își pune economia pe picior de război,1,0,0.0023863441310822,224,11,0.049107142857142856,1,87,5.5769230769230775
+vrd_0257,veridica.ro,2023,Marea Azov e o mare internă a Rusiei,1,0,0.0047154272906482,166,4,0.024096385542168676,1,49,4.640151515151516
+vrd_0542,veridica.ro,2025,"Crimeea este a Rusiei, iar Ucraina a admis acest lucru",1,0,0.0020079638343304,167,4,0.023952095808383235,1,44,3.963963963963964
+vrd_0629,veridica.ro,2025,Pacea în Ucraina depinde de înlăturarea regimului Zelenski,1,0,0.0025233700871467,206,6,0.02912621359223301,1,56,4.40251572327044
+vrd_0549,veridica.ro,2025,România va înlocui Polonia ca hub de tranzit pentru armele destinate Ucrainei,1,1,0.6877898573875427,93,0,0.0,1,25,4.071661237785016
+vrd_0648,veridica.ro,2026,Ucraina construiește o stațiune de lux cu bani românești,1,1,0.6803605556488037,78,0,0.0,1,22,4.526748971193416
+vrd_0384,veridica.ro,2024,Ucraina și Occidentul vor organiza noi atacuri teroriste în Rusia,1,0,0.0044602630659937,150,2,0.013333333333333334,1,43,4.103053435114504
+vrd_0059,veridica.ro,2022,PROPAGANDĂ DE RĂZBOI: Ucraina nu reconstruiește Harkovul pentru că știe că acesta se va alipi la Rusia,1,0,0.0030407451558858,113,2,0.017699115044247787,1,36,5.317577548005908
+vrd_0558,veridica.ro,2025,"Ca să distrugă Rusia, NATO e dispus să sacrifice Ucraina",1,1,0.6717158555984497,278,2,0.007194244604316547,1,80,4.509582863585118
+vrd_0326,veridica.ro,2023,SUA vor ca Zelenski să încheie războiul,1,0,0.0045073651708662,116,2,0.017241379310344827,1,31,4.041720990873533
+vrd_0119,veridica.ro,2022,"PROPAGANDĂ DE RĂZBOI: Din cauza propagandei neonaziste a Kievului, ucrainenii nu înțeleg că sunt eliberați de Rusia, nu ocupați",1,0,0.0017633764073252,184,6,0.03260869565217391,1,57,4.653061224489797
+vrd_0443,veridica.ro,2024,Pacea în Ucraina depinde de Occident,1,0,0.0034448071382939,160,6,0.0375,1,41,3.516295025728988
+vrd_0110,veridica.ro,2022,PROPAGANDĂ DE RĂZBOI: Autoritățile ucrainene au abandonat Hersonul. Regiunea se va uni cu Rusia care va proteja limba ucraineană,1,0,0.0028421699535101,178,9,0.05056179775280899,1,46,3.8917089678511
+vrd_0442,veridica.ro,2024,Referendumul privind aderarea Republicii Moldova la UE a fost fraudat de autoritatile proeuropene,1,0,0.0058174049481749,179,8,0.0446927374301676,1,68,5.354330708661418
+vrd_0668,veridica.ro,2026,800 de militari americani răniți au fost aduși la Baza Kogălniceanu,1,0,0.1335596293210983,97,1,0.010309278350515464,1,36,6.371681415929204
+vrd_0280,veridica.ro,2023,Trupele NATO din România ameninţă pacea,1,1,0.6773183345794678,170,6,0.03529411764705882,1,54,4.761904761904762
+vrd_0310,veridica.ro,2023,"UE vrea denazificarea Ucrainei, dar Kievul se opune",1,0,0.0195895396173,181,0,0.0,1,66,5.301204819277109
+vrd_0391,veridica.ro,2024,Rusia nu s-a opus apropierii Ucrainei de UE,1,1,0.6608253121376038,225,2,0.008888888888888889,1,81,5.827338129496403
+vrd_0300,veridica.ro,2023,România obligă Ucraina și Moldova să interzică limba moldovenească,1,0,0.0153532968834042,132,4,0.030303030303030304,1,57,5.943691345151199
+vrd_0137,veridica.ro,2022,PROPAGANDĂ DE RĂZBOI: Referendumurile de alipire la Rusia a teritoriilor din estul și sudul Ucrainei respectă Carta ONU,1,0,0.0017512099584564,173,6,0.03468208092485549,1,46,4.003481288076589
+vrd_0341,veridica.ro,2024,Parteneriatele economice cu SUA duc la faliment,1,1,0.6738036870956421,257,4,0.01556420233463035,1,105,6.348246674727933
+vrd_0306,veridica.ro,2023,Rusia luptă în Ucraina pentru libertatea palestinienilor,1,1,0.6742597818374634,181,4,0.022099447513812154,1,70,5.8972198820556025
+vrd_0467,veridica.ro,2024,Zelenski refuză pacea pentru a nu-și pierde veniturile,1,0,0.0037392384838312,167,2,0.011976047904191617,1,46,4.287045666356011
+vrd_0369,veridica.ro,2024,În 1945 Rusia a învins prima oară Occidentul colectiv,1,1,0.6757673025131226,202,0,0.0,1,84,6.608969315499606
+vrd_0183,veridica.ro,2022,Moldova investește bani mai mulți în apărare pentru că se pregătește de război cu Rusia,1,0,0.4687857627868652,194,4,0.020618556701030927,1,55,4.211332312404288
+vrd_0437,veridica.ro,2024,"Lupta politică în R. Moldova se duce între ""pro-români"" și ""pro-moldoveni""",1,0,0.0156321227550506,198,9,0.045454545454545456,1,79,6.044376434583015
+vrd_0223,veridica.ro,2023,"SUA vor trimite în ofensivă 200 de mii de militari-sinucigași ucraineni, subordonați direct Pentagonului",1,0,0.0038656766992062,233,8,0.034334763948497854,1,81,5.325443786982249
+vrd_0151,veridica.ro,2022,În Republica Moldova au fost interzise protestele în zilele lucrătoare,1,0,0.014775407500565,178,2,0.011235955056179775,1,65,5.310457516339869
+vrd_0604,veridica.ro,2025,Moldova poate adera la UE doar dacă se implică în războiul din Ucraina,1,1,0.6406585574150085,248,10,0.04032258064516129,1,103,6.39751552795031
+vrd_0213,veridica.ro,2023,Diplomați occidentali pregătesc intrarea Moldovei în război,1,0,0.0071627884171903,371,14,0.03773584905660377,1,108,4.485049833887043
+vrd_0514,veridica.ro,2025,Pacea în Ucraina depinde de victoria Rusiei,1,1,0.6574985980987549,218,0,0.0,1,99,7.290132547864507
+vrd_0643,veridica.ro,2026,Integrarea europeană slăbește securitatea energetică a Republicii Moldova,1,0,0.015176941640675,245,6,0.024489795918367346,1,97,5.936352509179926
+vrd_0485,veridica.ro,2025,"Moldovenii, forțați să vorbească limba minorității române",1,0,0.0371073670685291,104,4,0.038461538461538464,1,39,5.531914893617021
+vrd_0492,veridica.ro,2025,Elita de la Kiev refuză pacea lui Trump ca să rămână la putere,1,0,0.0047639524564146,170,6,0.03529411764705882,1,54,5.065666041275797
+vrd_0014,veridica.ro,2022,Simona Halep a pierdut la Australian Open pentru că s-a vaccinat,1,0,0.0022404480259865,284,10,0.035211267605633804,1,91,5.387803433984606
+vrd_0160,veridica.ro,2022,Rusia poate reface Moldova lui Ștefan cel Mare în dauna României,1,0,0.020339623093605,120,6,0.05,1,41,5.518169582772544
+vrd_0296,veridica.ro,2023,UE și România pregătesc în Transnistria un scenariu ca în Nagorno Karabah,1,1,0.6667089462280273,383,10,0.02610966057441253,1,150,5.83203732503888
+vrd_0312,veridica.ro,2023,Pacea în Ucraina depinde de SUA și de plecarea lui Zelenski,1,0,0.0023481883108615,160,8,0.05,1,28,2.6743075453677174
+vrd_0305,veridica.ro,2023,UE nu va mai ajuta financiar Ucraina,1,0,0.0043415259569883,172,6,0.03488372093023256,1,43,3.9777983348751156
+vrd_0500,veridica.ro,2025,Chișinăul forțează Transnistria să răspândească narațiuni pro-românești și anti-rusești,1,1,0.6804985404014587,307,2,0.006514657980456026,1,111,5.082417582417582
+vrd_0599,veridica.ro,2025,"Republica Moldova se transformă într-o ""dictatură bananieră"" controlată de UE",1,1,0.6772072911262512,225,13,0.057777777777777775,1,73,4.976141785957737
+vrd_0495,veridica.ro,2025,"""Operațiunea militară specială"" a salvat Rusia de NATO și naziști",1,0,0.0111444694921374,130,2,0.015384615384615385,1,50,5.313496280552603
+vrd_0140,veridica.ro,2022,PROPAGANDĂ DE RĂZBOI: Observatorii din Occident confirmă că referendumurile din Ucraina au respectat standardele democratice,1,0,0.0023925125133246,201,5,0.024875621890547265,1,52,3.7845705967976713
+vrd_0581,veridica.ro,2025,Chișinăul urmărește anexarea Transnistriei și integrarea acesteia în România,1,1,0.679419994354248,122,10,0.08196721311475409,1,37,4.534313725490196
+vrd_0345,veridica.ro,2024,România e un stat de mâna a doua în UE și Moldova riscă aceeași soartă,1,1,0.6615038514137268,276,13,0.04710144927536232,1,111,6.218487394957983
+vrd_0337,veridica.ro,2024,Curtea Internațională de Justiție spune că Rusia nu e agresor,1,0,0.0028590012807399,305,8,0.02622950819672131,1,106,5.040418449833571
+vrd_0635,veridica.ro,2025,Cucerirea Odesei de ruși va asigura securitatea energetică a Transnistriei,1,0,0.0742595791816711,430,8,0.018604651162790697,1,130,4.601769911504425
+vrd_0568,veridica.ro,2025,Rusia luptă de una singură împotriva agresiunii Occidentului,1,0,0.0029971853364259,185,8,0.043243243243243246,1,70,5.291005291005291
+vrd_0146,veridica.ro,2022,"Opoziția de la Chișinău și-a unit eforturile împotriva guvernării, organizând proteste masive",1,1,0.6695424318313599,171,2,0.011695906432748537,1,63,5.595026642984014
+vrd_0499,veridica.ro,2025,Rada Supremă îl va suspenda pe Zelenski,1,0,0.0035375747829675,112,2,0.017857142857142856,1,23,3.026315789473684
+vrd_0507,veridica.ro,2025,Crimeea a decis liber și independent să revină la Rusia,1,0,0.0477628707885742,216,4,0.018518518518518517,1,68,4.600811907983761
+vrd_0449,veridica.ro,2024,Republica Moldova nu vrea să lupte împotriva glorificării nazismului,1,0,0.0082205394282937,205,10,0.04878048780487805,1,76,5.156037991858888
+vrd_0657,veridica.ro,2026,Ucrainenii din est vor alipirea regiunii la Rusia,1,0,0.0181864257901906,162,4,0.024691358024691357,1,49,4.414414414414415
+vrd_0664,veridica.ro,2026,România va da Ucrainei gazele extrase din Marea Neagră,1,1,0.6746298670768738,180,2,0.011111111111111112,1,60,5.352363960749331
+vrd_0171,veridica.ro,2022,Curtea de la Haga a recunoscut că Rusia nu a fost implicată în doborârea avionului MH17 în 2014,1,0,0.0027741545345634,160,4,0.025,1,55,5.064456721915286
+vrd_0366,veridica.ro,2024,Bucureștiul se teme că moldovenii vor denunța Unirea din 1859,1,1,0.6787242889404297,258,0,0.0,1,109,6.042128603104214
+vrd_0540,veridica.ro,2025,"Rusia vrea pace, dar Occidentul forțează Kievul să continue războiul",1,0,0.0021835451480001,201,4,0.01990049751243781,1,66,5.292702485966319
+vrd_0592,veridica.ro,2025,"Macron vrea război cu Rusia, dar armata se opune",1,0,0.0018894710810855,111,2,0.018018018018018018,1,26,3.698435277382646
+vrd_0209,veridica.ro,2023,Specialiștii centralelor nucleare din Ucraina vor fi trimiși pe front,1,0,0.0201219115406274,94,6,0.06382978723404255,1,32,4.671532846715328
+vrd_0504,veridica.ro,2025,Ucraina ocupă teritorii rusești,1,0,0.002989400178194,198,2,0.010101010101010102,1,71,5.512422360248447
+vrd_0452,veridica.ro,2024,Rusofobia naziștilor ucraineni face imposibilă terminarea războiului,1,0,0.0068728034384548,177,2,0.011299435028248588,1,63,5.3984575835475574
+vrd_0104,veridica.ro,2022,"PROPAGANDĂ DE RĂZBOI: Zaporojie a stabilit contacte cu cel puțin 15 state, inclusiv membre UE",1,0,0.0018473826348781,151,6,0.039735099337748346,1,45,4.5592705167173255
+vrd_0433,veridica.ro,2024,"Europa, amenințată de un nou val de refugiați ucraineni",1,0,0.0068030254915356,101,2,0.019801980198019802,1,30,4.754358161648177
+vrd_0424,veridica.ro,2024,Referendumul din Republica Moldova are ca scop eliminarea opoziției,1,1,0.6789578199386597,187,0,0.0,1,57,4.604200323101777
+vrd_0491,veridica.ro,2025,"UE vrea război în Ucraina, așa că nu poate negocia pacea",1,0,0.0014768341789022,149,4,0.026845637583892617,1,41,4.235537190082645
+vrd_0169,veridica.ro,2022,PROPAGANDĂ DE RĂZBOI: Putin nu a participat la summit-ul G20 pentru că Occidentul pregătea un atac terorist împotriva sa,1,1,0.6433040499687195,148,2,0.013513513513513514,1,50,5.399568034557236
+vrd_0645,veridica.ro,2026,România cumpără arme la suprapreț pentru a le dona Ucrainei,1,1,0.6659830808639526,229,5,0.021834061135371178,1,63,4.680534918276375
+vrd_0461,veridica.ro,2024,România va pierde Ardealul,1,1,0.6749768853187561,182,0,0.0,1,74,6.362854686156492
+vrd_0192,veridica.ro,2023,NATO pregătește teritoriul Republicii Moldova ca viitor teatru de război,1,1,0.667715847492218,281,12,0.042704626334519574,1,92,5.030071077091307
+vrd_0404,veridica.ro,2024,Militarii ruși din Transnistria apără interesele României și Ucrainei,1,1,0.6765047907829285,322,0,0.0,1,104,4.990403071017274
+vrd_0628,veridica.ro,2025,Chișinăul vrea să renunțe la Transnistria de dragul integrării europene,1,1,0.6748770475387573,219,4,0.0182648401826484,1,92,5.916398713826367
+vrd_0520,veridica.ro,2025,Zelenski a cumpărat o mină africană de diamante,1,1,0.6754418015480042,106,4,0.03773584905660377,1,44,6.69710806697108
+vrd_0322,veridica.ro,2023,Rusia a oprit experimentele americane pe ucraineni,1,0,0.0022707243915647,199,4,0.020100502512562814,1,47,3.230240549828179
+vrd_0475,veridica.ro,2025,Republica Moldova a blocat livrările de gaze rusești spre Transnistria,1,1,0.6729691028594971,373,12,0.032171581769437,1,128,5.230894973436861
+vrd_0605,veridica.ro,2025,Zelenski va fi înfrânt și făcut de rușine pentru că nu vrea pace,1,0,0.0029238427523523,180,12,0.06666666666666667,1,66,5.754141238012206
+vrd_0508,veridica.ro,2025,UE se transformă în bloc militar,1,0,0.039549820125103,438,6,0.0136986301369863,1,147,5.118384401114206
+vrd_0634,veridica.ro,2025,Rusia omoară oameni din cauza Ucrainei și a Occidentului,1,0,0.0030567774083465,147,6,0.04081632653061224,1,47,4.952581664910432
+vrd_0308,veridica.ro,2023,Evghenia Guțul aduce gaz de 10-20 de ori mai ieftin în Găgăuzia decât tariful actual,1,0,0.0033448787871748,1019,14,0.013738959764474975,1,324,5.0791660134817365
+vrd_0096,veridica.ro,2022,PROPAGANDĂ DE RĂZBOI: UE va deporta în Ucraina bărbații refugiați pentru a fi înrolați în armată ucraineană,1,0,0.0019561413209885,168,4,0.023809523809523808,1,66,5.994550408719346
+vrd_0304,veridica.ro,2023,Ucrainenii nu mai vor război și nu mai cred propaganda Kievului,1,0,0.0052239056676626,399,6,0.015037593984962405,1,132,4.983012457531144
+vrd_0596,veridica.ro,2025,UE se pregătește de război cu Rusia,1,0,0.0042374902404844,103,2,0.019417475728155338,1,32,4.747774480712167
+vrd_0362,veridica.ro,2024,Kievul șantajează Occidentul cu un dezastru nuclear,1,0,0.0210084561258554,173,0,0.0,1,48,4.615384615384616
+vrd_0472,veridica.ro,2025,"Putin, atacat energetic de pe teritoriul ucrainean",1,0,0.1639534085988998,344,2,0.005813953488372093,1,125,6.22820129546587
+vrd_0389,veridica.ro,2024,"Occidentul ajută Ucraina să producă o ""bombă murdară""",1,0,0.0023681169841438,148,8,0.05405405405405406,1,44,4.365079365079365
+vrd_0347,veridica.ro,2024,UE a preluat controlul asupra sistemului bancar moldovenesc,1,0,0.0071682902052998,234,0,0.0,1,85,5.931612002791347
+vrd_0342,veridica.ro,2024,Ucraina a atacat Republica Moldova cu rachete,1,0,0.0024942965246737,450,4,0.008888888888888889,1,157,5.44382801664355
+vrd_0332,veridica.ro,2024,"În UE, doar țările fondatoare se bucură de drepturi",1,1,0.6476297378540039,131,5,0.03816793893129771,1,56,6.414662084765177
+vrd_0017,veridica.ro,2022,Ucraina este un teritoriu rus sub ocupație străină și ar putea lansa un război împotriva Rusiei,1,1,0.6694843173027039,229,8,0.034934497816593885,1,49,3.6055923473142015
+vrd_0184,veridica.ro,2022,PROPAGANDĂ DE RĂZBOI: Germanii sunt dezamăgiți de decizia UE de a sprijini financiar Ucraina,1,0,0.0019052493153139,186,6,0.03225806451612903,1,37,3.0782029950083194
+vrd_0274,veridica.ro,2023,Ucrainenii își doresc un președinte ca Vladimir Putin,1,0,0.0030852120835334,129,7,0.05426356589147287,1,31,3.7259615384615383
+vrd_0149,veridica.ro,2022,"PROPAGANDĂ DE RĂZBOI: Rusia arată reținere în războiul din Ucraina, mai ales când atacă obiective civile",1,0,0.002260758774355,195,9,0.046153846153846156,1,72,5.773857257417802
+vrd_0563,veridica.ro,2025,Guvernarea de la Chișinău promovează rusofobia,1,1,0.6681855916976929,384,4,0.010416666666666666,1,167,6.153279292557111
+vrd_0613,veridica.ro,2025,România va intra în război,1,0,0.0028421375900506,197,8,0.04060913705583756,1,88,7.1370640713706415
+vrd_0572,veridica.ro,2025,România nu a atacat Transnistria doar pentru că e prea slabă,1,0,0.2754371464252472,207,4,0.01932367149758454,1,58,4.588607594936709
+vrd_0150,veridica.ro,2022,"PROPAGANDĂ DE RĂZBOI: La fel ca și Adolf Hitler, Volodimir Zelenski a unit Europa pentru a distruge Rusia",1,0,0.3446975350379944,134,4,0.029850746268656716,1,38,4.303510758776897
+vrd_0238,veridica.ro,2023,Ucraina este un stat terorist și trebuie pedepsit de Rusia,1,0,0.0081100724637508,222,4,0.018018018018018018,1,64,4.330175913396482
+vrd_0423,veridica.ro,2024,Un grup de scriitori de la Chișinău a încercat să transmită copiilor din Tighina ziare cu falsuri despre istoria Transnistriei,1,0,0.0361522175371646,312,19,0.060897435897435896,1,85,3.860127157129882
+vrd_0339,veridica.ro,2024,"Referendumul pentru UE din Moldova va fi, de fapt, despre război",1,0,0.0051077231764793,340,0,0.0,1,112,4.82135170038743
+vrd_0313,veridica.ro,2023,Experții americani spun că Ucraina va capitula,1,0,0.0023717358708381,127,2,0.015748031496062992,1,35,4.587155963302752
+vrd_0517,veridica.ro,2025,Armata Ucrainei va ataca Rusia de pe teritoriul României,1,1,0.6673197746276855,157,4,0.025477707006369428,1,58,5.753968253968254
+vrd_0005,veridica.ro,2022,UE transformă România într-o piață pentru produse de slabă calitate,1,0,0.0497635230422019,374,4,0.0106951871657754,1,119,4.933665008291873
+vrd_0481,veridica.ro,2025,UE a provocat criza energetică din Moldova,1,0,0.0027792060282081,179,2,0.0111731843575419,1,59,5.086206896551724
+vrd_0335,veridica.ro,2024,Intenția de a părăsi CSI aruncă Moldova în criză economică,1,0,0.2687745094299316,525,2,0.0038095238095238095,1,193,5.718518518518518
+vrd_0008,veridica.ro,2022,"La sfârșitul Războiului Rece, SUA a vrut să dezmembreze România și i-a oferit-o Rusiei",1,1,0.6751458048820496,372,12,0.03225806451612903,1,114,4.884318766066838
+vrd_0044,veridica.ro,2022,"PROPAGANDĂ DE RĂZBOI: Ucraina vrea să prelungească războiul și își folosește cetățenii ca scuturi umane, în timp ce Rusia protejează civilii ucraineni",1,0,0.0040924260392785,136,2,0.014705882352941176,1,56,5.737704918032787
+vrd_0556,veridica.ro,2025,Migrația economică actuală este comparabilă cu deportările sovietice,1,1,0.674370288848877,253,17,0.06719367588932806,1,105,6.15474794841735
+vrd_0256,veridica.ro,2023,Românii au înțeles că nu trebuie să sprijine Ucraina,1,0,0.0031086255330592,173,10,0.057803468208092484,1,55,4.995458673932789
+vrd_0147,veridica.ro,2022,"PROPAGANDĂ DE RĂZBOI: Jumătate din militarii armatei ucrainene sunt străini, ceea ce înseamnă că NATO participă la război",1,0,0.0028688684105873,180,8,0.044444444444444446,1,46,4.0
+vrd_0603,veridica.ro,2025,Rusia nu a încălcat Memorandumul de la Budapesta,1,0,0.0019529490964487,218,10,0.045871559633027525,1,56,3.8861901457321304
+vrd_0674,veridica.ro,2026,"UE devine un ""al patrulea Reich"", finanțând războiul din Ucraina",1,0,0.0021829281467944,167,6,0.03592814371257485,1,46,4.060017652250663
+vrd_0595,veridica.ro,2025,Zelenski se droghează și e instabil psihic,1,0,0.0059523968957364,118,2,0.01694915254237288,1,32,3.9850560398505603
+vrd_0390,veridica.ro,2024,Ruşii au capturat o dronă americană de ultimă generaţie,1,1,0.6293814182281494,130,6,0.046153846153846156,1,49,5.975609756097561
+vrd_0328,veridica.ro,2024,Rusia înfrânge NATO în războiul din Ucraina,1,1,0.6538965702056885,181,2,0.011049723756906077,1,69,6.031468531468532
+vrd_0456,veridica.ro,2024,Maia Sandu a susținut-o pe Lasconi la prezidențiale pentru că așa i-a zis Soros,1,0,0.0060570510104298,123,2,0.016260162601626018,1,34,4.450261780104712
+vrd_0333,veridica.ro,2024,Ucraina a renunțat la Donbass și Crimeea,1,0,0.0054528494365513,163,0,0.0,1,63,6.011450381679389
+vrd_0438,veridica.ro,2024,Ucraina și Republica Moldova - colonii ale Occidentului cu regimuri dictatoriale,1,1,0.6795420050621033,278,3,0.01079136690647482,1,103,5.573593073593074
+vrd_0567,veridica.ro,2025,Occidentul rescrie istoria pentru a justifica atacarea Rusiei,1,1,0.6654193997383118,257,2,0.007782101167315175,1,94,5.39609644087256
+vrd_0608,veridica.ro,2025,Războiul din Transnistria a fost oprit de Rusia,1,0,0.0030641185585409,190,17,0.08947368421052632,1,64,4.837490551776266
+vrd_0624,veridica.ro,2025,Înfrângerea Ucrainei este în interesul UE,1,0,0.014461463317275,124,2,0.016129032258064516,1,44,5.612244897959184
+vrd_0241,veridica.ro,2023,Rusia este susţinută de 85% din populaţia planetei,1,1,0.6596736311912537,151,2,0.013245033112582781,1,49,5.141657922350472
+vrd_0074,veridica.ro,2022,Guvernarea pro-europeană a Moldovei este de vină că primarul socialist al Chișinăului scumpește transportul public,1,0,0.0054701841436326,413,4,0.009685230024213076,1,141,5.178112376055821
+vrd_0593,veridica.ro,2025,Occidentul admite că livrările de arme către Ucraina sunt inutile,1,0,0.0514828562736511,95,2,0.021052631578947368,1,22,3.536977491961415
+vrd_0225,veridica.ro,2023,SUA i-au permis Ucrainei să bombardeze Rusia,1,0,0.0033470287453383,205,6,0.02926829268292683,1,68,5.029585798816568
+vrd_0550,veridica.ro,2025,Maia Sandu obligă populația să asiste la evenimentele LGBT,1,0,0.0025989222340285,636,23,0.036163522012578615,1,243,5.436241610738255
+vrd_0093,veridica.ro,2022,PROPAGANDĂ DE RĂZBOI: Kievul achită armamentul occidental cu exponate muzeale ucrainene,1,0,0.001717118662782,154,2,0.012987012987012988,1,40,3.90625
+vrd_0287,veridica.ro,2023,Liderii UE resping o viitoare extindere a blocului comunitar,1,0,0.0018013579538092,590,2,0.003389830508474576,1,207,5.414595867120063
+vrd_0376,veridica.ro,2024,"SBU, implicat în tentativa de asasinat a premierului slovac",1,0,0.453036367893219,173,6,0.03468208092485549,1,44,3.9391226499552374
+vrd_0636,veridica.ro,2025,Rusia a distrus transportul european prin închiderea spaţiului său aerian,1,0,0.0091764312237501,320,0,0.0,1,94,4.702351175587794
+vrd_0004,veridica.ro,2022,"Ucraina este un stat nazist, periculos pentru existența Rusiei",1,1,0.6740584969520569,295,10,0.03389830508474576,1,98,4.959514170040486
+vrd_0009,veridica.ro,2022,Prin codul QR de pe certificatele verzi se impune creditul social și e înrobită populația,1,1,0.6763275265693665,181,2,0.011049723756906077,1,81,7.486136783733826
+vrd_0325,veridica.ro,2023,"În UE, Transnistria va fi un loc cu industrii nocive și migranți din Orient",1,1,0.6762733459472656,190,0,0.0,1,67,5.238467552775606
+vrd_0229,veridica.ro,2023,Putin a avertizat Ucraina acum 23 de ani că NATO va provoca un război,1,0,0.003870622254908,257,6,0.023346303501945526,1,70,4.294478527607362
+vrd_0032,veridica.ro,2022,"PROPAGANDĂ DE RĂZBOI: Rusia a atacat Cernobîlul, Zaporojie și Harkovul pentru a împiedica Ucraina să producă arme nucleare",1,0,0.0041760778985917,213,4,0.018779342723004695,1,57,3.9337474120082816
+vrd_0652,veridica.ro,2026,"România, obligată prin tratatul UE să intre în război cu Iranul",1,0,0.0032696875277906,199,0,0.0,1,58,4.857621440536013
+vrd_0638,veridica.ro,2026,România a rămas fără gaze pentru că le-a dat Ucrainei şi Moldovei,1,0,0.2257568687200546,282,2,0.0070921985815602835,1,113,6.852637962401456
+vrd_0270,veridica.ro,2023,"Moldova își va pierde ""total"" suveranitatea, apropiindu-se de NATO",1,0,0.0021220811177045,352,5,0.014204545454545454,1,122,5.184870378240544
+vrd_0030,veridica.ro,2022,"NATO furnizează armament Ucrainei prin Republica Moldova, care astfel își încalcă neutralitatea",1,0,0.0114517640322446,104,2,0.019230769230769232,1,24,3.2085561497326207
+vrd_0350,veridica.ro,2024,"Trimiși la moarte, militarii ucraineni le cer civililor să protesteze",1,0,0.0064064944162964,165,8,0.048484848484848485,1,50,4.9800796812749
+vrd_0586,veridica.ro,2025,"""Coaliția de Voință"" vrea resursele Ucrainei",1,1,0.5388507843017578,185,12,0.06486486486486487,1,67,5.473856209150327
+vrd_0052,veridica.ro,2022,Refugiații ucraineni abuzează de ospitalitatea moldovenilor,1,1,0.6803138852119446,504,3,0.005952380952380952,1,189,5.873213175885644
+vrd_0116,veridica.ro,2022,Guvernarea de la Chișinău a instituit un regim dictatorial care luptă împotriva presei libere,1,0,0.0055144489742815,214,8,0.037383177570093455,1,80,5.498281786941581
+vrd_0363,veridica.ro,2024,"NATO ar putea ocupa Ucraina, iar Rusia îi apără suveranitatea",1,1,0.670538604259491,130,0,0.0,1,50,5.780346820809249
+vrd_0060,veridica.ro,2022,PROPAGANDĂ DE RĂZBOI: Zelenski a recunoscut că Ucraina a început conflictul cu Rusia,1,0,0.0019938668701797,184,10,0.05434782608695652,1,44,3.9250669045495097
+vrd_0227,veridica.ro,2023,Războiul a forțat SUA să mute armele biologice din Ucraina,1,0,0.0030867175664752,195,8,0.041025641025641026,1,64,4.516584333098095
+vrd_0130,veridica.ro,2022,PROPAGANDĂ DE RĂZBOI: Polonia va declanșa un război împotriva Rusiei în următorii 10 ani,1,0,0.0025260911788791,121,4,0.03305785123966942,1,48,5.970149253731343
+vrd_0080,veridica.ro,2022,PROPAGANDĂ DE RĂZBOI: Neonaziștii ucraineni țin în captivitate civili în regiunea Harkov,1,0,0.0019727803301066,135,9,0.06666666666666667,1,54,5.648535564853557
+vrd_0050,veridica.ro,2022,NATO luptă cu Rusia pâna la ultimul ucrainean,1,1,0.6513496041297913,480,2,0.004166666666666667,1,149,5.095759233926129
+vrd_0537,veridica.ro,2025,Zelenski și-a trădat poporul și prelungește intenționat războiul,1,0,0.0022723930887877,190,0,0.0,1,47,3.8273615635179157
+vrd_0547,veridica.ro,2025,Cine lucrează pe 4 iulie e anti-american,1,1,0.6639750599861145,170,2,0.011764705882352941,1,53,4.580812445980985
+vrd_0617,veridica.ro,2025,Ucrainenii vor avea viitor doar în componența Rusiei,1,0,0.0045312503352761,167,12,0.0718562874251497,1,51,4.866412213740458
+vrd_0479,veridica.ro,2025,SUA solicită condamnarea lui Zelenski la închisoare pe viață,1,0,0.0031879839953035,203,4,0.019704433497536946,1,53,3.8856304985337244
+vrd_0066,veridica.ro,2022,PROPAGANDĂ DE RĂZBOI: Armata ucraineană aduce cadavre în Lisiciansk pentru a înscena un nou masacru,1,0,0.0025128633715212,187,5,0.026737967914438502,1,85,6.291635825314581
+vrd_0100,veridica.ro,2022,PROPAGANDĂ DE RĂZBOI: România va ajuta Ucraina să recupereze Hersonul,1,0,0.0349217131733894,113,4,0.035398230088495575,1,31,4.2349726775956285
+vrd_0208,veridica.ro,2023,România se pregătește să intre în război,1,1,0.6651554107666016,281,2,0.0071174377224199285,1,110,5.641025641025641
+vrd_0294,veridica.ro,2023,UE vrea să se extindă pentru a acapara teritoriu în defavoarea Rusiei,1,0,0.0244280751794576,388,6,0.015463917525773196,1,138,5.428796223446105
+vrd_0373,veridica.ro,2024,Integrarea Republicii Moldova în UE va duce la lichidarea sa,1,0,0.0028130230493843,191,2,0.010471204188481676,1,60,4.823151125401929
+vrd_0533,veridica.ro,2025,Europa și Ucraina vor să deturneze Ziua Victoriei,1,0,0.0063752578571438,210,14,0.06666666666666667,1,79,5.536089698668535
+vrd_0196,veridica.ro,2023,"Românii vor recâștiga avuția țării dacă se izolează de Occident, ca Japonia",1,1,0.6758967041969299,309,6,0.019417475728155338,1,133,7.220412595005429
+vrd_0120,veridica.ro,2022,PROPAGANDĂ DE RĂZBOI: Pe teritoriul UE sunt instruiți teroriști care vor acționa împotriva civililor din Donbass,1,0,0.0018080022418871,180,6,0.03333333333333333,1,51,3.8871951219512195
+vrd_0047,veridica.ro,2022,"Minele amplasate de Ucraina pot arunca în aer Marea Neagră, provocând un cataclism",1,0,0.0045240418985486,625,6,0.0096,1,212,5.428937259923176
+vrd_0218,veridica.ro,2023,"Energia verde, promovată de Occident pentru a obține resurse minerale",1,1,0.5796135067939758,271,16,0.05904059040590406,1,86,4.689203925845147
+vrd_0057,veridica.ro,2022,NATO nu-și va apăra membrii în cazul unui conflict cu Rusia,1,1,0.6506608724594116,326,4,0.012269938650306749,1,123,5.922002888781897
+vrd_0559,veridica.ro,2025,România continuă să fie jefuită de UE,1,1,0.6761509776115417,172,0,0.0,1,58,5.7482656095143705
+vrd_0197,veridica.ro,2023,Maia Sandu a demis-o pe Natalia Gavrilița ca să epureze opoziția și să își consolideze regimul autoritar și anti-rus,1,0,0.001849032822065,136,5,0.03676470588235294,1,43,4.793756967670011
+vrd_0148,veridica.ro,2022,"Hidroelectrica, la fel ca și alte avuții ale românilor, va fi luată de străini",1,0,0.0569238178431987,666,6,0.009009009009009009,1,205,4.67502850627138
+vrd_0088,veridica.ro,2022,Delegația Chinei a părăsit sala în timpul unui discurs al lui Volodimir Zelenski,1,0,0.002010233933106,203,4,0.019704433497536946,1,67,4.844540853217643
+vrd_0115,veridica.ro,2022,Maia Sandu pregătește o lovitură de stat contra propriei guvernări,1,0,0.0045703151263296,791,18,0.022756005056890013,1,286,5.50423402617398
+vrd_0555,veridica.ro,2025,Rusia și Iranul sunt victimele Occidentului neocolonial și agresiv,1,1,0.6776500940322876,235,6,0.02553191489361702,1,90,6.008010680907877
+vrd_0494,veridica.ro,2025,Mass-media ridică osanale nazismului şi exponenţilor săi,1,1,0.6739319562911987,93,2,0.021505376344086023,1,28,4.753820033955857
+vrd_0178,veridica.ro,2022,Autoritățile moldovene vând în UE mai scump gazul ieftin pe care îl primesc din Rusia,1,0,0.0213635507971048,228,2,0.008771929824561403,1,84,5.412371134020619
+vrd_0262,veridica.ro,2023,Ucrainenii nu mai au loc în cimitire pentru militarii morți,1,0,0.0039341640658676,152,1,0.006578947368421052,1,49,5.030800821355236
+vrd_0321,veridica.ro,2023,"Potrivit dreptului internațional, Ucraina e a Rusiei",1,1,0.676090657711029,166,0,0.0,1,51,4.627949183303085
+vrd_0460,veridica.ro,2024,Pământul Ucrainei a fost vândut corporațiilor străine,1,0,0.0046014967374503,104,0,0.0,1,29,4.178674351585014
+vrd_0348,veridica.ro,2024,Zelenski repetă greșelile lui Hitler,1,0,0.0016771019436419,198,2,0.010101010101010102,1,81,6.413301662707839
+vrd_0105,veridica.ro,2022,"PROPAGANDĂ DE RĂZBOI: Rusia a ucis cu o singură rachetă cel puțin 15 generali ucraineni la Vinița, oprind contraofensiva din Donbass",1,0,0.0025608460418879,227,8,0.03524229074889868,1,70,4.385964912280701
+vrd_0112,veridica.ro,2022,PROPAGANDĂ DE RĂZBOI: Nivelul infracționalității din Ucraina a crescut de trei ori în urma înarmării civililor,1,0,0.0024291577283293,163,2,0.012269938650306749,1,66,6.005459508644222
+vrd_0448,veridica.ro,2024,Volodimir Zelenski este un lider terorist care își ucide cetățenii,1,0,0.002600465202704,131,8,0.061068702290076333,1,42,4.605263157894736
+vrd_0082,veridica.ro,2022,Dodon a fost reținut la ordinul serviciilor secrete din România,1,1,0.6404387950897217,201,10,0.04975124378109453,1,66,5.326876513317192
+vrd_0316,veridica.ro,2023,NATO distruge Delta Dunării,1,1,0.6765640377998352,66,2,0.030303030303030304,1,26,6.0046189376443415
+vrd_0402,veridica.ro,2024,Armata ucraineană este finanțată de Occident pentru a ataca Belarusul și Transnistria,1,0,0.0130510898306965,150,0,0.0,1,46,4.660587639311044
+vrd_0249,veridica.ro,2023,UE vrea să împingă Moldova spre o confruntare cu Rusia,1,0,0.0026264560874551,126,4,0.031746031746031744,1,39,4.676258992805756
+vrd_0281,veridica.ro,2023,Emigrarea de azi din Moldova este similară deportărilor staliniste,1,1,0.6795334219932556,574,10,0.017421602787456445,1,204,5.406838059899284
+vrd_0319,veridica.ro,2023,"Ucraina, invadată pentru a opri o invazie NATO",1,0,0.006880038883537,168,2,0.011904761904761904,1,64,5.7657657657657655
+vrd_0127,veridica.ro,2022,"PROPAGANDĂ DE RĂZBOI: Locuitorii regiunii Zaporojie așteaptă eliberarea orașelor Micolaev, Harkov și Odessa de naziștii ucraineni",1,0,0.0025190731976181,193,10,0.05181347150259067,1,61,4.391648668106551
+vrd_0263,veridica.ro,2023,Maia Sandu a instaurat un regim dictatorial similar cu cel al lui Plahotniuc,1,1,0.6763412952423096,215,8,0.037209302325581395,1,70,4.638833664678596
+vrd_0079,veridica.ro,2022,Presa occidentală minte despre războiul din Ucraina,1,1,0.673562228679657,347,5,0.01440922190201729,1,125,5.765682656826568
+vrd_0102,veridica.ro,2022,România va fi invadată de africani și asiatici veniți din Ucraina,1,0,0.0138355772942304,162,2,0.012345679012345678,1,60,5.602240896358544
+vrd_0038,veridica.ro,2022,"PROPAGANDĂ DE RĂZBOI: Ucraina se pregătea să atace Belarusul, iar Rusia a dejucat acest scenariu",1,0,0.0168961770832538,81,4,0.04938271604938271,1,29,5.88235294117647
+vrd_0462,veridica.ro,2024,Rușii salvează memoria istorică a ucrainenilor,1,1,0.670158863067627,218,0,0.0,1,69,4.596935376415723
+vrd_0459,veridica.ro,2024,UE pregătește România și Republica Moldova de război,1,0,0.0034689938183873,372,18,0.04838709677419355,1,145,5.844417573559048
+vrd_0085,veridica.ro,2022,PROPAGANDĂ DE RĂZBOI: Copiii din Donbass erau vânduți pentru organe sub coordonarea Crucii Roșii,1,0,0.0020677386783063,181,2,0.011049723756906077,1,45,3.91304347826087
+vrd_0092,veridica.ro,2022,PROPAGANDĂ DE RĂZBOI: Voluntarii din Zaporojie se înscriu într-un batalion care va apăra regiunea de armata ucraineană,1,0,0.0031062013003975,203,6,0.029556650246305417,1,60,4.18702023726448
+vrd_0090,veridica.ro,2022,PROPAGANDĂ DE RĂZBOI: Secretarul general al NATO propune Kievului să cedeze Rusiei anumite teritorii în numele păcii,1,0,0.0018477396806702,149,6,0.040268456375838924,1,55,5.5611729019211324
+vrd_0471,veridica.ro,2025,Occidentul a forțat Rusia să invadeze Ucraina,1,0,0.0029139425605535,128,2,0.015625,1,42,4.778156996587031
+vrd_0450,veridica.ro,2024,R. Moldova este gata să introducă regim de vize pentru ruși,1,0,0.0083133159205317,466,4,0.008583690987124463,1,150,4.835589941972921
+vrd_0658,veridica.ro,2026,SUA bagă România în război cu Iranul,1,1,0.67509526014328,140,2,0.014285714285714285,1,48,5.436013590033975
+vrd_0418,veridica.ro,2024,Rusia bombardează doar infrastructura militară a Ucrainei,1,0,0.0021125939674675,149,4,0.026845637583892617,1,47,4.26497277676951
+vrd_0114,veridica.ro,2022,PROPAGANDĂ DE RĂZBOI: Statele UE îi vor cere Ucrainei să cedeze în fața Rusiei,1,0,0.002537741092965,128,2,0.015625,1,44,5.459057071960298
+vrd_0623,veridica.ro,2025,Denunțarea unor acorduri CSI va băga Moldova în izolare internațională,1,0,0.0018163387430831,380,6,0.015789473684210527,1,137,5.451651412654198
+vrd_0070,veridica.ro,2022,Moldova renunță la neutralitate și se înarmează pentru război cu Rusia,1,1,0.6792661547660828,102,2,0.0196078431372549,1,31,4.761904761904762
+vrd_0295,veridica.ro,2023,Populația Ucrainei a scăzut din cauza NATO și UE,1,0,0.0068379328586161,178,4,0.02247191011235955,1,54,5.187319884726225
+vrd_0252,veridica.ro,2023,Andrzej Duda spune că Rusia va câștiga războiul,1,0,0.0018938925350084,208,4,0.019230769230769232,1,56,4.291187739463601
+vrd_0237,veridica.ro,2023,Moldova acceptă atacarea Transnistriei pentru ca Ucraina să ia muniția rusă de acolo,1,0,0.0047579850070178,193,6,0.031088082901554404,1,55,4.337539432176656
+vrd_0158,veridica.ro,2022,PROPAGANDĂ DE RĂZBOI: Israelul nu va livra armament Ucrainei pentru ca acesta să nu fie furat sau vândut Iranului,1,0,0.002204913413152,154,6,0.03896103896103896,1,51,5.1153460381143425
+vrd_0387,veridica.ro,2024,Occidentul respinge planul de pace al Moscovei pentru a distruge Rusia,1,0,0.0094773024320602,136,4,0.029411764705882353,1,47,5.522914218566393
+vrd_0128,veridica.ro,2022,Autoritățile de la Chișinău amenință autonomia Găgăuziei,1,1,0.6764154434204102,218,6,0.027522935779816515,1,95,6.899055918663762
+vrd_0264,veridica.ro,2023,"Planul de pace al Rusiei, tot mai susținut în UE",1,0,0.0027053244411945,252,6,0.023809523809523808,1,83,5.310300703774792
+vrd_0013,veridica.ro,2022,"NATO trimite trupe în Estul Europei, deși niciun stat-membru nu e amenințat",1,0,0.0125955594703555,704,10,0.014204545454545454,1,268,6.027890238416554
+vrd_0463,veridica.ro,2024,Ucraina trebuie să plătească cu sânge aderarea la NATO,1,0,0.0065647084265947,186,8,0.043010752688172046,1,57,4.75396163469558
+vrd_0269,veridica.ro,2023,Interpol îi va da în căutare pe ucrainenii care au fugit de mobilizare,1,0,0.0032301438041031,129,6,0.046511627906976744,1,44,5.176470588235294
+vrd_0607,veridica.ro,2025,Occidentul i-a cerut lui Zelenski să zboare la Moscova și să accepte pacea,1,0,0.0022857184521853,184,2,0.010869565217391304,1,49,4.275741710296685
+vrd_0403,veridica.ro,2024,"Zelenski e vinovat pentru distrugerea economiei Ucrainei, nu armata rusă agresoare",1,0,0.0057366928085684,115,4,0.034782608695652174,1,31,3.9390088945362134
+vrd_0571,veridica.ro,2025,Kievul nazist întinează memoria eliberatorilor sovietici ai Ucrainei,1,0,0.0039468142203986,177,6,0.03389830508474576,1,49,3.9611964430072755
+vrd_0474,veridica.ro,2025,Ucraina adoptă un model educațional impus de naziști,1,1,0.6741704344749451,195,2,0.010256410256410256,1,87,6.122448979591836
+vrd_0157,veridica.ro,2022,Oculta mondială va aduce omenirea sub control impunând monede digitale și identitatea digitală,1,1,0.6293869018554688,434,6,0.013824884792626729,1,120,4.14651002073255
+vrd_0515,veridica.ro,2025,Maia Sandu a dispus arestarea guvernatoarei Găgăuziei,1,1,0.6650382876396179,345,6,0.017391304347826087,1,135,5.818965517241379
+vrd_0553,veridica.ro,2025,România va suporta costurile aprovizionării cu gaze a Ucrainei,1,1,0.6099947690963745,156,4,0.02564102564102564,1,55,5.135387488328664
+vrd_0191,veridica.ro,2023,Zelenski a recunoscut că tancurile occidentale nu vor schimba situația de pe front,1,0,0.0179576762020587,104,2,0.019230769230769232,1,16,2.5236593059936907
+vrd_0011,veridica.ro,2022,Moldova renunță la neutralitate și îi cedează NATO controlul asupra forțelor sale armate,1,1,0.6754394173622131,139,3,0.02158273381294964,1,40,3.8722168441432716
+vrd_0371,veridica.ro,2024,Ucraina ar putea ataca Republica Moldova,1,0,0.0037334663793444,196,8,0.04081632653061224,1,56,4.527081649151172
+vrd_0343,veridica.ro,2024,SUA vor suferi o înfrângere strategică în Ucraina,1,0,0.0033794569317251,136,2,0.014705882352941176,1,48,5.707491082045184
+vrd_0272,veridica.ro,2023,UE îi permite Ucrainei să încalce drepturile rusofonilor,1,0,0.0022478576283901,179,3,0.01675977653631285,1,54,4.671280276816609
+vrd_0386,veridica.ro,2024,"Ucrainenii, trimiși la moarte la comanda Occidentului",1,0,0.0027386730071157,136,5,0.03676470588235294,1,39,4.704463208685163
+vrd_0154,veridica.ro,2022,PROPAGANDĂ DE RĂZBOI: Diplomații străini se retrag din Kiev de frica ofensivei ruse,1,0,0.0016887463862076,210,6,0.02857142857142857,1,80,5.574912891986063
+vrd_0539,veridica.ro,2025,Rusia refuză armistițiul pentru că Occidentul a înșelat-o în trecut,1,0,0.0018451060168445,167,2,0.011976047904191617,1,52,4.957102001906578
+vrd_0454,veridica.ro,2024,"Zelenski, agent MI6 care lucrează pentru distrugerea UE",1,1,0.6097855567932129,202,0,0.0,1,79,6.655433866891322
+vrd_0545,veridica.ro,2025,Zelenski va declanșa Al Treilea Război Mondial,1,0,0.0032345512881875,133,4,0.03007518796992481,1,44,4.761904761904762
+vrd_0240,veridica.ro,2023,Copiii ucraineni sunt vânduți în Occident,1,0,0.0079067889600992,263,1,0.0038022813688212928,1,82,4.812206572769953
+vrd_0242,veridica.ro,2023,Războiul din Ucraina este în interesul lui Zelenski,1,1,0.6734969019889832,219,4,0.0182648401826484,1,68,5.116629044394282
+vrd_0226,veridica.ro,2023,Republica Moldova pregătește un milion de rezerviști pentru a ataca Transnistria,1,1,0.6741993427276611,85,2,0.023529411764705882,1,41,7.243816254416961
+vrd_0087,veridica.ro,2022,PROPAGANDĂ DE RĂZBOI: Statele Unite studiază armamentul rusesc capturat în Ucraina pentru a-i copia tehnologia ultramodernă,1,0,0.0016493832226842,196,6,0.030612244897959183,1,53,4.089506172839506
+vrd_0161,veridica.ro,2022,PROPAGANDĂ DE RĂZBOI: Armata ucraineană le dă bani celor care își păcălesc prietenii să se înroleze,1,0,0.006495090201497,117,8,0.06837606837606838,1,43,5.6282722513089
+vrd_0569,veridica.ro,2025,Occidentul sprijină protestele anti-corupție din Ucraina ca să scape de Zelenski,1,0,0.0043931389227509,164,2,0.012195121951219513,1,56,4.986642920747997
+vrd_0144,veridica.ro,2022,Carta ONU îi permite Rusiei să atace Ucraina pentru a combate nazismul,1,1,0.5671008825302124,141,2,0.014184397163120567,1,37,4.4205495818399045
+vrd_0422,veridica.ro,2024,Occidentul vrea să distrugă Ucraina și Biserica ortodoxă,1,0,0.0028693869244307,144,0,0.0,1,41,4.366347177848776
+vrd_0521,veridica.ro,2025,UE și Marea Britanie finanțează terorismul ucrainean,1,0,0.0024768051225692,121,2,0.01652892561983471,1,36,4.128440366972478
+vrd_0518,veridica.ro,2025,Kievul nu-și mai controlează armata,1,0,0.0021825830917805,180,4,0.022222222222222223,1,51,4.054054054054054
+vrd_0361,veridica.ro,2024,Occidentul vrea să cedeze teritorii ucrainene Rusiei,1,0,0.0135955139994621,207,0,0.0,1,66,5.42317173377157
+vrd_0400,veridica.ro,2024,Zeci de crime de război au fost comise de mercenarii francezi și militarii ucraineni în regiunea Harkov,1,0,0.0061099249869585,133,0,0.0,1,34,3.74037403740374
+vrd_0000,veridica.ro,2022,"NATO are o bază militară la Odessa, pe pământul istoric al Rusiei",1,0,0.0020693431142717,250,4,0.016,1,82,5.307443365695793
+vrd_0374,veridica.ro,2024,Zelenski nu mai are legitimitate și guvernarea sa e ilegală,1,0,0.0026155032683163,271,6,0.02214022140221402,1,97,5.34435261707989
+vrd_0489,veridica.ro,2025,"Rusia, forțată să invadeze Ucraina",1,0,0.0025684381835162,175,4,0.022857142857142857,1,45,3.8527397260273974
+vrd_0062,veridica.ro,2022,"PROPAGANDĂ DE RĂZBOI: Sudul Ucrainei, eliberat de naționaliști, vrea să fie alipit la Rusia",1,0,0.0021326472051441,146,2,0.0136986301369863,1,42,4.1708043694141015
+vrd_0651,veridica.ro,2026,Occidentul îi va furniza Ucrainei arme nucleare,1,0,0.0022463225759565,194,8,0.041237113402061855,1,60,5.025125628140704
+vrd_0185,veridica.ro,2022,"PROPAGANDĂ DE RĂZBOI: În timp ce ucrainenii stau în frig și întuneric, Kievul vinde energie electrică Republicii Moldova",1,0,0.0045274854637682,114,4,0.03508771929824561,1,39,4.85678704856787
+vrd_0464,veridica.ro,2024,Iohannis a instaurat dictatura în România,1,1,0.6791810989379883,149,0,0.0,1,66,7.2210065645514225
+vrd_0136,veridica.ro,2022,Serviciile secrete vor orchestra proteste pentru a justifica abandonarea Ucrainei de către UE,1,1,0.6650664210319519,322,20,0.062111801242236024,1,106,5.088814210273643
+vrd_0544,veridica.ro,2025,Moldova folosește banii UE pentru a-și plăti datoriile,1,0,0.00690454011783,139,0,0.0,1,53,5.902004454342984
+vrd_0098,veridica.ro,2022,PROPAGANDĂ DE RĂZBOI: Volodimir Zelenski va fi judecat pentru crime de război,1,0,0.002343205967918,147,5,0.034013605442176874,1,41,4.17940876656473
+vrd_0195,veridica.ro,2023,Ucraina recrutează voluntari pentru brigăzi naziste,1,0,0.0034455435816198,110,6,0.05454545454545454,1,39,4.86284289276808
+vrd_0428,veridica.ro,2024,Chișinăul este gata să renunțe la regiunea transnistreană în favoarea aderării la UE,1,0,0.0018224056111648,268,8,0.029850746268656716,1,104,5.385810460901087
+vrd_0265,veridica.ro,2023,"Atacul de pe Aeroportul Chișinău, o consecință a distanțării de CSI",1,0,0.0043031736277043,257,8,0.0311284046692607,1,93,5.308219178082192
+vrd_0077,veridica.ro,2022,"Dacă Republica Moldova va părăsi CSI, nu va mai avea unde să-și vândă produsele",1,0,0.031456883996725,134,6,0.04477611940298507,1,39,4.648390941597139
+vrd_0142,veridica.ro,2022,PROPAGANDĂ DE RĂZBOI: În regiunea Liov va fi organizat un referendum pentru alipirea la Polonia,1,0,0.0033879629336297,138,2,0.014492753623188406,1,33,3.492063492063492
+vrd_0314,veridica.ro,2023,Moldovenii s-au opus dintotdeauna Bisericii Ortodoxe Române,1,1,0.6777272820472717,168,0,0.0,1,59,5.315315315315315
+vrd_0340,veridica.ro,2024,Rusia câștiga războiul dacă era la fel de brutală ca Israelul,1,1,0.6540586352348328,215,0,0.0,1,64,5.015673981191222
+vrd_0513,veridica.ro,2025,"Republica Moldova, atrasă în coaliția europeană anti-Trump",1,0,0.0893249884247779,384,14,0.036458333333333336,1,138,5.471847739888977
+vrd_0378,veridica.ro,2024,"Von der Leyen, criticată în UE că susține Ucraina",1,0,0.0037340980488806,153,8,0.05228758169934641,1,44,4.413239719157472
+vrd_0509,veridica.ro,2025,Ucraina va trimite trupe să lupte în Transnistria și Africa,1,0,0.0041907103732228,186,6,0.03225806451612903,1,51,3.9906103286384975
+vrd_0352,veridica.ro,2024,Ucraina își vinde pământul Poloniei,1,1,0.6751392483711243,92,2,0.021739130434782608,1,39,6.7357512953367875
+vrd_0435,veridica.ro,2024,Volodimir Zelenski nu vrea pace în Ucraina,1,0,0.0026390207931399,113,2,0.017699115044247787,1,23,3.038309114927345
+vrd_0177,veridica.ro,2022,"PROPAGANDĂ DE RĂZBOI: Statele Unite au înarmat Ucraina începând cu 2014, pentru a o împinge la război împotriva Rusiei",1,0,0.0032912890892475,123,2,0.016260162601626018,1,39,4.86284289276808
+vrd_0033,veridica.ro,2022,"Occidentul a declarat război Federației Ruse, iar Moldova riscă să aibă soarta Ucrainei",1,1,0.6749818325042725,66,2,0.030303030303030304,1,25,5.966587112171838
+vrd_0530,veridica.ro,2025,"Ucraina militaristă riscă un atac nuclear, ca Japonia în 1945",1,0,0.0014450548915192,212,8,0.03773584905660377,1,76,5.588235294117648
+vrd_0207,veridica.ro,2023,Zelenski le-a solicitat statelor membre NATO să trimită trupe în Ucraina,1,0,0.0024329882580786,130,5,0.038461538461538464,1,43,5.354919053549191
+vrd_0182,veridica.ro,2022,"Sancțiunile nu afectează Rusia, dar vor cauza o criză economică severă în Occident",1,0,0.1773927360773086,134,4,0.029850746268656716,1,55,6.380510440835267
+vrd_0180,veridica.ro,2022,"România participă cu mii de militari la războiul din Ucraina, conform unei înţelegeri la nivel guvernamental",1,0,0.0066267014481127,100,2,0.02,1,34,5.246913580246913
+vrd_0666,veridica.ro,2026,Ucraina încă nu a fost distrusă pentru că pro-rușii i-au pus baze solide,1,1,0.6345195770263672,134,4,0.029850746268656716,1,42,5.230386052303861
+vrd_0186,veridica.ro,2022,"Ca și Andrei Marga, Henry Kissinger susține că Ucraina trebuie să cedeze teritorii Rusiei în schimbul păcii",1,1,0.674541711807251,73,2,0.0273972602739726,1,25,5.813953488372093
+vrd_0532,veridica.ro,2025,Europa a distrus agricultura Moldovei,1,0,0.0031037039589136,158,0,0.0,1,49,4.748062015503876
+vrd_0505,veridica.ro,2025,USAID a asigurat victoria Maiei Sandu la alegerile prezidențiale,1,0,0.0021499760914593,296,3,0.010135135135135136,1,108,5.435329642677403
+vrd_0081,veridica.ro,2022,"OSCE colabora cu regimentului ""Azov"" din Mariupol și îi furniza informații",1,0,0.0031863565091043,116,12,0.10344827586206896,1,29,3.403755868544601
+vrd_0601,veridica.ro,2025,Ucraina refuză pacea și forțează Rusia să continue războiul,1,0,0.0031702991109341,137,10,0.072992700729927,1,57,5.7114228456913825
+vrd_0671,veridica.ro,2026,Maia Sandu e de vină pentru scumpirea carburanților în Republica Moldova,1,0,0.0279307980090379,236,2,0.00847457627118644,1,68,4.263322884012539
+vrd_0248,veridica.ro,2023,NATO sprijină Ucraina pentru a cauza un război mondial,1,0,0.0034031879622489,149,5,0.03355704697986577,1,55,5.572441742654509
+vrd_0228,veridica.ro,2023,Ucraina a atacat România cu mine,1,0,0.1192035898566246,212,2,0.009433962264150943,1,77,5.476529160739687
+vrd_0175,veridica.ro,2022,În România va fi blackout de sărbători pentru ca patrioții să poată fi asasinați,1,1,0.6737534403800964,396,5,0.012626262626262626,1,132,5.9918293236495686
+vrd_0143,veridica.ro,2022,Republica Moldova este condusă de un regim dictatorial rusofob,1,1,0.6788008809089661,97,2,0.020618556701030927,1,36,5.247813411078718
+vrd_0236,veridica.ro,2023,Românismul e o formă de agresiune împotriva Rusiei,1,1,0.679601788520813,185,2,0.010810810810810811,1,80,6.4882400648824
+vrd_0199,veridica.ro,2023,Zelenski a recunoscut că ucrainenii simpli n-au niciun motiv să lupte împotriva Rusiei,1,0,0.0021028504706919,123,2,0.016260162601626018,1,55,6.723716381418093
+vrd_0046,veridica.ro,2022,PROPAGANDĂ DE RĂZBOI: Forțele ucrainene au distrus orașul Mariupol,1,0,0.0058733564801514,107,2,0.018691588785046728,1,35,4.605263157894736
+vrd_0118,veridica.ro,2022,PROPAGANDĂ DE RĂZBOI: SUA vor provoca un dezastru nuclear în Ucraina pentru a ascunde urmele laboratoarelor de arme biologice,1,0,0.0115981753915548,128,2,0.015625,1,25,3.0864197530864197
+vrd_0043,veridica.ro,2022,Rușii din afara țării sunt discriminați,1,0,0.0087397266179323,386,4,0.010362694300518135,1,156,6.136900078678206
+vrd_0582,veridica.ro,2025,Viktor Ianukovici s-a opus aderării Ucrainei la NATO pentru a păstra pacea,1,0,0.0014687501825392,150,2,0.013333333333333334,1,49,5.020491803278689
+vrd_0497,veridica.ro,2025,"Zelenski, acuzat în Rada de terorism și uzurparea puterii",1,0,0.0027465072926133,114,2,0.017543859649122806,1,32,4.43213296398892
+vrd_0482,veridica.ro,2025,Londra sprijină Ucraina neonazistă pentru a o transforma într-o colonie,1,0,0.0019216584041714,177,4,0.022598870056497175,1,66,5.3182917002417405
+vrd_0029,veridica.ro,2022,"SUA nu consideră că trimiterea de trupe rusești în republicile separatiste Donețk și Luhansk, din Donbass, reprezintă o invazie a Ucrainei",1,0,0.006210146471858,349,4,0.011461318051575931,1,115,5.316689782709201
+vrd_0076,veridica.ro,2022,PROPAGANDĂ DE RĂZBOI: Consilierul lui Zelenski anunță organizarea unui genocid al rusofonilor în Harkov și Donbass,1,0,0.0022489477414637,187,8,0.0427807486631016,1,68,5.523964256701868
+vrd_0380,veridica.ro,2024,Germania vrea să scape de refugiaţii ucraineni,1,0,0.0047142393887043,249,8,0.0321285140562249,1,95,6.144890038809832
+vrd_0519,veridica.ro,2025,SUA folosesc Ucraina pentru a distruge Rusia,1,0,0.0024127680808305,145,4,0.027586206896551724,1,51,5.146316851664985
+vrd_0397,veridica.ro,2024,Transportatorii ucraineni nu mai pot fi controlați,1,0,0.0173990130424499,219,2,0.0091324200913242,1,85,5.5591890124264225
+vrd_0468,veridica.ro,2024,SUA refuză normalizarea relaţiilor cu Rusia,1,0,0.0043531130068004,108,2,0.018518518518518517,1,46,6.571428571428571
+vrd_0278,veridica.ro,2023,Polonia vrea să atace Rusia și să ocupe vestul Ucrainei,1,0,0.007773382589221,207,7,0.033816425120772944,1,58,4.181687094448449
+vrd_0083,veridica.ro,2022,PROPAGANDĂ DE RĂZBOI: Majoritatea polonezilor susțin invadarea regiunilor din vestul Ucrainei,1,0,0.0053178411908447,121,10,0.08264462809917356,1,39,4.441913439635535
+vrd_0246,veridica.ro,2023,Rusia nu se implică în afacerile interne ale Moldovei,1,0,0.0031811147928237,402,4,0.009950248756218905,1,139,5.02530730296457
+vrd_0458,veridica.ro,2024,UE vrea să transforme Georgia într-un aliat militar împotriva Rusiei,1,0,0.0023772208951413,164,2,0.012195121951219513,1,56,4.895104895104895
+vrd_0409,veridica.ro,2024,România e de vină pentru foametea din Moldova Sovietică din 1946-47,1,0,0.0068346657790243,341,10,0.02932551319648094,1,99,4.44743935309973
+vrd_0625,veridica.ro,2025,Liderii ucraineni vor fi judecați de un tribunal internațional,1,0,0.0022717975080013,155,4,0.025806451612903226,1,45,4.373177842565598
+vrd_0190,veridica.ro,2022,PROPAGANDĂ DE RĂZBOI: UE își ascunde implicarea în crimele comise pe teritoriul Ucrainei prin înființarea unui tribunal special,1,0,0.0020204382017254,180,10,0.05555555555555555,1,52,4.027885360185903
+vrd_0023,veridica.ro,2022,"Ședința comună a guvernelor de la București și Chișinău, un nou pas spre anexarea Republicii Moldova de către România",1,1,0.6804348230361938,262,5,0.019083969465648856,1,98,5.5242390078917705
+vrd_0355,veridica.ro,2024,Moldova îi cere Rusiei să evacueze rușii din Transnistria,1,0,0.0073581933975219,386,6,0.015544041450777202,1,113,4.286798179059181
+vrd_0609,veridica.ro,2025,Sprijinirea Ucrainei va duce la autodistrugerea UE,1,0,0.0028868864756077,188,6,0.031914893617021274,1,55,4.867256637168142
+vrd_0069,veridica.ro,2022,"PROPAGANDĂ DE RĂZBOI: În Ucraina au sosit mercenari din Israel care luptă împotriva Rusiei alături de militarii grupului ""Azov""",1,0,0.002371234819293,197,12,0.06091370558375635,1,63,4.67706013363029
+vrd_0286,veridica.ro,2023,"Ucraina îi glorifică pe ucigașii a 1,5 milioane de evrei",1,0,0.0408487953245639,165,8,0.048484848484848485,1,57,5.367231638418079
+vrd_0292,veridica.ro,2023,Interzicerea automobilelor din Rusia arată nazismul UE,1,0,0.0188091769814491,186,2,0.010752688172043012,1,53,4.358552631578947
+vrd_0382,veridica.ro,2024,Natalitatea în Moldova scade din cauza exercițiilor militare cu NATO,1,0,0.0072492510080337,187,6,0.03208556149732621,1,67,5.611390284757118
+vrd_0041,veridica.ro,2022,PROPAGANDĂ DE RĂZBOI: Ucraina se pregătea să atace Donbassul și și-a mascat intențiile ascunzând militari în școli și spitale,1,0,0.0030061742290854,153,2,0.013071895424836602,1,53,4.971857410881801
+vrd_0561,veridica.ro,2025,Biserica Ortodoxă Română și Occidentul promovează agenda LGBT în Moldova,1,1,0.6772941946983337,348,6,0.017241379310344827,1,129,5.6282722513089
+vrd_0205,veridica.ro,2023,"Rusia trebuie să se mobilizeze pentru a învinge NATO în noul ""război pentru apărarea patriei""",1,0,0.0034545997623354,215,3,0.013953488372093023,1,65,4.666188083273511
+vrd_0470,veridica.ro,2025,"NATO, la solicitarea Chișinăului, pregătește un atac asupra Transnistriei",1,0,0.0030227520037442,346,7,0.02023121387283237,1,108,4.9135577797998184
+vrd_0407,veridica.ro,2024,UE vrea să distrugă Rusia cu ajutorul Ucrainei,1,0,0.0085316151380538,106,2,0.018867924528301886,1,38,5.588235294117648
+vrd_0426,veridica.ro,2024,"""Reunificarea"" cu Rusia a adus prosperitate în Donbas",1,1,0.6746326684951782,183,0,0.0,1,56,4.512489927477841
+vrd_0630,veridica.ro,2025,"UE pregătește un nou ""Pearl Harbor"" ca să bage SUA în război cu Rusia",1,0,0.0018618449103087,144,2,0.013888888888888888,1,39,4.2622950819672125
+vrd_0124,veridica.ro,2022,"Prezența militară rusă în Transnistria este ""piatra de temelie"" a securității în întreaga regiune",1,1,0.6813027262687683,64,2,0.03125,1,27,5.660377358490567
+vrd_0431,veridica.ro,2024,R. Moldova a reușit să se apropie de UE doar datorită rusofobiei,1,1,0.6772054433822632,134,1,0.007462686567164179,1,48,6.007509386733417
+vrd_0618,veridica.ro,2025,UE și Moldova spun că Rusia e o amenințare pentru a-și masca eșecurile,1,0,0.0027822896372526,136,3,0.022058823529411766,1,46,4.978354978354979
+vrd_0097,veridica.ro,2022,PROPAGANDĂ DE RĂZBOI: Locuitorii regiunii Luhansk vor fi deportați de Kiev,1,0,0.0037388463970273,153,11,0.0718954248366013,1,43,4.037558685446009
+vrd_0512,veridica.ro,2025,Volodimir Zelenski este singurul obstacol în calea păcii,1,0,0.0030170681420713,119,6,0.05042016806722689,1,36,4.25531914893617
+vrd_0016,veridica.ro,2022,Chișinăul întreține conflictul transnistrean pentru ca Occidentul să rămână interesat de Moldova,1,1,0.6836875081062317,133,2,0.015037593984962405,1,40,4.410143329658213
+vrd_0410,veridica.ro,2024,Ceremonia de închidere a Olimpiadei a fost un spectacol satanist,1,1,0.6753242015838623,523,17,0.032504780114722756,1,173,5.138105138105138
+vrd_0298,veridica.ro,2023,În Ucraina va fi o iarnă grea din cauza autorităților,1,0,0.0022557482589036,201,6,0.029850746268656716,1,71,5.056980056980057
+vrd_0172,veridica.ro,2022,"Deja cucerită de Occident, România se lasă călcată în picioare și de Ucraina",1,1,0.6780464053153992,221,2,0.00904977375565611,1,77,6.443514644351464
+vrd_0271,veridica.ro,2023,Ucrainenii sunt condamnați la pușcărie pentru că discută cu rudele lor din Rusia,1,0,0.0019762760493904,193,2,0.010362694300518135,1,74,6.192468619246862
+vrd_0349,veridica.ro,2024,Rușii au fost primiți cu bucurie în Avdiivka,1,0,0.0223979670554399,254,6,0.023622047244094488,1,79,5.096774193548387
+vrd_0529,veridica.ro,2025,"Maia Sandu a interzis marcarea ""Zilei Victoriei"" în R. Moldova",1,0,0.0420523099601268,435,12,0.027586206896551724,1,162,5.527123848515865
+vrd_0535,veridica.ro,2025,"Conflictul transnistrean, provocat de rusofobie și românism",1,1,0.6690641045570374,232,8,0.034482758620689655,1,76,4.4548651817116065
+vrd_0027,veridica.ro,2022,NATO împinge Moldova spre un război cu Rusia,1,1,0.6784233450889587,143,4,0.027972027972027972,1,40,4.223864836325237
+vrd_0370,veridica.ro,2024,Franța a trimis Legiunea Străină pe frontul ucrainean,1,1,0.670411229133606,229,2,0.008733624454148471,1,103,7.069320521619766
+vrd_0354,veridica.ro,2024,"Pacea, realizabilă doar prin anexarea Ucrainei",1,0,0.0018496261909604,237,4,0.016877637130801686,1,81,5.536568694463432
+vrd_0445,veridica.ro,2024,UE a ruinat Ucraina,1,1,0.6756736636161804,163,0,0.0,1,51,4.806786050895382
+vrd_0487,veridica.ro,2025,"CIJ a dat teritorii României, cum vrea și Călin Georgescu",1,1,0.6791470050811768,54,0,0.0,1,16,5.245901639344262
+vrd_0231,veridica.ro,2023,Ucraina este un pseudo-stat nazist împins la război de Occident,1,1,0.670897901058197,203,2,0.009852216748768473,1,53,4.380165289256198
+vrd_0101,veridica.ro,2022,Parteneriatul strategic România-SUA nu ne-a adus avantaje,1,1,0.6783641576766968,228,2,0.008771929824561403,1,70,5.654281098546042
+vrd_0166,veridica.ro,2022,Statele Unite se pregătesc să atace Transnistria,1,0,0.0072625572793185,288,8,0.027777777777777776,1,92,4.672422549517521
+vrd_0594,veridica.ro,2025,Victoria PAS în alegeri va avea același impact ca venirea naziștilor la putere,1,1,0.6551697850227356,628,19,0.030254777070063694,1,210,5.212211466865227
+vrd_0501,veridica.ro,2025,Britanicii vor muri și Zelenski se va îmbogăți,1,0,0.004063306376338,132,2,0.015151515151515152,1,34,4.3927648578811365
+vrd_0573,veridica.ro,2025,Occidentalii migrează în masă în Rusia în căutarea valorilor tradiționale,1,0,0.0122175244614481,235,4,0.01702127659574468,1,88,5.67741935483871
+vrd_0526,veridica.ro,2025,Chișinăul persecută Mitropolia subordonată Patriarhiei Ruse,1,1,0.6747424006462097,316,4,0.012658227848101266,1,123,5.707656612529003
+vrd_0647,veridica.ro,2026,Ucrainenii se vor închina la icoana unui sportiv cu cască,1,0,0.0024394402280449,156,8,0.05128205128205128,1,46,4.200913242009133
+vrd_0126,veridica.ro,2022,Românii și Europa vor îngheța la iarnă,1,0,0.3351465165615082,372,3,0.008064516129032258,1,130,5.696757230499562
+vrd_0129,veridica.ro,2022,Rusia nu este de vină pentru explozia prețurilor la energie și gaze naturale,1,1,0.6576935648918152,276,2,0.007246376811594203,1,87,5.132743362831858
+vrd_0670,veridica.ro,2026,"Ucrainenii vor să citească în rusă, nu în ucraineană",1,0,0.0106503395363688,171,4,0.023391812865497075,1,78,7.4074074074074066
+vrd_0649,veridica.ro,2026,Va fi pace doar dacă Ucraina va fi administrată de o putere străină,1,0,0.0019362427992746,155,2,0.012903225806451613,1,45,4.197761194029851
+vrd_0383,veridica.ro,2024,Noul Parlament European va continua politica rusofobă,1,0,0.0045480276457965,157,4,0.025477707006369428,1,55,4.919499105545618
+vrd_0282,veridica.ro,2023,Ucraina vrea să masacreze rușii din Crimeea,1,0,0.0058948220685124,161,8,0.049689440993788817,1,58,5.395348837209302
+vrd_0669,veridica.ro,2026,"Israelul vrea ""să anuleze creştinismul""",1,0,0.0022772685624659,219,4,0.0182648401826484,1,87,6.079664570230608
+vrd_0051,veridica.ro,2022,"PROPAGANDĂ DE RĂZBOI: 95% dintre ucraineni așteaptă să fie eliberați de Rusia, afirmă liderul separatist din Luhansk, Marat Bașirov",1,0,0.0035492996685206,94,2,0.02127659574468085,1,46,7.57825370675453
+vrd_0007,veridica.ro,2022,Ucraina pregătește un masacru în Donbass,1,0,0.0032872902229428,434,5,0.01152073732718894,1,132,4.73967684021544
+vrd_0277,veridica.ro,2023,Moldova se-ndreaptă spre dictatură cu binecuvântarea Occidentului,1,1,0.6759471297264099,603,16,0.026533996683250415,1,233,5.666342412451362
+vrd_0457,veridica.ro,2024,Blândețea autorităților a permis lovitura de stat din Ucraina,1,0,0.0039650187827646,171,2,0.011695906432748537,1,49,4.644549763033176
+vrd_0318,veridica.ro,2023,"În Ucraina, Rusia poartă un război de eliberare națională",1,0,0.0022185682319104,195,2,0.010256410256410256,1,77,6.115965051628276
+vrd_0327,veridica.ro,2024,Atac nuclear al SUA pentru a ascunde înfrângerea Ucrainei,1,0,0.0039808610454201,214,6,0.028037383177570093,1,45,3.5629453681710213
+vrd_0162,veridica.ro,2022,PROPAGANDĂ DE RĂZBOI: Șomerii din Ucraina vor fi înrolați în armată și trimiși pe front,1,0,0.003474166849628,120,8,0.06666666666666667,1,39,4.974489795918367
+vrd_0588,veridica.ro,2025,Franța nu va mai sprijini Ucraina,1,0,0.0037720915861427,129,8,0.06201550387596899,1,32,3.850782190132371
+vrd_0055,veridica.ro,2022,"PROPAGANDĂ DE RĂZBOI: Experții americani consideră că masacrul de la Bucea este o invenție a ""propagandei ucrainene""",1,0,0.0028068155515938,129,6,0.046511627906976744,1,44,5.034324942791762
+vrd_0484,veridica.ro,2025,Doar unirea cu Rusia poate salva Ucraina,1,0,0.0025369373615831,208,8,0.038461538461538464,1,76,5.701425356339085
+vrd_0667,veridica.ro,2026,"Moldova acuză Ucraina de trafic de arme, dar vrea să trimită trupe pentru a o sprijini",1,0,0.004212177824229,125,2,0.016,1,47,5.44611819235226
+vrd_0413,veridica.ro,2024,UE va finanța războiul împotriva Rusiei până vor muri toți ucrainenii,1,0,0.0103189833462238,177,4,0.022598870056497175,1,59,5.207413945278023
+vrd_0525,veridica.ro,2025,"Dacă ucrainenii vor pace, Ucraina trebuie să dispară",1,1,0.6724348068237305,304,6,0.019736842105263157,1,102,5.419766206163656
+vrd_0334,veridica.ro,2024,UE va limita călătoriile cetățenilor săi,1,0,0.0050492542795836,162,2,0.012345679012345678,1,79,7.072515666965085
+vrd_0024,veridica.ro,2022,Kievul își încalcă obligația de a negocia cu separatiștii din Donbass și face propagandă ca Goebbels,1,0,0.0101906917989254,184,7,0.03804347826086957,1,48,3.9473684210526314
+vrd_0040,veridica.ro,2022,"PROPAGANDĂ DE RĂZBOI: 15 milioane de ucraineni au legături strânse cu Rusia, iar naționaliștii ucraineni îi folosesc pe rusofoni ca scuturi umane.",1,0,0.0021181146148592,160,8,0.05,1,56,5.204460966542751
+vrd_0421,veridica.ro,2024,UE se înarmează pentru a ataca Rusia exact ca Germania nazistă,1,0,0.0292055606842041,226,6,0.02654867256637168,1,75,5.2264808362369335
+vrd_0551,veridica.ro,2025,Ucraina recurge la terorism din cauza lipsei de fonduri,1,0,0.0015307136345654,156,6,0.038461538461538464,1,42,4.038461538461538
+vrd_0259,veridica.ro,2023,În Moldova se vrea amendarea vorbitorilor de rusă,1,1,0.6249577403068542,524,11,0.02099236641221374,1,222,6.283611661477498
+vrd_0503,veridica.ro,2025,Ucrainenii trăiesc mai puțin din cauza guvernanților,1,0,0.0031284508295357,182,4,0.02197802197802198,1,60,5.240174672489083
+vrd_0167,veridica.ro,2022,PROPAGANDĂ DE RĂZBOI: Volodimir Zelenski a vizitat Hersonul pentru a lansa masacrarea civililor,1,0,0.0018596006557345,105,2,0.01904761904761905,1,25,3.4199726402188784
+vrd_0639,veridica.ro,2026,Parlamentul de la Kiev vrea refacerea unității cu Rusia și Belarus,1,0,0.0025777094997465,180,4,0.022222222222222223,1,64,5.245901639344262
+vrd_0583,veridica.ro,2025,"Zelenski este inadecvat, iar armele occidentale doar adâncesc ""agonia regimului""",1,0,0.0022935210727155,131,6,0.04580152671755725,1,40,4.7114252061248525
+vrd_0022,veridica.ro,2022,"Putin este un bun creștin, victimă a discursului rusofob și n-are vreo legătură cu comunismul, impus Rusiei de Occident",1,0,0.0065901014022529,406,14,0.034482758620689655,1,162,6.269349845201239
+vrd_0138,veridica.ro,2022,Republica Moldova vrea un schimb de teritorii cu Ucraina,1,0,0.0211346484720706,158,6,0.0379746835443038,1,62,5.794392523364486
+vrd_0204,veridica.ro,2023,"România masează trupe la granița cu Moldova și în Chișinău, chiar dacă neagă acest lucru",1,1,0.6677330136299133,176,3,0.017045454545454544,1,72,6.382978723404255
+vrd_0620,veridica.ro,2025,"Drona prăbușită în județul Vaslui e ucraineană, nu rusească",1,1,0.6730754375457764,135,6,0.044444444444444446,1,74,7.644628099173553
+vrd_0194,veridica.ro,2023,"Abandonați de propriul guvern, refugiații ucraineni sunt prost tratați și de Republica Moldova",1,0,0.0036089897621423,348,4,0.011494252873563218,1,113,4.945295404814004
+vrd_0315,veridica.ro,2023,Occidentul îi cere Ucrainei să mobilizeze femeile și bătrânii,1,0,0.0020310245454311,136,2,0.014705882352941176,1,57,6.368715083798883
+vrd_0510,veridica.ro,2025,UE va confisca economiile populației,1,1,0.6806069016456604,102,2,0.0196078431372549,1,39,5.8912386706948645
+vrd_0531,veridica.ro,2025,Războiul din Ucraina a fost planificat de NATO,1,0,0.2072689831256866,239,3,0.012552301255230125,1,77,5.1027170311464545
+vrd_0490,veridica.ro,2025,"USAID a organizat ""revoluția Twitter"" din Republica Moldova",1,1,0.6780123114585876,93,0,0.0,1,20,3.717472118959108
+vrd_0170,veridica.ro,2022,Chișinăul negociază cu Kievul un schimb de teritorii: oferă un depozit militar din Transnistria în locul unei părți a regiunii Odessa,1,0,0.0020392253063619,368,2,0.005434782608695652,1,115,4.746182418489476
+vrd_0021,veridica.ro,2022,"România cumpără arme americane, fără a avea vreun beneficiu, în loc să investească în educație",1,1,0.5675567984580994,297,4,0.013468013468013467,1,94,4.870466321243523
+vrd_0560,veridica.ro,2025,Ucraina respinge propunerea Rusiei de a iniția negocieri de pace,1,0,0.0018106211209669,155,2,0.012903225806451613,1,35,3.3333333333333335
+vrd_0672,veridica.ro,2026,UE se pregătește de război împotriva Rusiei,1,0,0.0028059172909706,291,6,0.020618556701030927,1,94,5.086580086580087
+vrd_0297,veridica.ro,2023,Moldova vrea să intre în UE prin NATO,1,0,0.0552141517400741,268,12,0.04477611940298507,1,104,5.879027699265121
+vrd_0239,veridica.ro,2023,"""Operațiunea militară specială"" salvează Rusia de agresiunea Occidentului",1,0,0.007544798310846,160,6,0.0375,1,53,4.561101549053356
+vrd_0031,veridica.ro,2022,"Războiul din Ucraina, pretext pentru denigrarea Rusiei, cenzură, înfricoșarea populației în România și Europa și îmbogățirea vânzătorilor de armament",1,1,0.6780340075492859,369,2,0.005420054200542005,1,158,7.00354609929078
+vrd_0451,veridica.ro,2024,Zelenski va provoca un război civil sau nuclear,1,0,0.0016726083122193,141,0,0.0,1,33,3.678929765886288
+vrd_0243,veridica.ro,2023,Moldova iese din CSI la indicația Occidentului,1,0,0.0034822323359549,204,0,0.0,1,68,5.070842654735272
+vrd_0042,veridica.ro,2022,PROPAGANDĂ DE RĂZBOI: Rusia a descoperit lagăre naționaliste de concentrare în estul Ucrainei,1,0,0.0020802139770239,135,6,0.044444444444444446,1,48,5.3156146179401995
+vrd_0483,veridica.ro,2025,Ţările baltice şi-au pierdut independenţa,1,0,0.0037591170985251,133,0,0.0,1,47,4.880581516095535
+vrd_0653,veridica.ro,2026,Ucraina furnizează arme cartelurilor mexicane,1,1,0.678928554058075,64,0,0.0,1,26,6.824146981627297
+vrd_0173,veridica.ro,2022,Guvernarea de la Chișinău vrea să forțeze intrarea Republicii Moldova în NATO,1,0,0.036875482648611,187,5,0.026737967914438502,1,73,5.645784996133024
+vrd_0165,veridica.ro,2022,Consumatorii români nu vor mai putea cumpăra energie de la Hidroelectrica și Nuclearelectrica din cauză că aceasta va fi dată Moldovei,1,0,0.0614510923624038,180,2,0.011111111111111112,1,61,5.749293119698398
+vrd_0523,veridica.ro,2025,UE se va alătura Ucrainei ca să răzbune înfrângerea din 1945,1,0,0.0027247907128185,239,6,0.02510460251046025,1,70,4.844290657439446
+vrd_0113,veridica.ro,2022,Zelenski face legi pentru a prelungi războiul cu Rusia pe încă 50 de ani,1,1,0.6728826761245728,119,2,0.01680672268907563,1,35,5.263157894736842
+vrd_0600,veridica.ro,2025,Rusia a dezvoltat un vaccin anticancer,1,1,0.6705116033554077,129,2,0.015503875968992248,1,39,4.85678704856787
+vrd_0058,veridica.ro,2022,PROPAGANDĂ DE RĂZBOI: Locuitorii orașului Zaporojie solicită alipirea la Republica Populară Donețk,1,0,0.0021329789888113,130,8,0.06153846153846154,1,45,4.870129870129871
+vrd_0164,veridica.ro,2022,Republica Moldova fură gazul Transnistriei și îl vinde Ucrainei,1,0,0.0081232022494077,423,2,0.004728132387706856,1,124,4.409672830725462
+vrd_0417,veridica.ro,2024,Chișinăul s-ar pregăti să atace regiunea transnistreană,1,0,0.0300043039023876,164,4,0.024390243902439025,1,72,6.293706293706294
+vrd_0221,veridica.ro,2023,Guvernarea de la Chișinău a furat un miliard de euro din ajutorul financiar oferit de UE,1,1,0.6709879636764526,226,6,0.02654867256637168,1,91,6.1778682959945685
+vrd_0012,veridica.ro,2022,Armamentul oferit de Occident Ucrainei este expirat,1,1,0.6532532572746277,139,2,0.014388489208633094,1,33,3.6707452725250276
+vrd_0466,veridica.ro,2024,UE nu sprijină R. Moldova să treacă peste criza energetică,1,1,0.6772410869598389,210,2,0.009523809523809525,1,65,5.130228887134964
+vrd_0267,veridica.ro,2023,Occidentul invită Rusia să se reconecteze la sistemul internaţional de plăţi,1,0,0.0069418055936694,208,4,0.019230769230769232,1,71,5.744336569579287
+vrd_0637,veridica.ro,2025,În Ucraina va fi pace doar dacă Rusia își atinge obiectivele,1,0,0.0029633443336933,100,6,0.06,1,25,3.4818941504178276
+vrd_0359,veridica.ro,2024,Republica Moldova renunță la Transnistria,1,0,0.0077189123257994,152,2,0.013157894736842105,1,50,5.09683995922528
+vrd_0276,veridica.ro,2023,Ucrainenii așteaptă salvarea de la Rusia,1,0,0.0251470375806093,207,1,0.004830917874396135,1,65,4.754937820043892
+vrd_0163,veridica.ro,2022,PROPAGANDĂ DE RĂZBOI: Belarusul și Rusia formează un grup militar comun pentru a se apăra de atacuri teroriste ucrainene și de o posibilă agresiune NATO,1,0,0.0087670749053359,231,2,0.008658008658008658,1,71,4.720744680851064
+vrd_0486,veridica.ro,2025,"Dacă Zelenski nu e oprit, Ucraina dispare într-un an",1,0,0.002058373298496,137,4,0.029197080291970802,1,31,3.6427732079905994
+vrd_0654,veridica.ro,2026,A început Al Treilea Război Mondial,1,1,0.6685729026794434,160,0,0.0,1,60,6.3897763578274756
+vrd_0564,veridica.ro,2025,Trump contribuie la intensificarea războiului din Ucraina,1,0,0.0046479720622301,189,2,0.010582010582010581,1,64,5.05130228887135
+vrd_0502,veridica.ro,2025,UE doreşte prelungirea războiului din Ucraina. Narațiunea e promovată de Dan Dungaciu,1,0,0.0019548099953681,214,1,0.004672897196261682,1,65,5.237711522965351
+vrd_0159,veridica.ro,2022,Românii protestează în masă față de NATO și politica de sprijin pentru Ucraina,1,0,0.0410740934312343,130,11,0.08461538461538462,1,47,5.80964153275649
+vrd_0416,veridica.ro,2024,Pacea e posibilă doar dacă Ucraina va capitula,1,0,0.0059654270298779,128,4,0.03125,1,39,4.37219730941704
+vrd_0673,veridica.ro,2026,UEFA atacă ortodoxia,1,1,0.6573662757873535,255,8,0.03137254901960784,1,81,4.9784880147510755
+vrd_0477,veridica.ro,2025,Ucraina are pretenții teritoriale față de Belarus,1,0,0.0025237945374101,121,6,0.049586776859504134,1,26,3.2953105196451205
+vrd_0200,veridica.ro,2023,Ucraina va organiza un genocid al rușilor,1,0,0.0053158090449869,172,7,0.040697674418604654,1,48,4.262877442273535
+vrd_0622,veridica.ro,2025,"România, obligată să participe cu trupe la războiul din Ucraina",1,0,0.1785698384046554,164,0,0.0,1,73,6.314878892733564
+vrd_0156,veridica.ro,2022,Pro-europenii de la Chișinău creează un regim autoritar militarizat care nu se va lăsa schimbat pe căi democratice,1,1,0.6692655086517334,109,2,0.01834862385321101,1,36,4.761904761904762
+vrd_0211,veridica.ro,2023,Crește numărul moldovenilor care îi dau dreptate Rusiei în războiul din Ucraina,1,0,0.0038609486073255,557,4,0.00718132854578097,1,192,5.218809459092145
+vrd_0293,veridica.ro,2023,Militarii ucraineni ucid civili în Herson,1,0,0.0027095526456832,166,8,0.04819277108433735,1,59,5.235137533274179
+vrd_0307,veridica.ro,2023,Americanii pregătesc ocuparea Moldovei de către România,1,0,0.016928881406784,543,20,0.03683241252302026,1,162,4.44932710793738
+vrd_0414,veridica.ro,2024,Moldova vrea să-i dea Ucrainei un depozit rusesc de arme din Transnistria,1,1,0.6759489178657532,326,3,0.009202453987730062,1,87,4.223300970873786
+vrd_0133,veridica.ro,2022,"UE a abandonat Republica Moldova, iar România i-a dublat prețul la energia electrică",1,1,0.6783199906349182,97,2,0.020618556701030927,1,35,5.972696245733788
+vrd_0216,veridica.ro,2023,Cehii îi dau Ucrainei arme ca să bombardeze civili,1,0,0.0032269286457449,136,6,0.04411764705882353,1,25,2.7056277056277054
+vrd_0260,veridica.ro,2023,ONU a acuzat Ucraina de torturarea civililor,1,0,0.0034973623696714,210,5,0.023809523809523808,1,52,3.869047619047619
+vrd_0398,veridica.ro,2024,Regimul lui Zelenski este la fel de represiv ca cel al lui Hitler,1,0,0.0042660599574446,140,2,0.014285714285714285,1,31,3.664302600472813
+vrd_0233,veridica.ro,2023,România susține propunerea lui Medvedev de împărțire a Ucrainei,1,0,0.0073270872235298,126,4,0.031746031746031744,1,47,5.568720379146919
+vrd_0655,veridica.ro,2026,"Vladimir Putin, un etalon de moralitate pentru că a condamnat războiul din Iran",1,1,0.6752088069915771,204,4,0.0196078431372549,1,66,5.14018691588785
+vrd_0001,veridica.ro,2022,"România e rusofobă din ordinul Occidentului, dar românii împărtășesc valorile Rusiei",1,1,0.6771313548088074,360,14,0.03888888888888889,1,149,6.302876480541456
+vrd_0122,veridica.ro,2022,Majoritatea românilor vor ieșirea țării din NATO și UE,1,1,0.6675816774368286,177,5,0.02824858757062147,1,63,5.69620253164557
+vrd_0455,veridica.ro,2024,Zelenski vrea să elimine trei sferturi din ucraineni,1,0,0.0112296510487794,105,2,0.01904761904761905,1,27,4.011887072808321
+vrd_0331,veridica.ro,2024,Ucrainenii care vor propria țară vor fi uciși,1,0,0.0327497571706771,211,10,0.04739336492890995,1,62,4.390934844192635
+vrd_0662,veridica.ro,2026,"Ucraina e satanistă, nazistă și anti-democrată",1,0,0.0038864952512085,210,4,0.01904761904761905,1,84,6.122448979591836
+vrd_0641,veridica.ro,2026,UE vrea Moldova doar ca piață de desfacere,1,0,0.010595572181046,216,2,0.009259259259259259,1,76,5.259515570934256
+vrd_0646,veridica.ro,2026,Rusia luptă în Ucraina ca să apere libertatea și credința,1,0,0.0926366299390792,139,4,0.02877697841726619,1,47,5.1535087719298245
+vrd_0659,veridica.ro,2026,Maia Sandu a mers la Vilnius să demonizeze Rusia și URSS,1,0,0.0020750185940414,255,8,0.03137254901960784,1,72,4.051772650534609
+vrd_0570,veridica.ro,2025,Uniunea Europeană devine un bloc militar,1,1,0.69854336977005,103,2,0.019417475728155338,1,32,5.087440381558029
+vrd_0591,veridica.ro,2025,Pacea în Ucraina nu este posibilă fără înlăturarea lui Zelenski,1,0,0.0065261051058769,86,2,0.023255813953488372,1,20,3.6101083032490973
+vrd_0538,veridica.ro,2025,Republica Moldova vrea teritorii de la Ucraina,1,1,0.6610991954803467,202,4,0.019801980198019802,1,77,6.120826709062003
+vrd_0554,veridica.ro,2025,"Pentru că Zelenski nu vrea pace, Rada îi cere demisia",1,0,0.0015669169370085,142,4,0.028169014084507043,1,41,4.857819905213271
+vrd_0498,veridica.ro,2025,Antisemitismul românesc este provocat de evrei,1,1,0.6721579432487488,298,1,0.003355704697986577,1,116,6.7324434126523505
+vrd_0103,veridica.ro,2022,Chișinăul vrea să denunțe Acordul de încetare a focului în Transnistria,1,0,0.0320326797664165,129,4,0.031007751937984496,1,36,4.422604422604422
+vrd_0577,veridica.ro,2025,Ucraina folosește vârstnici ruși pentru atacuri teroriste,1,0,0.0079261362552642,178,4,0.02247191011235955,1,64,5.628847845206685
+vrd_0220,veridica.ro,2023,Germania sprijină Ucraina pentru a face uitate ororile nazismului,1,1,0.6764783263206482,189,4,0.021164021164021163,1,73,6.369982547993019
+vrd_0406,veridica.ro,2024,Ucraineni pro-ruși fac sabotaje în România,1,1,0.67803955078125,101,2,0.019801980198019802,1,30,4.11522633744856
+vrd_0411,veridica.ro,2024,Un fond american de investiții deține jumătate din Ucraina,1,0,0.0096246302127838,92,0,0.0,1,32,5.342237061769616
+vrd_0656,veridica.ro,2026,Maia Sandu e implicată în scandalul Epstein,1,0,0.0565246045589447,297,0,0.0,1,103,5.455508474576272
+vrd_0626,veridica.ro,2025,România reduce sprijinul pentru Ucraina din cauza corupției de la Kiev,1,0,0.0030837929807603,339,10,0.029498525073746312,1,122,5.448861098704779
+vrd_0107,veridica.ro,2022,"PROPAGANDĂ DE RĂZBOI: La comanda SUA, Kievul va provoca un dezastru nuclear la Zaporojie",1,0,0.003402434522286,176,6,0.03409090909090909,1,57,4.730290456431535
+vrd_0420,veridica.ro,2024,Uniunea Europeană impune cenzură și agenda LGBT,1,1,0.6061499714851379,199,8,0.04020100502512563,1,72,5.02092050209205
+vrd_0516,veridica.ro,2025,Europa vrea să prelungească războiul din Ucraina până în 2030,1,0,0.0026843380182981,148,2,0.013513513513513514,1,56,5.720122574055159
+vrd_0214,veridica.ro,2023,"Rusia și China vor pace în Ucraina, în timp ce Occidentul alimentează războiul",1,0,0.005132695659995,235,3,0.01276595744680851,1,95,6.367292225201073
+vrd_0145,veridica.ro,2022,Vaccinul anti-Covid19 duce la cancer testicular,1,0,0.0268224999308586,239,6,0.02510460251046025,1,71,4.2693926638604935
+vrd_0045,veridica.ro,2022,"PROPAGANDĂ DE RĂZBOI: Pentru a atrage NATO în război, Ucraina va ataca ambasada SUA la Lvov și va da vina pe Rusia",1,0,0.0034240325912833,178,8,0.0449438202247191,1,56,4.690117252931323
+vrd_0244,veridica.ro,2023,Occidentul crede că Ucraina va pierde,1,0,0.005420692730695,205,4,0.01951219512195122,1,56,4.008589835361489
+vrd_0392,veridica.ro,2024,"Agricultorii moldoveni nu au acces pe piața UE, care dă Moldovei doar arme",1,1,0.6726539731025696,214,0,0.0,1,80,5.7512580877066855
+vrd_0302,veridica.ro,2023,ONU spune că Ucraina amenință securitatea alimentară globală,1,0,0.005288858897984,160,0,0.0,1,63,6.1946902654867255
+vrd_0432,veridica.ro,2024,Liderii Ucrainei au furat 240 de miliarde de USD dați de UE și SUA,1,1,0.6685447692871094,169,0,0.0,1,45,4.540867810292633
+vrd_0405,veridica.ro,2024,Piloţii ucraineni antrenaţi în România sunt bețivi și incompetenţi,1,1,0.6777083277702332,102,2,0.0196078431372549,1,31,4.967948717948718
+vrd_0606,veridica.ro,2025,"Politica anti-imigrație a Ungariei, aprobată de CJUE",1,0,0.0020591216161847,234,4,0.017094017094017096,1,58,4.050279329608938
+vrd_0661,veridica.ro,2026,UE se apropie de China și Rusia ca reacție la războiul din Iran,1,1,0.6688827872276306,175,2,0.011428571428571429,1,63,5.8988764044943816
+vrd_0534,veridica.ro,2025,Franța sprijină Ucraina pentru a declanșa al Treilea Război Mondial,1,0,0.0021316071506589,196,10,0.05102040816326531,1,59,4.667721518987341
+vrd_0072,veridica.ro,2022,"PROPAGANDĂ DE RĂZBOI: Sinodul Bisericii Ortodoxe Ruse, condamnat la moarte pe teritoriul Ucrainei",1,0,0.0018467234913259,150,4,0.02666666666666667,1,44,4.123711340206185
+vrd_0019,veridica.ro,2022,România își înlocuiește ambasadorul unionist de la Chișinău cu un expert NATO,1,0,0.0027823692653328,181,8,0.04419889502762431,1,57,4.615384615384616
+vrd_0506,veridica.ro,2025,UE a provocat războiul din Ucraina,1,1,0.6786881685256958,121,0,0.0,1,40,5.369127516778524
+vrd_0393,veridica.ro,2024,Americanii au instalat sistemul HAARP şi în România,1,1,0.6705909967422485,258,7,0.027131782945736434,1,101,6.970324361628709
+vrd_0201,veridica.ro,2023,"Ucraina se pregătește să atace Transnistria, iar o armadă de tancuri NATO de pe teritoriul României, să ajungă în Crimeea",1,1,0.6761272549629211,377,10,0.026525198938992044,1,95,3.852392538523925
+vrd_0230,veridica.ro,2023,"Dacă vrea în UE, Moldova trebuie să adere la NATO",1,0,0.0264681503176689,144,2,0.013888888888888888,1,49,4.8371174728529125
+vrd_0351,veridica.ro,2024,"Sancțiunile UE pentru moldoveni, similare deportărilor staliniste",1,1,0.6746438145637512,221,4,0.01809954751131222,1,82,5.551794177386594
+vrd_0309,veridica.ro,2023,Occidentul are nevoie de războiul din Ucraina,1,0,0.021344855427742,222,2,0.009009009009009009,1,79,5.486111111111111
+vrd_0469,veridica.ro,2024,Chișinăul a provocat criza energetică din Transnistria,1,0,0.0028159404173493,218,4,0.01834862385321101,1,78,5.927051671732523
+vrd_0283,veridica.ro,2023,Guvernarea de la Chișinău și-a legat soarta de Ucraina,1,0,0.003880777163431,129,5,0.03875968992248062,1,43,5.361596009975062
+vrd_0215,veridica.ro,2023,SUA conduce România și poartă război împotriva Rusiei,1,1,0.6803199648857117,309,10,0.032362459546925564,1,108,5.189812590100913
+vrd_0174,veridica.ro,2022,PROPAGANDĂ DE RĂZBOI: Moscova arată reținere când bombardează Ucraina pentru că știe că populația nu susține guvernarea neo-nazistă,1,0,0.0023682287428528,167,2,0.011976047904191617,1,61,5.5912007332722276
+vrd_0415,veridica.ro,2024,Arme biologice ucrainene tranzitează România și Republica Moldova,1,0,0.0026800101622939,199,0,0.0,1,66,4.772234273318872
+vrd_0579,veridica.ro,2025,Copiii ruși nu vor în UE din cauza discriminării și propagandei LGBT,1,0,0.0019556323532015,211,4,0.018957345971563982,1,93,7.679603633360858
+vrd_0219,veridica.ro,2023,Zelenski are legături cu naziștii,1,0,0.0049819187261164,227,12,0.05286343612334802,1,80,5.063291139240507
+vrd_0039,veridica.ro,2022,Forțele ucrainene au doborât un avion și un elicopter românești în Dobrogea,1,0,0.0061748796142637,133,2,0.015037593984962405,1,46,5.528846153846153
+vrd_0522,veridica.ro,2025,Chișinăul a anulat autonomia Găgăuziei,1,0,0.0018987137591466,190,4,0.021052631578947368,1,88,6.085753803596127
+vrd_0099,veridica.ro,2022,Maia Sandu închide universități și școli cu predare în limba rusă,1,0,0.0195503551512956,97,4,0.041237113402061855,1,33,5.314009661835748
+vrd_0578,veridica.ro,2025,Prosperitatea UE a rămas în trecut,1,0,0.0016170870512723,206,2,0.009708737864077669,1,60,4.769475357710652
+vrd_0255,veridica.ro,2023,În Ucraina are loc un război civil pentru refacerea Rusiei Mari,1,1,0.673181414604187,213,2,0.009389671361502348,1,78,6.151419558359621
+vrd_0018,veridica.ro,2022,România va fi dezmembrată în cazul unei invazii ruse în Ucraina,1,1,0.7821661829948425,121,2,0.01652892561983471,1,44,5.921938088829071
+vrd_0329,veridica.ro,2024,"Taxele Chișinăului, un pas spre anexarea Transnistriei de România",1,0,0.0019568861462175,180,3,0.016666666666666666,1,71,5.657370517928287
+vrd_0614,veridica.ro,2025,Europa se înarmează pentru a ataca Rusia,1,0,0.0025918395258486,145,2,0.013793103448275862,1,43,4.3043043043043046
+vrd_0401,veridica.ro,2024,"Conducerea ucraineană este fascistă și implicată în traficul de ființe umane, afirmă ofițeri ai Pentagonului",1,0,0.0059767421334981,84,2,0.023809523809523808,1,20,3.5650623885918007
+vrd_0179,veridica.ro,2022,PROPAGANDĂ DE RĂZBOI: Conducerea Ucrainei vrea război ca să facă bani și nu-i pasă de suferințele civililor,1,0,0.0055403029546141,132,8,0.06060606060606061,1,54,5.7324840764331215
+vrd_0025,veridica.ro,2022,"Presa occidentală dezinformează cu privire la criza din Ucraina, care e o diversiune a Occidentului",1,0,0.0033682556822896,214,7,0.03271028037383177,1,56,4.1116005873715125
+vrd_0660,veridica.ro,2026,Zelenski i-a cerut României să atace Iranul și Rusia,1,1,0.6670066714286804,273,0,0.0,1,114,6.757557794902193
+vrd_0576,veridica.ro,2025,Occidentul vede semnele colapsului ucrainean în război,1,0,0.0041737840510904,106,10,0.09433962264150944,1,30,3.579952267303103
+vrd_0203,veridica.ro,2023,Guvernarea de la Chișinău interzice presa rusă la indicația Occidentului,1,1,0.6683002710342407,888,20,0.02252252252252252,1,320,5.331556147950684
+vrd_0524,veridica.ro,2025,Hitler nu s-a sinucis în 1945,1,0,0.001696587074548,312,0,0.0,1,97,4.96417604912999
+vrd_0488,veridica.ro,2025,Zelenski a cumpărat reședința lui Hitler,1,0,0.0019110686844214,99,8,0.08080808080808081,1,34,4.822695035460993
+vrd_0266,veridica.ro,2023,"Ucraina va fi alipită Poloniei, pentru a face parte din NATO și UE",1,1,0.669725239276886,235,2,0.00851063829787234,1,74,4.811443433029909
+vrd_0026,veridica.ro,2022,Suplimentarea forțelor NATO în România e aberantă întrucât Rusia nu amenință pe nimeni,1,0,0.0271644331514835,160,3,0.01875,1,73,6.841611996251172
+vrd_0473,veridica.ro,2025,Liderii europeni sunt beneficiarii corupției și criminalității din Ucraina,1,0,0.2254464477300644,105,6,0.05714285714285714,1,38,5.255878284923928
+vrd_0290,veridica.ro,2023,Războiul a salvat Rusia de șomaj și sărăcie,1,0,0.0043565644882619,205,4,0.01951219512195122,1,80,5.934718100890208
+vrd_0399,veridica.ro,2024,Maia Sandu este vinovată pentru creșterea ratei infracționalității în R. Moldova,1,1,0.6662634015083313,379,4,0.010554089709762533,1,140,5.654281098546042
+vrd_0357,veridica.ro,2024,Guvernarea de la Chișinău impune integrarea europeană a Moldovei,1,0,0.0030021739657968,602,6,0.009966777408637873,1,203,5.20112733794517
+vrd_0141,veridica.ro,2022,"Referendumurile din Ucraina ocupată sunt legitime, iar Rusia e superioară militar Occidentului",1,1,0.6735075116157532,482,9,0.01867219917012448,1,183,5.709828393135726
+vrd_0095,veridica.ro,2022,PROPAGANDĂ DE RĂZBOI: În Ucraina a fost canonizat liderul naționalist Stepan Bandera,1,1,0.675609827041626,109,2,0.01834862385321101,1,33,5.213270142180095
+vrd_0344,veridica.ro,2024,Josep Borrell spune că Ucraina va pierde războiul în 3 luni,1,0,0.0021543360780924,746,18,0.024128686327077747,1,269,5.5544084245302505
+vrd_0480,veridica.ro,2025,Zelenski riscă suspendarea pentru probleme mintale,1,0,0.0019626354333013,144,4,0.027777777777777776,1,48,5.177993527508091
+vrd_0131,veridica.ro,2022,PROPAGANDĂ DE RĂZBOI: Guvernul de la Kiev și-a exprimat neîncrederea în partenerii din Occident,1,0,0.0017017547506839,223,4,0.017937219730941704,1,83,5.653950953678474

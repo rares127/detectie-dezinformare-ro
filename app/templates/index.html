@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ app_title }} — v{{ version }}</title>
+
+    <!-- Tailwind CSS prin CDN (fara build step) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Override-uri minimale (?v= pentru cache-busting la fiecare versiune) -->
+    <link rel="stylesheet" href="/static/css/custom.css?v={{ version }}">
+
+    <script>
+        // Configurație Tailwind: paleta extinsă pentru semantica clasificator
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'verdict-cls0': '#10b981',  // verde — credibil
+                        'verdict-cls1': '#dc2626',  // roșu — propagandă
+                        'verdict-incert': '#6b7280', // gri — incert
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-slate-50 min-h-screen">
+
+    <!-- Header -->
+    <header class="bg-white border-b border-slate-200 shadow-sm">
+        <div class="max-w-5xl mx-auto px-6 py-4 flex items-center justify-between">
+            <div>
+                <h1 class="text-xl font-bold text-slate-900">
+                    🛡️ Detector Dezinformare Pro-Rusă
+                </h1>
+                <p class="text-xs text-slate-500 mt-1">
+                    Lucrare de licență · Informatică · 2025-2026 · v{{ version }}
+                </p>
+            </div>
+            <a href="/api/health" target="_blank"
+               class="text-xs text-slate-400 hover:text-slate-600 underline">
+                /health
+            </a>
+        </div>
+    </header>
+
+    <main class="max-w-5xl mx-auto px-6 py-8">
+
+        <!-- Descriere scurta -->
+        <section class="mb-6 bg-white rounded-lg p-5 border border-slate-200">
+            <h2 class="font-semibold text-slate-900 mb-2">Despre acest sistem</h2>
+            <p class="text-sm text-slate-600 leading-relaxed">
+                Sistemul analizează articole din presa românească pentru a detecta
+                narațiuni pro-ruse legate de războiul din Ucraina. Folosește două
+                module complementare:
+                <strong>clasificare globală XLM-RoBERTa</strong> (modul 2) și
+                <strong>similaritate semantică per propoziție</strong> (modul 3,
+                explicabilitate principală, F1 = 0.9454). Pentru articolele credibile,
+                este disponibilă opțional o explicație lexicală LIME.
+            </p>
+        </section>
+
+        <!-- Form input -->
+        <section class="bg-white rounded-lg p-6 border border-slate-200 shadow-sm">
+            <label for="textInput" class="block text-sm font-semibold text-slate-700 mb-2">
+                Articol de analizat
+            </label>
+            <!-- maxlength sincronizat cu MAX_INPUT_CARACTERE din app/config.py -->
+            <textarea
+                id="textInput"
+                rows="10"
+                maxlength="50000"
+                class="w-full p-3 border border-slate-300 rounded-md text-sm leading-relaxed
+                       focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent
+                       resize-y font-mono"
+                placeholder="Lipiți aici titlul + corpul articolului în limba română..."></textarea>
+
+            <div class="flex items-center justify-between mt-3">
+                <p id="charCount" class="text-xs text-slate-500">0 caractere</p>
+                <button
+                    id="btnAnalizeaza"
+                    onclick="analizeazaArticol()"
+                    class="px-6 py-2 bg-blue-600 text-white rounded-md font-medium
+                           hover:bg-blue-700 transition disabled:opacity-50 disabled:cursor-not-allowed">
+                    Analizează articol
+                </button>
+            </div>
+        </section>
+
+        <!-- Loading indicator -->
+        <div id="loadingPredict" class="hidden mt-6 text-center">
+            <div class="inline-flex items-center gap-3 bg-white px-5 py-3 rounded-lg border border-slate-200">
+                <div class="animate-spin h-4 w-4 border-2 border-blue-600 border-t-transparent rounded-full"></div>
+                <span class="text-sm text-slate-600">Analizez articolul... (~2-5s)</span>
+            </div>
+        </div>
+
+        <!-- Eroare -->
+        <div id="errorBox" class="hidden mt-6 bg-red-50 border border-red-200 rounded-lg p-4">
+            <h3 class="font-semibold text-red-900 mb-1">Eroare</h3>
+            <p id="errorMsg" class="text-sm text-red-800"></p>
+        </div>
+
+        <!-- Rezultat (ascuns initial) -->
+        <section id="rezultat" class="hidden mt-6 space-y-6">
+
+            <!-- Banner trunchiere (warning, nu blocare) -->
+            <div id="warningTrunchiere" class="hidden bg-amber-50 border border-amber-300 rounded-lg p-4">
+                <p class="text-sm text-amber-900">
+                    ⚠️ <strong>Atenție:</strong> Textul depășește 256 tokens
+                    (~1500 caractere). XLM-R analizează doar primele 256 tokens.
+                    Modul 3 (similaritate semantică) lucrează pe propoziții
+                    individuale și nu este afectat de această limită.
+                </p>
+            </div>
+
+            <!-- VERDICT MARE -->
+            <div id="verdictBox" class="rounded-lg p-6 border-2 text-center">
+                <p class="text-xs uppercase tracking-wide font-medium opacity-75 mb-1">Verdict</p>
+                <h2 id="verdictText" class="text-3xl font-bold mb-3">—</h2>
+
+                <!-- Bara de incredere -->
+                <div id="incredereBox" class="mt-4">
+                    <div class="flex justify-between text-xs font-medium mb-1">
+                        <span>Credibil</span>
+                        <span id="increderePct">—</span>
+                        <span>Propagandă</span>
+                    </div>
+                    <div class="h-3 bg-slate-200 rounded-full overflow-hidden relative">
+                        <!-- Threshold marker la 50% — tooltip actualizat din JS -->
+                        <div id="thresholdMarker"
+                             class="absolute top-0 left-1/2 w-0.5 h-full bg-slate-500 z-10"></div>
+                        <!-- Bara de fill -->
+                        <div id="incredereFill"
+                             class="h-full transition-all duration-500"
+                             style="width: 50%;"></div>
+                    </div>
+                </div>
+
+                <!-- Nota metodologica -->
+                <p id="notaMetodologica"
+                   class="text-xs mt-4 italic opacity-80 leading-relaxed max-w-2xl mx-auto"></p>
+            </div>
+
+            <!-- Buton detalii tehnice — scorurile brute sunt mutate aici,
+                 fiecare cu o explicatie pe intelesul tuturor -->
+            <div class="text-center">
+                <button id="btnDetalii" onclick="toggleDetalii()"
+                        class="inline-flex items-center gap-2 px-5 py-2 bg-white border border-slate-300
+                               rounded-md text-sm font-medium text-slate-700
+                               hover:bg-slate-100 transition shadow-sm">
+                    <span>🔍 Vezi detaliile analizei</span>
+                    <span id="chevronDetalii" class="text-[10px] transition-transform duration-200">▼</span>
+                </button>
+            </div>
+
+            <!-- Panou detalii tehnice (ascuns implicit) -->
+            <div id="detaliiTehnice" class="hidden bg-white rounded-lg border border-slate-200 p-5">
+                <h3 class="font-semibold text-slate-900 mb-1">Detaliile analizei</h3>
+                <p class="text-xs text-slate-500 mb-4 leading-relaxed">
+                    Mai jos sunt toți parametrii calculați de sistem pentru acest articol,
+                    fiecare cu o explicație scurtă. Valorile complete sunt disponibile și
+                    în răspunsul JSON al API-ului (<code>/api/predict</code>).
+                </p>
+                <div id="detaliiContent" class="space-y-3"></div>
+            </div>
+
+            <!-- Buton LIME (apare doar pe cls0) -->
+            <div id="lineLimeBox" class="hidden bg-emerald-50 border border-emerald-200 rounded-lg p-4">
+                <h3 class="font-semibold text-emerald-900 mb-2">
+                    Explicabilitate lexicală
+                </h3>
+                <p class="text-sm text-emerald-800 mb-3">
+                    Pe articolele credibile, putem afișa cuvintele cu impact major
+                    asupra clasificării (faith_auc validat empiric: +0.169).
+                    Generarea durează ~10-30 secunde.
+                </p>
+                <button
+                    id="btnLime"
+                    onclick="genereazaLime()"
+                    class="px-4 py-2 bg-emerald-600 text-white rounded-md text-sm font-medium
+                           hover:bg-emerald-700 transition disabled:opacity-50 disabled:cursor-not-allowed">
+                    Generează explicație LIME
+                </button>
+            </div>
+
+            <!-- Loading LIME -->
+            <div id="loadingLime" class="hidden text-center">
+                <div class="inline-flex items-center gap-3 bg-white px-5 py-3 rounded-lg border border-slate-200">
+                    <div class="animate-spin h-4 w-4 border-2 border-emerald-600 border-t-transparent rounded-full"></div>
+                    <span class="text-sm text-slate-600">Generez explicația... (~10-30s)</span>
+                </div>
+            </div>
+
+            <!-- Rezultat LIME -->
+            <div id="rezultatLime" class="hidden bg-emerald-50 border border-emerald-200 rounded-lg p-5">
+                <h3 class="font-semibold text-emerald-900 mb-3">
+                    Cuvinte cu impact (LIME, top 15)
+                </h3>
+                <div id="cuvinteEvidentiate" class="flex flex-wrap gap-2 mb-4"></div>
+
+                <!-- Box arhitectura duala — vizibil DOAR cand: cls0 final + M2 prob_cls1 > 0.5 -->
+                <!-- Demonstreaza valoarea sistemului combinat fata de modulul 2 izolat -->
+                <div id="explicatieArchitectura"
+                     class="hidden mt-2 mb-4 p-4 bg-blue-50 border border-blue-200 rounded-lg">
+                    <h4 class="font-semibold text-blue-900 mb-2 flex items-center gap-1.5 text-sm">
+                        <span>ℹ️</span>
+                        <span>De ce apar cuvinte asociate propagandei într-o știre credibilă?</span>
+                    </h4>
+                    <p id="textExplicatieArh"
+                       class="text-sm text-blue-900 leading-relaxed"></p>
+                </div>
+
+                <p id="fidelityLime" class="text-xs text-emerald-700 mb-2"></p>
+                <p id="notaValidareLime" class="text-xs italic text-emerald-700 leading-relaxed"></p>
+            </div>
+
+            <!-- Analiza granulara text colorat (Modul 3) -->
+            <div id="textColoratBox" class="hidden bg-white rounded-lg p-5 border border-slate-200">
+                <h3 class="font-semibold text-slate-900 mb-1">
+                    Analiză granulară per propoziție
+                    <span class="text-slate-400 font-normal text-sm">
+                        (Modul 3 · apasă o propoziție pentru detalii)
+                    </span>
+                </h3>
+
+                <!-- Bloc text colorat — propozitii inline, colorate dupa diff -->
+                <div id="textColoratContent"
+                     class="mt-3 text-sm leading-loose text-slate-800 select-none">
+                </div>
+
+                <!-- Panou detalii — apare sub text la click pe propozitie -->
+                <div id="panouDetalii" class="hidden mt-4"></div>
+
+                <!-- Legenda — intervalele numerice sunt completate din JS,
+                     derivate din threshold-ul primit de la backend -->
+                <div class="mt-5 pt-4 border-t border-slate-100">
+                    <div class="flex flex-wrap gap-x-5 gap-y-2 text-xs text-slate-600 mb-2">
+                        <span class="flex items-center gap-1.5">
+                            <span class="inline-block w-3 h-3 rounded"
+                                  style="background:rgba(220,38,38,0.45)"></span>
+                            <span id="legCerta">Propagandă certă</span>
+                        </span>
+                        <span class="flex items-center gap-1.5">
+                            <span class="inline-block w-3 h-3 rounded"
+                                  style="background:rgba(252,165,165,0.60)"></span>
+                            <span id="legSuspect">Suspect</span>
+                        </span>
+                        <span class="flex items-center gap-1.5">
+                            <span class="inline-block w-3 h-3 rounded"
+                                  style="background:rgba(203,213,225,0.60)"></span>
+                            <span id="legNeutru">Neutru / borderline</span>
+                        </span>
+                        <span class="flex items-center gap-1.5">
+                            <span class="inline-block w-3 h-3 rounded"
+                                  style="background:rgba(134,239,172,0.65)"></span>
+                            <span id="legProbabil">Probabil credibil</span>
+                        </span>
+                        <span class="flex items-center gap-1.5">
+                            <span class="inline-block w-3 h-3 rounded"
+                                  style="background:rgba(22,163,74,0.40)"></span>
+                            <span id="legClar">Clar credibil</span>
+                        </span>
+                    </div>
+                    <p class="text-xs text-slate-400 italic">
+                        Culoarea reflectă similaritatea semantică per propoziție față
+                        de corpusurile de referință, nu un verdict absolut.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="mt-12 py-6 text-center text-xs text-slate-400">
+        Modulul 5 (FastAPI) · Lucrare de licență · 2025-2026
+    </footer>
+
+    <script src="/static/js/app.js?v={{ version }}"></script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+2026-04-20 00:15:27 | INFO    | ======================================================================
+2026-04-20 00:15:27 | INFO    | MERGE VERIDICA FINAL: v5 + 2022 → clean_final
+2026-04-20 00:15:27 | INFO    | ======================================================================
+2026-04-20 00:15:27 | ERROR   | Fișier lipsă: veridica_clean_v5.csv
+2026-04-20 00:16:18 | INFO    | ======================================================================
+2026-04-20 00:16:18 | INFO    | MERGE VERIDICA FINAL: v5 + 2022 → clean_final
+2026-04-20 00:16:18 | INFO    | ======================================================================
+2026-04-20 00:16:18 | INFO    | Încărcat veridica_clean_v5.csv: 484 articole
+2026-04-20 00:16:18 | INFO    | Încărcat veridica_2022_clean.csv: 191 articole
+2026-04-20 00:16:18 | INFO    | Verificare label=1: OK pentru ambele surse
+2026-04-20 00:16:18 | INFO    | Post-concatenare: 675 articole
+2026-04-20 00:16:18 | INFO    | Dedup pe hash_continut: 0 duplicate — OK
+2026-04-20 00:16:18 | INFO    | Dedup pe url: 0 duplicate — OK
+2026-04-20 00:16:18 | INFO    | 
+2026-04-20 00:16:18 | INFO    | ======================================================================
+2026-04-20 00:16:18 | INFO    | MERGE TERMINAT
+2026-04-20 00:16:18 | INFO    | ======================================================================
+2026-04-20 00:16:18 | INFO    | Input v5   : 484 articole
+2026-04-20 00:16:18 | INFO    | Input 2022 : 191 articole
+2026-04-20 00:16:18 | INFO    | Total merge: 675 articole
+2026-04-20 00:16:18 | INFO    | Duplicate eliminate: 0
+2026-04-20 00:16:18 | INFO    | Output final: 675 articole
+2026-04-20 00:16:18 | INFO    | Salvat: veridica_clean_final.csv
+2026-04-20 00:16:18 | INFO    | 
+2026-04-20 00:16:18 | INFO    | === Distribuție pe an ===
+2026-04-20 00:16:19 | INFO    |   2022: 191 articole
+2026-04-20 00:16:19 | INFO    |   2023: 136 articole
+2026-04-20 00:16:19 | INFO    |   2024: 143 articole
+2026-04-20 00:16:19 | INFO    |   2025: 168 articole
+2026-04-20 00:16:19 | INFO    |   2026: 37 articole
+2026-04-20 00:16:19 | INFO    | 
+2026-04-20 00:16:19 | INFO    | === Distribuție calitate_extractie ===
+2026-04-20 00:16:19 | INFO    |   excelenta                     : 659
+2026-04-20 00:16:19 | INFO    |   buna                          : 14
+2026-04-20 00:16:19 | INFO    |   off_topic_borderline          : 2
+2026-04-20 00:16:19 | INFO    | 
+2026-04-20 00:16:19 | INFO    | === Stats nr_cuvinte_truncat ===
+2026-04-20 00:16:19 | INFO    |   median=196  mean=191.2  min=64  max=250
+2026-04-20 00:16:19 | INFO    | 
+2026-04-20 00:16:19 | INFO    | === Sanity checks ===
+2026-04-20 00:16:19 | INFO    |   Toate label=1?   True
+2026-04-20 00:16:19 | INFO    |   text_curat OK?   True
+2026-04-20 00:16:19 | INFO    |   Hash unic?       True
+2026-04-20 00:16:19 | INFO    |   URL unic?        True
+2026-04-20 00:16:19 | INFO    |   ID unic?         True
+2026-04-20 00:16:19 | INFO    | 
+2026-04-20 00:16:19 | INFO    | === Distribuție pe sursă (din URL) ===
+2026-04-20 00:16:19 | INFO    |   veridica.ro              : 675
+2026-04-20 00:16:19 | INFO    | 
+2026-04-20 00:16:19 | INFO    | Dataset clasa 1 complet — gata pentru merge cu clasa 0
+2026-04-20 00:16:19 | INFO    | (G4Media + Digi24 → dataset_final.csv pentru XLM-RoBERTa)

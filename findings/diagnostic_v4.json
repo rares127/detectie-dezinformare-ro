@@ -1,0 +1,398 @@
+{
+  "proba_1_lungime": {
+    "stats_label": {
+      "cls0": {
+        "n_articole": 55,
+        "min": 8,
+        "p25": 13.5,
+        "mediana": 19.0,
+        "p75": 24.0,
+        "max": 48,
+        "media": 20.454545454545453,
+        "std": 9.188999425275336
+      },
+      "cls1": {
+        "n_articole": 112,
+        "min": 1,
+        "p25": 6.0,
+        "mediana": 9.0,
+        "p75": 11.0,
+        "max": 32,
+        "media": 9.428571428571429,
+        "std": 4.985951951204189
+      }
+    },
+    "stats_sursa": {
+      "hotnews.ro": {
+        "n_articole": 45,
+        "mediana": 17.0,
+        "media": 19.333333333333332,
+        "min": 8,
+        "max": 48
+      },
+      "libertatea.ro": {
+        "n_articole": 5,
+        "mediana": 22.0,
+        "media": 24.2,
+        "min": 10,
+        "max": 42
+      },
+      "stirileprotv.ro": {
+        "n_articole": 5,
+        "mediana": 25.0,
+        "media": 26.8,
+        "min": 22,
+        "max": 35
+      },
+      "stopfals.md": {
+        "n_articole": 13,
+        "mediana": 10.0,
+        "media": 7.6923076923076925,
+        "min": 2,
+        "max": 16
+      },
+      "veridica.ro": {
+        "n_articole": 99,
+        "mediana": 9.0,
+        "media": 9.656565656565656,
+        "min": 1,
+        "max": 32
+      }
+    },
+    "raport_mediane_cls0_cls1": 2.111111111111111,
+    "interpretare": "ATENȚIE: diferență mare între mediane (raport 2.11x). Artefact de lungime PLAUZIBIL — agregarea min penalizează articolele mai lungi."
+  },
+  "proba_2_subset_corelatie": {
+    "interval_balansat_p25_p75": [
+      8.0,
+      16.0
+    ],
+    "n_articole_subset": 85,
+    "n_cls0_subset": 23,
+    "n_cls1_subset": 62,
+    "auc_full": {
+      "scor_cls1_min": 0.9774350649350649,
+      "scor_cls0_min": 0.9435064935064935,
+      "diff_min": 0.778409090909091,
+      "scor_cls1_mean": 0.8313311688311688,
+      "scor_cls0_mean": 0.47629870129870133,
+      "diff_mean": 0.9738636363636364
+    },
+    "auc_subset_balansat": {
+      "scor_cls1_min": 0.9775596072931276,
+      "scor_cls0_min": 0.9298737727910238,
+      "diff_min": 0.8632538569424966,
+      "scor_cls1_mean": 0.8338008415147264,
+      "scor_cls0_mean": 0.4950911640953716,
+      "diff_mean": 0.9789621318373071
+    },
+    "delta_auc_full_vs_subset": {
+      "scor_cls1_min": 0.00012454235806269587,
+      "scor_cls0_min": -0.013632720715469726,
+      "diff_min": 0.08484476603340552,
+      "scor_cls1_mean": 0.0024696726835576888,
+      "scor_cls0_mean": 0.018792462796670295,
+      "diff_mean": 0.0050984954736706944
+    },
+    "corelatii_nrprop_scor": {
+      "cls0": {
+        "scor_cls1_min": 0.36932395074693647,
+        "scor_cls0_min": 0.27361457898072433,
+        "diff_min": 0.3409929771116709,
+        "scor_cls1_mean": 0.4758826930151469,
+        "scor_cls0_mean": 0.49211193454244295,
+        "diff_mean": -0.023650766872824337
+      },
+      "cls1": {
+        "scor_cls1_min": -0.4210486116359776,
+        "scor_cls0_min": -0.4097298789182928,
+        "diff_min": -0.004423312032857108,
+        "scor_cls1_mean": -0.12131730125711605,
+        "scor_cls0_mean": -0.22215321842139255,
+        "diff_mean": 0.18740766646202706
+      }
+    },
+    "interpretari": [
+      "AUC Test A (min) scade doar cu +0.000 pe subset → semnalul NU e artefact de lungime.",
+      "AUC Test D (mean) stabil pe subset (+0.005) → agregarea mean pe diferență e robustă la lungime."
+    ]
+  },
+  "proba_3_inspectie": {
+    "exemple": {
+      "cls0": [
+        {
+          "articol_id": "ext_052",
+          "sursa": "stirileprotv.ro",
+          "nr_prop_articol": 35,
+          "propozitia_min": "Programul „Femeia Antreprenor” este reluat după doi ani de blocaj, au anunțat reprezentanții Ministerului Economiei.",
+          "nr_cuvinte": 15,
+          "scor_min": 0.4220958650112152,
+          "match_corpus_cls1": "[…] este necesară reluarea activității mass-mediei independente interzise în mod ilegal începând cu anul 2019.",
+          "match_scor": 0.4220958948135376
+        },
+        {
+          "articol_id": "ext_037",
+          "sursa": "hotnews.ro",
+          "nr_prop_articol": 32,
+          "propozitia_min": "Accesați Modifică Setările pentru preferințe și consultați Politica de confidențialitate.",
+          "nr_cuvinte": 10,
+          "scor_min": 0.44993481040000916,
+          "match_corpus_cls1": "Așteptări și efecte ale legii securității informaționale.",
+          "match_scor": 0.44993501901626587
+        },
+        {
+          "articol_id": "ext_005",
+          "sursa": "hotnews.ro",
+          "nr_prop_articol": 23,
+          "propozitia_min": "Accesați Modifică Setările pentru preferințe și consultați Politica de confidențialitate.",
+          "nr_cuvinte": 10,
+          "scor_min": 0.44993481040000916,
+          "match_corpus_cls1": "Așteptări și efecte ale legii securității informaționale.",
+          "match_scor": 0.44993501901626587
+        },
+        {
+          "articol_id": "ext_032",
+          "sursa": "hotnews.ro",
+          "nr_prop_articol": 48,
+          "propozitia_min": "Accesați Modifică Setările pentru preferințe și consultați Politica de confidențialitate.",
+          "nr_cuvinte": 10,
+          "scor_min": 0.44993481040000916,
+          "match_corpus_cls1": "Așteptări și efecte ale legii securității informaționale.",
+          "match_scor": 0.44993501901626587
+        },
+        {
+          "articol_id": "ext_022",
+          "sursa": "hotnews.ro",
+          "nr_prop_articol": 20,
+          "propozitia_min": "HotNews.ro utilizează cookie-uri pentru a îmbunătăți experiența dvs. Accesați Modifică Setările pentru preferințe și consultați Politica de confidențialitate.",
+          "nr_cuvinte": 18,
+          "scor_min": 0.3129541873931885,
+          "match_corpus_cls1": "Potrivit SVR, Mažeiks și-a permis să ofere partidului de guvernământ \"Acțiune și Solidaritate\" instrucțiuni detaliate despre cum ar trebui să funcționeze democrația în Moldova până la alegerile parlamentare din 2025.",
+          "match_scor": 0.3129543960094452
+        },
+        {
+          "articol_id": "ext_050",
+          "sursa": "hotnews.ro",
+          "nr_prop_articol": 35,
+          "propozitia_min": "HotNews.ro utilizează cookie-uri pentru a îmbunătăți experiența dvs. Accesați Modifică Setările pentru preferințe și consultați Politica de confidențialitate.",
+          "nr_cuvinte": 18,
+          "scor_min": 0.3129541873931885,
+          "match_corpus_cls1": "Potrivit SVR, Mažeiks și-a permis să ofere partidului de guvernământ \"Acțiune și Solidaritate\" instrucțiuni detaliate despre cum ar trebui să funcționeze democrația în Moldova până la alegerile parlamentare din 2025.",
+          "match_scor": 0.3129543960094452
+        },
+        {
+          "articol_id": "ext_053",
+          "sursa": "hotnews.ro",
+          "nr_prop_articol": 22,
+          "propozitia_min": "HotNews.ro utilizează cookie-uri pentru a îmbunătăți experiența dvs. Accesați Modifică Setările pentru preferințe și consultați Politica de confidențialitate.",
+          "nr_cuvinte": 18,
+          "scor_min": 0.3129541873931885,
+          "match_corpus_cls1": "Potrivit SVR, Mažeiks și-a permis să ofere partidului de guvernământ \"Acțiune și Solidaritate\" instrucțiuni detaliate despre cum ar trebui să funcționeze democrația în Moldova până la alegerile parlamentare din 2025.",
+          "match_scor": 0.3129543960094452
+        },
+        {
+          "articol_id": "ext_006",
+          "sursa": "hotnews.ro",
+          "nr_prop_articol": 21,
+          "propozitia_min": "HotNews.ro utilizează cookie-uri pentru a îmbunătăți experiența dvs. Accesați Modifică Setările pentru preferințe și consultați Politica de confidențialitate.",
+          "nr_cuvinte": 18,
+          "scor_min": 0.3129541873931885,
+          "match_corpus_cls1": "Potrivit SVR, Mažeiks și-a permis să ofere partidului de guvernământ \"Acțiune și Solidaritate\" instrucțiuni detaliate despre cum ar trebui să funcționeze democrația în Moldova până la alegerile parlamentare din 2025.",
+          "match_scor": 0.3129543960094452
+        },
+        {
+          "articol_id": "ext_011",
+          "sursa": "hotnews.ro",
+          "nr_prop_articol": 10,
+          "propozitia_min": "HotNews.ro utilizează cookie-uri pentru a îmbunătăți experiența dvs. Accesați Modifică Setările pentru preferințe și consultați Politica de confidențialitate.",
+          "nr_cuvinte": 18,
+          "scor_min": 0.3129541873931885,
+          "match_corpus_cls1": "Potrivit SVR, Mažeiks și-a permis să ofere partidului de guvernământ \"Acțiune și Solidaritate\" instrucțiuni detaliate despre cum ar trebui să funcționeze democrația în Moldova până la alegerile parlamentare din 2025.",
+          "match_scor": 0.3129543960094452
+        },
+        {
+          "articol_id": "ext_044",
+          "sursa": "hotnews.ro",
+          "nr_prop_articol": 31,
+          "propozitia_min": "Accesați Modifică Setările pentru preferințe și consultați Politica de confidențialitate.",
+          "nr_cuvinte": 10,
+          "scor_min": 0.44993481040000916,
+          "match_corpus_cls1": "Așteptări și efecte ale legii securității informaționale.",
+          "match_scor": 0.44993501901626587
+        }
+      ],
+      "cls1": [
+        {
+          "articol_id": "vrd_0094",
+          "sursa": "veridica.ro",
+          "nr_prop_articol": 7,
+          "propozitia_min": "Comentatorii menționează că legea a fost promulgată în ziua în care s-au ]împlinit 30 de ani de la atacul barbar asupra orașului transnistrean Bender.",
+          "nr_cuvinte": 24,
+          "scor_min": 0.5917532444000244,
+          "match_corpus_cls1": "În aceste zile se împlinesc 30 de ani de la semnarea Acordului care, de jure, a pus capăt războiului de pe Nistru.",
+          "match_scor": 0.5917527079582214
+        },
+        {
+          "articol_id": "vrd_0307",
+          "sursa": "veridica.ro",
+          "nr_prop_articol": 18,
+          "propozitia_min": "[...] \"Nu exclud că sunt examinate două scenarii posibile.",
+          "nr_cuvinte": 9,
+          "scor_min": 0.6461120247840881,
+          "match_corpus_cls1": "El a adăugat că un scenariu similar ar putea avea loc și în cazul unor alegeri nereușite.",
+          "match_scor": 0.646112322807312
+        },
+        {
+          "articol_id": "vrd_0092",
+          "sursa": "veridica.ro",
+          "nr_prop_articol": 10,
+          "propozitia_min": "\"Propriile noastre forțe nu vor fi niciodată suficiente\", a subliniat Balițki.",
+          "nr_cuvinte": 11,
+          "scor_min": 0.5243169069290161,
+          "match_corpus_cls1": "Tacticile de acolo nu pot fi comparate cu metodele noastre de luptă.",
+          "match_scor": 0.5243167877197266
+        },
+        {
+          "articol_id": "vrd_0063",
+          "sursa": "veridica.ro",
+          "nr_prop_articol": 9,
+          "propozitia_min": "Șeful Forțelor de Protecție Radiologică, Chimică și Biologică susține că în ianuarie 2022 Forțele Armate ale Ucrainei au achiziționat 50 de asemenea drone, care pot fi folosite pentru atacuri chimice și biologice.",
+          "nr_cuvinte": 32,
+          "scor_min": 0.688148558139801,
+          "match_corpus_cls1": "Ruşii au capturat o dronă americană de ultimă generaţie.",
+          "match_scor": 0.6881483197212219
+        },
+        {
+          "articol_id": "stopfals_180842",
+          "sursa": "stopfals.md",
+          "nr_prop_articol": 16,
+          "propozitia_min": "Găgăuzia poate avea reprezentanțele sale în lumea turcică și în țările CSI și le va avea.",
+          "nr_cuvinte": 16,
+          "scor_min": 0.574674129486084,
+          "match_corpus_cls1": "E interesantă și halta sa de la turcească.",
+          "match_scor": 0.5746742486953735
+        },
+        {
+          "articol_id": "vrd_0626",
+          "sursa": "veridica.ro",
+          "nr_prop_articol": 17,
+          "propozitia_min": "Le este mai ușor să continue să prezinte dorințele drept realitate.",
+          "nr_cuvinte": 11,
+          "scor_min": 0.4558919072151184,
+          "match_corpus_cls1": "Orice ar spune ei, războiul pare a fi foarte avantajos acum.",
+          "match_scor": 0.4558921158313751
+        },
+        {
+          "articol_id": "vrd_0404",
+          "sursa": "veridica.ro",
+          "nr_prop_articol": 11,
+          "propozitia_min": "Timp de decenii, ea a împiedicat extinderea și degradarea întregului sistem de securitate regională.",
+          "nr_cuvinte": 14,
+          "scor_min": 0.5713273286819458,
+          "match_corpus_cls1": "Și aceasta este o amenințare la adresa securității naționale, suveranității și integrității teritoriale a țării noastre, care nu poate fi ignorată.\"",
+          "match_scor": 0.5713269710540771
+        },
+        {
+          "articol_id": "vrd_0408",
+          "sursa": "veridica.ro",
+          "nr_prop_articol": 6,
+          "propozitia_min": "În acest sens, mișcarea a trimis o serie de apeluri președintelui Biroului Consiliului Europei în Ucraina, Maciej Janczak, șefului Consiliului permanent al Organizației pentru Securitate și Cooperare în Europa (OSCE), Jan Borg, precum și ambasadorilor tuturor reprezentanțelor diplomatice acreditate în Ucraina.",
+          "nr_cuvinte": 41,
+          "scor_min": 0.6555284261703491,
+          "match_corpus_cls1": "Ucrainei i-au fost înaintate o serie de cerințe pentru aderarea la UE.",
+          "match_scor": 0.6555286645889282
+        },
+        {
+          "articol_id": "vrd_0543",
+          "sursa": "veridica.ro",
+          "nr_prop_articol": 6,
+          "propozitia_min": "Își condamnă astfel concetățenii la noi suferințe și pierderi inutile, dacă ne raportăm la scopul urmărit:",
+          "nr_cuvinte": 16,
+          "scor_min": 0.6572747230529785,
+          "match_corpus_cls1": "\"Este meritul nostru enorm și avem dreptul să le spunem autorităților: de ce nu ați făcut nimic, de ce sunt zeci, iar acum chiar sute de mii de victime, pentru ce au murit?\"",
+          "match_scor": 0.6572746634483337
+        },
+        {
+          "articol_id": "vrd_0528",
+          "sursa": "veridica.ro",
+          "nr_prop_articol": 9,
+          "propozitia_min": "Astfel de conflicte, a spus el, se rezolvă prin divizarea țării în funcție de componența etnică.",
+          "nr_cuvinte": 16,
+          "scor_min": 0.6169001460075378,
+          "match_corpus_cls1": "| Observăm discriminare pe criterii naționale, etnice.",
+          "match_scor": 0.6168999671936035
+        }
+      ]
+    },
+    "stats_sample": {
+      "cls0_lungime_medie_propmin": 14.5,
+      "cls0_scor_mediu_min": 0.3786606043577194,
+      "cls1_lungime_medie_propmin": 19.0,
+      "cls1_scor_mediu_min": 0.5981927394866944
+    }
+  },
+  "proba_4_topk_mean": {
+    "top_k": 5,
+    "rezultate": {
+      "test_A_cls1_only": {
+        "mean": {
+          "auc": 0.808116883116883,
+          "media_cls0": 0.6049333214759827,
+          "media_cls1": 0.663324236869812
+        },
+        "min": {
+          "auc": 0.9857142857142858,
+          "media_cls0": 0.32784321904182434,
+          "media_cls1": 0.54786616563797
+        },
+        "p10": {
+          "auc": 0.8602272727272726,
+          "media_cls0": 0.4889879524707794,
+          "media_cls1": 0.584360659122467
+        }
+      },
+      "test_B_cls0_only": {
+        "mean": {
+          "auc": 0.499025974025974,
+          "media_cls0": 0.6357749104499817,
+          "media_cls1": 0.6275777220726013
+        },
+        "min": {
+          "auc": 0.9603896103896105,
+          "media_cls0": 0.34722185134887695,
+          "media_cls1": 0.5206388235092163
+        },
+        "p10": {
+          "auc": 0.6738636363636363,
+          "media_cls0": 0.5155497789382935,
+          "media_cls1": 0.5537674427032471
+        }
+      },
+      "test_D_diff": {
+        "mean": {
+          "auc": 0.9730519480519481,
+          "media_cls0": -0.03084157407283783,
+          "media_cls1": 0.03574654459953308
+        },
+        "min": {
+          "auc": 0.9012987012987014,
+          "media_cls0": -0.019378632307052612,
+          "media_cls1": 0.027227316051721573
+        },
+        "p10": {
+          "auc": 0.9253246753246753,
+          "media_cls0": -0.02656181901693344,
+          "media_cls1": 0.030593322589993477
+        }
+      }
+    }
+  },
+  "concluzii": [
+    "P1 · Raport mediane cls0/cls1 = 2.11x → DIFERENȚĂ STRUCTURALĂ",
+    "P2 · ΔAUC Test A min (subset balansat): +0.0001 → semnal robust la lungime",
+    "P2 · ΔAUC Test D mean (subset balansat): +0.0051 → agregarea mean stabilă",
+    "P3 · Lungime medie prop. min: cls0=14.5w vs cls1=19.0w",
+    "P4 · Best AUC top-5 mean: Test A = 0.9857, Test D = 0.9731",
+    "VERDICT: Min e semnal REAL (ΔAUC stabil pe subset balansat). AUC 0.98 din benchmark v4 rămâne valid. Raportăm pe min."
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "input_total": 6047,
+  "eliminat_boilerplate_full": 68,
+  "modificat_curatare_prefix": 0,
+  "eliminat_dupa_curatare_prefix": 0,
+  "eliminat_eticheta_vorbitor": 50,
+  "eliminat_separator_slash": 47,
+  "eliminat_prea_multe_ghilimele": 8,
+  "eliminat_degenerat": 5,
+  "eliminat_prea_scurt": 169,
+  "eliminat_prea_lung": 269,
+  "eliminat_duplicat": 94,
+  "output_total": 5337,
+  "retentie_pct": 88.26
+}

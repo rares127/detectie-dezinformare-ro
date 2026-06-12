@@ -1,0 +1,24 @@
+{
+  "model_used": "models/loso_v/final",
+  "regex_chirilic": "[\\u0400-\\u04FF\\u0500-\\u052F]+",
+  "n_articole": 661,
+  "n_cu_chirilica": 3,
+  "n_fara_chirilica": 658,
+  "global": {
+    "prob_cls1_orig_mean": 0.20824379943548624,
+    "prob_cls1_ablated_mean": 0.20822677384366658,
+    "delta_mean": 1.702559181966688e-05,
+    "delta_median": 0.0,
+    "flip_rate": 0.0,
+    "recall_cls1_orig": 0.2934947049924357,
+    "recall_cls1_ablated": 0.2934947049924357
+  },
+  "cu_chirilica": {
+    "n": 3,
+    "prob_cls1_orig_mean": 0.23219881004964313,
+    "prob_cls1_ablated_mean": 0.2284475046520432,
+    "delta_mean": 0.0037513053975999355,
+    "flip_rate": 0.0
+  },
+  "interpretare": "H1 RESPINSĂ: ștergerea chirilicei nu modifică semnificativ predicțiile. Shortcut-ul vine din altă parte (H2 entități, H3 stil, H4 sufixe)."
+}

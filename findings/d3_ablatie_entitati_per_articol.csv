@@ -1,0 +1,662 @@
+id,titlu,an,n_toponime,n_oficiali,n_media,n_total_entitati,prob_cls1_orig,prob_cls1_ablated,delta_prob_cls1,pred_orig,pred_ablated,flip,delta_toponime,delta_oficiali,delta_media
+vrd_0134,PROPAGANDĂ DE RĂZBOI: Masacrul de la Izium a fost o înscenare menită să compromită armata rusă,2022,0,0,1,1,0.002701327670365572,0.0025494347792118788,0.0001518928911536932,0,0,0,0.0,0.0,0.0001518928911536932
+vrd_0446,Rusia a invadat România doar o dată,2024,0,0,0,0,0.673976480960846,0.673976480960846,0.0,1,1,0,0.0,0.0,0.0
+vrd_0543,Propunerea rusă de pace - singura șansă de salvare a Ucrainei,2025,0,0,0,0,0.6715071201324463,0.6715071201324463,0.0,1,1,0,0.0,0.0,0.0
+vrd_0642,"Ucraina e distrusă de liderii săi, nu de război",2026,0,0,0,0,0.0016340266447514296,0.0016340266447514296,0.0,0,0,0,0.0,0.0,0.0
+vrd_0311,Aderarea Ucrainei și Moldovei va ruina UE,2023,0,2,0,2,0.017338497564196587,0.032348521053791046,-0.01501002348959446,0,0,0,0.0,-0.01501002348959446,0.0
+vrd_0075,Occidentul luptă cu Rusia prin intermediul Ucrainei,2022,0,1,0,1,0.6761296391487122,0.6761296391487122,0.0,1,1,0,0.0,0.0,0.0
+vrd_0054,Zelenski condiționează drepturile comunității românești din Ucraina de ajutorul Bucureștiului,2022,0,0,0,0,0.006276218686252832,0.006276218686252832,0.0,0,0,0,0.0,0.0,0.0
+vrd_0135,PROPAGANDĂ DE RĂZBOI: Mobilizarea parțială ordonată de Putin va preveni un dezastru nuclear și va duce la o dezescaladare a conflictului și un dialog diplomatic,2022,0,5,0,5,0.001919920789077878,0.001837728195823729,8.219259325414896e-05,0,0,0,0.0,8.219259325414896e-05,0.0
+vrd_0084,La Chișinău au sosit agenți FBI pentru a împinge Republica Moldova către confruntări militare cu Rusia,2022,1,0,0,1,0.023195592686533928,0.022304857149720192,0.000890735536813736,0,0,0,0.000890735536813736,0.0,0.0
+vrd_0288,"Specialiști NATO din România și Olanda, uciși în Ucraina",2023,0,0,0,0,0.0027559937443584204,0.0027559937443584204,0.0,0,0,0,0.0,0.0,0.0
+vrd_0440,Zelenski prelungește războiul la indicația Occidentului,2024,0,0,0,0,0.6721014380455017,0.6721014380455017,0.0,1,1,0,0.0,0.0,0.0
+vrd_0425,Conducerea Republicii Moldova încearcă să interzică creștinismul și să readucă țara la păgânism,2024,2,2,0,4,0.0028145348187536,0.0022469477262347937,0.0005675870925188065,0,0,0,0.0002873120829463005,0.0004083225503563881,0.0
+vrd_0575,România nu primește compensații pentru sprijinul dat Ucrainei,2025,0,0,0,0,0.6813578605651855,0.6813578605651855,0.0,1,1,0,0.0,0.0,0.0
+vrd_0338,"Rusia apără de nazism teritoriul său, Novorossia",2024,0,1,0,1,0.5590872764587402,0.6694861650466919,-0.11039888858795166,1,1,0,0.0,-0.11039888858795166,0.0
+vrd_0273,"Maia Sandu a închis 200 de școli, alungând tinerii din R. Moldova",2023,0,0,0,0,0.671649158000946,0.671649158000946,0.0,1,1,0,0.0,0.0,0.0
+vrd_0476,Șeful NATO este de acord cu cedarea Groenlandei către SUA,2025,0,0,0,0,0.0018622170900925994,0.0018622170900925994,0.0,0,0,0,0.0,0.0,0.0
+vrd_0615,"Un înalt oficial ucrainean a ""dezertat""",2025,0,0,0,0,0.002670286688953638,0.002670286688953638,0.0,0,0,0,0.0,0.0,0.0
+vrd_0291,"Infrastructura Moldovei, dezvoltată pentru Ucraina",2023,0,0,0,0,0.018168464303016663,0.018168464303016663,0.0,0,0,0,0.0,0.0,0.0
+vrd_0632,Ucraina e o dictatură și nu poate organiza alegeri libere,2025,0,1,0,1,0.057306356728076935,0.057306356728076935,0.0,0,0,0,0.0,0.0,0.0
+vrd_0198,UE a trimis militari în Ucraina înainte de 2022 pentru a slăbi Rusia,2023,0,3,0,3,0.0023542908020317554,0.0025042968336492777,-0.00015000603161752224,0,0,0,0.0,-0.00015000603161752224,0.0
+vrd_0566,"Manualele din Moldova, rescrise pentru a justifica confruntarea cu Rusia",2025,0,0,1,1,0.01358141377568245,0.017580686137080193,-0.003999272361397743,0,0,0,0.0,0.0,-0.003999272361397743
+vrd_0189,"PROPAGANDĂ DE RĂZBOI: Zelenski a ucis peste 50 de mii de femei, mobilizându-le în armată",2022,0,0,0,0,0.6704566478729248,0.6704566478729248,0.0,1,1,0,0.0,0.0,0.0
+vrd_0317,Planul de federalizare a Moldovei a avut o largă susținere la Chișinău,2023,2,0,0,2,0.6704244613647461,0.6704244613647461,0.0,1,1,0,0.0,0.0,0.0
+vrd_0125,PROPAGANDĂ DE RĂZBOI: Misiunea AIEA a lăudat armata rusă pentru că apără centrala nucleară Zaporojie de bombardamentele ucrainene,2022,0,0,1,1,0.0027564081829041243,0.0027564081829041243,0.0,0,0,0,0.0,0.0,0.0
+vrd_0580,Bucureștiul îi cere Chișinăului suprimarea opoziției pro-ruse,2025,0,0,0,0,0.22895017266273499,0.22895017266273499,0.0,0,0,0,0.0,0.0,0.0
+vrd_0056,Kievul torturează prizonierii de război și refuză să respecte Convenția de la Geneva,2022,0,0,0,0,0.005541233345866203,0.005541233345866203,0.0,0,0,0,0.0,0.0,0.0
+vrd_0324,Odesa și sudul Ucrainei sunt ale Rusiei,2023,1,1,0,2,0.005085701122879982,0.004657241981476545,0.00042845914140343666,0,0,0,-6.489735096693039e-05,-0.0012762141413986683,0.0
+vrd_0365,"Ucraina, o invenție a Rusiei condusă acum de non-ucraineni",2024,0,0,0,0,0.6683200001716614,0.6683200001716614,0.0,1,1,0,0.0,0.0,0.0
+vrd_0640,Zelenski vrea să fie legitimat ca președinte de Putin,2026,0,1,0,1,0.0017993596848100424,0.0018073105020448565,-7.950817234814167e-06,0,0,0,0.0,-7.950817234814167e-06,0.0
+vrd_0261,Ucrainenii vor cetățenia rusă ca să-și apere copiii de UE,2023,1,2,0,3,0.0028423541225492954,0.002835523337125778,6.830785423517227e-06,0,0,0,0.0,6.830785423517227e-06,0.0
+vrd_0548,"Rusia vrea să returneze ucrainenii uciși, dar Kievul refuză",2025,0,0,0,0,0.0024047866463661194,0.0024047866463661194,0.0,0,0,0,0.0,0.0,0.0
+vrd_0552,"Spre deosebire de Israel, Rusia a intrat în război ca să se apere",2025,0,0,0,0,0.02041645534336567,0.02041645534336567,0.0,0,0,0,0.0,0.0,0.0
+vrd_0444,Maia Sandu este doar președintele diasporei,2024,1,0,0,1,0.0020044087432324886,0.0020044087432324886,0.0,0,0,0,0.0,0.0,0.0
+vrd_0528,Rusia are dreptul istoric de a ocupa Ucraina,2025,0,2,0,2,0.004886077716946602,0.004886077716946602,0.0,0,0,0,0.0,0.0,0.0
+vrd_0562,Rusia ajută Ucraina să revină la pace și neutralitate,2025,3,2,0,5,0.003298911266028881,0.003021272597834468,0.0002776386681944132,0,0,0,0.00010133185423910618,-0.00032138358801603317,0.0
+vrd_0034,PROPAGANDĂ DE RĂZBOI: Rusia a distrus laboratoare americane de arme biologice din Ucraina,2022,0,0,1,1,0.0024842750281095505,0.002501836745068431,-1.7561716958880424e-05,0,0,0,0.0,0.0,-1.7561716958880424e-05
+vrd_0152,Rusia s-a retras din APCE pentru că n-a vrut gay în Duma de Stat,2022,0,1,0,1,0.0015461064176633954,0.0015673289308324456,-2.1222513169050217e-05,0,0,0,0.0,-2.1222513169050217e-05,0.0
+vrd_0073,Rusia va fi forțată să recurgă la arme nucleare,2022,0,5,0,5,0.0020449955482035875,0.0028348753694444895,-0.000789879821240902,0,0,0,0.0,-0.000789879821240902,0.0
+vrd_0611,Moscova îi va judeca pe criminalii de război ucraineni,2025,0,0,0,0,0.4062468409538269,0.4062468409538269,0.0,0,0,0,0.0,0.0,0.0
+vrd_0627,"Occidentul folosește Ucraina drept ""berbec"" împotriva Rusiei",2025,0,0,0,0,0.002597407205030322,0.002597407205030322,0.0,0,0,0,0.0,0.0,0.0
+vrd_0429,"Rusia poartă un război just și etic, nu ca Israelul",2024,0,0,0,0,0.6743482351303101,0.6743482351303101,0.0,1,1,0,0.0,0.0,0.0
+vrd_0602,Guvernarea de la Chișinău pregătește închiderea școlilor în limba rusă,2025,0,0,0,0,0.6776905059814453,0.6776905059814453,0.0,1,1,0,0.0,0.0,0.0
+vrd_0232,"În 2023, România va pierde Transilvania",2023,0,0,0,0,0.6724936366081238,0.6724936366081238,0.0,1,1,0,0.0,0.0,0.0
+vrd_0619,UE sabotează planul american de pace pentru a prelungi războiul,2025,0,0,0,0,0.0040191225707530975,0.0040191225707530975,0.0,0,0,0,0.0,0.0,0.0
+vrd_0289,Ucrainenii nu învață ceva util din instrucția NATO,2023,0,0,0,0,0.002316552447155118,0.002316552447155118,0.0,0,0,0,0.0,0.0,0.0
+vrd_0049,PROPAGANDĂ DE RĂZBOI: ONU sprijină genocidul îndreptat împotriva rusofonilor din Ucraina,2022,1,0,0,1,0.019267747178673744,0.023831596598029137,-0.0045638494193553925,0,0,0,-0.0045638494193553925,0.0,0.0
+vrd_0064,"PROPAGANDĂ DE RĂZBOI: Polonia va prelua controlul asupra ""teritoriilor sale istorice"" din Ucraina cu ajutorul SUA",2022,0,0,0,0,0.002603371860459447,0.002603371860459447,0.0,0,0,0,0.0,0.0,0.0
+vrd_0028,Kievul a înscenat pentru presă atacurile separatiștilor din Donbass asupra infrastructurii civile,2022,6,0,0,6,0.006428970489650965,0.011603823862969875,-0.005174853373318911,0,0,0,-0.005174853373318911,0.0,0.0
+vrd_0612,În Moldova sunt edificate monumente naziste,2025,0,0,1,1,0.01871367171406746,0.01871367171406746,0.0,0,0,0,0.0,0.0,0.0
+vrd_0650,Republica Moldova vrea să rupă relațiile diplomatice cu Rusia,2026,1,0,0,1,0.001792667550034821,0.0017676950665190816,2.497248351573944e-05,0,0,0,2.497248351573944e-05,0.0,0.0
+vrd_0234,Apropierea de UE aruncă Moldova în sărăcie,2023,0,0,0,0,0.6764222979545593,0.6764222979545593,0.0,1,1,0,0.0,0.0,0.0
+vrd_0644,Zelenski a făcut trafic de minori cu Epstein,2026,0,0,1,1,0.0016457346500828862,0.0016909471014514565,-4.521245136857033e-05,0,0,0,0.0,0.0,-4.521245136857033e-05
+vrd_0086,Statele Unite au provocat războiul din Ucraina pentru a profita economic,2022,0,0,0,0,0.6710357666015625,0.6710357666015625,0.0,1,1,0,0.0,0.0,0.0
+vrd_0284,Maia Sandu închide școli pentru că Occidentul vrea mână de lucru ieftină,2023,0,0,0,0,0.6774649024009705,0.6774649024009705,0.0,1,1,0,0.0,0.0,0.0
+vrd_0493,"Republica Moldova, românizată în urma presiunilor Bucureștiului",2025,0,0,1,1,0.1308833509683609,0.13257107138633728,-0.0016877204179763794,0,0,0,0.0,0.0,-0.0016877204179763794
+vrd_0439,Ucrainenii vor să-l ucidă pe secretarul general ONU,2024,0,2,0,2,0.001806228538043797,0.0018826506566256285,-7.642211858183146e-05,0,0,0,0.0,-7.642211858183146e-05,0.0
+vrd_0245,România este invadată de asiatici,2023,0,0,0,0,0.676508367061615,0.676508367061615,0.0,1,1,0,0.0,0.0,0.0
+vrd_0078,PROPAGANDĂ DE RĂZBOI: UE se teme de tuberculoza provenită din laboratoare NATO din Ucraina,2022,0,2,0,2,0.0017824871465563774,0.001899764989502728,-0.00011727784294635057,0,0,0,0.0,-0.00011727784294635057,0.0
+vrd_0020,Forțele speciale britanice vor escalada situația din Donbass fără consimțământul Kievului,2022,2,1,0,3,0.0035470810253173113,0.002658731769770384,0.0008883492555469275,0,0,0,0.0007516546174883842,0.0004922214429825544,0.0
+vrd_0346,"Euromaidanul, o acțiune rusofobă și fascistă care a cauzat războiul",2024,1,0,0,1,0.6617054343223572,0.6617054343223572,0.0,1,1,0,0.0,0.0,0.0
+vrd_0598,"Militari britanici, alături de Rusia contra ""noului Hitler"", Zelenski",2025,0,0,0,0,0.0016343154711648822,0.0016343154711648822,0.0,0,0,0,0.0,0.0,0.0
+vrd_0323,Occidentul pregătește înlocuirea Maiei Sandu,2023,3,0,0,3,0.06777060031890869,0.0700736865401268,-0.002303086221218109,0,0,0,-0.002303086221218109,0.0,0.0
+vrd_0181,"PROPAGANDĂ DE RĂZBOI: Pierderile armatei ucrainene sunt atât de mari, încât elevii sunt forțați să doneze sânge pentru militari",2022,0,0,0,0,0.004796718712896109,0.004796718712896109,0.0,0,0,0,0.0,0.0,0.0
+vrd_0258,Scoaterea Partidului Șor în afara legii e uzurpare a puterii în stat,2023,0,16,0,16,0.6791849732398987,0.6790757179260254,0.00010925531387329102,1,1,0,0.0,0.00010925531387329102,0.0
+vrd_0478,NATO vrea ca România și Moldova să dea carne de tun pentru un război cu Rusia,2025,4,1,1,6,0.003369917394593358,0.003219221718609333,0.000150695675984025,0,0,0,0.0,-0.0006124943029135466,-0.00015148543752729893
+vrd_0048,"Un oficial rus cere ""denazificarea"" statelor baltice, Poloniei, Republicii Moldova și Kazahstanului",2022,0,1,0,1,0.0030625169165432453,0.0030625169165432453,0.0,0,0,0,0.0,0.0,0.0
+vrd_0388,Armata Republicii Moldova va deveni parte a armatei române,2024,0,1,0,1,0.6774470210075378,0.6774470210075378,0.0,1,1,0,0.0,0.0,0.0
+vrd_0665,"UE ține în viață ""regimul nazist"" de la Kiev care respinge pacea",2026,0,2,0,2,0.0027894750237464905,0.002770410617813468,1.90644059330225e-05,0,0,0,0.0,1.90644059330225e-05,0.0
+vrd_0111,"Dacă Republica Moldova ar fi fost parte a României, era o regiune subdezvoltată, cu o populația de analfabeți aserviți românilor",2022,0,0,0,0,0.6772313117980957,0.6772313117980957,0.0,1,1,0,0.0,0.0,0.0
+vrd_0117,O baschetbalistă din România a murit din cauza vaccinării împotriva COVID-19,2022,0,0,1,1,0.0031949190888553858,0.0031949190888553858,0.0,0,0,0,0.0,0.0,0.0
+vrd_0434,"Ucraina se pregătește să atace Transnistria, cu sprijinul tacit al Occidentului",2024,8,0,0,8,0.005442964844405651,0.006345688831061125,-0.0009027239866554737,0,0,0,-0.0009027239866554737,0.0,0.0
+vrd_0139,"PROPAGANDĂ DE RĂZBOI: Pierderi de sute de mii de militari ucraineni, confirmate de un general de la Kiev",2022,0,0,0,0,0.0033542115706950426,0.0033542115706950426,0.0,0,0,0,0.0,0.0,0.0
+vrd_0217,Chișinăul promovează isteria antirusă,2023,2,2,1,5,0.0033461630810052156,0.0038781489711254835,-0.0005319858901202679,0,0,0,0.0,-0.0006145897787064314,-0.0003006136976182461
+vrd_0253,În Republica Moldova nu există propagandă rusă,2023,0,2,1,3,0.001850327244028449,0.0022062293719500303,-0.00035590212792158127,0,0,0,0.0,-0.0002853397745639086,-0.00015607126988470554
+vrd_0364,Ajutorul american pentru Ucraina va cauza distrugeri și victime,2024,0,0,0,0,0.6701540946960449,0.6701540946960449,0.0,1,1,0,0.0,0.0,0.0
+vrd_0037,PROPAGANDĂ DE RĂZBOI: În laboratoarele secrete din Ucraina era produs coronavirus,2022,0,0,1,1,0.0016604861011728644,0.0017107338644564152,-5.024776328355074e-05,0,0,0,0.0,0.0,-5.024776328355074e-05
+vrd_0353,Guvern ucrainean în exil și război al Occidentului cu Rusia,2024,0,0,0,0,0.6672308444976807,0.6672308444976807,0.0,1,1,0,0.0,0.0,0.0
+vrd_0587,Franța și Marea Britanie vor Transnistria ca să ajungă la Marea Neagră,2025,7,0,0,7,0.01776452362537384,0.016884515061974525,0.0008800085633993149,0,0,0,0.0008800085633993149,0.0,0.0
+vrd_0176,PROPAGANDĂ DE RĂZBOI: În Ucraina sunt mobilizați doar rusofonii din est pentru că se dorește exterminarea lor,2022,1,0,1,2,0.003884712466970086,0.0042259348556399345,-0.00034122238866984844,0,0,0,-0.0003569729160517454,0.0,-0.0002782598603516817
+vrd_0254,Occidentul forțează Moldova să urmeze calea Ucrainei,2023,0,0,0,0,0.002009222749620676,0.002009222749620676,0.0,0,0,0,0.0,0.0,0.0
+vrd_0412,Germania va reloca migranții în Moldova,2024,0,0,0,0,0.675128161907196,0.675128161907196,0.0,1,1,0,0.0,0.0,0.0
+vrd_0206,Guvernarea de la Chișinău vrea să elimine limba moldovenească pentru că pregătește unirea cu România,2023,0,0,0,0,0.19087059795856476,0.19087059795856476,0.0,0,0,0,0.0,0.0,0.0
+vrd_0320,Maia Sandu pregătește Moldova de război cu Rusia,2023,1,1,1,3,0.002074080752208829,0.0023694634437561035,-0.0002953826915472746,0,0,0,-7.446156814694405e-05,-0.00015018414705991745,-0.00015549222007393837
+vrd_0071,PROPAGANDĂ DE RĂZBOI: Președintele Poloniei a recunoscut că Varșovia va anexa teritorii ucrainene,2022,0,0,0,0,0.01968563161790371,0.01968563161790371,0.0,0,0,0,0.0,0.0,0.0
+vrd_0303,"Televiziune închisă în Moldova pentru că promova ""valorile familiei tradiționale""",2023,0,0,0,0,0.6785319447517395,0.6785319447517395,0.0,1,1,0,0.0,0.0,0.0
+vrd_0527,Ucraina refuză pacea și riscă să rămână fără aliați,2025,0,0,0,0,0.0033805600833147764,0.0033805600833147764,0.0,0,0,0,0.0,0.0,0.0
+vrd_0465,Zelenski e marioneta naziștilor,2024,1,0,0,1,0.6724829077720642,0.6726992130279541,-0.00021630525588989258,1,1,0,-0.00021630525588989258,0.0,0.0
+vrd_0212,Ucraina blochează creare unei zone de protecție la centrala nucleară Zaporojie și vrea să provoace un accident nuclear,2023,0,1,0,1,0.0020764232613146305,0.0020764232613146305,0.0,0,0,0,0.0,0.0,0.0
+vrd_0447,Ucrainenii locuiesc pe teritoriul istoric al Rusiei,2024,0,0,0,0,0.02213733084499836,0.02213733084499836,0.0,0,0,0,0.0,0.0,0.0
+vrd_0035,"PROPAGANDĂ DE RĂZBOI: Kievul pregătea o agresiune împotriva Donbass-ului în martie, iar Rusia a fost nevoită să intervină pentru a o opri",2022,5,0,0,5,0.002460337011143565,0.002177749527618289,0.0002825874835252762,0,0,0,0.0002825874835252762,0.0,0.0
+vrd_0061,Propagandă de război: Jandarmii francezi vor ascunde urmele crimelor comise de Ucraina la Bucea,2022,0,0,0,0,0.004560449626296759,0.004560449626296759,0.0,0,0,0,0.0,0.0,0.0
+vrd_0336,NATO a atacat Rusia cu căpușe lansate din Ucraina,2024,0,0,0,0,0.02245783619582653,0.02245783619582653,0.0,0,0,0,0.0,0.0,0.0
+vrd_0109,PROPAGANDĂ DE RĂZBOI: ONU și Turcia recunosc dreptul Rusiei de a controla porturile maritime ale Ucrainei,2022,0,0,0,0,0.00261743925511837,0.00261743925511837,0.0,0,0,0,0.0,0.0,0.0
+vrd_0285,Ucrainenii din Polonia vor fi extrădați și trimiși pe front,2023,0,0,0,0,0.003998023457825184,0.003998023457825184,0.0,0,0,0,0.0,0.0,0.0
+vrd_0610,UE încurajează China să întreţină războiul din Ucraina,2025,0,0,0,0,0.6689485311508179,0.6689485311508179,0.0,1,1,0,0.0,0.0,0.0
+vrd_0275,Rusia îi salvează pe ucraineni de la autodistrugere,2023,0,0,0,0,0.6761704683303833,0.6761704683303833,0.0,1,1,0,0.0,0.0,0.0
+vrd_0589,Ucraina s-a transformat într-un lagăr de concentrare,2025,0,0,0,0,0.0016546372789889574,0.0016546372789889574,0.0,0,0,0,0.0,0.0,0.0
+vrd_0251,"Summitul CPE, organizat pentru crearea unei coaliții anti-ruse",2023,0,0,0,0,0.05485354736447334,0.05485354736447334,0.0,0,0,0,0.0,0.0,0.0
+vrd_0379,Ucrainenii își distrug orașele pentru a nu le lăsa Rusiei,2024,0,0,0,0,0.6763518452644348,0.6763518452644348,0.0,1,1,0,0.0,0.0,0.0
+vrd_0250,Principiile morale împiedică Rusia să încheie războiul,2023,0,0,0,0,0.6759694814682007,0.6759694814682007,0.0,1,1,0,0.0,0.0,0.0
+vrd_0358,Ucrainenii și rușii sunt același popor iar Rusia poartă un război sfânt,2024,0,0,0,0,0.6761877536773682,0.6761877536773682,0.0,1,1,0,0.0,0.0,0.0
+vrd_0597,"Rusia, forțată să dezmembreze Ucraina ca să prevină războiul în Europa",2025,1,0,0,1,0.671958327293396,0.6732345819473267,-0.001276254653930664,1,1,0,-0.001276254653930664,0.0,0.0
+vrd_0565,UE se opune negocierilor pentru că pregătește un război cu Rusia,2025,0,0,0,0,0.0023953604977577925,0.0023953604977577925,0.0,0,0,0,0.0,0.0,0.0
+vrd_0222,Ucraina va continua să asasineze ruși în baza unei liste publicate online,2023,0,2,1,3,0.003463160013779998,0.003347245045006275,0.00011591496877372265,0,0,0,0.0,-0.00038363109342753887,-0.0003307941369712353
+vrd_0356,"Rusia, superioară tehnologic și militar Occidentului",2024,0,1,0,1,0.002277678344398737,0.0022582111414521933,1.9467202946543694e-05,0,0,0,0.0,1.9467202946543694e-05,0.0
+vrd_0385,Liderii ucraineni au cetăţenie americană,2024,0,0,0,0,0.647749662399292,0.647749662399292,0.0,1,1,0,0.0,0.0,0.0
+vrd_0063,PROPAGANDĂ DE RĂZBOI: Ucraina a atacat cu arme chimice și biologice pozițiile militarilor ruși,2022,1,0,0,1,0.002361592138186097,0.0022862222976982594,7.536984048783779e-05,0,0,0,7.536984048783779e-05,0.0,0.0
+vrd_0427,"Referendumul pentru UE din Moldova e, de fapt, referendum pentru LGBT",2024,0,0,0,0,0.6775537133216858,0.6775537133216858,0.0,1,1,0,0.0,0.0,0.0
+vrd_0367,Ucraina le interzice ortodocșilor să participe la slujba de Înviere,2024,0,0,0,0,0.015157204121351242,0.015157204121351242,0.0,0,0,0,0.0,0.0,0.0
+vrd_0430,Stoltenberg va răspunde penal pentru războiul din Ucraina,2024,0,0,0,0,0.0016165145207196474,0.0016165145207196474,0.0,0,0,0,0.0,0.0,0.0
+vrd_0247,Ucraina este o invenție sovietică,2023,0,4,0,4,0.002090158872306347,0.0022716461680829525,-0.0001814872957766056,0,0,0,0.0,-0.0001814872957766056,0.0
+vrd_0210,Biserica Ortodoxă Ucraineană este persecutată de Kiev ca în perioada comunistă,2023,0,0,0,0,0.6680870652198792,0.6680870652198792,0.0,1,1,0,0.0,0.0,0.0
+vrd_0089,Occidentul împinge Republica Moldova spre război cu Transnistria și Rusia,2022,5,0,0,5,0.6745354533195496,0.6755722761154175,-0.00103682279586792,1,1,0,-0.00103682279586792,0.0,0.0
+vrd_0121,Guvernarea de la Chișinău subminează rolul limbii ruse și încalcă drepturile minorităților naționale,2022,0,0,0,0,0.6755512952804565,0.6755512952804565,0.0,1,1,0,0.0,0.0,0.0
+vrd_0375,"Ucraina se destrămă, iar ucrainenii vor eliberați de Rusia",2024,2,0,1,3,0.005466789938509464,0.005600228905677795,-0.00013343896716833115,0,0,0,-0.00013343896716833115,0.0,0.0
+vrd_0663,"Dacă R. Moldova părăsește CSI, nu mai recunoaște destrămarea URSS",2026,3,0,0,3,0.013253179378807545,0.013253179378807545,0.0,0,0,0,0.0,0.0,0.0
+vrd_0381,Rusia este mai democratică decât Ucraina,2024,0,1,0,1,0.001605961937457323,0.0017630397342145443,-0.00015707779675722122,0,0,0,0.0,-0.00015707779675722122,0.0
+vrd_0541,Nu există propagandă rusă în Republica Moldova,2025,0,0,1,1,0.004212251864373684,0.005522689316421747,-0.0013104374520480633,0,0,0,0.0,0.0,-0.0013104374520480633
+vrd_0557,"70.000 de militari NATO, dislocați în România pentru a ocupa Odesa",2025,3,0,0,3,0.003325052559375763,0.003910216502845287,-0.0005851639434695244,0,0,0,-0.0005851639434695244,0.0,0.0
+vrd_0395,România pregătește un război în Transnistria,2024,10,0,0,10,0.01780552975833416,0.3279162645339966,-0.3101107347756624,0,0,0,-0.3101107347756624,0.0,0.0
+vrd_0546,Ucraina a devenit un lagăr de concentrare nazist,2025,0,0,0,0,0.6176682710647583,0.6176682710647583,0.0,1,1,0,0.0,0.0,0.0
+vrd_0496,"UE șantajează Moldova că, fără un guvern european, îi taie finanțarea",2025,0,0,0,0,0.024546055123209953,0.024546055123209953,0.0,0,0,0,0.0,0.0,0.0
+vrd_0419,Militarii ucraineni răpesc copii în Donbas,2024,1,0,0,1,0.002356434240937233,0.0024832948110997677,-0.00012686057016253471,0,0,0,-0.00012686057016253471,0.0,0.0
+vrd_0268,"Pentru a adera la UE, Republica Moldova trebuie să trimită soldați în războiul din Ucraina",2023,0,0,0,0,0.024997062981128693,0.024997062981128693,0.0,0,0,0,0.0,0.0,0.0
+vrd_0330,Occidentul vrea să transforme R. Moldova într-un cap de pod antirusesc,2024,0,2,0,2,0.006394019350409508,0.006598735693842173,-0.00020471634343266487,0,0,0,0.0,-0.00020471634343266487,0.0
+vrd_0094,DEZINFORMARE În Republica Moldova se introduce cenzura prin interzicerea difuzării unor categorii de programe din Rusia,2022,1,0,0,1,0.007623695302754641,0.008162220939993858,-0.0005385256372392178,0,0,0,-0.0005385256372392178,0.0,0.0
+vrd_0279,"Forțat de Occident să renunțe la CSI, Chișinăul își distruge economia",2023,0,0,0,0,0.6749687194824219,0.6749687194824219,0.0,1,1,0,0.0,0.0,0.0
+vrd_0301,UE îi recomandă lui Zelenski să-i cedeze Rusiei teritorii,2023,0,0,2,2,0.0031891888938844204,0.0031683524139225483,2.08364799618721e-05,0,0,0,0.0,0.0,2.08364799618721e-05
+vrd_0536,"Denazificarea Ucrainei, necesară pentru a salva limba și cultura rusă",2025,0,2,0,2,0.0022035478614270687,0.002450290834531188,-0.0002467429731041193,0,0,0,0.0,-0.0002467429731041193,0.0
+vrd_0584,UE împinge SUA și Rusia spre un război nuclear din cauza Ucrainei,2025,0,0,0,0,0.012594515457749367,0.012594515457749367,0.0,0,0,0,0.0,0.0,0.0
+vrd_0235,Occidentul va ordona Poloniei să atace Belarusul și să ocupe Liovul,2023,4,1,0,5,0.01943386159837246,0.021002670750021935,-0.001568809151649475,0,0,0,-0.002446131780743599,0.015169247519224882,0.0
+vrd_0123,PROPAGANDĂ DE RĂZBOI: Anthony Fauci a confirmat că virusul SARS-CoV-2 a fost produs în laboratoarele din Ucraina,2022,0,0,0,0,0.001650489866733551,0.001650489866733551,0.0,0,0,0,0.0,0.0,0.0
+vrd_0574,Rusia trebuie să anexeze Ucraina,2025,0,0,0,0,0.6726195216178894,0.6726195216178894,0.0,1,1,0,0.0,0.0,0.0
+vrd_0585,Chișinăul folosește amenințarea rusă ca șantaj să ceară mai mulți bani de la UE,2025,1,3,1,5,0.002329980256035924,0.002114015631377697,0.00021596462465822697,0,0,0,0.0,0.00018924451433122158,0.00017068954184651375
+vrd_0188,"PROPAGANDĂ DE RĂZBOI: SUA au declarat război Rusiei, permițând armatei ucrainene să bombardeze Crimeea",2022,7,0,0,7,0.0033269606065005064,0.003252501832321286,7.44587741792202e-05,0,0,0,7.44587741792202e-05,0.0,0.0
+vrd_0633,Europarlamentarii români au votat pentru înarmare și război,2025,0,0,0,0,0.6804394125938416,0.6804394125938416,0.0,1,1,0,0.0,0.0,0.0
+vrd_0441,Referendumul din Moldova permite abandonarea neutralității și unirea cu România,2024,0,0,0,0,0.6622354388237,0.6622354388237,0.0,1,1,0,0.0,0.0,0.0
+vrd_0299,Zelenski nu mai este sprijinit în Occident și în România,2023,0,2,1,3,0.0018011247739195824,0.0018263913225382566,-2.5266548618674278e-05,0,0,0,0.0,4.3047708459198475e-05,2.663570921868086e-05
+vrd_0036,"PROPAGANDĂ DE RĂZBOI: Președintele Ucrainei, Volodimir Zelenski, ar putea recunoaște Donbass-ul și Crimeea ca teritorii ale Rusiei",2022,7,0,0,7,0.002002470660954714,0.002023717388510704,-2.124672755599022e-05,0,0,0,-2.124672755599022e-05,0.0,0.0
+vrd_0224,Viitorul stat polono-ucrainean va dezmembra România,2023,1,0,0,1,0.668161928653717,0.668161928653717,0.0,1,1,0,0.0,0.0,0.0
+vrd_0616,Radu Gyr a fost condamnat la moarte doar pentru o poezie,2025,0,0,0,0,0.558017373085022,0.558017373085022,0.0,1,1,0,0.0,0.0,0.0
+vrd_0368,Rusia eliberează Ucraina de sub ocupația ucraineană,2024,0,0,0,0,0.6736699342727661,0.6736699342727661,0.0,1,1,0,0.0,0.0,0.0
+vrd_0202,"""Operațiunea militară specială"" a salvat Rusia de invazia NATO și nazismul ucrainean",2023,1,0,0,1,0.004086045082658529,0.6146121621131897,-0.6105261170305312,0,1,1,-0.6105261170305312,0.0,0.0
+vrd_0372,Rusia luptă în Ucraina pentru valorile tradiționale,2024,0,2,0,2,0.6794776916503906,0.679689347743988,-0.0002116560935974121,1,1,0,0.0,-0.0002116560935974121,0.0
+vrd_0621,Aderarea Republicii Moldova ar distruge economia UE,2025,0,0,0,0,0.002163644414395094,0.002163644414395094,0.0,0,0,0,0.0,0.0,0.0
+vrd_0453,Moldova vrea zid la granița cu Ucraina,2024,0,0,0,0,0.003580755088478327,0.003580755088478327,0.0,0,0,0,0.0,0.0,0.0
+vrd_0091,PROPAGANDĂ DE RĂZBOI: Armata ucraineană masacrează rusofonii în timpul retragerii din Donbass,2022,3,1,0,4,0.002642190083861351,0.002999051008373499,-0.0003568609245121479,0,0,0,-0.0003568609245121479,0.0,0.0
+vrd_0053,SUA trimite în Ucraina militari afghani care au fugit de talibani în Occident,2022,0,0,1,1,0.002675117924809456,0.0024951605591923,0.00017995736561715603,0,0,0,0.0,0.0,0.00017995736561715603
+vrd_0168,PROPAGANDĂ DE RĂZBOI: Francezii resping politica de sancțiuni față de Rusia și asistența acordată Ucrainei,2022,0,0,1,1,0.0021667215041816235,0.0022238732781261206,-5.715177394449711e-05,0,0,0,0.0,0.0,-5.715177394449711e-05
+vrd_0396,"Cetățean UE, condamnat la închisoare pentru arborarea drapelului rus",2024,0,1,0,1,0.00629792083054781,0.0063383630476891994,-4.044221714138985e-05,0,0,0,0.0,-4.044221714138985e-05,0.0
+vrd_0394,Occidentul rusofob și nazist distruge sportul mondial,2024,0,2,0,2,0.027363169938325882,0.03168419748544693,-0.004321027547121048,0,0,0,0.0,-0.004321027547121048,0.0
+vrd_0193,Acțiunile militarilor ruși în regiunea Herson sunt un exemplu de comportament uman,2023,2,0,0,2,0.0022696498781442642,0.00223098648712039,3.866339102387428e-05,0,0,0,3.866339102387428e-05,0.0,0.0
+vrd_0408,Ucrainenii nu vor războiul mondial urmărit de Zelenski,2024,0,0,0,0,0.0020048734731972218,0.0020048734731972218,0.0,0,0,0,0.0,0.0,0.0
+vrd_0511,UE nu-l va lăsa pe Zelenski să pună capăt războiului,2025,0,0,0,0,0.001761127612553537,0.001761127612553537,0.0,0,0,0,0.0,0.0,0.0
+vrd_0377,Parteneriatul de securitate cu UE duce Moldova în NATO,2024,0,0,0,0,0.08928404003381729,0.08928404003381729,0.0,0,0,0,0.0,0.0,0.0
+vrd_0360,SUA și Occidentul nu oferă sprijin real Republicii Moldova,2024,0,0,0,0,0.056671854108572006,0.056671854108572006,0.0,0,0,0,0.0,0.0,0.0
+vrd_0436,Ucrainenii părăsesc UE pentru Rusia,2024,0,0,0,0,0.0021335796918720007,0.0021335796918720007,0.0,0,0,0,0.0,0.0,0.0
+vrd_0590,UE și NATO vor să ocupe Moldova cu ajutorul Maiei Sandu,2025,2,0,0,2,0.6080420017242432,0.6169639229774475,-0.008921921253204346,1,1,0,-0.008921921253204346,0.0,0.0
+vrd_0631,Republica Moldova își pune economia pe picior de război,2025,0,0,0,0,0.0023863441310822964,0.0023863441310822964,0.0,0,0,0,0.0,0.0,0.0
+vrd_0257,Marea Azov e o mare internă a Rusiei,2023,1,0,0,1,0.004715427290648222,0.004604104906320572,0.00011132238432765007,0,0,0,0.00011132238432765007,0.0,0.0
+vrd_0542,"Crimeea este a Rusiei, iar Ucraina a admis acest lucru",2025,7,0,0,7,0.0020079638343304396,0.0018211491405963898,0.0001868146937340498,0,0,0,0.0001868146937340498,0.0,0.0
+vrd_0629,Pacea în Ucraina depinde de înlăturarea regimului Zelenski,2025,1,0,0,1,0.002523370087146759,0.0024288829881697893,9.448709897696972e-05,0,0,0,9.448709897696972e-05,0.0,0.0
+vrd_0549,România va înlocui Polonia ca hub de tranzit pentru armele destinate Ucrainei,2025,0,0,0,0,0.6877898573875427,0.6877898573875427,0.0,1,1,0,0.0,0.0,0.0
+vrd_0648,Ucraina construiește o stațiune de lux cu bani românești,2026,0,0,0,0,0.6803605556488037,0.6803605556488037,0.0,1,1,0,0.0,0.0,0.0
+vrd_0384,Ucraina și Occidentul vor organiza noi atacuri teroriste în Rusia,2024,0,0,0,0,0.004460263065993786,0.004460263065993786,0.0,0,0,0,0.0,0.0,0.0
+vrd_0059,PROPAGANDĂ DE RĂZBOI: Ucraina nu reconstruiește Harkovul pentru că știe că acesta se va alipi la Rusia,2022,0,0,0,0,0.0030407451558858156,0.0030407451558858156,0.0,0,0,0,0.0,0.0,0.0
+vrd_0558,"Ca să distrugă Rusia, NATO e dispus să sacrifice Ucraina",2025,1,0,0,1,0.6717158555984497,0.6729414463043213,-0.001225590705871582,1,1,0,-0.001225590705871582,0.0,0.0
+vrd_0326,SUA vor ca Zelenski să încheie războiul,2023,0,0,0,0,0.004507365170866251,0.004507365170866251,0.0,0,0,0,0.0,0.0,0.0
+vrd_0119,"PROPAGANDĂ DE RĂZBOI: Din cauza propagandei neonaziste a Kievului, ucrainenii nu înțeleg că sunt eliberați de Rusia, nu ocupați",2022,0,0,0,0,0.0017633764073252678,0.0017633764073252678,0.0,0,0,0,0.0,0.0,0.0
+vrd_0443,Pacea în Ucraina depinde de Occident,2024,0,3,0,3,0.0034448071382939816,0.005673535168170929,-0.0022287280298769474,0,0,0,0.0,-0.0022287280298769474,0.0
+vrd_0110,PROPAGANDĂ DE RĂZBOI: Autoritățile ucrainene au abandonat Hersonul. Regiunea se va uni cu Rusia care va proteja limba ucraineană,2022,3,0,0,3,0.002842169953510165,0.002660879399627447,0.00018129055388271809,0,0,0,0.00018129055388271809,0.0,0.0
+vrd_0442,Referendumul privind aderarea Republicii Moldova la UE a fost fraudat de autoritatile proeuropene,2024,0,2,0,2,0.0058174049481749535,0.007643348537385464,-0.0018259435892105103,0,0,0,0.0,-0.0018259435892105103,0.0
+vrd_0668,800 de militari americani răniți au fost aduși la Baza Kogălniceanu,2026,0,0,0,0,0.13355962932109833,0.13355962932109833,0.0,0,0,0,0.0,0.0,0.0
+vrd_0280,Trupele NATO din România ameninţă pacea,2023,0,0,0,0,0.6773183345794678,0.6773183345794678,0.0,1,1,0,0.0,0.0,0.0
+vrd_0310,"UE vrea denazificarea Ucrainei, dar Kievul se opune",2023,0,0,0,0,0.019589539617300034,0.019589539617300034,0.0,0,0,0,0.0,0.0,0.0
+vrd_0391,Rusia nu s-a opus apropierii Ucrainei de UE,2024,0,0,0,0,0.6608253121376038,0.6608253121376038,0.0,1,1,0,0.0,0.0,0.0
+vrd_0300,România obligă Ucraina și Moldova să interzică limba moldovenească,2023,0,0,0,0,0.015353296883404255,0.015353296883404255,0.0,0,0,0,0.0,0.0,0.0
+vrd_0137,PROPAGANDĂ DE RĂZBOI: Referendumurile de alipire la Rusia a teritoriilor din estul și sudul Ucrainei respectă Carta ONU,2022,7,2,0,9,0.0017512099584564567,0.0016524347010999918,9.877525735646486e-05,0,0,0,8.461670950055122e-05,1.4910590834915638e-05,0.0
+vrd_0341,Parteneriatele economice cu SUA duc la faliment,2024,0,0,0,0,0.6738036870956421,0.6738036870956421,0.0,1,1,0,0.0,0.0,0.0
+vrd_0306,Rusia luptă în Ucraina pentru libertatea palestinienilor,2023,0,1,0,1,0.6742597818374634,0.6756102442741394,-0.0013504624366760254,1,1,0,0.0,-0.0013504624366760254,0.0
+vrd_0467,Zelenski refuză pacea pentru a nu-și pierde veniturile,2024,0,0,0,0,0.0037392384838312864,0.0037392384838312864,0.0,0,0,0,0.0,0.0,0.0
+vrd_0369,În 1945 Rusia a învins prima oară Occidentul colectiv,2024,0,0,0,0,0.6757673025131226,0.6757673025131226,0.0,1,1,0,0.0,0.0,0.0
+vrd_0183,Moldova investește bani mai mulți în apărare pentru că se pregătește de război cu Rusia,2022,2,0,0,2,0.46878576278686523,0.5999279022216797,-0.13114213943481445,0,1,1,-0.13114213943481445,0.0,0.0
+vrd_0437,"Lupta politică în R. Moldova se duce între ""pro-români"" și ""pro-moldoveni""",2024,0,0,0,0,0.01563212275505066,0.01563212275505066,0.0,0,0,0,0.0,0.0,0.0
+vrd_0223,"SUA vor trimite în ofensivă 200 de mii de militari-sinucigași ucraineni, subordonați direct Pentagonului",2023,1,0,0,1,0.003865676699206233,0.0041931504383683205,-0.00032747373916208744,0,0,0,-0.00032747373916208744,0.0,0.0
+vrd_0151,În Republica Moldova au fost interzise protestele în zilele lucrătoare,2022,0,2,0,2,0.014775407500565052,0.013348608277738094,0.0014267992228269577,0,0,0,0.0,0.0014267992228269577,0.0
+vrd_0604,Moldova poate adera la UE doar dacă se implică în războiul din Ucraina,2025,1,0,0,1,0.6406585574150085,0.6406585574150085,0.0,1,1,0,0.0,0.0,0.0
+vrd_0213,Diplomați occidentali pregătesc intrarea Moldovei în război,2023,2,3,0,5,0.007162788417190313,0.015349982306361198,-0.008187193889170885,0,0,0,4.630815237760544e-05,-0.007242423947900534,0.0
+vrd_0514,Pacea în Ucraina depinde de victoria Rusiei,2025,0,2,0,2,0.6574985980987549,0.662712812423706,-0.005214214324951172,1,1,0,0.0,-0.005214214324951172,0.0
+vrd_0643,Integrarea europeană slăbește securitatea energetică a Republicii Moldova,2026,0,0,0,0,0.015176941640675068,0.015176941640675068,0.0,0,0,0,0.0,0.0,0.0
+vrd_0485,"Moldovenii, forțați să vorbească limba minorității române",2025,0,0,0,0,0.03710736706852913,0.03710736706852913,0.0,0,0,0,0.0,0.0,0.0
+vrd_0492,Elita de la Kiev refuză pacea lui Trump ca să rămână la putere,2025,0,0,0,0,0.0047639524564146996,0.0047639524564146996,0.0,0,0,0,0.0,0.0,0.0
+vrd_0014,Simona Halep a pierdut la Australian Open pentru că s-a vaccinat,2022,0,0,0,0,0.0022404480259865522,0.0022404480259865522,0.0,0,0,0,0.0,0.0,0.0
+vrd_0160,Rusia poate reface Moldova lui Ștefan cel Mare în dauna României,2022,2,0,0,2,0.02033962309360504,0.02422071248292923,-0.0038810893893241882,0,0,0,-0.0038810893893241882,0.0,0.0
+vrd_0296,UE și România pregătesc în Transnistria un scenariu ca în Nagorno Karabah,2023,8,2,0,10,0.6667089462280273,0.6756104826927185,-0.008901536464691162,1,1,0,-0.008901536464691162,0.0,0.0
+vrd_0312,Pacea în Ucraina depinde de SUA și de plecarea lui Zelenski,2023,0,0,0,0,0.0023481883108615875,0.0023481883108615875,0.0,0,0,0,0.0,0.0,0.0
+vrd_0305,UE nu va mai ajuta financiar Ucraina,2023,0,0,0,0,0.004341525956988335,0.004341525956988335,0.0,0,0,0,0.0,0.0,0.0
+vrd_0500,Chișinăul forțează Transnistria să răspândească narațiuni pro-românești și anti-rusești,2025,7,0,0,7,0.6804985404014587,0.6809839606285095,-0.00048542022705078125,1,1,0,-0.00048542022705078125,0.0,0.0
+vrd_0599,"Republica Moldova se transformă într-o ""dictatură bananieră"" controlată de UE",2025,1,1,0,2,0.6772072911262512,0.6770799160003662,0.00012737512588500977,1,1,0,0.00018668174743652344,5.924701690673828e-05,0.0
+vrd_0495,"""Operațiunea militară specială"" a salvat Rusia de NATO și naziști",2025,0,0,0,0,0.011144469492137432,0.011144469492137432,0.0,0,0,0,0.0,0.0,0.0
+vrd_0140,PROPAGANDĂ DE RĂZBOI: Observatorii din Occident confirmă că referendumurile din Ucraina au respectat standardele democratice,2022,2,0,0,2,0.0023925125133246183,0.0023925125133246183,0.0,0,0,0,0.0,0.0,0.0
+vrd_0581,Chișinăul urmărește anexarea Transnistriei și integrarea acesteia în România,2025,3,0,0,3,0.679419994354248,0.6795335412025452,-0.00011354684829711914,1,1,0,-0.00011354684829711914,0.0,0.0
+vrd_0345,România e un stat de mâna a doua în UE și Moldova riscă aceeași soartă,2024,0,0,0,0,0.6615038514137268,0.6615038514137268,0.0,1,1,0,0.0,0.0,0.0
+vrd_0337,Curtea Internațională de Justiție spune că Rusia nu e agresor,2024,6,0,0,6,0.0028590012807399035,0.002896260004490614,-3.725872375071049e-05,0,0,0,-3.725872375071049e-05,0.0,0.0
+vrd_0635,Cucerirea Odesei de ruși va asigura securitatea energetică a Transnistriei,2025,7,0,0,7,0.07425957918167114,0.08224378526210785,-0.007984206080436707,0,0,0,-0.007984206080436707,0.0,0.0
+vrd_0568,Rusia luptă de una singură împotriva agresiunii Occidentului,2025,0,1,0,1,0.0029971853364259005,0.0028429473750293255,0.00015423796139657497,0,0,0,0.0,0.00015423796139657497,0.0
+vrd_0146,"Opoziția de la Chișinău și-a unit eforturile împotriva guvernării, organizând proteste masive",2022,1,0,0,1,0.6695424318313599,0.6695355176925659,6.9141387939453125e-06,1,1,0,6.9141387939453125e-06,0.0,0.0
+vrd_0499,Rada Supremă îl va suspenda pe Zelenski,2025,0,0,0,0,0.0035375747829675674,0.0035375747829675674,0.0,0,0,0,0.0,0.0,0.0
+vrd_0507,Crimeea a decis liber și independent să revină la Rusia,2025,7,0,0,7,0.04776287078857422,0.6595652103424072,-0.611802339553833,0,1,1,-0.611802339553833,0.0,0.0
+vrd_0449,Republica Moldova nu vrea să lupte împotriva glorificării nazismului,2024,2,0,0,2,0.008220539428293705,0.013573519885540009,-0.0053529804572463036,0,0,0,-0.0053529804572463036,0.0,0.0
+vrd_0657,Ucrainenii din est vor alipirea regiunii la Rusia,2026,0,1,0,1,0.018186425790190697,0.006469013635069132,0.011717412155121565,0,0,0,0.0,0.011717412155121565,0.0
+vrd_0664,România va da Ucrainei gazele extrase din Marea Neagră,2026,0,0,0,0,0.6746298670768738,0.6746298670768738,0.0,1,1,0,0.0,0.0,0.0
+vrd_0171,Curtea de la Haga a recunoscut că Rusia nu a fost implicată în doborârea avionului MH17 în 2014,2022,0,0,1,1,0.002774154534563422,0.0029955075588077307,-0.00022135302424430847,0,0,0,0.0,0.0,-0.00022135302424430847
+vrd_0366,Bucureștiul se teme că moldovenii vor denunța Unirea din 1859,2024,0,0,0,0,0.6787242889404297,0.6787242889404297,0.0,1,1,0,0.0,0.0,0.0
+vrd_0540,"Rusia vrea pace, dar Occidentul forțează Kievul să continue războiul",2025,0,3,0,3,0.002183545148000121,0.0021409334149211645,4.2611733078956604e-05,0,0,0,0.0,4.2611733078956604e-05,0.0
+vrd_0592,"Macron vrea război cu Rusia, dar armata se opune",2025,0,0,0,0,0.001889471081085503,0.001889471081085503,0.0,0,0,0,0.0,0.0,0.0
+vrd_0209,Specialiștii centralelor nucleare din Ucraina vor fi trimiși pe front,2023,0,0,0,0,0.02012191154062748,0.02012191154062748,0.0,0,0,0,0.0,0.0,0.0
+vrd_0504,Ucraina ocupă teritorii rusești,2025,3,0,0,3,0.002989400178194046,0.0031463084742426872,-0.0001569082960486412,0,0,0,-0.0001569082960486412,0.0,0.0
+vrd_0452,Rusofobia naziștilor ucraineni face imposibilă terminarea războiului,2024,0,1,0,1,0.006872803438454866,0.007043732795864344,-0.00017092935740947723,0,0,0,0.0,-0.00017092935740947723,0.0
+vrd_0104,"PROPAGANDĂ DE RĂZBOI: Zaporojie a stabilit contacte cu cel puțin 15 state, inclusiv membre UE",2022,0,0,2,2,0.0018473826348781586,0.0019346356857568026,-8.725305087864399e-05,0,0,0,0.0,0.0,-8.725305087864399e-05
+vrd_0433,"Europa, amenințată de un nou val de refugiați ucraineni",2024,0,0,0,0,0.006803025491535664,0.006803025491535664,0.0,0,0,0,0.0,0.0,0.0
+vrd_0424,Referendumul din Republica Moldova are ca scop eliminarea opoziției,2024,0,0,0,0,0.6789578199386597,0.6789578199386597,0.0,1,1,0,0.0,0.0,0.0
+vrd_0491,"UE vrea război în Ucraina, așa că nu poate negocia pacea",2025,0,3,0,3,0.0014768341789022088,0.0014946863520890474,-1.7852173186838627e-05,0,0,0,0.0,-1.7852173186838627e-05,0.0
+vrd_0169,PROPAGANDĂ DE RĂZBOI: Putin nu a participat la summit-ul G20 pentru că Occidentul pregătea un atac terorist împotriva sa,2022,0,3,0,3,0.6433040499687195,0.6663987636566162,-0.02309471368789673,1,1,0,0.0,-0.02309471368789673,0.0
+vrd_0645,România cumpără arme la suprapreț pentru a le dona Ucrainei,2026,0,0,0,0,0.6659830808639526,0.6659830808639526,0.0,1,1,0,0.0,0.0,0.0
+vrd_0461,România va pierde Ardealul,2024,0,0,0,0,0.6749768853187561,0.6749768853187561,0.0,1,1,0,0.0,0.0,0.0
+vrd_0192,NATO pregătește teritoriul Republicii Moldova ca viitor teatru de război,2023,0,0,0,0,0.667715847492218,0.667715847492218,0.0,1,1,0,0.0,0.0,0.0
+vrd_0404,Militarii ruși din Transnistria apără interesele României și Ucrainei,2024,3,0,0,3,0.6765047907829285,0.6767118573188782,-0.00020706653594970703,1,1,0,-0.00020706653594970703,0.0,0.0
+vrd_0628,Chișinăul vrea să renunțe la Transnistria de dragul integrării europene,2025,3,0,0,3,0.6748770475387573,0.6747066974639893,0.0001703500747680664,1,1,0,0.0001703500747680664,0.0,0.0
+vrd_0520,Zelenski a cumpărat o mină africană de diamante,2025,0,1,0,1,0.6754418015480042,0.6751416325569153,0.0003001689910888672,1,1,0,0.0,0.0003001689910888672,0.0
+vrd_0322,Rusia a oprit experimentele americane pe ucraineni,2023,2,0,0,2,0.002270724391564727,0.0021773474290966988,9.337696246802807e-05,0,0,0,9.337696246802807e-05,0.0,0.0
+vrd_0475,Republica Moldova a blocat livrările de gaze rusești spre Transnistria,2025,9,0,0,9,0.6729691028594971,0.6741774678230286,-0.0012083649635314941,1,1,0,-0.0012083649635314941,0.0,0.0
+vrd_0605,Zelenski va fi înfrânt și făcut de rușine pentru că nu vrea pace,2025,3,1,0,4,0.002923842752352357,0.002489542355760932,0.00043430039659142494,0,0,0,0.0004763638135045767,-1.343991607427597e-05,0.0
+vrd_0508,UE se transformă în bloc militar,2025,2,0,0,2,0.039549820125103,0.039549820125103,0.0,0,0,0,0.0,0.0,0.0
+vrd_0634,Rusia omoară oameni din cauza Ucrainei și a Occidentului,2025,1,2,0,3,0.0030567774083465338,0.003063723910599947,-6.9465022534132e-06,0,0,0,-0.0003067036159336567,-0.00014082016423344612,0.0
+vrd_0308,Evghenia Guțul aduce gaz de 10-20 de ori mai ieftin în Găgăuzia decât tariful actual,2023,8,6,0,14,0.003344878787174821,0.003232676303014159,0.0001122024841606617,0,0,0,-0.00020120106637477875,7.121218368411064e-05,0.0
+vrd_0096,PROPAGANDĂ DE RĂZBOI: UE va deporta în Ucraina bărbații refugiați pentru a fi înrolați în armată ucraineană,2022,1,0,0,1,0.001956141320988536,0.002185035264119506,-0.00022889394313097,0,0,0,-0.00022889394313097,0.0,0.0
+vrd_0304,Ucrainenii nu mai vor război și nu mai cred propaganda Kievului,2023,1,0,0,1,0.0052239056676626205,0.0052239056676626205,0.0,0,0,0,0.0,0.0,0.0
+vrd_0596,UE se pregătește de război cu Rusia,2025,0,0,0,0,0.004237490240484476,0.004237490240484476,0.0,0,0,0,0.0,0.0,0.0
+vrd_0362,Kievul șantajează Occidentul cu un dezastru nuclear,2024,0,0,0,0,0.021008456125855446,0.021008456125855446,0.0,0,0,0,0.0,0.0,0.0
+vrd_0472,"Putin, atacat energetic de pe teritoriul ucrainean",2025,0,5,0,5,0.16395340859889984,0.634207010269165,-0.4702536016702652,0,1,1,0.0,-0.4702536016702652,0.0
+vrd_0389,"Occidentul ajută Ucraina să producă o ""bombă murdară""",2024,0,0,0,0,0.002368116984143853,0.002368116984143853,0.0,0,0,0,0.0,0.0,0.0
+vrd_0347,UE a preluat controlul asupra sistemului bancar moldovenesc,2024,0,0,0,0,0.007168290205299854,0.007168290205299854,0.0,0,0,0,0.0,0.0,0.0
+vrd_0342,Ucraina a atacat Republica Moldova cu rachete,2024,1,0,0,1,0.0024942965246737003,0.0024942965246737003,0.0,0,0,0,0.0,0.0,0.0
+vrd_0332,"În UE, doar țările fondatoare se bucură de drepturi",2024,0,0,0,0,0.6476297378540039,0.6476297378540039,0.0,1,1,0,0.0,0.0,0.0
+vrd_0017,Ucraina este un teritoriu rus sub ocupație străină și ar putea lansa un război împotriva Rusiei,2022,2,0,0,2,0.6694843173027039,0.6694273948669434,5.692243576049805e-05,1,1,0,5.692243576049805e-05,0.0,0.0
+vrd_0184,PROPAGANDĂ DE RĂZBOI: Germanii sunt dezamăgiți de decizia UE de a sprijini financiar Ucraina,2022,0,0,0,0,0.0019052493153139949,0.0019052493153139949,0.0,0,0,0,0.0,0.0,0.0
+vrd_0274,Ucrainenii își doresc un președinte ca Vladimir Putin,2023,0,7,1,8,0.0030852120835334063,0.002950310241430998,0.0001349018421024084,0,0,0,0.0,-0.000268690288066864,-0.00025725108571350574
+vrd_0149,"PROPAGANDĂ DE RĂZBOI: Rusia arată reținere în războiul din Ucraina, mai ales când atacă obiective civile",2022,0,0,0,0,0.002260758774355054,0.002260758774355054,0.0,0,0,0,0.0,0.0,0.0
+vrd_0563,Guvernarea de la Chișinău promovează rusofobia,2025,3,0,0,3,0.6681855916976929,0.6781861186027527,-0.010000526905059814,1,1,0,-0.010000526905059814,0.0,0.0
+vrd_0613,România va intra în război,2025,0,0,0,0,0.0028421375900506973,0.0028421375900506973,0.0,0,0,0,0.0,0.0,0.0
+vrd_0572,România nu a atacat Transnistria doar pentru că e prea slabă,2025,5,0,0,5,0.2754371464252472,0.14075475931167603,0.13468238711357117,0,0,0,0.13468238711357117,0.0,0.0
+vrd_0150,"PROPAGANDĂ DE RĂZBOI: La fel ca și Adolf Hitler, Volodimir Zelenski a unit Europa pentru a distruge Rusia",2022,0,1,0,1,0.3446975350379944,0.6358444690704346,-0.2911469340324402,0,1,1,0.0,-0.2911469340324402,0.0
+vrd_0238,Ucraina este un stat terorist și trebuie pedepsit de Rusia,2023,3,2,0,5,0.00811007246375084,0.03760996460914612,-0.02949989214539528,0,0,0,-0.006667264737188816,-0.01433141715824604,0.0
+vrd_0423,Un grup de scriitori de la Chișinău a încercat să transmită copiilor din Tighina ziare cu falsuri despre istoria Transnistriei,2024,6,0,0,6,0.03615221753716469,0.04708151891827583,-0.010929301381111145,0,0,0,-0.010929301381111145,0.0,0.0
+vrd_0339,"Referendumul pentru UE din Moldova va fi, de fapt, despre război",2024,0,0,0,0,0.00510772317647934,0.00510772317647934,0.0,0,0,0,0.0,0.0,0.0
+vrd_0313,Experții americani spun că Ucraina va capitula,2023,0,0,0,0,0.0023717358708381653,0.0023717358708381653,0.0,0,0,0,0.0,0.0,0.0
+vrd_0517,Armata Ucrainei va ataca Rusia de pe teritoriul României,2025,0,1,0,1,0.6673197746276855,0.668886125087738,-0.0015663504600524902,1,1,0,0.0,-0.0015663504600524902,0.0
+vrd_0005,UE transformă România într-o piață pentru produse de slabă calitate,2022,0,0,0,0,0.049763523042201996,0.049763523042201996,0.0,0,0,0,0.0,0.0,0.0
+vrd_0481,UE a provocat criza energetică din Moldova,2025,2,0,1,3,0.0027792060282081366,0.0026132550556212664,0.0001659509725868702,0,0,0,5.296524614095688e-05,0.0,-0.0005538049153983593
+vrd_0335,Intenția de a părăsi CSI aruncă Moldova în criză economică,2024,0,0,0,0,0.26877450942993164,0.26877450942993164,0.0,0,0,0,0.0,0.0,0.0
+vrd_0008,"La sfârșitul Războiului Rece, SUA a vrut să dezmembreze România și i-a oferit-o Rusiei",2022,0,0,0,0,0.6751458048820496,0.6751458048820496,0.0,1,1,0,0.0,0.0,0.0
+vrd_0044,"PROPAGANDĂ DE RĂZBOI: Ucraina vrea să prelungească războiul și își folosește cetățenii ca scuturi umane, în timp ce Rusia protejează civilii ucraineni",2022,1,0,0,1,0.004092426039278507,0.0043427771888673306,-0.0002503511495888233,0,0,0,-0.0002503511495888233,0.0,0.0
+vrd_0556,Migrația economică actuală este comparabilă cu deportările sovietice,2025,0,0,0,0,0.674370288848877,0.674370288848877,0.0,1,1,0,0.0,0.0,0.0
+vrd_0256,Românii au înțeles că nu trebuie să sprijine Ucraina,2023,0,0,0,0,0.0031086255330592394,0.0031086255330592394,0.0,0,0,0,0.0,0.0,0.0
+vrd_0147,"PROPAGANDĂ DE RĂZBOI: Jumătate din militarii armatei ucrainene sunt străini, ceea ce înseamnă că NATO participă la război",2022,0,0,0,0,0.002868868410587311,0.002868868410587311,0.0,0,0,0,0.0,0.0,0.0
+vrd_0603,Rusia nu a încălcat Memorandumul de la Budapesta,2025,0,2,0,2,0.0019529490964487195,0.0019482770003378391,4.672096110880375e-06,0,0,0,0.0,4.672096110880375e-06,0.0
+vrd_0674,"UE devine un ""al patrulea Reich"", finanțând războiul din Ucraina",2026,0,0,0,0,0.0021829281467944384,0.0021829281467944384,0.0,0,0,0,0.0,0.0,0.0
+vrd_0595,Zelenski se droghează și e instabil psihic,2025,0,0,0,0,0.005952396895736456,0.005952396895736456,0.0,0,0,0,0.0,0.0,0.0
+vrd_0390,Ruşii au capturat o dronă americană de ultimă generaţie,2024,0,0,0,0,0.6293814182281494,0.6293814182281494,0.0,1,1,0,0.0,0.0,0.0
+vrd_0328,Rusia înfrânge NATO în războiul din Ucraina,2024,0,0,0,0,0.6538965702056885,0.6538965702056885,0.0,1,1,0,0.0,0.0,0.0
+vrd_0456,Maia Sandu a susținut-o pe Lasconi la prezidențiale pentru că așa i-a zis Soros,2024,0,0,0,0,0.006057051010429859,0.006057051010429859,0.0,0,0,0,0.0,0.0,0.0
+vrd_0333,Ucraina a renunțat la Donbass și Crimeea,2024,6,0,0,6,0.0054528494365513325,0.012098503299057484,-0.006645653862506151,0,0,0,-0.006645653862506151,0.0,0.0
+vrd_0438,Ucraina și Republica Moldova - colonii ale Occidentului cu regimuri dictatoriale,2024,0,0,0,0,0.6795420050621033,0.6795420050621033,0.0,1,1,0,0.0,0.0,0.0
+vrd_0567,Occidentul rescrie istoria pentru a justifica atacarea Rusiei,2025,2,0,0,2,0.6654193997383118,0.6708675622940063,-0.00544816255569458,1,1,0,-0.00544816255569458,0.0,0.0
+vrd_0608,Războiul din Transnistria a fost oprit de Rusia,2025,2,0,0,2,0.0030641185585409403,0.0033389658201485872,-0.00027484726160764694,0,0,0,-0.00027484726160764694,0.0,0.0
+vrd_0624,Înfrângerea Ucrainei este în interesul UE,2025,0,0,0,0,0.014461463317275047,0.014461463317275047,0.0,0,0,0,0.0,0.0,0.0
+vrd_0241,Rusia este susţinută de 85% din populaţia planetei,2023,0,0,0,0,0.6596736311912537,0.6596736311912537,0.0,1,1,0,0.0,0.0,0.0
+vrd_0074,Guvernarea pro-europeană a Moldovei este de vină că primarul socialist al Chișinăului scumpește transportul public,2022,0,0,0,0,0.00547018414363265,0.00547018414363265,0.0,0,0,0,0.0,0.0,0.0
+vrd_0593,Occidentul admite că livrările de arme către Ucraina sunt inutile,2025,0,0,0,0,0.05148285627365112,0.05148285627365112,0.0,0,0,0,0.0,0.0,0.0
+vrd_0225,SUA i-au permis Ucrainei să bombardeze Rusia,2023,4,1,1,6,0.0033470287453383207,0.0028559849597513676,0.0004910437855869532,0,0,0,-4.775961861014366e-05,-0.0001534393522888422,-1.6354722902178764e-05
+vrd_0550,Maia Sandu obligă populația să asiste la evenimentele LGBT,2025,0,0,1,1,0.002598922234028578,0.0032731748651713133,-0.0006742526311427355,0,0,0,0.0,0.0,-0.0006742526311427355
+vrd_0093,PROPAGANDĂ DE RĂZBOI: Kievul achită armamentul occidental cu exponate muzeale ucrainene,2022,0,0,0,0,0.0017171186627820134,0.0017171186627820134,0.0,0,0,0,0.0,0.0,0.0
+vrd_0287,Liderii UE resping o viitoare extindere a blocului comunitar,2023,0,1,0,1,0.0018013579538092017,0.0017635633703321218,3.779458347707987e-05,0,0,0,0.0,3.779458347707987e-05,0.0
+vrd_0376,"SBU, implicat în tentativa de asasinat a premierului slovac",2024,0,0,0,0,0.453036367893219,0.453036367893219,0.0,0,0,0,0.0,0.0,0.0
+vrd_0636,Rusia a distrus transportul european prin închiderea spaţiului său aerian,2025,0,0,0,0,0.009176431223750114,0.009176431223750114,0.0,0,0,0,0.0,0.0,0.0
+vrd_0004,"Ucraina este un stat nazist, periculos pentru existența Rusiei",2022,0,0,0,0,0.6740584969520569,0.6740584969520569,0.0,1,1,0,0.0,0.0,0.0
+vrd_0009,Prin codul QR de pe certificatele verzi se impune creditul social și e înrobită populația,2022,0,0,0,0,0.6763275265693665,0.6763275265693665,0.0,1,1,0,0.0,0.0,0.0
+vrd_0325,"În UE, Transnistria va fi un loc cu industrii nocive și migranți din Orient",2023,5,0,0,5,0.6762733459472656,0.678050696849823,-0.001777350902557373,1,1,0,-0.001777350902557373,0.0,0.0
+vrd_0229,Putin a avertizat Ucraina acum 23 de ani că NATO va provoca un război,2023,0,6,0,6,0.003870622254908085,0.01811424270272255,-0.014243620447814465,0,0,0,0.0,-0.014243620447814465,0.0
+vrd_0032,"PROPAGANDĂ DE RĂZBOI: Rusia a atacat Cernobîlul, Zaporojie și Harkovul pentru a împiedica Ucraina să producă arme nucleare",2022,0,0,1,1,0.004176077898591757,0.0050795902498066425,-0.0009035123512148857,0,0,0,0.0,0.0,-0.0009035123512148857
+vrd_0652,"România, obligată prin tratatul UE să intre în război cu Iranul",2026,0,0,0,0,0.0032696875277906656,0.0032696875277906656,0.0,0,0,0,0.0,0.0,0.0
+vrd_0638,România a rămas fără gaze pentru că le-a dat Ucrainei şi Moldovei,2026,0,0,0,0,0.22575686872005463,0.22575686872005463,0.0,0,0,0,0.0,0.0,0.0
+vrd_0270,"Moldova își va pierde ""total"" suveranitatea, apropiindu-se de NATO",2023,0,2,0,2,0.0021220811177045107,0.002324452390894294,-0.0002023712731897831,0,0,0,0.0,-0.0002023712731897831,0.0
+vrd_0030,"NATO furnizează armament Ucrainei prin Republica Moldova, care astfel își încalcă neutralitatea",2022,0,0,0,0,0.011451764032244682,0.011451764032244682,0.0,0,0,0,0.0,0.0,0.0
+vrd_0350,"Trimiși la moarte, militarii ucraineni le cer civililor să protesteze",2024,0,0,0,0,0.006406494416296482,0.006406494416296482,0.0,0,0,0,0.0,0.0,0.0
+vrd_0586,"""Coaliția de Voință"" vrea resursele Ucrainei",2025,0,0,0,0,0.5388507843017578,0.5388507843017578,0.0,1,1,0,0.0,0.0,0.0
+vrd_0052,Refugiații ucraineni abuzează de ospitalitatea moldovenilor,2022,0,0,0,0,0.6803138852119446,0.6803138852119446,0.0,1,1,0,0.0,0.0,0.0
+vrd_0116,Guvernarea de la Chișinău a instituit un regim dictatorial care luptă împotriva presei libere,2022,0,0,0,0,0.0055144489742815495,0.0055144489742815495,0.0,0,0,0,0.0,0.0,0.0
+vrd_0363,"NATO ar putea ocupa Ucraina, iar Rusia îi apără suveranitatea",2024,0,0,0,0,0.670538604259491,0.670538604259491,0.0,1,1,0,0.0,0.0,0.0
+vrd_0060,PROPAGANDĂ DE RĂZBOI: Zelenski a recunoscut că Ucraina a început conflictul cu Rusia,2022,0,0,0,0,0.0019938668701797724,0.0019938668701797724,0.0,0,0,0,0.0,0.0,0.0
+vrd_0227,Războiul a forțat SUA să mute armele biologice din Ucraina,2023,2,0,0,2,0.003086717566475272,0.003086717566475272,0.0,0,0,0,0.0,0.0,0.0
+vrd_0130,PROPAGANDĂ DE RĂZBOI: Polonia va declanșa un război împotriva Rusiei în următorii 10 ani,2022,0,0,0,0,0.002526091178879142,0.002526091178879142,0.0,0,0,0,0.0,0.0,0.0
+vrd_0080,PROPAGANDĂ DE RĂZBOI: Neonaziștii ucraineni țin în captivitate civili în regiunea Harkov,2022,0,0,0,0,0.001972780330106616,0.001972780330106616,0.0,0,0,0,0.0,0.0,0.0
+vrd_0050,NATO luptă cu Rusia pâna la ultimul ucrainean,2022,0,7,0,7,0.6513496041297913,0.6578697562217712,-0.0065201520919799805,1,1,0,0.0,-0.0065201520919799805,0.0
+vrd_0537,Zelenski și-a trădat poporul și prelungește intenționat războiul,2025,0,0,0,0,0.002272393088787794,0.002272393088787794,0.0,0,0,0,0.0,0.0,0.0
+vrd_0547,Cine lucrează pe 4 iulie e anti-american,2025,0,0,0,0,0.6639750599861145,0.6639750599861145,0.0,1,1,0,0.0,0.0,0.0
+vrd_0617,Ucrainenii vor avea viitor doar în componența Rusiei,2025,0,0,1,1,0.004531250335276127,0.004390091635286808,0.00014115869998931885,0,0,0,0.0,0.0,0.00014115869998931885
+vrd_0479,SUA solicită condamnarea lui Zelenski la închisoare pe viață,2025,0,2,0,2,0.0031879839953035116,0.0033790054731070995,-0.0001910214778035879,0,0,0,0.0,-0.0001910214778035879,0.0
+vrd_0066,PROPAGANDĂ DE RĂZBOI: Armata ucraineană aduce cadavre în Lisiciansk pentru a înscena un nou masacru,2022,0,0,0,0,0.0025128633715212345,0.0025128633715212345,0.0,0,0,0,0.0,0.0,0.0
+vrd_0100,PROPAGANDĂ DE RĂZBOI: România va ajuta Ucraina să recupereze Hersonul,2022,4,0,0,4,0.034921713173389435,0.028065472841262817,0.006856240332126617,0,0,0,0.006856240332126617,0.0,0.0
+vrd_0208,România se pregătește să intre în război,2023,0,0,0,0,0.6651554107666016,0.6651554107666016,0.0,1,1,0,0.0,0.0,0.0
+vrd_0294,UE vrea să se extindă pentru a acapara teritoriu în defavoarea Rusiei,2023,0,1,0,1,0.024428075179457664,0.018015921115875244,0.00641215406358242,0,0,0,0.0,0.00641215406358242,0.0
+vrd_0373,Integrarea Republicii Moldova în UE va duce la lichidarea sa,2024,0,0,0,0,0.0028130230493843555,0.0028130230493843555,0.0,0,0,0,0.0,0.0,0.0
+vrd_0533,Europa și Ucraina vor să deturneze Ziua Victoriei,2025,0,0,0,0,0.006375257857143879,0.006375257857143879,0.0,0,0,0,0.0,0.0,0.0
+vrd_0196,"Românii vor recâștiga avuția țării dacă se izolează de Occident, ca Japonia",2023,0,0,0,0,0.6758967041969299,0.6758967041969299,0.0,1,1,0,0.0,0.0,0.0
+vrd_0120,PROPAGANDĂ DE RĂZBOI: Pe teritoriul UE sunt instruiți teroriști care vor acționa împotriva civililor din Donbass,2022,5,0,1,6,0.0018080022418871522,0.0018779971869662404,-6.999494507908821e-05,0,0,0,-2.9225717298686504e-05,0.0,1.3837474398314953e-05
+vrd_0047,"Minele amplasate de Ucraina pot arunca în aer Marea Neagră, provocând un cataclism",2022,0,0,1,1,0.004524041898548603,0.004524041898548603,0.0,0,0,0,0.0,0.0,0.0
+vrd_0218,"Energia verde, promovată de Occident pentru a obține resurse minerale",2023,0,0,0,0,0.5796135067939758,0.5796135067939758,0.0,1,1,0,0.0,0.0,0.0
+vrd_0057,NATO nu-și va apăra membrii în cazul unui conflict cu Rusia,2022,0,0,0,0,0.6506608724594116,0.6506608724594116,0.0,1,1,0,0.0,0.0,0.0
+vrd_0559,România continuă să fie jefuită de UE,2025,0,0,0,0,0.6761509776115417,0.6761509776115417,0.0,1,1,0,0.0,0.0,0.0
+vrd_0197,Maia Sandu a demis-o pe Natalia Gavrilița ca să epureze opoziția și să își consolideze regimul autoritar și anti-rus,2023,0,0,0,0,0.0018490328220650554,0.0018490328220650554,0.0,0,0,0,0.0,0.0,0.0
+vrd_0148,"Hidroelectrica, la fel ca și alte avuții ale românilor, va fi luată de străini",2022,0,0,1,1,0.056923817843198776,0.056923817843198776,0.0,0,0,0,0.0,0.0,0.0
+vrd_0088,Delegația Chinei a părăsit sala în timpul unui discurs al lui Volodimir Zelenski,2022,0,1,0,1,0.002010233933106065,0.001957652159035206,5.2581774070858955e-05,0,0,0,0.0,5.2581774070858955e-05,0.0
+vrd_0115,Maia Sandu pregătește o lovitură de stat contra propriei guvernări,2022,0,3,1,4,0.00457031512632966,0.005664019845426083,-0.0010937047190964222,0,0,0,0.0,0.0,-0.0010937047190964222
+vrd_0555,Rusia și Iranul sunt victimele Occidentului neocolonial și agresiv,2025,1,0,0,1,0.6776500940322876,0.6777753233909607,-0.0001252293586730957,1,1,0,-0.0001252293586730957,0.0,0.0
+vrd_0494,Mass-media ridică osanale nazismului şi exponenţilor săi,2025,0,0,0,0,0.6739319562911987,0.6739319562911987,0.0,1,1,0,0.0,0.0,0.0
+vrd_0178,Autoritățile moldovene vând în UE mai scump gazul ieftin pe care îl primesc din Rusia,2022,1,0,0,1,0.021363550797104836,0.025388482958078384,-0.004024932160973549,0,0,0,-0.004024932160973549,0.0,0.0
+vrd_0262,Ucrainenii nu mai au loc în cimitire pentru militarii morți,2023,0,0,0,0,0.003934164065867662,0.003934164065867662,0.0,0,0,0,0.0,0.0,0.0
+vrd_0321,"Potrivit dreptului internațional, Ucraina e a Rusiei",2023,0,0,0,0,0.676090657711029,0.676090657711029,0.0,1,1,0,0.0,0.0,0.0
+vrd_0460,Pământul Ucrainei a fost vândut corporațiilor străine,2024,1,0,0,1,0.004601496737450361,0.017818568274378777,-0.013217071536928415,0,0,0,-0.013217071536928415,0.0,0.0
+vrd_0348,Zelenski repetă greșelile lui Hitler,2024,0,0,0,0,0.001677101943641901,0.001677101943641901,0.0,0,0,0,0.0,0.0,0.0
+vrd_0105,"PROPAGANDĂ DE RĂZBOI: Rusia a ucis cu o singură rachetă cel puțin 15 generali ucraineni la Vinița, oprind contraofensiva din Donbass",2022,3,0,0,3,0.0025608460418879986,0.002437371062114835,0.0001234749797731638,0,0,0,0.0001234749797731638,0.0,0.0
+vrd_0112,PROPAGANDĂ DE RĂZBOI: Nivelul infracționalității din Ucraina a crescut de trei ori în urma înarmării civililor,2022,0,0,0,0,0.002429157728329301,0.002429157728329301,0.0,0,0,0,0.0,0.0,0.0
+vrd_0448,Volodimir Zelenski este un lider terorist care își ucide cetățenii,2024,0,3,0,3,0.002600465202704072,0.0023165163584053516,0.00028394884429872036,0,0,0,0.0,0.00028394884429872036,0.0
+vrd_0082,Dodon a fost reținut la ordinul serviciilor secrete din România,2022,0,3,0,3,0.6404387950897217,0.6762605905532837,-0.03582179546356201,1,1,0,0.0,-0.03582179546356201,0.0
+vrd_0316,NATO distruge Delta Dunării,2023,0,0,0,0,0.6765640377998352,0.6765640377998352,0.0,1,1,0,0.0,0.0,0.0
+vrd_0402,Armata ucraineană este finanțată de Occident pentru a ataca Belarusul și Transnistria,2024,5,0,0,5,0.013051089830696583,0.10190607607364655,-0.08885498624294996,0,0,0,-0.08885498624294996,0.0,0.0
+vrd_0249,UE vrea să împingă Moldova spre o confruntare cu Rusia,2023,0,0,1,1,0.0026264560874551535,0.002494713058695197,0.00013174302875995636,0,0,0,0.0,0.0,0.00013174302875995636
+vrd_0281,Emigrarea de azi din Moldova este similară deportărilor staliniste,2023,0,1,0,1,0.6795334219932556,0.6795334219932556,0.0,1,1,0,0.0,0.0,0.0
+vrd_0319,"Ucraina, invadată pentru a opri o invazie NATO",2023,3,0,0,3,0.006880038883537054,0.008721972815692425,-0.0018419339321553707,0,0,0,-0.0018419339321553707,0.0,0.0
+vrd_0127,"PROPAGANDĂ DE RĂZBOI: Locuitorii regiunii Zaporojie așteaptă eliberarea orașelor Micolaev, Harkov și Odessa de naziștii ucraineni",2022,5,0,1,6,0.002519073197618127,0.0023640331346541643,0.00015504006296396255,0,0,0,-0.00022719800472259521,0.0,0.00017788540571928024
+vrd_0263,Maia Sandu a instaurat un regim dictatorial similar cu cel al lui Plahotniuc,2023,0,0,0,0,0.6763412952423096,0.6763412952423096,0.0,1,1,0,0.0,0.0,0.0
+vrd_0079,Presa occidentală minte despre războiul din Ucraina,2022,3,1,0,4,0.673562228679657,0.6747825741767883,-0.0012203454971313477,1,1,0,-0.00033664703369140625,-0.0012339949607849121,0.0
+vrd_0102,România va fi invadată de africani și asiatici veniți din Ucraina,2022,0,0,0,0,0.013835577294230461,0.013835577294230461,0.0,0,0,0,0.0,0.0,0.0
+vrd_0038,"PROPAGANDĂ DE RĂZBOI: Ucraina se pregătea să atace Belarusul, iar Rusia a dejucat acest scenariu",2022,4,1,0,5,0.01689617708325386,0.011181198060512543,0.005714979022741318,0,0,0,0.006035201251506805,-0.0033728517591953278,0.0
+vrd_0462,Rușii salvează memoria istorică a ucrainenilor,2024,0,0,0,0,0.670158863067627,0.670158863067627,0.0,1,1,0,0.0,0.0,0.0
+vrd_0459,UE pregătește România și Republica Moldova de război,2024,1,0,0,1,0.003468993818387389,0.003468993818387389,0.0,0,0,0,0.0,0.0,0.0
+vrd_0085,PROPAGANDĂ DE RĂZBOI: Copiii din Donbass erau vânduți pentru organe sub coordonarea Crucii Roșii,2022,5,0,0,5,0.002067738678306341,0.0020290170796215534,3.872159868478775e-05,0,0,0,3.872159868478775e-05,0.0,0.0
+vrd_0092,PROPAGANDĂ DE RĂZBOI: Voluntarii din Zaporojie se înscriu într-un batalion care va apăra regiunea de armata ucraineană,2022,3,0,0,3,0.0031062013003975153,0.0032429699786007404,-0.00013676867820322514,0,0,0,-0.00013676867820322514,0.0,0.0
+vrd_0090,PROPAGANDĂ DE RĂZBOI: Secretarul general al NATO propune Kievului să cedeze Rusiei anumite teritorii în numele păcii,2022,0,0,0,0,0.0018477396806702018,0.0018477396806702018,0.0,0,0,0,0.0,0.0,0.0
+vrd_0471,Occidentul a forțat Rusia să invadeze Ucraina,2025,0,1,0,1,0.0029139425605535507,0.003203680971637368,-0.0002897384110838175,0,0,0,0.0,-0.0002897384110838175,0.0
+vrd_0450,R. Moldova este gata să introducă regim de vize pentru ruși,2024,5,0,0,5,0.00831331592053175,0.00831331592053175,0.0,0,0,0,0.0,0.0,0.0
+vrd_0658,SUA bagă România în război cu Iranul,2026,0,0,0,0,0.67509526014328,0.67509526014328,0.0,1,1,0,0.0,0.0,0.0
+vrd_0418,Rusia bombardează doar infrastructura militară a Ucrainei,2024,0,1,0,1,0.0021125939674675465,0.002270786091685295,-0.00015819212421774864,0,0,0,0.0,-0.00015819212421774864,0.0
+vrd_0114,PROPAGANDĂ DE RĂZBOI: Statele UE îi vor cere Ucrainei să cedeze în fața Rusiei,2022,0,0,0,0,0.002537741092965007,0.002537741092965007,0.0,0,0,0,0.0,0.0,0.0
+vrd_0623,Denunțarea unor acorduri CSI va băga Moldova în izolare internațională,2025,0,1,1,2,0.001816338743083179,0.001914384076371789,-9.804533328860998e-05,0,0,0,0.0,-1.894624438136816e-05,-0.0006883499445393682
+vrd_0070,Moldova renunță la neutralitate și se înarmează pentru război cu Rusia,2022,0,0,0,0,0.6792661547660828,0.6792661547660828,0.0,1,1,0,0.0,0.0,0.0
+vrd_0295,Populația Ucrainei a scăzut din cauza NATO și UE,2023,0,0,0,0,0.006837932858616114,0.006837932858616114,0.0,0,0,0,0.0,0.0,0.0
+vrd_0252,Andrzej Duda spune că Rusia va câștiga războiul,2023,0,3,0,3,0.00189389253500849,0.0019843168556690216,-9.042432066053152e-05,0,0,0,0.0,-9.042432066053152e-05,0.0
+vrd_0237,Moldova acceptă atacarea Transnistriei pentru ca Ucraina să ia muniția rusă de acolo,2023,3,0,0,3,0.004757985007017851,0.005358563736081123,-0.0006005787290632725,0,0,0,-0.0006005787290632725,0.0,0.0
+vrd_0158,PROPAGANDĂ DE RĂZBOI: Israelul nu va livra armament Ucrainei pentru ca acesta să nu fie furat sau vândut Iranului,2022,0,0,0,0,0.0022049134131520987,0.0022049134131520987,0.0,0,0,0,0.0,0.0,0.0
+vrd_0387,Occidentul respinge planul de pace al Moscovei pentru a distruge Rusia,2024,1,1,0,2,0.009477302432060242,0.015730824321508408,-0.006253521889448166,0,0,0,-0.004574401304125786,-0.005673789419233799,0.0
+vrd_0128,Autoritățile de la Chișinău amenință autonomia Găgăuziei,2022,4,0,0,4,0.6764154434204102,0.6769876480102539,-0.00057220458984375,1,1,0,-0.00057220458984375,0.0,0.0
+vrd_0264,"Planul de pace al Rusiei, tot mai susținut în UE",2023,0,0,0,0,0.0027053244411945343,0.0027053244411945343,0.0,0,0,0,0.0,0.0,0.0
+vrd_0013,"NATO trimite trupe în Estul Europei, deși niciun stat-membru nu e amenințat",2022,1,0,0,1,0.01259555947035551,0.01259555947035551,0.0,0,0,0,0.0,0.0,0.0
+vrd_0463,Ucraina trebuie să plătească cu sânge aderarea la NATO,2024,0,0,0,0,0.006564708426594734,0.006564708426594734,0.0,0,0,0,0.0,0.0,0.0
+vrd_0269,Interpol îi va da în căutare pe ucrainenii care au fugit de mobilizare,2023,0,0,0,0,0.003230143804103136,0.003230143804103136,0.0,0,0,0,0.0,0.0,0.0
+vrd_0607,Occidentul i-a cerut lui Zelenski să zboare la Moscova și să accepte pacea,2025,0,0,0,0,0.0022857184521853924,0.0022857184521853924,0.0,0,0,0,0.0,0.0,0.0
+vrd_0403,"Zelenski e vinovat pentru distrugerea economiei Ucrainei, nu armata rusă agresoare",2024,0,0,0,0,0.005736692808568478,0.005736692808568478,0.0,0,0,0,0.0,0.0,0.0
+vrd_0571,Kievul nazist întinează memoria eliberatorilor sovietici ai Ucrainei,2025,0,0,0,0,0.0039468142203986645,0.0039468142203986645,0.0,0,0,0,0.0,0.0,0.0
+vrd_0474,Ucraina adoptă un model educațional impus de naziști,2025,0,0,0,0,0.6741704344749451,0.6741704344749451,0.0,1,1,0,0.0,0.0,0.0
+vrd_0157,Oculta mondială va aduce omenirea sub control impunând monede digitale și identitatea digitală,2022,0,0,0,0,0.6293869018554688,0.6293869018554688,0.0,1,1,0,0.0,0.0,0.0
+vrd_0515,Maia Sandu a dispus arestarea guvernatoarei Găgăuziei,2025,5,1,0,6,0.6650382876396179,0.6721264719963074,-0.007088184356689453,1,1,0,-0.007088184356689453,0.0,0.0
+vrd_0553,România va suporta costurile aprovizionării cu gaze a Ucrainei,2025,0,0,0,0,0.6099947690963745,0.6099947690963745,0.0,1,1,0,0.0,0.0,0.0
+vrd_0191,Zelenski a recunoscut că tancurile occidentale nu vor schimba situația de pe front,2023,0,0,0,0,0.017957676202058792,0.017957676202058792,0.0,0,0,0,0.0,0.0,0.0
+vrd_0011,Moldova renunță la neutralitate și îi cedează NATO controlul asupra forțelor sale armate,2022,0,0,0,0,0.6754394173622131,0.6754394173622131,0.0,1,1,0,0.0,0.0,0.0
+vrd_0371,Ucraina ar putea ataca Republica Moldova,2024,0,0,0,0,0.0037334663793444633,0.0037334663793444633,0.0,0,0,0,0.0,0.0,0.0
+vrd_0343,SUA vor suferi o înfrângere strategică în Ucraina,2024,1,1,0,2,0.0033794569317251444,0.0031497301533818245,0.0002297267783433199,0,0,0,-0.00016993051394820213,-0.0003660500515252352,0.0
+vrd_0272,UE îi permite Ucrainei să încalce drepturile rusofonilor,2023,0,1,0,1,0.002247857628390193,0.002169632585719228,7.82250426709652e-05,0,0,0,0.0,7.82250426709652e-05,0.0
+vrd_0386,"Ucrainenii, trimiși la moarte la comanda Occidentului",2024,0,0,0,0,0.0027386730071157217,0.0027386730071157217,0.0,0,0,0,0.0,0.0,0.0
+vrd_0154,PROPAGANDĂ DE RĂZBOI: Diplomații străini se retrag din Kiev de frica ofensivei ruse,2022,1,0,0,1,0.0016887463862076402,0.0016997673083096743,-1.1020922102034092e-05,0,0,0,-1.1020922102034092e-05,0.0,0.0
+vrd_0539,Rusia refuză armistițiul pentru că Occidentul a înșelat-o în trecut,2025,0,1,0,1,0.001845106016844511,0.0020291812252253294,-0.00018407520838081837,0,0,0,0.0,-0.00018407520838081837,0.0
+vrd_0454,"Zelenski, agent MI6 care lucrează pentru distrugerea UE",2024,0,3,0,3,0.6097855567932129,0.5716807842254639,0.03810477256774902,1,1,0,0.0,0.03810477256774902,0.0
+vrd_0545,Zelenski va declanșa Al Treilea Război Mondial,2025,0,0,0,0,0.003234551288187504,0.003234551288187504,0.0,0,0,0,0.0,0.0,0.0
+vrd_0240,Copiii ucraineni sunt vânduți în Occident,2023,4,1,0,5,0.00790678896009922,0.007284792605787516,0.0006219963543117046,0,0,0,0.0006219963543117046,0.0,0.0
+vrd_0242,Războiul din Ucraina este în interesul lui Zelenski,2023,0,0,0,0,0.6734969019889832,0.6734969019889832,0.0,1,1,0,0.0,0.0,0.0
+vrd_0226,Republica Moldova pregătește un milion de rezerviști pentru a ataca Transnistria,2023,2,0,0,2,0.6741993427276611,0.6746053099632263,-0.00040596723556518555,1,1,0,-0.00040596723556518555,0.0,0.0
+vrd_0087,PROPAGANDĂ DE RĂZBOI: Statele Unite studiază armamentul rusesc capturat în Ucraina pentru a-i copia tehnologia ultramodernă,2022,0,0,0,0,0.0016493832226842642,0.0016493832226842642,0.0,0,0,0,0.0,0.0,0.0
+vrd_0161,PROPAGANDĂ DE RĂZBOI: Armata ucraineană le dă bani celor care își păcălesc prietenii să se înroleze,2022,0,0,0,0,0.006495090201497078,0.006495090201497078,0.0,0,0,0,0.0,0.0,0.0
+vrd_0569,Occidentul sprijină protestele anti-corupție din Ucraina ca să scape de Zelenski,2025,0,0,0,0,0.00439313892275095,0.00439313892275095,0.0,0,0,0,0.0,0.0,0.0
+vrd_0144,Carta ONU îi permite Rusiei să atace Ucraina pentru a combate nazismul,2022,0,3,0,3,0.5671008825302124,0.649441659450531,-0.0823407769203186,1,1,0,0.0,-0.0823407769203186,0.0
+vrd_0422,Occidentul vrea să distrugă Ucraina și Biserica ortodoxă,2024,0,0,0,0,0.002869386924430728,0.002869386924430728,0.0,0,0,0,0.0,0.0,0.0
+vrd_0521,UE și Marea Britanie finanțează terorismul ucrainean,2025,0,0,0,0,0.0024768051225692034,0.0024768051225692034,0.0,0,0,0,0.0,0.0,0.0
+vrd_0518,Kievul nu-și mai controlează armata,2025,0,5,0,5,0.0021825830917805433,0.002077026292681694,0.0001055567990988493,0,0,0,0.0,0.0001055567990988493,0.0
+vrd_0361,Occidentul vrea să cedeze teritorii ucrainene Rusiei,2024,4,0,0,4,0.013595513999462128,0.036176253110170364,-0.022580739110708237,0,0,0,-0.022580739110708237,0.0,0.0
+vrd_0400,Zeci de crime de război au fost comise de mercenarii francezi și militarii ucraineni în regiunea Harkov,2024,0,0,0,0,0.006109924986958504,0.006109924986958504,0.0,0,0,0,0.0,0.0,0.0
+vrd_0000,"NATO are o bază militară la Odessa, pe pământul istoric al Rusiei",2022,2,0,0,2,0.00206934311427176,0.002799347275868058,-0.0007300041615962982,0,0,0,-0.0007300041615962982,0.0,0.0
+vrd_0374,Zelenski nu mai are legitimitate și guvernarea sa e ilegală,2024,0,0,0,0,0.002615503268316388,0.002615503268316388,0.0,0,0,0,0.0,0.0,0.0
+vrd_0489,"Rusia, forțată să invadeze Ucraina",2025,4,2,0,6,0.002568438183516264,0.002552697667852044,1.5740515664219856e-05,0,0,0,8.906680159270763e-05,-0.00012039858847856522,0.0
+vrd_0062,"PROPAGANDĂ DE RĂZBOI: Sudul Ucrainei, eliberat de naționaliști, vrea să fie alipit la Rusia",2022,2,0,1,3,0.002132647205144167,0.0019500978523865342,0.00018254935275763273,0,0,0,8.314871229231358e-05,0.0,6.629363633692265e-05
+vrd_0651,Occidentul îi va furniza Ucrainei arme nucleare,2026,0,2,0,2,0.002246322575956583,0.0022339539136737585,1.2368662282824516e-05,0,0,0,0.0,1.2368662282824516e-05,0.0
+vrd_0185,"PROPAGANDĂ DE RĂZBOI: În timp ce ucrainenii stau în frig și întuneric, Kievul vinde energie electrică Republicii Moldova",2022,0,0,1,1,0.004527485463768244,0.004402945749461651,0.00012453971430659294,0,0,0,0.0,0.0,0.00012453971430659294
+vrd_0464,Iohannis a instaurat dictatura în România,2024,0,0,0,0,0.6791810989379883,0.6791810989379883,0.0,1,1,0,0.0,0.0,0.0
+vrd_0136,Serviciile secrete vor orchestra proteste pentru a justifica abandonarea Ucrainei de către UE,2022,0,2,0,2,0.6650664210319519,0.6729651093482971,-0.007898688316345215,1,1,0,0.0,-0.007898688316345215,0.0
+vrd_0544,Moldova folosește banii UE pentru a-și plăti datoriile,2025,0,0,0,0,0.006904540117830038,0.006904540117830038,0.0,0,0,0,0.0,0.0,0.0
+vrd_0098,PROPAGANDĂ DE RĂZBOI: Volodimir Zelenski va fi judecat pentru crime de război,2022,2,0,1,3,0.0023432059679180384,0.00215636077336967,0.00018684519454836845,0,0,0,0.0001536100171506405,0.0,-0.00011880998499691486
+vrd_0195,Ucraina recrutează voluntari pentru brigăzi naziste,2023,2,0,0,2,0.0034455435816198587,0.0036942632868885994,-0.00024871970526874065,0,0,0,-0.00024871970526874065,0.0,0.0
+vrd_0428,Chișinăul este gata să renunțe la regiunea transnistreană în favoarea aderării la UE,2024,6,3,0,9,0.0018224056111648679,0.0017785369418561459,4.386866930872202e-05,0,0,0,0.00012821226846426725,-5.913362838327885e-05,0.0
+vrd_0265,"Atacul de pe Aeroportul Chișinău, o consecință a distanțării de CSI",2023,0,3,2,5,0.004303173627704382,0.006135864183306694,-0.001832690555602312,0,0,0,0.0,-0.001832690555602312,0.0
+vrd_0077,"Dacă Republica Moldova va părăsi CSI, nu va mai avea unde să-și vândă produsele",2022,1,2,1,4,0.03145688399672508,0.6326452493667603,-0.6011883653700352,0,1,1,-0.0012110844254493713,-0.5672773756086826,0.00113750621676445
+vrd_0142,PROPAGANDĂ DE RĂZBOI: În regiunea Liov va fi organizat un referendum pentru alipirea la Polonia,2022,0,0,0,0,0.003387962933629751,0.003387962933629751,0.0,0,0,0,0.0,0.0,0.0
+vrd_0314,Moldovenii s-au opus dintotdeauna Bisericii Ortodoxe Române,2023,0,0,0,0,0.6777272820472717,0.6777272820472717,0.0,1,1,0,0.0,0.0,0.0
+vrd_0340,Rusia câștiga războiul dacă era la fel de brutală ca Israelul,2024,0,0,0,0,0.6540586352348328,0.6540586352348328,0.0,1,1,0,0.0,0.0,0.0
+vrd_0513,"Republica Moldova, atrasă în coaliția europeană anti-Trump",2025,1,0,0,1,0.08932498842477798,0.09196702390909195,-0.002642035484313965,0,0,0,-0.002642035484313965,0.0,0.0
+vrd_0378,"Von der Leyen, criticată în UE că susține Ucraina",2024,0,1,0,1,0.0037340980488806963,0.003581882920116186,0.00015221512876451015,0,0,0,0.0,0.00015221512876451015,0.0
+vrd_0509,Ucraina va trimite trupe să lupte în Transnistria și Africa,2025,2,0,0,2,0.004190710373222828,0.004120718687772751,6.999168545007706e-05,0,0,0,6.999168545007706e-05,0.0,0.0
+vrd_0352,Ucraina își vinde pământul Poloniei,2024,0,0,0,0,0.6751392483711243,0.6751392483711243,0.0,1,1,0,0.0,0.0,0.0
+vrd_0435,Volodimir Zelenski nu vrea pace în Ucraina,2024,0,0,0,0,0.0026390207931399345,0.0026390207931399345,0.0,0,0,0,0.0,0.0,0.0
+vrd_0177,"PROPAGANDĂ DE RĂZBOI: Statele Unite au înarmat Ucraina începând cu 2014, pentru a o împinge la război împotriva Rusiei",2022,0,0,0,0,0.0032912890892475843,0.0032912890892475843,0.0,0,0,0,0.0,0.0,0.0
+vrd_0033,"Occidentul a declarat război Federației Ruse, iar Moldova riscă să aibă soarta Ucrainei",2022,0,0,2,2,0.6749818325042725,0.6764225959777832,-0.0014407634735107422,1,1,0,0.0,0.0,-0.0014407634735107422
+vrd_0530,"Ucraina militaristă riscă un atac nuclear, ca Japonia în 1945",2025,0,2,1,3,0.0014450548915192485,0.0014450548915192485,0.0,0,0,0,0.0,0.0,0.0
+vrd_0207,Zelenski le-a solicitat statelor membre NATO să trimită trupe în Ucraina,2023,0,0,0,0,0.0024329882580786943,0.0024329882580786943,0.0,0,0,0,0.0,0.0,0.0
+vrd_0182,"Sancțiunile nu afectează Rusia, dar vor cauza o criză economică severă în Occident",2022,0,0,0,0,0.17739273607730865,0.17739273607730865,0.0,0,0,0,0.0,0.0,0.0
+vrd_0180,"România participă cu mii de militari la războiul din Ucraina, conform unei înţelegeri la nivel guvernamental",2022,0,0,0,0,0.006626701448112726,0.006626701448112726,0.0,0,0,0,0.0,0.0,0.0
+vrd_0666,Ucraina încă nu a fost distrusă pentru că pro-rușii i-au pus baze solide,2026,0,0,1,1,0.6345195770263672,0.6612039804458618,-0.02668440341949463,1,1,0,0.0,0.0,-0.02668440341949463
+vrd_0186,"Ca și Andrei Marga, Henry Kissinger susține că Ucraina trebuie să cedeze teritorii Rusiei în schimbul păcii",2022,0,0,0,0,0.674541711807251,0.674541711807251,0.0,1,1,0,0.0,0.0,0.0
+vrd_0532,Europa a distrus agricultura Moldovei,2025,0,0,0,0,0.003103703958913684,0.003103703958913684,0.0,0,0,0,0.0,0.0,0.0
+vrd_0505,USAID a asigurat victoria Maiei Sandu la alegerile prezidențiale,2025,0,0,0,0,0.0021499760914593935,0.0021499760914593935,0.0,0,0,0,0.0,0.0,0.0
+vrd_0081,"OSCE colabora cu regimentului ""Azov"" din Mariupol și îi furniza informații",2022,2,0,0,2,0.003186356509104371,0.003069567959755659,0.00011678854934871197,0,0,0,0.00011678854934871197,0.0,0.0
+vrd_0601,Ucraina refuză pacea și forțează Rusia să continue războiul,2025,0,2,0,2,0.0031702991109341383,0.0035129250027239323,-0.00034262589178979397,0,0,0,0.0,-0.00034262589178979397,0.0
+vrd_0671,Maia Sandu e de vină pentru scumpirea carburanților în Republica Moldova,2026,0,0,0,0,0.02793079800903797,0.02793079800903797,0.0,0,0,0,0.0,0.0,0.0
+vrd_0248,NATO sprijină Ucraina pentru a cauza un război mondial,2023,0,1,0,1,0.0034031879622489214,0.003392558079212904,1.0629883036017418e-05,0,0,0,0.0,1.0629883036017418e-05,0.0
+vrd_0228,Ucraina a atacat România cu mine,2023,0,0,0,0,0.1192035898566246,0.1192035898566246,0.0,0,0,0,0.0,0.0,0.0
+vrd_0175,În România va fi blackout de sărbători pentru ca patrioții să poată fi asasinați,2022,0,0,0,0,0.6737534403800964,0.6737534403800964,0.0,1,1,0,0.0,0.0,0.0
+vrd_0143,Republica Moldova este condusă de un regim dictatorial rusofob,2022,0,0,0,0,0.6788008809089661,0.6788008809089661,0.0,1,1,0,0.0,0.0,0.0
+vrd_0236,Românismul e o formă de agresiune împotriva Rusiei,2023,0,0,0,0,0.679601788520813,0.679601788520813,0.0,1,1,0,0.0,0.0,0.0
+vrd_0199,Zelenski a recunoscut că ucrainenii simpli n-au niciun motiv să lupte împotriva Rusiei,2023,0,0,0,0,0.0021028504706919193,0.0021028504706919193,0.0,0,0,0,0.0,0.0,0.0
+vrd_0046,PROPAGANDĂ DE RĂZBOI: Forțele ucrainene au distrus orașul Mariupol,2022,4,0,0,4,0.005873356480151415,0.005652720108628273,0.00022063637152314186,0,0,0,0.00022063637152314186,0.0,0.0
+vrd_0118,PROPAGANDĂ DE RĂZBOI: SUA vor provoca un dezastru nuclear în Ucraina pentru a ascunde urmele laboratoarelor de arme biologice,2022,0,0,0,0,0.011598175391554832,0.011598175391554832,0.0,0,0,0,0.0,0.0,0.0
+vrd_0043,Rușii din afara țării sunt discriminați,2022,0,0,0,0,0.00873972661793232,0.00873972661793232,0.0,0,0,0,0.0,0.0,0.0
+vrd_0582,Viktor Ianukovici s-a opus aderării Ucrainei la NATO pentru a păstra pacea,2025,0,2,0,2,0.0014687501825392246,0.001469129347242415,-3.791647031903267e-07,0,0,0,0.0,-3.791647031903267e-07,0.0
+vrd_0497,"Zelenski, acuzat în Rada de terorism și uzurparea puterii",2025,0,0,0,0,0.002746507292613387,0.002746507292613387,0.0,0,0,0,0.0,0.0,0.0
+vrd_0482,Londra sprijină Ucraina neonazistă pentru a o transforma într-o colonie,2025,0,3,0,3,0.0019216584041714668,0.0023681572638452053,-0.0004464988596737385,0,0,0,0.0,-0.0004464988596737385,0.0
+vrd_0029,"SUA nu consideră că trimiterea de trupe rusești în republicile separatiste Donețk și Luhansk, din Donbass, reprezintă o invazie a Ucrainei",2022,6,0,0,6,0.006210146471858025,0.6424244046211243,-0.6362142581492662,0,1,1,-0.6362142581492662,0.0,0.0
+vrd_0076,PROPAGANDĂ DE RĂZBOI: Consilierul lui Zelenski anunță organizarea unui genocid al rusofonilor în Harkov și Donbass,2022,6,0,0,6,0.0022489477414637804,0.002187950536608696,6.099720485508442e-05,0,0,0,6.099720485508442e-05,0.0,0.0
+vrd_0380,Germania vrea să scape de refugiaţii ucraineni,2024,0,0,0,0,0.0047142393887043,0.0047142393887043,0.0,0,0,0,0.0,0.0,0.0
+vrd_0519,SUA folosesc Ucraina pentru a distruge Rusia,2025,0,0,0,0,0.002412768080830574,0.002412768080830574,0.0,0,0,0,0.0,0.0,0.0
+vrd_0397,Transportatorii ucraineni nu mai pot fi controlați,2024,0,0,0,0,0.01739901304244995,0.01739901304244995,0.0,0,0,0,0.0,0.0,0.0
+vrd_0468,SUA refuză normalizarea relaţiilor cu Rusia,2024,0,1,0,1,0.004353113006800413,0.009612184017896652,-0.005259071011096239,0,0,0,0.0,-0.005259071011096239,0.0
+vrd_0278,Polonia vrea să atace Rusia și să ocupe vestul Ucrainei,2023,1,1,0,2,0.007773382589221001,0.007022037636488676,0.0007513449527323246,0,0,0,-0.0007675793021917343,-0.0012887464836239815,0.0
+vrd_0083,PROPAGANDĂ DE RĂZBOI: Majoritatea polonezilor susțin invadarea regiunilor din vestul Ucrainei,2022,0,0,0,0,0.005317841190844774,0.005317841190844774,0.0,0,0,0,0.0,0.0,0.0
+vrd_0246,Rusia nu se implică în afacerile interne ale Moldovei,2023,0,2,0,2,0.0031811147928237915,0.005759805906563997,-0.0025786911137402058,0,0,0,0.0,-0.0025786911137402058,0.0
+vrd_0458,UE vrea să transforme Georgia într-un aliat militar împotriva Rusiei,2024,0,0,0,0,0.002377220895141363,0.002377220895141363,0.0,0,0,0,0.0,0.0,0.0
+vrd_0409,România e de vină pentru foametea din Moldova Sovietică din 1946-47,2024,1,3,0,4,0.0068346657790243626,0.013273636810481548,-0.006438971031457186,0,0,0,0.0,-0.006438971031457186,0.0
+vrd_0625,Liderii ucraineni vor fi judecați de un tribunal internațional,2025,0,2,0,2,0.0022717975080013275,0.0029778650496155024,-0.0007060675416141748,0,0,0,0.0,-0.0007060675416141748,0.0
+vrd_0190,PROPAGANDĂ DE RĂZBOI: UE își ascunde implicarea în crimele comise pe teritoriul Ucrainei prin înființarea unui tribunal special,2022,0,0,1,1,0.002020438201725483,0.001990737160667777,2.970104105770588e-05,0,0,0,0.0,0.0,2.970104105770588e-05
+vrd_0023,"Ședința comună a guvernelor de la București și Chișinău, un nou pas spre anexarea Republicii Moldova de către România",2022,0,0,0,0,0.6804348230361938,0.6804348230361938,0.0,1,1,0,0.0,0.0,0.0
+vrd_0355,Moldova îi cere Rusiei să evacueze rușii din Transnistria,2024,6,0,0,6,0.007358193397521973,0.008106169290840626,-0.0007479758933186531,0,0,0,-0.0007479758933186531,0.0,0.0
+vrd_0609,Sprijinirea Ucrainei va duce la autodistrugerea UE,2025,0,3,1,4,0.002886886475607753,0.003817216260358691,-0.0009303297847509384,0,0,0,0.0,-0.0004858141764998436,0.00010693492367863655
+vrd_0069,"PROPAGANDĂ DE RĂZBOI: În Ucraina au sosit mercenari din Israel care luptă împotriva Rusiei alături de militarii grupului ""Azov""",2022,0,5,0,5,0.002371234819293022,0.0023886042181402445,-1.7369398847222328e-05,0,0,0,0.0,-1.7369398847222328e-05,0.0
+vrd_0286,"Ucraina îi glorifică pe ucigașii a 1,5 milioane de evrei",2023,0,4,0,4,0.04084879532456398,0.07308027148246765,-0.03223147615790367,0,0,0,0.0,-0.03223147615790367,0.0
+vrd_0292,Interzicerea automobilelor din Rusia arată nazismul UE,2023,0,0,0,0,0.018809176981449127,0.018809176981449127,0.0,0,0,0,0.0,0.0,0.0
+vrd_0382,Natalitatea în Moldova scade din cauza exercițiilor militare cu NATO,2024,0,0,0,0,0.0072492510080337524,0.0072492510080337524,0.0,0,0,0,0.0,0.0,0.0
+vrd_0041,PROPAGANDĂ DE RĂZBOI: Ucraina se pregătea să atace Donbassul și și-a mascat intențiile ascunzând militari în școli și spitale,2022,3,0,1,4,0.0030061742290854454,0.0034610130824148655,-0.0004548388533294201,0,0,0,-0.00017660437151789665,0.0,1.2813601642847061e-05
+vrd_0561,Biserica Ortodoxă Română și Occidentul promovează agenda LGBT în Moldova,2025,0,0,0,0,0.6772941946983337,0.6772941946983337,0.0,1,1,0,0.0,0.0,0.0
+vrd_0205,"Rusia trebuie să se mobilizeze pentru a învinge NATO în noul ""război pentru apărarea patriei""",2023,0,4,0,4,0.0034545997623354197,0.003010121174156666,0.00044447858817875385,0,0,0,0.0,0.00044447858817875385,0.0
+vrd_0470,"NATO, la solicitarea Chișinăului, pregătește un atac asupra Transnistriei",2025,7,0,0,7,0.0030227520037442446,0.004635014105588198,-0.0016122621018439531,0,0,0,-0.0016122621018439531,0.0,0.0
+vrd_0407,UE vrea să distrugă Rusia cu ajutorul Ucrainei,2024,0,3,0,3,0.008531615138053894,0.010131525807082653,-0.001599910669028759,0,0,0,0.0,-0.001599910669028759,0.0
+vrd_0426,"""Reunificarea"" cu Rusia a adus prosperitate în Donbas",2024,4,0,0,4,0.6746326684951782,0.6766332387924194,-0.002000570297241211,1,1,0,-0.002000570297241211,0.0,0.0
+vrd_0630,"UE pregătește un nou ""Pearl Harbor"" ca să bage SUA în război cu Rusia",2025,0,0,0,0,0.0018618449103087187,0.0018618449103087187,0.0,0,0,0,0.0,0.0,0.0
+vrd_0124,"Prezența militară rusă în Transnistria este ""piatra de temelie"" a securității în întreaga regiune",2022,3,0,0,3,0.6813027262687683,0.6819196343421936,-0.000616908073425293,1,1,0,-0.000616908073425293,0.0,0.0
+vrd_0431,R. Moldova a reușit să se apropie de UE doar datorită rusofobiei,2024,0,0,0,0,0.6772054433822632,0.6772054433822632,0.0,1,1,0,0.0,0.0,0.0
+vrd_0618,UE și Moldova spun că Rusia e o amenințare pentru a-și masca eșecurile,2025,0,2,0,2,0.0027822896372526884,0.007654442451894283,-0.004872152814641595,0,0,0,0.0,-0.004872152814641595,0.0
+vrd_0097,PROPAGANDĂ DE RĂZBOI: Locuitorii regiunii Luhansk vor fi deportați de Kiev,2022,5,0,0,5,0.0037388463970273733,0.003111804137006402,0.0006270422600209713,0,0,0,0.0006270422600209713,0.0,0.0
+vrd_0512,Volodimir Zelenski este singurul obstacol în calea păcii,2025,0,0,0,0,0.0030170681420713663,0.0030170681420713663,0.0,0,0,0,0.0,0.0,0.0
+vrd_0016,Chișinăul întreține conflictul transnistrean pentru ca Occidentul să rămână interesat de Moldova,2022,3,0,0,3,0.6836875081062317,0.6859784126281738,-0.0022909045219421387,1,1,0,-0.0022909045219421387,0.0,0.0
+vrd_0410,Ceremonia de închidere a Olimpiadei a fost un spectacol satanist,2024,0,0,0,0,0.6753242015838623,0.6753242015838623,0.0,1,1,0,0.0,0.0,0.0
+vrd_0298,În Ucraina va fi o iarnă grea din cauza autorităților,2023,0,0,1,1,0.0022557482589036226,0.0023181545548141003,-6.240629591047764e-05,0,0,0,0.0,0.0,-6.240629591047764e-05
+vrd_0172,"Deja cucerită de Occident, România se lasă călcată în picioare și de Ucraina",2022,0,0,0,0,0.6780464053153992,0.6780464053153992,0.0,1,1,0,0.0,0.0,0.0
+vrd_0271,Ucrainenii sunt condamnați la pușcărie pentru că discută cu rudele lor din Rusia,2023,0,0,0,0,0.0019762760493904352,0.0019762760493904352,0.0,0,0,0,0.0,0.0,0.0
+vrd_0349,Rușii au fost primiți cu bucurie în Avdiivka,2024,1,0,0,1,0.02239796705543995,0.02239796705543995,0.0,0,0,0,0.0,0.0,0.0
+vrd_0529,"Maia Sandu a interzis marcarea ""Zilei Victoriei"" în R. Moldova",2025,2,0,0,2,0.04205230996012688,0.05366511642932892,-0.011612806469202042,0,0,0,-0.011612806469202042,0.0,0.0
+vrd_0535,"Conflictul transnistrean, provocat de rusofobie și românism",2025,3,0,0,3,0.6690641045570374,0.669046938419342,1.71661376953125e-05,1,1,0,1.71661376953125e-05,0.0,0.0
+vrd_0027,NATO împinge Moldova spre un război cu Rusia,2022,1,0,0,1,0.6784233450889587,0.6788105964660645,-0.0003872513771057129,1,1,0,-0.0003872513771057129,0.0,0.0
+vrd_0370,Franța a trimis Legiunea Străină pe frontul ucrainean,2024,0,0,0,0,0.670411229133606,0.670411229133606,0.0,1,1,0,0.0,0.0,0.0
+vrd_0354,"Pacea, realizabilă doar prin anexarea Ucrainei",2024,0,3,0,3,0.0018496261909604073,0.0031037188600748777,-0.0012540926691144705,0,0,0,0.0,-0.0012540926691144705,0.0
+vrd_0445,UE a ruinat Ucraina,2024,0,0,0,0,0.6756736636161804,0.6756736636161804,0.0,1,1,0,0.0,0.0,0.0
+vrd_0487,"CIJ a dat teritorii României, cum vrea și Călin Georgescu",2025,0,0,0,0,0.6791470050811768,0.6791470050811768,0.0,1,1,0,0.0,0.0,0.0
+vrd_0231,Ucraina este un pseudo-stat nazist împins la război de Occident,2023,0,0,0,0,0.670897901058197,0.670897901058197,0.0,1,1,0,0.0,0.0,0.0
+vrd_0101,Parteneriatul strategic România-SUA nu ne-a adus avantaje,2022,0,0,0,0,0.6783641576766968,0.6783641576766968,0.0,1,1,0,0.0,0.0,0.0
+vrd_0166,Statele Unite se pregătesc să atace Transnistria,2022,7,0,0,7,0.007262557279318571,0.018869614228606224,-0.011607056949287653,0,0,0,-0.011607056949287653,0.0,0.0
+vrd_0594,Victoria PAS în alegeri va avea același impact ca venirea naziștilor la putere,2025,5,0,0,5,0.6551697850227356,0.6551697850227356,0.0,1,1,0,0.0,0.0,0.0
+vrd_0501,Britanicii vor muri și Zelenski se va îmbogăți,2025,0,0,0,0,0.004063306376338005,0.004063306376338005,0.0,0,0,0,0.0,0.0,0.0
+vrd_0573,Occidentalii migrează în masă în Rusia în căutarea valorilor tradiționale,2025,0,1,0,1,0.012217524461448193,0.012217524461448193,0.0,0,0,0,0.0,0.0,0.0
+vrd_0526,Chișinăul persecută Mitropolia subordonată Patriarhiei Ruse,2025,0,0,0,0,0.6747424006462097,0.6747424006462097,0.0,1,1,0,0.0,0.0,0.0
+vrd_0647,Ucrainenii se vor închina la icoana unui sportiv cu cască,2026,0,0,0,0,0.0024394402280449867,0.0024394402280449867,0.0,0,0,0,0.0,0.0,0.0
+vrd_0126,Românii și Europa vor îngheța la iarnă,2022,1,2,0,3,0.3351465165615082,0.6185386180877686,-0.2833921015262604,0,1,1,-0.28347447514533997,-0.18704965710639954,0.0
+vrd_0129,Rusia nu este de vină pentru explozia prețurilor la energie și gaze naturale,2022,0,0,0,0,0.6576935648918152,0.6576935648918152,0.0,1,1,0,0.0,0.0,0.0
+vrd_0670,"Ucrainenii vor să citească în rusă, nu în ucraineană",2026,0,0,0,0,0.010650339536368847,0.010650339536368847,0.0,0,0,0,0.0,0.0,0.0
+vrd_0649,Va fi pace doar dacă Ucraina va fi administrată de o putere străină,2026,1,0,1,2,0.0019362427992746234,0.0018715468468144536,6.469595246016979e-05,0,0,0,2.1856860257685184e-05,0.0,-0.00014815933536738157
+vrd_0383,Noul Parlament European va continua politica rusofobă,2024,0,2,0,2,0.004548027645796537,0.006539524532854557,-0.0019914968870580196,0,0,0,0.0,-0.0019914968870580196,0.0
+vrd_0282,Ucraina vrea să masacreze rușii din Crimeea,2023,6,0,0,6,0.00589482206851244,0.005721773020923138,0.00017304904758930206,0,0,0,0.00017304904758930206,0.0,0.0
+vrd_0669,"Israelul vrea ""să anuleze creştinismul""",2026,0,0,0,0,0.002277268562465906,0.002277268562465906,0.0,0,0,0,0.0,0.0,0.0
+vrd_0051,"PROPAGANDĂ DE RĂZBOI: 95% dintre ucraineni așteaptă să fie eliberați de Rusia, afirmă liderul separatist din Luhansk, Marat Bașirov",2022,2,0,0,2,0.003549299668520689,0.0034932249691337347,5.607469938695431e-05,0,0,0,5.607469938695431e-05,0.0,0.0
+vrd_0007,Ucraina pregătește un masacru în Donbass,2022,8,0,0,8,0.003287290222942829,0.00308289029635489,0.00020439992658793926,0,0,0,0.00020439992658793926,0.0,0.0
+vrd_0277,Moldova se-ndreaptă spre dictatură cu binecuvântarea Occidentului,2023,0,4,0,4,0.6759471297264099,0.6759471297264099,0.0,1,1,0,0.0,0.0,0.0
+vrd_0457,Blândețea autorităților a permis lovitura de stat din Ucraina,2024,0,0,0,0,0.003965018782764673,0.003965018782764673,0.0,0,0,0,0.0,0.0,0.0
+vrd_0318,"În Ucraina, Rusia poartă un război de eliberare națională",2023,0,3,0,3,0.002218568231910467,0.002133241854608059,8.532637730240822e-05,0,0,0,0.0,8.532637730240822e-05,0.0
+vrd_0327,Atac nuclear al SUA pentru a ascunde înfrângerea Ucrainei,2024,0,0,0,0,0.00398086104542017,0.00398086104542017,0.0,0,0,0,0.0,0.0,0.0
+vrd_0162,PROPAGANDĂ DE RĂZBOI: Șomerii din Ucraina vor fi înrolați în armată și trimiși pe front,2022,0,0,0,0,0.003474166849628091,0.003474166849628091,0.0,0,0,0,0.0,0.0,0.0
+vrd_0588,Franța nu va mai sprijini Ucraina,2025,0,0,0,0,0.0037720915861427784,0.0037720915861427784,0.0,0,0,0,0.0,0.0,0.0
+vrd_0055,"PROPAGANDĂ DE RĂZBOI: Experții americani consideră că masacrul de la Bucea este o invenție a ""propagandei ucrainene""",2022,0,0,0,0,0.0028068155515938997,0.0028068155515938997,0.0,0,0,0,0.0,0.0,0.0
+vrd_0484,Doar unirea cu Rusia poate salva Ucraina,2025,0,0,0,0,0.0025369373615831137,0.0025369373615831137,0.0,0,0,0,0.0,0.0,0.0
+vrd_0667,"Moldova acuză Ucraina de trafic de arme, dar vrea să trimită trupe pentru a o sprijini",2026,0,0,0,0,0.004212177824229002,0.004212177824229002,0.0,0,0,0,0.0,0.0,0.0
+vrd_0413,UE va finanța războiul împotriva Rusiei până vor muri toți ucrainenii,2024,0,0,0,0,0.010318983346223831,0.010318983346223831,0.0,0,0,0,0.0,0.0,0.0
+vrd_0525,"Dacă ucrainenii vor pace, Ucraina trebuie să dispară",2025,0,0,0,0,0.6724348068237305,0.6724348068237305,0.0,1,1,0,0.0,0.0,0.0
+vrd_0334,UE va limita călătoriile cetățenilor săi,2024,0,0,0,0,0.0050492542795836926,0.0050492542795836926,0.0,0,0,0,0.0,0.0,0.0
+vrd_0024,Kievul își încalcă obligația de a negocia cu separatiștii din Donbass și face propagandă ca Goebbels,2022,4,2,0,6,0.0101906917989254,0.01230582594871521,-0.00211513414978981,0,0,0,-0.002637602388858795,-0.0010776333510875702,0.0
+vrd_0040,"PROPAGANDĂ DE RĂZBOI: 15 milioane de ucraineni au legături strânse cu Rusia, iar naționaliștii ucraineni îi folosesc pe rusofoni ca scuturi umane.",2022,1,0,0,1,0.0021181146148592234,0.001969393342733383,0.0001487212721258402,0,0,0,0.0001487212721258402,0.0,0.0
+vrd_0421,UE se înarmează pentru a ataca Rusia exact ca Germania nazistă,2024,0,0,0,0,0.0292055606842041,0.0292055606842041,0.0,0,0,0,0.0,0.0,0.0
+vrd_0551,Ucraina recurge la terorism din cauza lipsei de fonduri,2025,0,0,1,1,0.0015307136345654726,0.0015799700049683452,-4.925637040287256e-05,0,0,0,0.0,0.0,-4.925637040287256e-05
+vrd_0259,În Moldova se vrea amendarea vorbitorilor de rusă,2023,4,0,0,4,0.6249577403068542,0.6504761576652527,-0.025518417358398438,1,1,0,-0.025518417358398438,0.0,0.0
+vrd_0503,Ucrainenii trăiesc mai puțin din cauza guvernanților,2025,0,0,0,0,0.0031284508295357227,0.0031284508295357227,0.0,0,0,0,0.0,0.0,0.0
+vrd_0167,PROPAGANDĂ DE RĂZBOI: Volodimir Zelenski a vizitat Hersonul pentru a lansa masacrarea civililor,2022,6,1,0,7,0.001859600655734539,0.0017640201840549707,9.558047167956829e-05,0,0,0,8.314510341733694e-05,1.613004133105278e-05,0.0
+vrd_0639,Parlamentul de la Kiev vrea refacerea unității cu Rusia și Belarus,2026,3,2,0,5,0.002577709499746561,0.0026804690714925528,-0.00010275957174599171,0,0,0,-0.0001207408495247364,-0.00014102458953857422,0.0
+vrd_0583,"Zelenski este inadecvat, iar armele occidentale doar adâncesc ""agonia regimului""",2025,0,2,0,2,0.002293521072715521,0.002626975765451789,-0.00033345469273626804,0,0,0,0.0,-0.00033345469273626804,0.0
+vrd_0022,"Putin este un bun creștin, victimă a discursului rusofob și n-are vreo legătură cu comunismul, impus Rusiei de Occident",2022,0,5,0,5,0.0065901014022529125,0.030120497569441795,-0.023530396167188883,0,0,0,0.0,-0.023530396167188883,0.0
+vrd_0138,Republica Moldova vrea un schimb de teritorii cu Ucraina,2022,2,0,0,2,0.021134648472070694,0.02578648552298546,-0.004651837050914764,0,0,0,-0.004651837050914764,0.0,0.0
+vrd_0204,"România masează trupe la granița cu Moldova și în Chișinău, chiar dacă neagă acest lucru",2023,1,0,1,2,0.6677330136299133,0.6771377921104431,-0.009404778480529785,1,1,0,-0.009404778480529785,0.0,0.0
+vrd_0620,"Drona prăbușită în județul Vaslui e ucraineană, nu rusească",2025,0,0,0,0,0.6730754375457764,0.6730754375457764,0.0,1,1,0,0.0,0.0,0.0
+vrd_0194,"Abandonați de propriul guvern, refugiații ucraineni sunt prost tratați și de Republica Moldova",2023,0,0,0,0,0.0036089897621423006,0.0036089897621423006,0.0,0,0,0,0.0,0.0,0.0
+vrd_0315,Occidentul îi cere Ucrainei să mobilizeze femeile și bătrânii,2023,0,0,0,0,0.002031024545431137,0.002031024545431137,0.0,0,0,0,0.0,0.0,0.0
+vrd_0510,UE va confisca economiile populației,2025,0,0,0,0,0.6806069016456604,0.6806069016456604,0.0,1,1,0,0.0,0.0,0.0
+vrd_0531,Războiul din Ucraina a fost planificat de NATO,2025,1,0,0,1,0.20726898312568665,0.5959986448287964,-0.38872966170310974,0,1,1,-0.38872966170310974,0.0,0.0
+vrd_0490,"USAID a organizat ""revoluția Twitter"" din Republica Moldova",2025,0,0,0,0,0.6780123114585876,0.6780123114585876,0.0,1,1,0,0.0,0.0,0.0
+vrd_0170,Chișinăul negociază cu Kievul un schimb de teritorii: oferă un depozit militar din Transnistria în locul unei părți a regiunii Odessa,2022,3,0,0,3,0.0020392253063619137,0.0021818981040269136,-0.00014267279766499996,0,0,0,-0.00014267279766499996,0.0,0.0
+vrd_0021,"România cumpără arme americane, fără a avea vreun beneficiu, în loc să investească în educație",2022,0,0,0,0,0.5675567984580994,0.5675567984580994,0.0,1,1,0,0.0,0.0,0.0
+vrd_0560,Ucraina respinge propunerea Rusiei de a iniția negocieri de pace,2025,0,2,0,2,0.001810621120966971,0.0018187505193054676,-8.129398338496685e-06,0,0,0,0.0,-8.129398338496685e-06,0.0
+vrd_0672,UE se pregătește de război împotriva Rusiei,2026,0,1,0,1,0.002805917290970683,0.002805917290970683,0.0,0,0,0,0.0,0.0,0.0
+vrd_0297,Moldova vrea să intre în UE prin NATO,2023,1,0,0,1,0.05521415174007416,0.05819253250956535,-0.0029783807694911957,0,0,0,-0.0029783807694911957,0.0,0.0
+vrd_0239,"""Operațiunea militară specială"" salvează Rusia de agresiunea Occidentului",2023,0,2,0,2,0.00754479831084609,0.02160731703042984,-0.01406251871958375,0,0,0,0.0,-0.01406251871958375,0.0
+vrd_0031,"Războiul din Ucraina, pretext pentru denigrarea Rusiei, cenzură, înfricoșarea populației în România și Europa și îmbogățirea vânzătorilor de armament",2022,0,1,0,1,0.6780340075492859,0.6780340075492859,0.0,1,1,0,0.0,0.0,0.0
+vrd_0451,Zelenski va provoca un război civil sau nuclear,2024,0,0,0,0,0.0016726083122193813,0.0016726083122193813,0.0,0,0,0,0.0,0.0,0.0
+vrd_0243,Moldova iese din CSI la indicația Occidentului,2023,0,0,0,0,0.0034822323359549046,0.0034822323359549046,0.0,0,0,0,0.0,0.0,0.0
+vrd_0042,PROPAGANDĂ DE RĂZBOI: Rusia a descoperit lagăre naționaliste de concentrare în estul Ucrainei,2022,0,0,0,0,0.002080213977023959,0.002080213977023959,0.0,0,0,0,0.0,0.0,0.0
+vrd_0483,Ţările baltice şi-au pierdut independenţa,2025,0,0,0,0,0.0037591170985251665,0.0037591170985251665,0.0,0,0,0,0.0,0.0,0.0
+vrd_0653,Ucraina furnizează arme cartelurilor mexicane,2026,0,0,0,0,0.678928554058075,0.678928554058075,0.0,1,1,0,0.0,0.0,0.0
+vrd_0173,Guvernarea de la Chișinău vrea să forțeze intrarea Republicii Moldova în NATO,2022,0,0,0,0,0.03687548264861107,0.03687548264861107,0.0,0,0,0,0.0,0.0,0.0
+vrd_0165,Consumatorii români nu vor mai putea cumpăra energie de la Hidroelectrica și Nuclearelectrica din cauză că aceasta va fi dată Moldovei,2022,0,0,0,0,0.06145109236240387,0.06145109236240387,0.0,0,0,0,0.0,0.0,0.0
+vrd_0523,UE se va alătura Ucrainei ca să răzbune înfrângerea din 1945,2025,0,0,0,0,0.0027247907128185034,0.0027247907128185034,0.0,0,0,0,0.0,0.0,0.0
+vrd_0113,Zelenski face legi pentru a prelungi războiul cu Rusia pe încă 50 de ani,2022,0,0,0,0,0.6728826761245728,0.6728826761245728,0.0,1,1,0,0.0,0.0,0.0
+vrd_0600,Rusia a dezvoltat un vaccin anticancer,2025,0,0,0,0,0.6705116033554077,0.6705116033554077,0.0,1,1,0,0.0,0.0,0.0
+vrd_0058,PROPAGANDĂ DE RĂZBOI: Locuitorii orașului Zaporojie solicită alipirea la Republica Populară Donețk,2022,2,0,0,2,0.0021329789888113737,0.0019502259092405438,0.00018275307957082987,0,0,0,0.00018275307957082987,0.0,0.0
+vrd_0164,Republica Moldova fură gazul Transnistriei și îl vinde Ucrainei,2022,7,0,0,7,0.008123202249407768,0.014226475730538368,-0.0061032734811306,0,0,0,-0.0061032734811306,0.0,0.0
+vrd_0417,Chișinăul s-ar pregăti să atace regiunea transnistreană,2024,2,0,0,2,0.03000430390238762,0.0841350182890892,-0.054130714386701584,0,0,0,-0.054130714386701584,0.0,0.0
+vrd_0221,Guvernarea de la Chișinău a furat un miliard de euro din ajutorul financiar oferit de UE,2023,0,0,0,0,0.6709879636764526,0.6709879636764526,0.0,1,1,0,0.0,0.0,0.0
+vrd_0012,Armamentul oferit de Occident Ucrainei este expirat,2022,0,0,0,0,0.6532532572746277,0.6532532572746277,0.0,1,1,0,0.0,0.0,0.0
+vrd_0466,UE nu sprijină R. Moldova să treacă peste criza energetică,2024,0,0,0,0,0.6772410869598389,0.6772410869598389,0.0,1,1,0,0.0,0.0,0.0
+vrd_0267,Occidentul invită Rusia să se reconecteze la sistemul internaţional de plăţi,2023,0,3,0,3,0.0069418055936694145,0.010275082662701607,-0.0033332770690321922,0,0,0,0.0,-0.0033332770690321922,0.0
+vrd_0637,În Ucraina va fi pace doar dacă Rusia își atinge obiectivele,2025,0,2,0,2,0.002963344333693385,0.0027793515473604202,0.0001839927863329649,0,0,0,0.0,0.0001839927863329649,0.0
+vrd_0359,Republica Moldova renunță la Transnistria,2024,3,2,0,5,0.007718912325799465,0.013764970004558563,-0.006046057678759098,0,0,0,0.0013668700121343136,-0.006496245972812176,0.0
+vrd_0276,Ucrainenii așteaptă salvarea de la Rusia,2023,0,0,0,0,0.02514703758060932,0.02514703758060932,0.0,0,0,0,0.0,0.0,0.0
+vrd_0163,PROPAGANDĂ DE RĂZBOI: Belarusul și Rusia formează un grup militar comun pentru a se apăra de atacuri teroriste ucrainene și de o posibilă agresiune NATO,2022,2,2,0,4,0.008767074905335903,0.3025975823402405,-0.2938305074349046,0,0,0,-0.001617269590497017,0.005649455124512315,0.0
+vrd_0486,"Dacă Zelenski nu e oprit, Ucraina dispare într-un an",2025,0,0,0,0,0.002058373298496008,0.002058373298496008,0.0,0,0,0,0.0,0.0,0.0
+vrd_0654,A început Al Treilea Război Mondial,2026,0,0,0,0,0.6685729026794434,0.6685729026794434,0.0,1,1,0,0.0,0.0,0.0
+vrd_0564,Trump contribuie la intensificarea războiului din Ucraina,2025,0,0,0,0,0.00464797206223011,0.00464797206223011,0.0,0,0,0,0.0,0.0,0.0
+vrd_0502,UE doreşte prelungirea războiului din Ucraina. Narațiunea e promovată de Dan Dungaciu,2025,0,0,0,0,0.001954809995368123,0.001954809995368123,0.0,0,0,0,0.0,0.0,0.0
+vrd_0159,Românii protestează în masă față de NATO și politica de sprijin pentru Ucraina,2022,0,0,0,0,0.04107409343123436,0.04107409343123436,0.0,0,0,0,0.0,0.0,0.0
+vrd_0416,Pacea e posibilă doar dacă Ucraina va capitula,2024,0,0,0,0,0.005965427029877901,0.005965427029877901,0.0,0,0,0,0.0,0.0,0.0
+vrd_0673,UEFA atacă ortodoxia,2026,0,0,0,0,0.6573662757873535,0.6573662757873535,0.0,1,1,0,0.0,0.0,0.0
+vrd_0477,Ucraina are pretenții teritoriale față de Belarus,2025,4,0,0,4,0.00252379453741014,0.0036991245578974485,-0.0011753300204873085,0,0,0,-0.0011753300204873085,0.0,0.0
+vrd_0200,Ucraina va organiza un genocid al rușilor,2023,0,0,0,0,0.005315809044986963,0.005315809044986963,0.0,0,0,0,0.0,0.0,0.0
+vrd_0622,"România, obligată să participe cu trupe la războiul din Ucraina",2025,0,0,0,0,0.17856983840465546,0.17856983840465546,0.0,0,0,0,0.0,0.0,0.0
+vrd_0156,Pro-europenii de la Chișinău creează un regim autoritar militarizat care nu se va lăsa schimbat pe căi democratice,2022,2,0,0,2,0.6692655086517334,0.6816241145133972,-0.012358605861663818,1,1,0,-0.012358605861663818,0.0,0.0
+vrd_0211,Crește numărul moldovenilor care îi dau dreptate Rusiei în războiul din Ucraina,2023,1,1,0,2,0.003860948607325554,0.0038061963859945536,5.475222133100033e-05,0,0,0,5.475222133100033e-05,0.0,0.0
+vrd_0293,Militarii ucraineni ucid civili în Herson,2023,5,0,0,5,0.0027095526456832886,0.0026547214947640896,5.483115091919899e-05,0,0,0,5.483115091919899e-05,0.0,0.0
+vrd_0307,Americanii pregătesc ocuparea Moldovei de către România,2023,3,0,0,3,0.016928881406784058,0.016928881406784058,0.0,0,0,0,0.0,0.0,0.0
+vrd_0414,Moldova vrea să-i dea Ucrainei un depozit rusesc de arme din Transnistria,2024,7,0,0,7,0.6759489178657532,0.6759217381477356,2.7179718017578125e-05,1,1,0,2.7179718017578125e-05,0.0,0.0
+vrd_0133,"UE a abandonat Republica Moldova, iar România i-a dublat prețul la energia electrică",2022,0,0,0,0,0.6783199906349182,0.6783199906349182,0.0,1,1,0,0.0,0.0,0.0
+vrd_0216,Cehii îi dau Ucrainei arme ca să bombardeze civili,2023,2,0,0,2,0.0032269286457449198,0.003196887904778123,3.0040740966796875e-05,0,0,0,3.0040740966796875e-05,0.0,0.0
+vrd_0260,ONU a acuzat Ucraina de torturarea civililor,2023,1,2,0,3,0.003497362369671464,0.0034968024119734764,5.599576979875565e-07,0,0,0,0.00011937017552554607,-0.00017908099107444286,0.0
+vrd_0398,Regimul lui Zelenski este la fel de represiv ca cel al lui Hitler,2024,0,0,0,0,0.004266059957444668,0.004266059957444668,0.0,0,0,0,0.0,0.0,0.0
+vrd_0233,România susține propunerea lui Medvedev de împărțire a Ucrainei,2023,0,4,0,4,0.007327087223529816,0.009850948117673397,-0.0025238608941435814,0,0,0,0.0,-0.0025238608941435814,0.0
+vrd_0655,"Vladimir Putin, un etalon de moralitate pentru că a condamnat războiul din Iran",2026,1,2,0,3,0.6752088069915771,0.6784689426422119,-0.0032601356506347656,1,1,0,0.0,-0.0032601356506347656,0.0
+vrd_0001,"România e rusofobă din ordinul Occidentului, dar românii împărtășesc valorile Rusiei",2022,0,0,0,0,0.6771313548088074,0.6771313548088074,0.0,1,1,0,0.0,0.0,0.0
+vrd_0122,Majoritatea românilor vor ieșirea țării din NATO și UE,2022,0,0,0,0,0.6675816774368286,0.6675816774368286,0.0,1,1,0,0.0,0.0,0.0
+vrd_0455,Zelenski vrea să elimine trei sferturi din ucraineni,2024,0,0,0,0,0.011229651048779488,0.011229651048779488,0.0,0,0,0,0.0,0.0,0.0
+vrd_0331,Ucrainenii care vor propria țară vor fi uciși,2024,0,4,0,4,0.032749757170677185,0.04873930662870407,-0.015989549458026886,0,0,0,0.0,-0.015989549458026886,0.0
+vrd_0662,"Ucraina e satanistă, nazistă și anti-democrată",2026,0,0,0,0,0.0038864952512085438,0.0038864952512085438,0.0,0,0,0,0.0,0.0,0.0
+vrd_0641,UE vrea Moldova doar ca piață de desfacere,2026,0,0,0,0,0.010595572181046009,0.010595572181046009,0.0,0,0,0,0.0,0.0,0.0
+vrd_0646,Rusia luptă în Ucraina ca să apere libertatea și credința,2026,0,3,0,3,0.09263662993907928,0.10539716482162476,-0.012760534882545471,0,0,0,0.0,-0.012760534882545471,0.0
+vrd_0659,Maia Sandu a mers la Vilnius să demonizeze Rusia și URSS,2026,0,0,1,1,0.0020750185940414667,0.0025410468224436045,-0.00046602822840213776,0,0,0,0.0,0.0,-0.00046602822840213776
+vrd_0570,Uniunea Europeană devine un bloc militar,2025,0,1,0,1,0.69854336977005,0.6859735250473022,0.012569844722747803,1,1,0,0.0,0.012569844722747803,0.0
+vrd_0591,Pacea în Ucraina nu este posibilă fără înlăturarea lui Zelenski,2025,0,0,0,0,0.006526105105876923,0.006526105105876923,0.0,0,0,0,0.0,0.0,0.0
+vrd_0538,Republica Moldova vrea teritorii de la Ucraina,2025,1,0,0,1,0.6610991954803467,0.6610991954803467,0.0,1,1,0,0.0,0.0,0.0
+vrd_0554,"Pentru că Zelenski nu vrea pace, Rada îi cere demisia",2025,0,1,0,1,0.0015669169370085,0.0015813870122656226,-1.4470075257122517e-05,0,0,0,0.0,-1.4470075257122517e-05,0.0
+vrd_0498,Antisemitismul românesc este provocat de evrei,2025,0,0,0,0,0.6721579432487488,0.6721579432487488,0.0,1,1,0,0.0,0.0,0.0
+vrd_0103,Chișinăul vrea să denunțe Acordul de încetare a focului în Transnistria,2022,3,0,1,4,0.03203267976641655,0.035348307341337204,-0.0033156275749206543,0,0,0,-0.005560699850320816,0.0,-0.00010704249143600464
+vrd_0577,Ucraina folosește vârstnici ruși pentru atacuri teroriste,2025,0,0,0,0,0.007926136255264282,0.007926136255264282,0.0,0,0,0,0.0,0.0,0.0
+vrd_0220,Germania sprijină Ucraina pentru a face uitate ororile nazismului,2023,0,0,0,0,0.6764783263206482,0.6764783263206482,0.0,1,1,0,0.0,0.0,0.0
+vrd_0406,Ucraineni pro-ruși fac sabotaje în România,2024,0,0,0,0,0.67803955078125,0.67803955078125,0.0,1,1,0,0.0,0.0,0.0
+vrd_0411,Un fond american de investiții deține jumătate din Ucraina,2024,0,0,0,0,0.009624630212783813,0.009624630212783813,0.0,0,0,0,0.0,0.0,0.0
+vrd_0656,Maia Sandu e implicată în scandalul Epstein,2026,0,0,0,0,0.0565246045589447,0.0565246045589447,0.0,0,0,0,0.0,0.0,0.0
+vrd_0626,România reduce sprijinul pentru Ucraina din cauza corupției de la Kiev,2025,0,0,0,0,0.003083792980760336,0.003083792980760336,0.0,0,0,0,0.0,0.0,0.0
+vrd_0107,"PROPAGANDĂ DE RĂZBOI: La comanda SUA, Kievul va provoca un dezastru nuclear la Zaporojie",2022,0,0,0,0,0.0034024345222860575,0.0034024345222860575,0.0,0,0,0,0.0,0.0,0.0
+vrd_0420,Uniunea Europeană impune cenzură și agenda LGBT,2024,0,0,0,0,0.6061499714851379,0.6061499714851379,0.0,1,1,0,0.0,0.0,0.0
+vrd_0516,Europa vrea să prelungească războiul din Ucraina până în 2030,2025,0,0,0,0,0.002684338018298149,0.002684338018298149,0.0,0,0,0,0.0,0.0,0.0
+vrd_0214,"Rusia și China vor pace în Ucraina, în timp ce Occidentul alimentează războiul",2023,0,2,0,2,0.005132695659995079,0.0067969574593007565,-0.0016642617993056774,0,0,0,0.0,-0.0016642617993056774,0.0
+vrd_0145,Vaccinul anti-Covid19 duce la cancer testicular,2022,0,0,0,0,0.026822499930858612,0.026822499930858612,0.0,0,0,0,0.0,0.0,0.0
+vrd_0045,"PROPAGANDĂ DE RĂZBOI: Pentru a atrage NATO în război, Ucraina va ataca ambasada SUA la Lvov și va da vina pe Rusia",2022,1,0,0,1,0.0034240325912833214,0.003907696809619665,-0.00048366421833634377,0,0,0,-0.00048366421833634377,0.0,0.0
+vrd_0244,Occidentul crede că Ucraina va pierde,2023,0,0,0,0,0.005420692730695009,0.005420692730695009,0.0,0,0,0,0.0,0.0,0.0
+vrd_0392,"Agricultorii moldoveni nu au acces pe piața UE, care dă Moldovei doar arme",2024,0,0,0,0,0.6726539731025696,0.6726539731025696,0.0,1,1,0,0.0,0.0,0.0
+vrd_0302,ONU spune că Ucraina amenință securitatea alimentară globală,2023,0,0,0,0,0.005288858897984028,0.005288858897984028,0.0,0,0,0,0.0,0.0,0.0
+vrd_0432,Liderii Ucrainei au furat 240 de miliarde de USD dați de UE și SUA,2024,0,0,0,0,0.6685447692871094,0.6685447692871094,0.0,1,1,0,0.0,0.0,0.0
+vrd_0405,Piloţii ucraineni antrenaţi în România sunt bețivi și incompetenţi,2024,0,0,0,0,0.6777083277702332,0.6777083277702332,0.0,1,1,0,0.0,0.0,0.0
+vrd_0606,"Politica anti-imigrație a Ungariei, aprobată de CJUE",2025,0,0,0,0,0.0020591216161847115,0.0020591216161847115,0.0,0,0,0,0.0,0.0,0.0
+vrd_0661,UE se apropie de China și Rusia ca reacție la războiul din Iran,2026,0,0,0,0,0.6688827872276306,0.6688827872276306,0.0,1,1,0,0.0,0.0,0.0
+vrd_0534,Franța sprijină Ucraina pentru a declanșa al Treilea Război Mondial,2025,0,0,0,0,0.002131607150658965,0.002131607150658965,0.0,0,0,0,0.0,0.0,0.0
+vrd_0072,"PROPAGANDĂ DE RĂZBOI: Sinodul Bisericii Ortodoxe Ruse, condamnat la moarte pe teritoriul Ucrainei",2022,0,0,0,0,0.0018467234913259745,0.0018467234913259745,0.0,0,0,0,0.0,0.0,0.0
+vrd_0019,România își înlocuiește ambasadorul unionist de la Chișinău cu un expert NATO,2022,0,0,0,0,0.002782369265332818,0.002782369265332818,0.0,0,0,0,0.0,0.0,0.0
+vrd_0506,UE a provocat războiul din Ucraina,2025,0,0,0,0,0.6786881685256958,0.6786881685256958,0.0,1,1,0,0.0,0.0,0.0
+vrd_0393,Americanii au instalat sistemul HAARP şi în România,2024,0,0,0,0,0.6705909967422485,0.6705909967422485,0.0,1,1,0,0.0,0.0,0.0
+vrd_0201,"Ucraina se pregătește să atace Transnistria, iar o armadă de tancuri NATO de pe teritoriul României, să ajungă în Crimeea",2023,8,0,0,8,0.6761272549629211,0.6643527150154114,0.011774539947509766,1,1,0,0.011774539947509766,0.0,0.0
+vrd_0230,"Dacă vrea în UE, Moldova trebuie să adere la NATO",2023,0,0,0,0,0.026468150317668915,0.026468150317668915,0.0,0,0,0,0.0,0.0,0.0
+vrd_0351,"Sancțiunile UE pentru moldoveni, similare deportărilor staliniste",2024,0,0,0,0,0.6746438145637512,0.6746438145637512,0.0,1,1,0,0.0,0.0,0.0
+vrd_0309,Occidentul are nevoie de războiul din Ucraina,2023,0,1,0,1,0.021344855427742004,0.02255980297923088,-0.0012149475514888763,0,0,0,0.0,-0.0012149475514888763,0.0
+vrd_0469,Chișinăul a provocat criza energetică din Transnistria,2024,5,0,0,5,0.0028159404173493385,0.002940508769825101,-0.00012456835247576237,0,0,0,-0.00012456835247576237,0.0,0.0
+vrd_0283,Guvernarea de la Chișinău și-a legat soarta de Ucraina,2023,0,0,0,0,0.0038807771634310484,0.0038807771634310484,0.0,0,0,0,0.0,0.0,0.0
+vrd_0215,SUA conduce România și poartă război împotriva Rusiei,2023,0,0,0,0,0.6803199648857117,0.6803199648857117,0.0,1,1,0,0.0,0.0,0.0
+vrd_0174,PROPAGANDĂ DE RĂZBOI: Moscova arată reținere când bombardează Ucraina pentru că știe că populația nu susține guvernarea neo-nazistă,2022,0,0,0,0,0.002368228742852807,0.002368228742852807,0.0,0,0,0,0.0,0.0,0.0
+vrd_0415,Arme biologice ucrainene tranzitează România și Republica Moldova,2024,0,0,0,0,0.002680010162293911,0.002680010162293911,0.0,0,0,0,0.0,0.0,0.0
+vrd_0579,Copiii ruși nu vor în UE din cauza discriminării și propagandei LGBT,2025,0,0,1,1,0.0019556323532015085,0.0019858055748045444,-3.0173221603035927e-05,0,0,0,0.0,0.0,-3.0173221603035927e-05
+vrd_0219,Zelenski are legături cu naziștii,2023,0,0,0,0,0.004981918726116419,0.004981918726116419,0.0,0,0,0,0.0,0.0,0.0
+vrd_0039,Forțele ucrainene au doborât un avion și un elicopter românești în Dobrogea,2022,0,0,0,0,0.006174879614263773,0.006174879614263773,0.0,0,0,0,0.0,0.0,0.0
+vrd_0522,Chișinăul a anulat autonomia Găgăuziei,2025,3,0,0,3,0.0018987137591466308,0.0019825459457933903,-8.383218664675951e-05,0,0,0,-8.383218664675951e-05,0.0,0.0
+vrd_0099,Maia Sandu închide universități și școli cu predare în limba rusă,2022,1,0,0,1,0.019550355151295662,0.5194263458251953,-0.49987599067389965,0,1,1,-0.49987599067389965,0.0,0.0
+vrd_0578,Prosperitatea UE a rămas în trecut,2025,0,0,0,0,0.0016170870512723923,0.0016170870512723923,0.0,0,0,0,0.0,0.0,0.0
+vrd_0255,În Ucraina are loc un război civil pentru refacerea Rusiei Mari,2023,0,0,0,0,0.673181414604187,0.673181414604187,0.0,1,1,0,0.0,0.0,0.0
+vrd_0018,România va fi dezmembrată în cazul unei invazii ruse în Ucraina,2022,0,0,0,0,0.7821661829948425,0.7821661829948425,0.0,1,1,0,0.0,0.0,0.0
+vrd_0329,"Taxele Chișinăului, un pas spre anexarea Transnistriei de România",2024,4,0,1,5,0.0019568861462175846,0.0019464781507849693,1.040799543261528e-05,0,0,0,-0.00023669912479817867,0.0,9.653833694756031e-05
+vrd_0614,Europa se înarmează pentru a ataca Rusia,2025,0,2,0,2,0.002591839525848627,0.0024671871215105057,0.00012465240433812141,0,0,0,0.0,0.00012465240433812141,0.0
+vrd_0401,"Conducerea ucraineană este fascistă și implicată în traficul de ființe umane, afirmă ofițeri ai Pentagonului",2024,0,0,0,0,0.005976742133498192,0.005976742133498192,0.0,0,0,0,0.0,0.0,0.0
+vrd_0179,PROPAGANDĂ DE RĂZBOI: Conducerea Ucrainei vrea război ca să facă bani și nu-i pasă de suferințele civililor,2022,0,0,0,0,0.0055403029546141624,0.0055403029546141624,0.0,0,0,0,0.0,0.0,0.0
+vrd_0025,"Presa occidentală dezinformează cu privire la criza din Ucraina, care e o diversiune a Occidentului",2022,0,0,0,0,0.0033682556822896004,0.0033682556822896004,0.0,0,0,0,0.0,0.0,0.0
+vrd_0660,Zelenski i-a cerut României să atace Iranul și Rusia,2026,0,0,0,0,0.6670066714286804,0.6670066714286804,0.0,1,1,0,0.0,0.0,0.0
+vrd_0576,Occidentul vede semnele colapsului ucrainean în război,2025,0,0,0,0,0.004173784051090479,0.004173784051090479,0.0,0,0,0,0.0,0.0,0.0
+vrd_0203,Guvernarea de la Chișinău interzice presa rusă la indicația Occidentului,2023,0,0,0,0,0.6683002710342407,0.6683002710342407,0.0,1,1,0,0.0,0.0,0.0
+vrd_0524,Hitler nu s-a sinucis în 1945,2025,0,0,0,0,0.001696587074548006,0.001696587074548006,0.0,0,0,0,0.0,0.0,0.0
+vrd_0488,Zelenski a cumpărat reședința lui Hitler,2025,0,0,0,0,0.0019110686844214797,0.0019110686844214797,0.0,0,0,0,0.0,0.0,0.0
+vrd_0266,"Ucraina va fi alipită Poloniei, pentru a face parte din NATO și UE",2023,0,0,0,0,0.669725239276886,0.669725239276886,0.0,1,1,0,0.0,0.0,0.0
+vrd_0026,Suplimentarea forțelor NATO în România e aberantă întrucât Rusia nu amenință pe nimeni,2022,0,1,0,1,0.027164433151483536,0.04121815040707588,-0.014053717255592346,0,0,0,0.0,-0.014053717255592346,0.0
+vrd_0473,Liderii europeni sunt beneficiarii corupției și criminalității din Ucraina,2025,0,0,0,0,0.2254464477300644,0.2254464477300644,0.0,0,0,0,0.0,0.0,0.0
+vrd_0290,Războiul a salvat Rusia de șomaj și sărăcie,2023,0,1,0,1,0.004356564488261938,0.004356564488261938,0.0,0,0,0,0.0,0.0,0.0
+vrd_0399,Maia Sandu este vinovată pentru creșterea ratei infracționalității în R. Moldova,2024,0,0,0,0,0.6662634015083313,0.6662634015083313,0.0,1,1,0,0.0,0.0,0.0
+vrd_0357,Guvernarea de la Chișinău impune integrarea europeană a Moldovei,2024,0,8,0,8,0.0030021739657968283,0.005265580490231514,-0.0022634065244346857,0,0,0,0.0,-0.0022634065244346857,0.0
+vrd_0141,"Referendumurile din Ucraina ocupată sunt legitime, iar Rusia e superioară militar Occidentului",2022,4,3,0,7,0.6735075116157532,0.6748473048210144,-0.0013397932052612305,1,1,0,-0.0009767413139343262,-0.00036722421646118164,0.0
+vrd_0095,PROPAGANDĂ DE RĂZBOI: În Ucraina a fost canonizat liderul naționalist Stepan Bandera,2022,0,0,0,0,0.675609827041626,0.675609827041626,0.0,1,1,0,0.0,0.0,0.0
+vrd_0344,Josep Borrell spune că Ucraina va pierde războiul în 3 luni,2024,0,1,0,1,0.002154336078092456,0.002154336078092456,0.0,0,0,0,0.0,0.0,0.0
+vrd_0480,Zelenski riscă suspendarea pentru probleme mintale,2025,0,0,0,0,0.0019626354333013296,0.0019626354333013296,0.0,0,0,0,0.0,0.0,0.0
+vrd_0131,PROPAGANDĂ DE RĂZBOI: Guvernul de la Kiev și-a exprimat neîncrederea în partenerii din Occident,2022,1,3,0,4,0.0017017547506839037,0.0016706666210666299,3.108812961727381e-05,0,0,0,0.0,3.108812961727381e-05,0.0

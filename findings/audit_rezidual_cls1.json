@@ -1,0 +1,113 @@
+{
+  "total_propozitii": 6082,
+  "pattern_uri": {
+    "cookies_gdpr": {
+      "descriere": "Cookie banners / GDPR / meta-elemente web",
+      "count": 0,
+      "procent": 0.0,
+      "exemple": [],
+      "breakdown_surse": {}
+    },
+    "eticheta_vorbitor": {
+      "descriere": "Etichetă vorbitor (X a declarat:) - propoziție ≤6 cuv + ':'",
+      "count": 0,
+      "procent": 0.0,
+      "exemple": [],
+      "breakdown_surse": {}
+    },
+    "ghilimele_orfane": {
+      "descriere": "Ghilimele desfăcute / orfane (citate rupte la segmentare)",
+      "count": 112,
+      "procent": 1.841,
+      "exemple": [
+        "Sunt întrebări care înfierbântă civilizația euro-atlantică, în perioada post “încălzire globală\".",
+        "Păi, nu așa anunță presa de cazarmă, influencerii NATO și toată șleahta de adormiți în duhul defunctelor “valori occidentale\"?",
+        "Nu i-am auzit, la fel, pe timpul războaielor “pentru democratizarea\" Siriei, Irak-ului, Afganistanului sau fostei Iugoslavii.",
+        "Liderul autoritar de la Moscova contraatacă, amintind țărilor occidentale că “patria mamă\" (Rusia) deține mijloace de distrugere în masă, mai moderne decât cele ale țărilor NATO.",
+        "“Și dacă integritatea teritorială a țării noastre este amenințată, cu siguranță vom folosi toate mijloacele pe care le avem la dispoziție pentru a proteja Rusia și poporul nostru.",
+        "Vorba unui prieten din armată, “ăștia, odată stârniți, nu se opresc doar la Londra\".",
+        "Dacă analizăm mai atent, poziția domnului Țîrdea vine pe linia unor narațiuni din Federația Rusă precum că guvernarea încearcă să impună cenzură, dictatură, rusofobie | „În amendamentul votat la Codul Penal nu este vorba despre amenzi.",
+        "Iar afirmația cum că scopul acestui amendament este de a distruge psihic oamenii este cel puțin stranie | „Amendamentul deschide ușa pentru niște interpretări abuzive și poate suferi oricine, indiferent de cine va fi la putere și opoziție.",
+        "Noi însă vedem acest articol ca fiind riscant nu în contextul actual și nu în contextul puterii actuale sau a partidului care se află la guvernare” | Eu nu știu dacă în cazul acestei inițiative au fost consultați, de exemplu, profesorii universitari.",
+        "Noi nu avem atât de mulți specialiști, profesori universitari și doctrinari în Codul Penal, dar avem suficienți astfel încât ei să vină cu o opinie foarte bine documentată și echilibrată pe aceste modificări”"
+      ],
+      "breakdown_surse": {
+        "stopfals.md": 93,
+        "veridica.ro": 19
+      }
+    },
+    "meta_veridica": {
+      "descriere": "Meta-element Veridica ('Vezi și', 'Context:', 'Sursa:')",
+      "count": 4,
+      "procent": 0.066,
+      "exemple": [
+        "CONTEXT : De la preluarea puterii în 2021, guvernarea pro-occidentală a Maiei Sandu s-a confruntat cu cele mai grave crize din istoria Republicii Moldova - criza gazelor, pe fundalul scumpirii carburanților pe piețele internaționale, iar în consecință - o inflație-record și creșterea prețurilor la produse și servicii.",
+        "CONTEXT / ETOS LOCAL : Josep Borrell a participat, în februarie, la Conferința de Securitate de la München, unul dintre cele mai importante forumuri globale pe securitate și politică externă.",
+        "CONTEXT / ETOS LOCAL : În 2017 Ucraina a acuzat Rusia, la Curtea Internațională de Justiție, de finanțarea terorismului pe teritoriul său prin sprijinirea unor rebeli pro-Moscova în Donbass.",
+        "CONTEXT / ETOS LOCAL : Statele baltice au o experiență istorică negativă cu Rusia și Uniunea Sovietică, fiind ocupate de Imperiul Rus și invadate de URSS după o scurtă perioadă de independență."
+      ],
+      "breakdown_surse": {
+        "veridica.ro": 4
+      }
+    },
+    "temporal_orfan": {
+      "descriere": "Etichetă temporală orfană ('Astăzi,', 'Săptămâna trecută,')",
+      "count": 0,
+      "procent": 0.0,
+      "exemple": [],
+      "breakdown_surse": {}
+    },
+    "url_rezidual": {
+      "descriere": "URL / link rezidual în text",
+      "count": 0,
+      "procent": 0.0,
+      "exemple": [],
+      "breakdown_surse": {}
+    },
+    "prefix_media": {
+      "descriere": "Prefix media ('Foto:', 'Video:', 'Imagine:')",
+      "count": 1,
+      "procent": 0.016,
+      "exemple": [
+        "Captura de ecran a postării făcute pe canalul de Telegram care promovează războiul din Ucraina."
+      ],
+      "breakdown_surse": {
+        "stopfals.md": 1
+      }
+    },
+    "paranteza_redactionala": {
+      "descriere": "Paranteză redacțională ('(n.red.)', '(n.trad.)')",
+      "count": 0,
+      "procent": 0.0,
+      "exemple": [],
+      "breakdown_surse": {}
+    },
+    "degenerat_alfanumeric": {
+      "descriere": "Propoziție degenerată (< 50% caractere alfabetice)",
+      "count": 1,
+      "procent": 0.016,
+      "exemple": [
+        "A început nu în 2020, ci în 2014."
+      ],
+      "breakdown_surse": {
+        "veridica.ro": 1
+      }
+    },
+    "header_prearticol": {
+      "descriere": "Header pre-articol (autor | categorie | data)",
+      "count": 0,
+      "procent": 0.0,
+      "exemple": [],
+      "breakdown_surse": {}
+    }
+  },
+  "breakdown_surse": {
+    "stopfals.md": 450,
+    "veridica.ro": 5632
+  },
+  "rezumat": {
+    "propozitii_cu_macar_un_flag": 118,
+    "procent_global_zgomot": 1.94,
+    "decizie_sugerata": "MERGEM DIRECT LA BENCHMARK V4 — zgomot rezidual sub pragul de 2%, acceptabil fără curățare suplimentară."
+  }
+}

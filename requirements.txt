@@ -1,0 +1,40 @@
+# Scraping & date
+beautifulsoup4>=4.14
+requests>=2.33
+pandas>=3.0
+pyarrow>=14.0.0
+
+# NLP & modele
+# transformers>=4.46 scripturile de antrenare folosesc
+# processing_class= (introdus în 4.46)
+transformers>=4.46
+datasets>=2.19
+accelerate>=1.1.0
+sentence-transformers>=3.0
+stanza>=1.11
+torch>=2.11
+
+# Explainability
+lime>=0.2
+captum>=0.7
+
+# Backend
+fastapi>=0.111
+uvicorn>=0.30
+
+# Validare
+pydantic>=2.5.0
+
+# Template HTML
+jinja2>=3.1.3
+
+# Utility
+scikit-learn>=1.5
+numpy>=2.4
+tqdm>=4.67
+emoji>=2.15
+regex>=2026.4
+
+# Testare
+pytest>=8.0.0
+httpx>=0.27.0

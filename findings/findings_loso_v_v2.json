@@ -1,0 +1,22 @@
+{
+  "experiment": "LOSO — held_out=veridica.ro",
+  "dataset_version": "v2",
+  "held_out_source": "veridica.ro",
+  "n_test": 661,
+  "majority_class_test": 1,
+  "n_train_sources": 698,
+  "n_val_sources": 124,
+  "train_sources_distributie": {
+    "digi24.ro": 330,
+    "g4media.ro": 296,
+    "stopfals.md": 72
+  },
+  "accuracy_test": 0.2934947049924357,
+  "recall_cls1_test": 0.2934947049924357,
+  "mean_prob_cls1": 0.20824379943548624,
+  "median_prob_cls1": 0.006526105105876923,
+  "baseline_recall_cls1_v2": 1.0,
+  "drop_vs_baseline": 0.7065052950075643,
+  "interpretare": "Drop >30pp — SHORTCUT DE SURSĂ CONFIRMAT. Modelul învață predominant stilul veridica.ro, nu dezinformarea.",
+  "training_time_seconds": 135.75446701049805
+}

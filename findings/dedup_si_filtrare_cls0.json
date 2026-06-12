@@ -1,0 +1,120 @@
+{
+  "deduplicare": {
+    "input_total": 5915,
+    "eliminate_duplicate": 98,
+    "output_dupa_dedup": 5817,
+    "per_sursa": {
+      "digi24.ro": {
+        "inainte": 3205,
+        "dupa": 3122,
+        "eliminate": 83
+      },
+      "g4media.ro": {
+        "inainte": 2710,
+        "dupa": 2695,
+        "eliminate": 15
+      }
+    },
+    "exemple_duplicate": [
+      {
+        "aparitii": 13,
+        "nr_cuvinte": 23,
+        "surse": [
+          "digi24.ro"
+        ],
+        "text": "Jurnalistul care i-a luat ultimul interviu lui Mircea Lucescu povestește culisele întâlnirii Răzvan Lucescu, discurs emoţionant în biserică înainte de înmormântarea tatălui său:"
+      },
+      {
+        "aparitii": 10,
+        "nr_cuvinte": 8,
+        "surse": [
+          "digi24.ro"
+        ],
+        "text": "Sanatoriul din Sergheevca, regiunea Odesa, bombardat de ruși."
+      },
+      {
+        "aparitii": 9,
+        "nr_cuvinte": 15,
+        "surse": [
+          "digi24.ro"
+        ],
+        "text": "A fost emis RO-Alert pentru nordul județului Tulcea „S-a simțit rău și a pierdut kilograme”."
+      },
+      {
+        "aparitii": 8,
+        "nr_cuvinte": 11,
+        "surse": [
+          "digi24.ro"
+        ],
+        "text": "UE analizează relația cu Ungaria, după dezvăluirile privind legăturile cu Rusia."
+      },
+      {
+        "aparitii": 8,
+        "nr_cuvinte": 19,
+        "surse": [
+          "digi24.ro"
+        ],
+        "text": "Submarinul Kronos, dezvoltat de o companie din Emiratele Arabe, pe care ucrainenii l-ar putea folosi în războiul cu Rusia."
+      },
+      {
+        "aparitii": 5,
+        "nr_cuvinte": 33,
+        "surse": [
+          "digi24.ro"
+        ],
+        "text": "„A fost un luptător, a învins, a pierdut” „Ghost Murmur”, instrumentul CIA care a urmărit bătăile inimii aviatorului american dispărut în Iran UE analizează relația cu Ungaria, după dezvăluirile privi"
+      },
+      {
+        "aparitii": 5,
+        "nr_cuvinte": 11,
+        "surse": [
+          "digi24.ro"
+        ],
+        "text": "Putin a vizitat pentru prima oară militari ruşi răniţi în Ucraina."
+      },
+      {
+        "aparitii": 4,
+        "nr_cuvinte": 20,
+        "surse": [
+          "digi24.ro"
+        ],
+        "text": "Un român și un moldovean produc drone interceptoare care pot distruge Shahed-urile lansate de Kremlin Atacuri rusești la granița României."
+      },
+      {
+        "aparitii": 4,
+        "nr_cuvinte": 15,
+        "surse": [
+          "digi24.ro"
+        ],
+        "text": "Siegfrid Mureșan: „Să stăm departe de acest virus” „S-a simțit rău și a pierdut kilograme”."
+      },
+      {
+        "aparitii": 4,
+        "nr_cuvinte": 106,
+        "surse": [
+          "digi24.ro"
+        ],
+        "text": "„A fost un luptător, a învins, a pierdut” „Ghost Murmur”, instrumentul CIA care a urmărit bătăile inimii aviatorului american dispărut în Iran Scumpiri în lanț în București: biletul STB ar putea ajung"
+      }
+    ]
+  },
+  "filtrare_lungime": {
+    "input_total": 5817,
+    "p_min": 7,
+    "p_max": 54,
+    "p_min_percentila": 5,
+    "p_max_percentila": 95,
+    "eliminate_prea_scurt": 249,
+    "eliminate_prea_lung": 278,
+    "output_total": 5290,
+    "retentie_pct": 90.94,
+    "distributie_output": {
+      "min": 7,
+      "p25": 16.0,
+      "mediana": 23.0,
+      "medie": 24.85,
+      "p75": 33.0,
+      "max": 54
+    }
+  }
+}

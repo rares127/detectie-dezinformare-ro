@@ -1,0 +1,22 @@
+{
+  "regex_moldova": "\\bmoldov[aă]\\b|\\bchi[sș]in[aă]u\\b|\\bmaia\\s+sandu\\b|\\btransnistri[ae]\\b|\\bg[aă]g[aă]uzi[ae]\\b|\\bcomrat\\b|\\bdodon\\b|\\bsor\\b|\\bmd\\b(?=\\s|$|[,\\.])",
+  "metrics_cu_moldova": {
+    "n": 61,
+    "n_cls0": 20,
+    "n_cls1": 41,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "recall_cls0": 1.0,
+    "recall_cls1": 1.0
+  },
+  "metrics_fara_moldova": {
+    "n": 162,
+    "n_cls0": 91,
+    "n_cls1": 71,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "recall_cls0": 1.0,
+    "recall_cls1": 1.0
+  },
+  "interpretare": "Entity balancing PARE să funcționeze — performanța e comparabilă pe ambele subseturi (delta <5pp)."
+}

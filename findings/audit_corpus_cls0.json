@@ -1,0 +1,39 @@
+{
+  "total_propozitii": 5976,
+  "per_categorie": {
+    "probabil_curat": 5944,
+    "eticheta_vorbitor": 15,
+    "boilerplate_cms": 10,
+    "titluri_concatenate": 5,
+    "titlu_scurt_probabil": 2
+  },
+  "per_pattern_boilerplate": {
+    "cookie_afisare": 0,
+    "cookie_actualizare": 0,
+    "cookie_accept": 0,
+    "cookie_generic": 0,
+    "continut_afisare": 0,
+    "social_media_plugin": 0,
+    "abonare_newsletter": 0,
+    "citeste_si": 3,
+    "foto_credit": 7
+  },
+  "per_heuristica": {
+    "fara_punct_final": 55,
+    "incepe_cu_ghilimele": 770,
+    "multe_ghilimele_interne": 267,
+    "colon_fara_urmare": 15,
+    "multi_caps": 299,
+    "scurta_si_fara_punct": 2
+  },
+  "zgomot_per_sursa": {
+    "digi24.ro": {
+      "total": 3226,
+      "zgomot": 20
+    },
+    "g4media.ro": {
+      "total": 2750,
+      "zgomot": 12
+    }
+  }
+}

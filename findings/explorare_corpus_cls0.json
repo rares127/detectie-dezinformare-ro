@@ -1,0 +1,116 @@
+{
+  "total_propozitii_brut": 6047,
+  "propozitii_unice_exact": 5885,
+  "propozitii_unice_normalizate": 5877,
+  "rata_duplicare_exacta_pct": 2.68,
+  "rata_duplicare_normalizata_pct": 2.81,
+  "lungime_cuvinte": {
+    "min": 1,
+    "max": 142,
+    "medie": 25.76,
+    "mediana": 23.0,
+    "std": 15.58,
+    "percentile": {
+      "p1": 3.0,
+      "p5": 6.0,
+      "p10": 9.0,
+      "p25": 15.0,
+      "p50": 23.0,
+      "p75": 34.0,
+      "p90": 45.0,
+      "p95": 54.0,
+      "p99": 78.0
+    }
+  },
+  "candidate_filtrare": {
+    "sub_3_cuvinte": 33,
+    "sub_5_cuvinte": 138,
+    "peste_40_cuvinte": 888,
+    "peste_60_cuvinte": 187
+  },
+  "per_sursa": {
+    "digi24.ro": {
+      "propozitii_total": 3297,
+      "articole": 389,
+      "propozitii_per_articol_mediu": 8.48,
+      "lungime_mediana_cuvinte": 22.0,
+      "lungime_medie_cuvinte": 25.14,
+      "unice_exact": 3153,
+      "unice_normalizat": 3148
+    },
+    "g4media.ro": {
+      "propozitii_total": 2750,
+      "articole": 348,
+      "propozitii_per_articol_mediu": 7.9,
+      "lungime_mediana_cuvinte": 24.0,
+      "lungime_medie_cuvinte": 26.5,
+      "unice_exact": 2742,
+      "unice_normalizat": 2739
+    }
+  },
+  "suprapunere_intre_surse": {
+    "surse_comparate": [
+      "digi24.ro",
+      "g4media.ro"
+    ],
+    "hash_comune_normalizate": 10,
+    "procent_din_mai_mica": 0.37
+  },
+  "top_10_duplicate": [
+    {
+      "aparitii": 59,
+      "nr_cuvinte": 11,
+      "exemplu": "Setarile tale privind cookie-urile nu permit afisarea continutul din aceasta sectiune."
+    },
+    {
+      "aparitii": 13,
+      "nr_cuvinte": 23,
+      "exemplu": "Jurnalistul care i-a luat ultimul interviu lui Mircea Lucescu povestește culisele întâlnirii Răzvan Lucescu, discurs emoţionant în biserică înainte de înmormântarea tatălui său:"
+    },
+    {
+      "aparitii": 10,
+      "nr_cuvinte": 8,
+      "exemplu": "Sanatoriul din Sergheevca, regiunea Odesa, bombardat de ruși."
+    },
+    {
+      "aparitii": 9,
+      "nr_cuvinte": 15,
+      "exemplu": "A fost emis RO-Alert pentru nordul județului Tulcea „S-a simțit rău și a pierdut kilograme”."
+    },
+    {
+      "aparitii": 8,
+      "nr_cuvinte": 11,
+      "exemplu": "UE analizează relația cu Ungaria, după dezvăluirile privind legăturile cu Rusia."
+    },
+    {
+      "aparitii": 7,
+      "nr_cuvinte": 19,
+      "exemplu": "Poti actualiza setarile modulelor coookie direct din browser sau de aici – e nevoie sa accepti cookie-urile social media"
+    },
+    {
+      "aparitii": 6,
+      "nr_cuvinte": 21,
+      "exemplu": "Foto: highlandsystems.me Submarinul Kronos, dezvoltat de o companie din Emiratele Arabe, pe care ucrainenii l-ar putea folosi în războiul cu Rusia."
+    },
+    {
+      "aparitii": 5,
+      "nr_cuvinte": 33,
+      "exemplu": "„A fost un luptător, a învins, a pierdut” „Ghost Murmur”, instrumentul CIA care a urmărit bătăile inimii aviatorului american dispărut în Iran UE analizează relația cu Ungaria, după dezvăluirile privi..."
+    },
+    {
+      "aparitii": 5,
+      "nr_cuvinte": 11,
+      "exemplu": "Putin a vizitat pentru prima oară militari ruşi răniţi în Ucraina."
+    },
+    {
+      "aparitii": 4,
+      "nr_cuvinte": 1,
+      "exemplu": "Zelenski:"
+    }
+  ],
+  "_meta": {
+    "segmenter": "stanza",
+    "articole_input": 737,
+    "seed": 42
+  }
+}

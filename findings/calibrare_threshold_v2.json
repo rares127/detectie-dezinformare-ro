@@ -1,0 +1,274 @@
+{
+  "config": {
+    "model": "sentence-transformers/paraphrase-multilingual-mpnet-base-v2",
+    "seed": 42,
+    "device": "mps",
+    "n_folds_cv": 5,
+    "downsample_cls1_test": 5290,
+    "filtru_lungime_propozitie": [
+      7,
+      54
+    ]
+  },
+  "volume": {
+    "val_articole": 222,
+    "val_propozitii": 1807,
+    "test_articole": 167,
+    "test_propozitii": 2066,
+    "corpus_cls0": 5290,
+    "corpus_cls1_baseline_test": 5290,
+    "corpus_cls1_noval_calibrare": 4980
+  },
+  "sectiunea_A_cv_test": {
+    "descriere": "5-fold stratified CV pe test set — rezultat oficial",
+    "n_folds": 5,
+    "seed": 42,
+    "rezultate_per_fold": [
+      {
+        "fold": 1,
+        "n_train": 133,
+        "n_test": 34,
+        "tau_fold": -0.007077381014823914,
+        "f1_train_fold": 0.9378531073446328,
+        "metrici_eval": {
+          "threshold": -0.007077381014823914,
+          "tp": 23,
+          "fp": 1,
+          "fn": 0,
+          "tn": 10,
+          "accuracy": 0.9705882352941176,
+          "precision_cls1": 0.9583333333333334,
+          "recall_cls1": 1.0,
+          "f1_cls1": 0.9787234042553191
+        }
+      },
+      {
+        "fold": 2,
+        "n_train": 133,
+        "n_test": 34,
+        "tau_fold": -0.007165372371673584,
+        "f1_train_fold": 0.9613259668508287,
+        "metrici_eval": {
+          "threshold": -0.007165372371673584,
+          "tp": 19,
+          "fp": 1,
+          "fn": 4,
+          "tn": 10,
+          "accuracy": 0.8529411764705882,
+          "precision_cls1": 0.95,
+          "recall_cls1": 0.8260869565217391,
+          "f1_cls1": 0.8837209302325583
+        }
+      },
+      {
+        "fold": 3,
+        "n_train": 134,
+        "n_test": 33,
+        "tau_fold": -0.007984086871147156,
+        "f1_train_fold": 0.9385474860335196,
+        "metrici_eval": {
+          "threshold": -0.007984086871147156,
+          "tp": 22,
+          "fp": 1,
+          "fn": 0,
+          "tn": 10,
+          "accuracy": 0.9696969696969697,
+          "precision_cls1": 0.9565217391304348,
+          "recall_cls1": 1.0,
+          "f1_cls1": 0.9777777777777777
+        }
+      },
+      {
+        "fold": 4,
+        "n_train": 134,
+        "n_test": 33,
+        "tau_fold": -0.007077381014823914,
+        "f1_train_fold": 0.9502762430939227,
+        "metrici_eval": {
+          "threshold": -0.007077381014823914,
+          "tp": 20,
+          "fp": 1,
+          "fn": 2,
+          "tn": 10,
+          "accuracy": 0.9090909090909091,
+          "precision_cls1": 0.9523809523809523,
+          "recall_cls1": 0.9090909090909091,
+          "f1_cls1": 0.9302325581395349
+        }
+      },
+      {
+        "fold": 5,
+        "n_train": 134,
+        "n_test": 33,
+        "tau_fold": -0.007077381014823914,
+        "f1_train_fold": 0.9438202247191012,
+        "metrici_eval": {
+          "threshold": -0.007077381014823914,
+          "tp": 22,
+          "fp": 2,
+          "fn": 0,
+          "tn": 9,
+          "accuracy": 0.9393939393939394,
+          "precision_cls1": 0.9166666666666666,
+          "recall_cls1": 1.0,
+          "f1_cls1": 0.9565217391304348
+        }
+      }
+    ],
+    "statistici_agregate": {
+      "accuracy": {
+        "mean": 0.9283422459893048,
+        "std": 0.04917573580875932,
+        "min": 0.8529411764705882,
+        "max": 0.9705882352941176,
+        "valori_per_fold": [
+          0.9705882352941176,
+          0.8529411764705882,
+          0.9696969696969697,
+          0.9090909090909091,
+          0.9393939393939394
+        ]
+      },
+      "precision_cls1": {
+        "mean": 0.9467805383022775,
+        "std": 0.017153227851966026,
+        "min": 0.9166666666666666,
+        "max": 0.9583333333333334,
+        "valori_per_fold": [
+          0.9583333333333334,
+          0.95,
+          0.9565217391304348,
+          0.9523809523809523,
+          0.9166666666666666
+        ]
+      },
+      "recall_cls1": {
+        "mean": 0.9470355731225297,
+        "std": 0.07823691093322621,
+        "min": 0.8260869565217391,
+        "max": 1.0,
+        "valori_per_fold": [
+          1.0,
+          0.8260869565217391,
+          1.0,
+          0.9090909090909091,
+          1.0
+        ]
+      },
+      "f1_cls1": {
+        "mean": 0.945395281907125,
+        "std": 0.039739217641209156,
+        "min": 0.8837209302325583,
+        "max": 0.9787234042553191,
+        "valori_per_fold": [
+          0.9787234042553191,
+          0.8837209302325583,
+          0.9777777777777777,
+          0.9302325581395349,
+          0.9565217391304348
+        ]
+      }
+    },
+    "tau_mediu": -0.007276320457458496,
+    "tau_std": 0.00039748379828375335,
+    "metrici_la_tau_mediu_pe_tot_test": {
+      "threshold": -0.007276320457458496,
+      "tp": 106,
+      "fp": 6,
+      "fn": 6,
+      "tn": 49,
+      "accuracy": 0.9281437125748503,
+      "precision_cls1": 0.9464285714285714,
+      "recall_cls1": 0.9464285714285714,
+      "f1_cls1": 0.9464285714285714
+    },
+    "breakdown_per_sursa": {
+      "hotnews.ro": {
+        "threshold": -0.007276320457458496,
+        "tp": 0,
+        "fp": 4,
+        "fn": 0,
+        "tn": 41,
+        "accuracy": 0.9111111111111111,
+        "precision_cls1": 0.0,
+        "recall_cls1": 0.0,
+        "f1_cls1": 0.0
+      },
+      "libertatea.ro": {
+        "threshold": -0.007276320457458496,
+        "tp": 0,
+        "fp": 1,
+        "fn": 0,
+        "tn": 4,
+        "accuracy": 0.8,
+        "precision_cls1": 0.0,
+        "recall_cls1": 0.0,
+        "f1_cls1": 0.0
+      },
+      "stirileprotv.ro": {
+        "threshold": -0.007276320457458496,
+        "tp": 0,
+        "fp": 1,
+        "fn": 0,
+        "tn": 4,
+        "accuracy": 0.8,
+        "precision_cls1": 0.0,
+        "recall_cls1": 0.0,
+        "f1_cls1": 0.0
+      },
+      "stopfals.md": {
+        "threshold": -0.007276320457458496,
+        "tp": 13,
+        "fp": 0,
+        "fn": 0,
+        "tn": 0,
+        "accuracy": 1.0,
+        "precision_cls1": 1.0,
+        "recall_cls1": 1.0,
+        "f1_cls1": 1.0
+      },
+      "veridica.ro": {
+        "threshold": -0.007276320457458496,
+        "tp": 93,
+        "fp": 0,
+        "fn": 6,
+        "tn": 0,
+        "accuracy": 0.9393939393939394,
+        "precision_cls1": 1.0,
+        "recall_cls1": 0.9393939393939394,
+        "f1_cls1": 0.96875
+      }
+    }
+  },
+  "sectiunea_B_calibrare_val": {
+    "descriere": "Calibrare clasica pe val + evaluare pe test. Documentat ca informativ — vezi disclaimer pentru distribution shift.",
+    "tau_val": -0.1892985999584198,
+    "metrici_val_la_tau_val": {
+      "threshold": -0.1892985999584198,
+      "tp": 112,
+      "fp": 0,
+      "fn": 0,
+      "tn": 110,
+      "accuracy": 1.0,
+      "precision_cls1": 1.0,
+      "recall_cls1": 1.0,
+      "f1_cls1": 1.0,
+      "youden_j": 1.0
+    },
+    "metrici_test_la_tau_val": {
+      "threshold": -0.1892985999584198,
+      "tp": 112,
+      "fp": 55,
+      "fn": 0,
+      "tn": 0,
+      "accuracy": 0.6706586826347305,
+      "precision_cls1": 0.6706586826347305,
+      "recall_cls1": 1.0,
+      "f1_cls1": 0.8028673835125447
+    },
+    "tau_oracle_test": -0.007077381014823914,
+    "f1_oracle_test": 0.9464285714285714,
+    "delta_oracle_vs_tau_val": 0.14356118791602668,
+    "delta_oracle_vs_tau_cv": 0.0
+  }
+}

@@ -1,0 +1,73 @@
+2026-04-20 00:23:47 | INFO    | ======================================================================
+2026-04-20 00:23:47 | INFO    | POST-PROCESSING VERIDICA CLEAN FINAL → V2
+2026-04-20 00:23:47 | INFO    | ======================================================================
+2026-04-20 00:23:47 | INFO    | Input: 675 articole din veridica_clean_final.csv
+2026-04-20 00:23:47 | INFO    | FIX 1 — Strip prefix jurnalistic: 191 articole procesate, 0 rămase cu prefix
+2026-04-20 00:23:47 | INFO    | FIX 2 — Drop off-topic (fără termeni Ucraina/Rusia): -38 (rămas: 637)
+2026-04-20 00:23:47 | INFO    |   Articole droppate:
+2026-04-20 00:23:47 | INFO    |   [vrd_0002][2022] DEZINFORMARE: UE forțează România să renunțe la Constituția și suveran
+2026-04-20 00:23:47 | INFO    |   [vrd_0003][2022] DEZINFORMARE: Igor Dodon a luat mită ca s-o împartă la săraci
+2026-04-20 00:23:47 | INFO    |   [vrd_0005][2022] FAKE NEWS: UE transformă România într-o piață pentru produse de slabă 
+2026-04-20 00:23:47 | INFO    |   [vrd_0006][2022] DEZINFORMARE: Moldova riscă o revoltă ca în Kazahstan pentru că pro-eu
+2026-04-20 00:23:47 | INFO    |   [vrd_0009][2022] DEZINFORMARE: Prin codul QR de pe certificatele verzi se impune credit
+2026-04-20 00:23:47 | INFO    |   [vrd_0014][2022] DEZINFORMARE: Simona Halep a pierdut la Australian Open pentru că s-a 
+2026-04-20 00:23:47 | INFO    |   [vrd_0021][2022] DEZINFORMARE: România cumpără arme americane, fără a avea vreun benefi
+2026-04-20 00:23:47 | INFO    |   [vrd_0082][2022] FAKE NEWS: Dodon a fost reținut la ordinul serviciilor secrete din Rom
+2026-04-20 00:23:47 | INFO    |   [vrd_0099][2022] FAKE NEWS: Maia Sandu închide universități și școli cu predare în limb
+2026-04-20 00:23:47 | INFO    |   [vrd_0117][2022] FAKE NEWS: O baschetbalistă din România a murit din cauza vaccinării î
+2026-04-20 00:23:47 | INFO    |   [vrd_0148][2022] FAKE NEWS: Hidroelectrica, la fel ca și alte avuții ale românilor, va 
+2026-04-20 00:23:47 | INFO    |   [vrd_0175][2022] DEZINFORMARE: În România va fi blackout de sărbători pentru ca patrioț
+2026-04-20 00:23:47 | INFO    |   [vrd_0218][2023] Energia verde, promovată de Occident pentru a obține resurse minerale
+2026-04-20 00:23:47 | INFO    |   [vrd_0258][2023] Scoaterea Partidului Șor în afara legii e uzurpare a puterii în stat
+2026-04-20 00:23:47 | INFO    |   [vrd_0265][2023] Atacul de pe Aeroportul Chișinău, o consecință a distanțării de CSI
+2026-04-20 00:23:47 | INFO    |   [vrd_0281][2023] Emigrarea de azi din Moldova este similară deportărilor staliniste
+2026-04-20 00:23:47 | INFO    |   [vrd_0303][2023] Televiziune închisă în Moldova pentru că promova "valorile familiei tr
+2026-04-20 00:23:47 | INFO    |   [vrd_0314][2023] Moldovenii s-au opus dintotdeauna Bisericii Ortodoxe Române
+2026-04-20 00:23:47 | INFO    |   [vrd_0317][2023] Planul de federalizare a Moldovei a avut o largă susținere la Chișinău
+2026-04-20 00:23:47 | INFO    |   [vrd_0332][2024] În UE, doar țările fondatoare se bucură de drepturi
+2026-04-20 00:23:47 | INFO    |   [vrd_0334][2024] UE va limita călătoriile cetățenilor săi
+2026-04-20 00:23:47 | INFO    |   [vrd_0351][2024] Sancțiunile UE pentru moldoveni, similare deportărilor staliniste
+2026-04-20 00:23:47 | INFO    |   [vrd_0357][2024] Guvernarea de la Chișinău impune integrarea europeană a Moldovei
+2026-04-20 00:23:47 | INFO    |   [vrd_0360][2024] SUA și Occidentul nu oferă sprijin real Republicii Moldova
+2026-04-20 00:23:47 | INFO    |   [vrd_0392][2024] Agricultorii moldoveni nu au acces pe piața UE, care dă Moldovei doar 
+2026-04-20 00:23:47 | INFO    |   [vrd_0410][2024] Ceremonia de închidere a Olimpiadei a fost un spectacol satanist
+2026-04-20 00:23:47 | INFO    |   [vrd_0427][2024] Referendumul pentru UE din Moldova e, de fapt, referendum pentru LGBT
+2026-04-20 00:23:47 | INFO    |   [vrd_0496][2025] UE șantajează Moldova că, fără un guvern european, îi taie finanțarea
+2026-04-20 00:23:47 | INFO    |   [vrd_0508][2025] UE se transformă în bloc militar
+2026-04-20 00:23:47 | INFO    |   [vrd_0532][2025] Europa a distrus agricultura Moldovei
+2026-04-20 00:23:47 | INFO    |   [vrd_0547][2025] Cine lucrează pe 4 iulie e anti-american
+2026-04-20 00:23:47 | INFO    |   [vrd_0550][2025] Maia Sandu obligă populația să asiste la evenimentele LGBT
+2026-04-20 00:23:47 | INFO    |   [vrd_0570][2025] Uniunea Europeană devine un bloc militar
+2026-04-20 00:23:47 | INFO    |   [vrd_0602][2025] Guvernarea de la Chișinău pregătește închiderea școlilor în limba rusă
+2026-04-20 00:23:47 | INFO    |   [vrd_0623][2025] Denunțarea unor acorduri CSI va băga Moldova în izolare internațională
+2026-04-20 00:23:47 | INFO    |   [vrd_0641][2026] UE vrea Moldova doar ca piață de desfacere
+2026-04-20 00:23:47 | INFO    |   [vrd_0643][2026] Integrarea europeană slăbește securitatea energetică a Republicii Mold
+2026-04-20 00:23:47 | INFO    |   [vrd_0656][2026] Maia Sandu e implicată în scandalul Epstein
+2026-04-20 00:23:47 | INFO    | FIX 3 — Dedup post-strip: 0 duplicate — OK
+2026-04-20 00:23:48 | INFO    | 
+2026-04-20 00:23:48 | INFO    | ======================================================================
+2026-04-20 00:23:48 | INFO    | REZULTAT FINAL
+2026-04-20 00:23:48 | INFO    | ======================================================================
+2026-04-20 00:23:48 | INFO    | Input:  675 articole
+2026-04-20 00:23:48 | INFO    | Output: 637 articole (94.4% retenție)
+2026-04-20 00:23:48 | INFO    | Salvat: veridica_clean_final_v2.csv
+2026-04-20 00:23:48 | INFO    | 
+2026-04-20 00:23:48 | INFO    | === Distribuție pe an ===
+2026-04-20 00:23:48 | INFO    |   2022: 179 articole
+2026-04-20 00:23:48 | INFO    |   2023: 129 articole
+2026-04-20 00:23:48 | INFO    |   2024: 135 articole
+2026-04-20 00:23:48 | INFO    |   2025: 160 articole
+2026-04-20 00:23:48 | INFO    |   2026: 34 articole
+2026-04-20 00:23:48 | INFO    | 
+2026-04-20 00:23:48 | INFO    | === Stats nr_cuvinte_truncat (post-strip) ===
+2026-04-20 00:23:48 | INFO    |   median=193  mean=189.5  min=63  max=250
+2026-04-20 00:23:48 | INFO    | 
+2026-04-20 00:23:48 | INFO    | === Sanity checks ===
+2026-04-20 00:23:48 | INFO    |   Prefix jurnalistic rămas?  NU ✓  (0 articole)
+2026-04-20 00:23:48 | INFO    |   Articole off-topic rămase? NU ✓  (0 articole)
+2026-04-20 00:23:48 | INFO    |   Toate label=1?             DA ✓
+2026-04-20 00:23:48 | INFO    |   text_curat OK?             DA ✓
+2026-04-20 00:23:48 | INFO    |   Hash unic?                 DA ✓
+2026-04-20 00:23:48 | INFO    |   ID unic?                   DA ✓
+2026-04-20 00:23:48 | INFO    | 
+2026-04-20 00:23:48 | INFO    | Dataset clasa 1 — gata pentru merge cu clasa 0 (G4Media + Digi24)

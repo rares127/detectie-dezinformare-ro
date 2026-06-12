@@ -1,0 +1,594 @@
+{
+  "meta": {
+    "seed": 42,
+    "device": "mps",
+    "n_corpus": 5290,
+    "n_articole": 167,
+    "n_cls0": 55,
+    "n_cls1": 112,
+    "n_propozitii": 2181,
+    "top_k": 5,
+    "percentila": 10,
+    "praguri": [
+      0.3,
+      0.4,
+      0.5,
+      0.6
+    ]
+  },
+  "modele": {
+    "minilm": {
+      "viteza_prop_sec": 810.970586388435,
+      "scoruri_agregate": {
+        "max": {
+          "mean": {
+            "cls0_mean": 0.6590130925178528,
+            "cls0_std": 0.034352026879787445,
+            "cls1_mean": 0.6449894309043884,
+            "cls1_std": 0.06051623448729515,
+            "cohen_d": 0.26269260089346774,
+            "auc": 0.5516234040260315,
+            "veridica_mean": 0.6456228494644165,
+            "stopfals_mean": 0.6401650309562683,
+            "gap_v_vs_s": 0.005457818508148193,
+            "per_sursa_cls0": {
+              "libertatea.ro": 0.6583570241928101,
+              "stirileprotv.ro": 0.6489859223365784,
+              "hotnews.ro": 0.6602000594139099
+            },
+            "n_cls0": 55,
+            "n_cls1": 112
+          },
+          "min": {
+            "cls0_mean": 0.3859705626964569,
+            "cls0_std": 0.028794288635253906,
+            "cls1_mean": 0.5160846710205078,
+            "cls1_std": 0.08972132951021194,
+            "cohen_d": -1.7254113884780642,
+            "auc": 0.06607142835855484,
+            "veridica_mean": 0.515139102935791,
+            "stopfals_mean": 0.5232858061790466,
+            "gap_v_vs_s": -0.008146703243255615,
+            "per_sursa_cls0": {
+              "libertatea.ro": 0.4151911735534668,
+              "stirileprotv.ro": 0.3146636188030243,
+              "hotnews.ro": 0.39064687490463257
+            },
+            "n_cls0": 55,
+            "n_cls1": 112
+          },
+          "p10": {
+            "cls0_mean": 0.5329086184501648,
+            "cls0_std": 0.03486156091094017,
+            "cls1_mean": 0.5594504475593567,
+            "cls1_std": 0.07879886776208878,
+            "cohen_d": -0.3924105486484029,
+            "auc": 0.3941558301448822,
+            "veridica_mean": 0.5594951510429382,
+            "stopfals_mean": 0.5591096878051758,
+            "gap_v_vs_s": 0.00038546323776245117,
+            "per_sursa_cls0": {
+              "libertatea.ro": 0.5264843106269836,
+              "stirileprotv.ro": 0.4911096692085266,
+              "hotnews.ro": 0.5382667183876038
+            },
+            "n_cls0": 55,
+            "n_cls1": 112
+          }
+        },
+        "topk_mean": {
+          "mean": {
+            "cls0_mean": 0.6186069250106812,
+            "cls0_std": 0.03324688971042633,
+            "cls1_mean": 0.6086426377296448,
+            "cls1_std": 0.06425967067480087,
+            "cohen_d": 0.17782938896749592,
+            "auc": 0.5214285850524902,
+            "veridica_mean": 0.6096314191818237,
+            "stopfals_mean": 0.6011127233505249,
+            "gap_v_vs_s": 0.008518695831298828,
+            "per_sursa_cls0": {
+              "libertatea.ro": 0.6203703880310059,
+              "stirileprotv.ro": 0.6017417907714844,
+              "hotnews.ro": 0.6202847957611084
+            },
+            "n_cls0": 55,
+            "n_cls1": 112
+          },
+          "min": {
+            "cls0_mean": 0.36544519662857056,
+            "cls0_std": 0.02909620851278305,
+            "cls1_mean": 0.48270854353904724,
+            "cls1_std": 0.08760732412338257,
+            "cohen_d": -1.5898335332191285,
+            "auc": 0.07305194437503815,
+            "veridica_mean": 0.4814194440841675,
+            "stopfals_mean": 0.4925253093242645,
+            "gap_v_vs_s": -0.011105865240097046,
+            "per_sursa_cls0": {
+              "libertatea.ro": 0.3815644383430481,
+              "stirileprotv.ro": 0.29184502363204956,
+              "hotnews.ro": 0.371832013130188
+            },
+            "n_cls0": 55,
+            "n_cls1": 112
+          },
+          "p10": {
+            "cls0_mean": 0.48927515745162964,
+            "cls0_std": 0.0357511006295681,
+            "cls1_mean": 0.5254290699958801,
+            "cls1_std": 0.07873427122831345,
+            "cohen_d": -0.5337226157870559,
+            "auc": 0.36574676632881165,
+            "veridica_mean": 0.5254048109054565,
+            "stopfals_mean": 0.5256138443946838,
+            "gap_v_vs_s": -0.00020903348922729492,
+            "per_sursa_cls0": {
+              "libertatea.ro": 0.49555450677871704,
+              "stirileprotv.ro": 0.4505968987941742,
+              "hotnews.ro": 0.49287497997283936
+            },
+            "n_cls0": 55,
+            "n_cls1": 112
+          }
+        }
+      },
+      "scoruri_prop_sub": {
+        "pct_sub_30": {
+          "cls0_mean": 0.0,
+          "cls0_std": 0.0,
+          "cls1_mean": 0.0,
+          "cls1_std": 0.0,
+          "cohen_d": NaN,
+          "auc": 0.5,
+          "veridica_mean": 0.0,
+          "stopfals_mean": 0.0,
+          "gap_v_vs_s": 0.0,
+          "per_sursa_cls0": {
+            "libertatea.ro": 0.0,
+            "stirileprotv.ro": 0.0,
+            "hotnews.ro": 0.0
+          },
+          "n_cls0": 55,
+          "n_cls1": 112
+        },
+        "pct_sub_40": {
+          "cls0_mean": 0.05922119846018185,
+          "cls0_std": 0.028580740413083394,
+          "cls1_mean": 0.009192308187843902,
+          "cls1_std": 0.029206143401185897,
+          "cohen_d": -1.7249586385152582,
+          "auc": 0.09577922077922078,
+          "veridica_mean": 0.010399378959985023,
+          "stopfals_mean": 0.0,
+          "gap_v_vs_s": 0.010399378959985023,
+          "per_sursa_cls0": {
+            "libertatea.ro": 0.03121351766513057,
+            "stirileprotv.ro": 0.03839739870324578,
+            "hotnews.ro": 0.06464691852151379
+          },
+          "n_cls0": 55,
+          "n_cls1": 112
+        },
+        "pct_sub_50": {
+          "cls0_mean": 0.09200401334688169,
+          "cls0_std": 0.055076641031064466,
+          "cls1_mean": 0.09160263539767786,
+          "cls1_std": 0.14026006190419393,
+          "cohen_d": -0.0033650619985512954,
+          "auc": 0.35121753246753246,
+          "veridica_mean": 0.08476427269401772,
+          "stopfals_mean": 0.14367939752555137,
+          "gap_v_vs_s": -0.05891512483153365,
+          "per_sursa_cls0": {
+            "libertatea.ro": 0.0827314620863008,
+            "stirileprotv.ro": 0.14858350045756344,
+            "hotnews.ro": 0.08674768714131491
+          },
+          "n_cls0": 55,
+          "n_cls1": 112
+        },
+        "pct_sub_60": {
+          "cls0_mean": 0.28552816901285927,
+          "cls0_std": 0.13206654902281367,
+          "cls1_mean": 0.3114501905391223,
+          "cls1_std": 0.25942596958422204,
+          "cohen_d": 0.11480272876144171,
+          "auc": 0.4888798701298701,
+          "veridica_mean": 0.3108949931723705,
+          "stopfals_mean": 0.3156782320243859,
+          "gap_v_vs_s": -0.00478323885201537,
+          "per_sursa_cls0": {
+            "libertatea.ro": 0.28573488339617376,
+            "stirileprotv.ro": 0.3986055024435834,
+            "hotnews.ro": 0.2729410525890772
+          },
+          "n_cls0": 55,
+          "n_cls1": 112
+        }
+      }
+    },
+    "mpnet": {
+      "viteza_prop_sec": 345.77936299887926,
+      "scoruri_agregate": {
+        "max": {
+          "mean": {
+            "cls0_mean": 0.6721052527427673,
+            "cls0_std": 0.03617042303085327,
+            "cls1_mean": 0.6624456644058228,
+            "cls1_std": 0.061003804206848145,
+            "cohen_d": 0.17840059071020276,
+            "auc": 0.5237013101577759,
+            "veridica_mean": 0.6634371280670166,
+            "stopfals_mean": 0.654895544052124,
+            "gap_v_vs_s": 0.008541584014892578,
+            "per_sursa_cls0": {
+              "libertatea.ro": 0.6843646764755249,
+              "stirileprotv.ro": 0.6732787489891052,
+              "hotnews.ro": 0.670612633228302
+            },
+            "n_cls0": 55,
+            "n_cls1": 112
+          },
+          "min": {
+            "cls0_mean": 0.3708798587322235,
+            "cls0_std": 0.0647231936454773,
+            "cls1_mean": 0.5506009459495544,
+            "cls1_std": 0.08708983659744263,
+            "cohen_d": -2.2337458783572957,
+            "auc": 0.05649350583553314,
+            "veridica_mean": 0.5486051440238953,
+            "stopfals_mean": 0.5657998323440552,
+            "gap_v_vs_s": -0.017194688320159912,
+            "per_sursa_cls0": {
+              "libertatea.ro": 0.4920133650302887,
+              "stirileprotv.ro": 0.39675915241241455,
+              "hotnews.ro": 0.3545451760292053
+            },
+            "n_cls0": 55,
+            "n_cls1": 112
+          },
+          "p10": {
+            "cls0_mean": 0.5463982224464417,
+            "cls0_std": 0.041790448129177094,
+            "cls1_mean": 0.586633563041687,
+            "cls1_std": 0.07588391751050949,
+            "cohen_d": -0.6034666556660032,
+            "auc": 0.30957791209220886,
+            "veridica_mean": 0.5864099860191345,
+            "stopfals_mean": 0.5883361101150513,
+            "gap_v_vs_s": -0.001926124095916748,
+            "per_sursa_cls0": {
+              "libertatea.ro": 0.5755599141120911,
+              "stirileprotv.ro": 0.5374701023101807,
+              "hotnews.ro": 0.5441499948501587
+            },
+            "n_cls0": 55,
+            "n_cls1": 112
+          }
+        },
+        "topk_mean": {
+          "mean": {
+            "cls0_mean": 0.6357749104499817,
+            "cls0_std": 0.03384004905819893,
+            "cls1_mean": 0.6275777220726013,
+            "cls1_std": 0.06379888206720352,
+            "cohen_d": 0.14691738844649288,
+            "auc": 0.5009739995002747,
+            "veridica_mean": 0.6290598511695862,
+            "stopfals_mean": 0.6162909269332886,
+            "gap_v_vs_s": 0.012768924236297607,
+            "per_sursa_cls0": {
+              "libertatea.ro": 0.6502578854560852,
+              "stirileprotv.ro": 0.6264628171920776,
+              "hotnews.ro": 0.6352002024650574
+            },
+            "n_cls0": 55,
+            "n_cls1": 112
+          },
+          "min": {
+            "cls0_mean": 0.34722188115119934,
+            "cls0_std": 0.05063287541270256,
+            "cls1_mean": 0.5206388235092163,
+            "cls1_std": 0.08361496031284332,
+            "cohen_d": -2.329397956152401,
+            "auc": 0.03961038962006569,
+            "veridica_mean": 0.5192071199417114,
+            "stopfals_mean": 0.531541645526886,
+            "gap_v_vs_s": -0.01233452558517456,
+            "per_sursa_cls0": {
+              "libertatea.ro": 0.4625086188316345,
+              "stirileprotv.ro": 0.3757687211036682,
+              "hotnews.ro": 0.33124035596847534
+            },
+            "n_cls0": 55,
+            "n_cls1": 112
+          },
+          "p10": {
+            "cls0_mean": 0.5155497789382935,
+            "cls0_std": 0.03804750367999077,
+            "cls1_mean": 0.5537674427032471,
+            "cls1_std": 0.07739461213350296,
+            "cohen_d": -0.5695037930855577,
+            "auc": 0.32613635063171387,
+            "veridica_mean": 0.5543577075004578,
+            "stopfals_mean": 0.5492722988128662,
+            "gap_v_vs_s": 0.005085408687591553,
+            "per_sursa_cls0": {
+              "libertatea.ro": 0.5296111702919006,
+              "stirileprotv.ro": 0.4970853924751282,
+              "hotnews.ro": 0.5160389542579651
+            },
+            "n_cls0": 55,
+            "n_cls1": 112
+          }
+        }
+      },
+      "scoruri_prop_sub": {
+        "pct_sub_30": {
+          "cls0_mean": 0.0,
+          "cls0_std": 0.0,
+          "cls1_mean": 0.0,
+          "cls1_std": 0.0,
+          "cohen_d": NaN,
+          "auc": 0.5,
+          "veridica_mean": 0.0,
+          "stopfals_mean": 0.0,
+          "gap_v_vs_s": 0.0,
+          "per_sursa_cls0": {
+            "libertatea.ro": 0.0,
+            "stirileprotv.ro": 0.0,
+            "hotnews.ro": 0.0
+          },
+          "n_cls0": 55,
+          "n_cls1": 112
+        },
+        "pct_sub_40": {
+          "cls0_mean": 0.04644449998971187,
+          "cls0_std": 0.03322645804671353,
+          "cls1_mean": 0.004574443413729127,
+          "cls1_std": 0.022409993387639715,
+          "cohen_d": -1.5834929780493794,
+          "auc": 0.15275974025974026,
+          "veridica_mean": 0.00517512790240063,
+          "stopfals_mean": 0.0,
+          "gap_v_vs_s": 0.00517512790240063,
+          "per_sursa_cls0": {
+            "libertatea.ro": 0.0,
+            "stirileprotv.ro": 0.03839739870324578,
+            "hotnews.ro": 0.052499122353731636
+          },
+          "n_cls0": 55,
+          "n_cls1": 112
+        },
+        "pct_sub_50": {
+          "cls0_mean": 0.06963765918647301,
+          "cls0_std": 0.040170055877838715,
+          "cls1_mean": 0.061126739657806975,
+          "cls1_std": 0.12576642242636016,
+          "cohen_d": -0.08053304048454187,
+          "auc": 0.2845779220779221,
+          "veridica_mean": 0.0642866329278404,
+          "stopfals_mean": 0.03706293706293707,
+          "gap_v_vs_s": 0.02722369586490333,
+          "per_sursa_cls0": {
+            "libertatea.ro": 0.05597542242703533,
+            "stirileprotv.ro": 0.04709305087715883,
+            "hotnews.ro": 0.07366064197188987
+          },
+          "n_cls0": 55,
+          "n_cls1": 112
+        },
+        "pct_sub_60": {
+          "cls0_mean": 0.22123609213686676,
+          "cls0_std": 0.10697855179017873,
+          "cls1_mean": 0.2349703075210017,
+          "cls1_std": 0.243613895216525,
+          "cohen_d": 0.06572201433804939,
+          "auc": 0.4393668831168831,
+          "veridica_mean": 0.22903636212401615,
+          "stopfals_mean": 0.28015958400573787,
+          "gap_v_vs_s": -0.05112322188172172,
+          "per_sursa_cls0": {
+            "libertatea.ro": 0.16836999022482893,
+            "stirileprotv.ro": 0.298309858057984,
+            "hotnews.ro": 0.2185463516914135
+          },
+          "n_cls0": 55,
+          "n_cls1": 112
+        }
+      }
+    },
+    "xlmr_ft_mean": {
+      "viteza_prop_sec": 241.81313235332678,
+      "scoruri_agregate": {
+        "max": {
+          "mean": {
+            "cls0_mean": 0.9879988431930542,
+            "cls0_std": 0.0021638115867972374,
+            "cls1_mean": 0.9923028945922852,
+            "cls1_std": 0.0011971937492489815,
+            "cohen_d": -2.724021803426736,
+            "auc": 0.02142857201397419,
+            "veridica_mean": 0.9923530220985413,
+            "stopfals_mean": 0.9919208288192749,
+            "gap_v_vs_s": 0.0004321932792663574,
+            "per_sursa_cls0": {
+              "libertatea.ro": 0.9883567690849304,
+              "stirileprotv.ro": 0.989784836769104,
+              "hotnews.ro": 0.987760603427887
+            },
+            "n_cls0": 55,
+            "n_cls1": 112
+          },
+          "min": {
+            "cls0_mean": 0.959279477596283,
+            "cls0_std": 0.005660117603838444,
+            "cls1_mean": 0.9878612160682678,
+            "cls1_std": 0.005580502562224865,
+            "cohen_d": -5.097783694604901,
+            "auc": 0.009577922523021698,
+            "veridica_mean": 0.9878212809562683,
+            "stopfals_mean": 0.9881648421287537,
+            "gap_v_vs_s": -0.00034356117248535156,
+            "per_sursa_cls0": {
+              "libertatea.ro": 0.9552391171455383,
+              "stirileprotv.ro": 0.9656676054000854,
+              "hotnews.ro": 0.9590186476707458
+            },
+            "n_cls0": 55,
+            "n_cls1": 112
+          },
+          "p10": {
+            "cls0_mean": 0.9770373106002808,
+            "cls0_std": 0.007858728989958763,
+            "cls1_mean": 0.9901718497276306,
+            "cls1_std": 0.002051119226962328,
+            "cohen_d": -2.736228462370788,
+            "auc": 0.023701298981904984,
+            "veridica_mean": 0.9902135729789734,
+            "stopfals_mean": 0.9898532629013062,
+            "gap_v_vs_s": 0.00036031007766723633,
+            "per_sursa_cls0": {
+              "libertatea.ro": 0.9816891551017761,
+              "stirileprotv.ro": 0.9852662086486816,
+              "hotnews.ro": 0.9756060242652893
+            },
+            "n_cls0": 55,
+            "n_cls1": 112
+          }
+        },
+        "topk_mean": {
+          "mean": {
+            "cls0_mean": 0.9867639541625977,
+            "cls0_std": 0.002327954862266779,
+            "cls1_mean": 0.991518497467041,
+            "cls1_std": 0.0012862063013017178,
+            "cohen_d": -2.798462895971274,
+            "auc": 0.019805194810032845,
+            "veridica_mean": 0.9915705323219299,
+            "stopfals_mean": 0.9911222457885742,
+            "gap_v_vs_s": 0.0004482865333557129,
+            "per_sursa_cls0": {
+              "libertatea.ro": 0.9872300028800964,
+              "stirileprotv.ro": 0.9884656667709351,
+              "hotnews.ro": 0.9865232110023499
+            },
+            "n_cls0": 55,
+            "n_cls1": 112
+          },
+          "min": {
+            "cls0_mean": 0.9574699401855469,
+            "cls0_std": 0.006085527595132589,
+            "cls1_mean": 0.9868462681770325,
+            "cls1_std": 0.005895901937037706,
+            "cohen_d": -4.9300715370170405,
+            "auc": 0.010551948100328445,
+            "veridica_mean": 0.9867671132087708,
+            "stopfals_mean": 0.9874493479728699,
+            "gap_v_vs_s": -0.0006822347640991211,
+            "per_sursa_cls0": {
+              "libertatea.ro": 0.9525361061096191,
+              "stirileprotv.ro": 0.9632182121276855,
+              "hotnews.ro": 0.9573794603347778
+            },
+            "n_cls0": 55,
+            "n_cls1": 112
+          },
+          "p10": {
+            "cls0_mean": 0.9742252826690674,
+            "cls0_std": 0.008995314128696918,
+            "cls1_mean": 0.9893004298210144,
+            "cls1_std": 0.002222348004579544,
+            "cohen_d": -2.7614034621293566,
+            "auc": 0.019480518996715546,
+            "veridica_mean": 0.989341139793396,
+            "stopfals_mean": 0.988991379737854,
+            "gap_v_vs_s": 0.0003497600555419922,
+            "per_sursa_cls0": {
+              "libertatea.ro": 0.9797350764274597,
+              "stirileprotv.ro": 0.9834721684455872,
+              "hotnews.ro": 0.9725856184959412
+            },
+            "n_cls0": 55,
+            "n_cls1": 112
+          }
+        }
+      },
+      "scoruri_prop_sub": {
+        "pct_sub_30": {
+          "cls0_mean": 0.0,
+          "cls0_std": 0.0,
+          "cls1_mean": 0.0,
+          "cls1_std": 0.0,
+          "cohen_d": NaN,
+          "auc": 0.5,
+          "veridica_mean": 0.0,
+          "stopfals_mean": 0.0,
+          "gap_v_vs_s": 0.0,
+          "per_sursa_cls0": {
+            "libertatea.ro": 0.0,
+            "stirileprotv.ro": 0.0,
+            "hotnews.ro": 0.0
+          },
+          "n_cls0": 55,
+          "n_cls1": 112
+        },
+        "pct_sub_40": {
+          "cls0_mean": 0.0,
+          "cls0_std": 0.0,
+          "cls1_mean": 0.0,
+          "cls1_std": 0.0,
+          "cohen_d": NaN,
+          "auc": 0.5,
+          "veridica_mean": 0.0,
+          "stopfals_mean": 0.0,
+          "gap_v_vs_s": 0.0,
+          "per_sursa_cls0": {
+            "libertatea.ro": 0.0,
+            "stirileprotv.ro": 0.0,
+            "hotnews.ro": 0.0
+          },
+          "n_cls0": 55,
+          "n_cls1": 112
+        },
+        "pct_sub_50": {
+          "cls0_mean": 0.0,
+          "cls0_std": 0.0,
+          "cls1_mean": 0.0,
+          "cls1_std": 0.0,
+          "cohen_d": NaN,
+          "auc": 0.5,
+          "veridica_mean": 0.0,
+          "stopfals_mean": 0.0,
+          "gap_v_vs_s": 0.0,
+          "per_sursa_cls0": {
+            "libertatea.ro": 0.0,
+            "stirileprotv.ro": 0.0,
+            "hotnews.ro": 0.0
+          },
+          "n_cls0": 55,
+          "n_cls1": 112
+        },
+        "pct_sub_60": {
+          "cls0_mean": 0.0,
+          "cls0_std": 0.0,
+          "cls1_mean": 0.0,
+          "cls1_std": 0.0,
+          "cohen_d": NaN,
+          "auc": 0.5,
+          "veridica_mean": 0.0,
+          "stopfals_mean": 0.0,
+          "gap_v_vs_s": 0.0,
+          "per_sursa_cls0": {
+            "libertatea.ro": 0.0,
+            "stirileprotv.ro": 0.0,
+            "hotnews.ro": 0.0
+          },
+          "n_cls0": 55,
+          "n_cls1": 112
+        }
+      }
+    }
+  }
+}

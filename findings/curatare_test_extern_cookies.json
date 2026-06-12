@@ -1,0 +1,190 @@
+{
+  "total_inainte": 2181,
+  "sufix_taiat": 105,
+  "aruncate_banner_pur": 14,
+  "aruncate_comentariu": 6,
+  "aruncate_sub_7w": 95,
+  "aruncate_peste_54w": 0,
+  "exemple_sufix_taiat": [
+    {
+      "articol_id": "ext_001",
+      "sursa": "libertatea.ro",
+      "orig": "Urmărește pe Libertatea LIVETEXT cu cele mai noi informații despre războiul din Ucraina Loghează-te în contul tău pentru a adăuga comentarii și a te alătura dialogului.",
+      "curat": "Urmărește pe Libertatea LIVETEXT cu cele mai noi informații despre războiul din Ucraina"
+    },
+    {
+      "articol_id": "ext_003",
+      "sursa": "hotnews.ro",
+      "orig": "HotNews.ro utilizează cookie-uri pentru a îmbunătăți experiența dvs. Accesați Modifică Setările pentru preferințe și consultați Politica de confidențialitate.",
+      "curat": ""
+    },
+    {
+      "articol_id": "ext_003",
+      "sursa": "hotnews.ro",
+      "orig": "Continuarea navigării implică acceptarea Termenilor și Condițiilor.",
+      "curat": ""
+    },
+    {
+      "articol_id": "ext_004",
+      "sursa": "hotnews.ro",
+      "orig": "HotNews.ro utilizează cookie-uri pentru a îmbunătăți experiența dvs. Accesați Modifică Setările pentru preferințe și consultați Politica de confidențialitate.",
+      "curat": ""
+    },
+    {
+      "articol_id": "ext_004",
+      "sursa": "hotnews.ro",
+      "orig": "Continuarea navigării implică acceptarea Termenilor și Condițiilor.",
+      "curat": ""
+    },
+    {
+      "articol_id": "ext_005",
+      "sursa": "hotnews.ro",
+      "orig": "Now is the time when it is important to reap the harvest… pic.twitter.com/JeDdKXkaQH HotNews.ro utilizează cookie-uri pentru a îmbunătăți experiența dvs.",
+      "curat": "Now is the time when it is important to reap the harvest… pic.twitter.com/JeDdKXkaQH"
+    },
+    {
+      "articol_id": "ext_005",
+      "sursa": "hotnews.ro",
+      "orig": "Accesați Modifică Setările pentru preferințe și consultați Politica de confidențialitate.",
+      "curat": ""
+    },
+    {
+      "articol_id": "ext_005",
+      "sursa": "hotnews.ro",
+      "orig": "Continuarea navigării implică acceptarea Termenilor și Condițiilor.",
+      "curat": ""
+    },
+    {
+      "articol_id": "ext_006",
+      "sursa": "hotnews.ro",
+      "orig": "HotNews.ro utilizează cookie-uri pentru a îmbunătăți experiența dvs. Accesați Modifică Setările pentru preferințe și consultați Politica de confidențialitate.",
+      "curat": ""
+    },
+    {
+      "articol_id": "ext_006",
+      "sursa": "hotnews.ro",
+      "orig": "Continuarea navigării implică acceptarea Termenilor și Condițiilor.",
+      "curat": ""
+    }
+  ],
+  "exemple_banner_pur": [
+    {
+      "articol_id": "ext_004",
+      "sursa": "hotnews.ro",
+      "propozitie": "Urmărește ultimele evoluții din a 373-a zi a războiului din Ucraina LIVETEXT pe HOTNEWS.RO."
+    },
+    {
+      "articol_id": "ext_006",
+      "sursa": "hotnews.ro",
+      "propozitie": "Urmărește ultimele evoluții din a 373-a zi a războiului din Ucraina LIVETEXT pe HOTNEWS.RO."
+    },
+    {
+      "articol_id": "ext_009",
+      "sursa": "hotnews.ro",
+      "propozitie": "Urmărește ultimele evoluții din a 518-a zi a războiului din Ucraina LIVETEXT pe HOTNEWS.RO."
+    },
+    {
+      "articol_id": "ext_012",
+      "sursa": "hotnews.ro",
+      "propozitie": "Urmărește ultimele evoluții din a 518-a zi a războiului din Ucraina LIVETEXT pe HOTNEWS.RO."
+    },
+    {
+      "articol_id": "ext_013",
+      "sursa": "hotnews.ro",
+      "propozitie": "Urmărește ultimele evoluții din a 663-a zi a războiului din Ucraina LIVETEXT pe HOTNEWS.RO."
+    },
+    {
+      "articol_id": "ext_016",
+      "sursa": "hotnews.ro",
+      "propozitie": "Urmărește ultimele evoluții din a 373-a zi a războiului din Ucraina LIVETEXT pe HOTNEWS.RO."
+    },
+    {
+      "articol_id": "ext_021",
+      "sursa": "hotnews.ro",
+      "propozitie": "Urmărește ultimele evoluții din a 337-a zi a războiului din Ucraina LIVETEXT pe HOTNEWS.RO."
+    },
+    {
+      "articol_id": "ext_022",
+      "sursa": "hotnews.ro",
+      "propozitie": "Urmărește ultimele evoluții din a 323-a zi a războiului din Ucraina LIVETEXT pe HOTNEWS.RO."
+    },
+    {
+      "articol_id": "ext_032",
+      "sursa": "hotnews.ro",
+      "propozitie": "Evenimentele de marți, ziua 1035 a războiului, au fost LIVE aici"
+    },
+    {
+      "articol_id": "ext_037",
+      "sursa": "hotnews.ro",
+      "propozitie": "Informațiile de joi, ziua 1100 a agresiunii ruse, au fost LIVE aici pe HotNews.ro"
+    }
+  ],
+  "exemple_comentariu": [
+    {
+      "articol_id": "ext_018",
+      "sursa": "libertatea.ro",
+      "propozitie": "clona.mea                                          26.02.2023, 21:51 Deci *** promite să recupereze Crimeea de la ruși."
+    },
+    {
+      "articol_id": "ext_018",
+      "sursa": "libertatea.ro",
+      "propozitie": "Acest comentariu a fost moderat pentru: limbaj vulgar sau jignitor dinamo_forever_77                                          26.02.2023, 22:24 ...stai linistit ca daca era asta in Romania toti erau pana acum  plecati din tara prin Grecia si alte state care nu returneaza nici macar  infractorii cons"
+    },
+    {
+      "articol_id": "ext_018",
+      "sursa": "libertatea.ro",
+      "propozitie": "dante69                                          26.02.2023, 22:36 Istoric vorbind Crimea e a Ucrainei cum e și Bucovina de Nord."
+    },
+    {
+      "articol_id": "ext_033",
+      "sursa": "libertatea.ro",
+      "propozitie": "Lucaluca                                          22.05.2024, 15:26 NConteaza                                          22.05.2024, 15:40 zorrozabal                                          22.05.2024, 16:12"
+    },
+    {
+      "articol_id": "ext_034",
+      "sursa": "libertatea.ro",
+      "propozitie": "Abiatar                                          29.05.2024, 11:11 floris                                          29.05.2024, 11:30 Babatia asta din„nortwest”-care mi-a furat nicnameul de acum vreo 8 ani(„cuviosul pafnutie”) mai adaugându-și un„sfântul”-imparte ea certificate de românism p-aci!Cond"
+    },
+    {
+      "articol_id": "ext_034",
+      "sursa": "libertatea.ro",
+      "propozitie": "BONY                                          29.05.2024, 11:49 Nu-i nicio surpriza,era de asteptat ca Zelenski sa nu tina cont de conditiile puse de Occident,intersul lui este sa largeasca hora in care a intrat."
+    }
+  ],
+  "total_dupa": 2066,
+  "articole_disparute_complet": 0,
+  "exemple_articole_disparute": [],
+  "articole_cu_pierderi_mari_pct50": 0,
+  "breakdown_sursa": {
+    "libertatea.ro": {
+      "prop_inainte": 121,
+      "prop_dupa": 112,
+      "delta": -9,
+      "pct_pastrat": 92.56
+    },
+    "stirileprotv.ro": {
+      "prop_inainte": 134,
+      "prop_dupa": 134,
+      "delta": 0,
+      "pct_pastrat": 100.0
+    },
+    "hotnews.ro": {
+      "prop_inainte": 870,
+      "prop_dupa": 764,
+      "delta": -106,
+      "pct_pastrat": 87.82
+    },
+    "veridica.ro": {
+      "prop_inainte": 956,
+      "prop_dupa": 956,
+      "delta": 0,
+      "pct_pastrat": 100.0
+    },
+    "stopfals.md": {
+      "prop_inainte": 100,
+      "prop_dupa": 100,
+      "delta": 0,
+      "pct_pastrat": 100.0
+    }
+  }
+}

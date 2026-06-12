@@ -1,0 +1,224 @@
+id,sursa_site,an,titlu,label_numeric,pred,prob_cls1,correct
+g4m_v2_01753,g4media.ro,2022,"Șeful Pentagonului, prima discuție telefonică cu ministrul rus al Apărării/ Lloyd Austin i-a cerut lui Serghei Șoigu o încetare imediată a focului în Ucraina",0,0,0.0004914130549877882,1
+vrd_0522,veridica.ro,2025,Chișinăul a anulat autonomia Găgăuziei,1,1,0.9996665716171265,1
+vrd_0085,veridica.ro,2022,PROPAGANDĂ DE RĂZBOI: Copiii din Donbass erau vânduți pentru organe sub coordonarea Crucii Roșii,1,1,0.9997000694274902,1
+d24_v1_1927599,digi24.ro,2022,Kremlinul neagă informațiile despre intenția lui Vladimir Putin de a declara război Ucrainei pe 9 mai,0,0,0.000410196342272684,1
+d24_v1_2080573,digi24.ro,2022,84 de consilieri municipali din întreaga Rusie cer acuzarea lui Vladimir Putin de „înaltă trădare” pentru războiul din Ucraina,0,0,0.0004562815011013299,1
+vrd_0191,veridica.ro,2023,Zelenski a recunoscut că tancurile occidentale nu vor schimba situația de pe front,1,1,0.9997076392173767,1
+g4m_v2_00600,g4media.ro,2024,Rusia condamnă Ecuadorul pentru decizia de a preda SUA echipamente militare rusești pentru Ucraina: O încălcare „nesăbuită” a contractului,0,0,0.00040033922414295375,1
+vrd_0603,veridica.ro,2025,Rusia nu a încălcat Memorandumul de la Budapesta,1,1,0.9996980428695679,1
+vrd_0323,veridica.ro,2023,Occidentul pregătește înlocuirea Maiei Sandu,1,1,0.9996410608291626,1
+vrd_0656,veridica.ro,2026,Maia Sandu e implicată în scandalul Epstein,1,1,0.9996157884597778,1
+vrd_0282,veridica.ro,2023,Ucraina vrea să masacreze rușii din Crimeea,1,1,0.9996883869171143,1
+d24_v1_2286421,digi24.ro,2023,Bogdan Aurescu: Nu ar trebui să existe impunitate pentru crimele din războiul ilegal al Rusiei. Nu există pace fără dreptate,0,0,0.0005294306902214885,1
+g4m_v2_00963,g4media.ro,2023,"Uniunea Europeană alocă 1,5 miliarde de euro Ucrainei pentru a o ajuta să-şi repare infrastructura",0,0,0.00036282307701185346,1
+vrd_0506,veridica.ro,2025,UE a provocat războiul din Ucraina,1,1,0.999679684638977,1
+d24_v1_3521687,digi24.ro,2025,"Trump, atacat de republicani în Congres pentru planul său de pace: „E clar că Witkoff favorizează pe deplin ruşii. Ar trebui concediat”",0,0,0.0004303285095375031,1
+vrd_0607,veridica.ro,2025,Occidentul i-a cerut lui Zelenski să zboare la Moscova și să accepte pacea,1,1,0.9996658563613892,1
+vrd_0651,veridica.ro,2026,Occidentul îi va furniza Ucrainei arme nucleare,1,1,0.9996974468231201,1
+vrd_0561,veridica.ro,2025,Biserica Ortodoxă Română și Occidentul promovează agenda LGBT în Moldova,1,1,0.9996610879898071,1
+g4m_v2_00824,g4media.ro,2023,Kremlin: Tancurile americane Abrams furnizate Ucrainei „vor arde” / „Nu există nicio armă care să poată schimba echilibrul de putere pe câmpul de luptă”,0,0,0.00042311561992391944,1
+g4m_v2_00016,g4media.ro,2025,"A câștigat 109 miliarde de euro datorită creșterii prețului gazului: Mai multe voci cer Norvegiei să garanteze împrumutul european pentru reconstrucția Ucrainei, pentru a nu părea un „profitor de război”",0,0,0.0003915371489711106,1
+vrd_0025,veridica.ro,2022,"Presa occidentală dezinformează cu privire la criza din Ucraina, care e o diversiune a Occidentului",1,1,0.9997009038925171,1
+g4m_v2_02025,g4media.ro,2022,HARTĂ Unde sunt amplasate cele cinci centrale nucleare din Ucraina,0,0,0.0004411330446600914,1
+vrd_0510,veridica.ro,2025,UE va confisca economiile populației,1,1,0.9996292591094971,1
+stopfals_180635,stopfals.md,2022,Ex-deputatul socialist Nicolae Pascaru distribuie falsuri și justifică invazia militarilor ruși în Ucraina,1,1,0.9996558427810669,1
+d24_v1_2373115,digi24.ro,2023,Alina Gorghiu: Marea Neagră este butoiul cu pulbere al Europei. Intensitatea războiului hibrid în zonă va crește,0,0,0.0005422265385277569,1
+d24_v1_3635789,digi24.ro,2026,Războiul lui Putin în Ucraina afectează și rușii din localitățile de graniță. Zeci de mii de oameni îndură frigul după bombardamente,0,0,0.0003696313069667667,1
+d24_v1_1955983,digi24.ro,2022,ExclusivCine câştigă războiul din Ucraina și cum ar arăta o capitulare a rușilor,0,0,0.00046022559399716556,1
+vrd_0330,veridica.ro,2024,Occidentul vrea să transforme R. Moldova într-un cap de pod antirusesc,1,1,0.9996827840805054,1
+g4m_v2_00960,g4media.ro,2023,"VIDEO Cum a afectat ruperea barajului de la Kahovka Marea Neagră, ce e mit și unde sunt cele mai grave situații/ Specialist: ”Litoralul românesc nu este un paradis, dar din alte cauze”",0,0,0.00045538137783296406,1
+vrd_0075,veridica.ro,2022,Occidentul luptă cu Rusia prin intermediul Ucrainei,1,1,0.999699592590332,1
+d24_v1_2605521,digi24.ro,2023,Forțele aeriene ucrainene au doborât un bombardier rusesc lângă Insula Șerpilor,0,0,0.0004045956302434206,1
+vrd_0527,veridica.ro,2025,Ucraina refuză pacea și riscă să rămână fără aliați,1,1,0.999660849571228,1
+d24_v1_3518715,digi24.ro,2025,"Traian Băsescu: Am dovedit că degeaba avem Eurofighter și F-16, dacă nu doborâm nicio dronă. Începem să fim ridicoli",0,0,0.0005410747253336012,1
+vrd_0076,veridica.ro,2022,PROPAGANDĂ DE RĂZBOI: Consilierul lui Zelenski anunță organizarea unui genocid al rusofonilor în Harkov și Donbass,1,1,0.9929785132408142,1
+vrd_0317,veridica.ro,2023,Planul de federalizare a Moldovei a avut o largă susținere la Chișinău,1,1,0.99965500831604,1
+d24_v1_2338757,digi24.ro,2023,"Prigojin acceptă ca mercenarii lui din Bahmut să fie înlocuiți de cecenii lui Kadîrov: ""Sunt deja în legătură cu reprezentanţii voștri""",0,0,0.00041689464705996215,1
+d24_v1_3377749,digi24.ro,2025,"Secretarul general al NATO, Mark Rutte consideră „un pas mare” garanţiile de securitate americane pentru Ucraina",0,0,0.0004270969075150788,1
+vrd_0626,veridica.ro,2025,România reduce sprijinul pentru Ucraina din cauza corupției de la Kiev,1,1,0.9995961785316467,1
+vrd_0265,veridica.ro,2023,"Atacul de pe Aeroportul Chișinău, o consecință a distanțării de CSI",1,1,0.9996850490570068,1
+vrd_0322,veridica.ro,2023,Rusia a oprit experimentele americane pe ucraineni,1,1,0.9996656179428101,1
+stopfals_180752,stopfals.md,2023,Refugiații ucraineni din Moldova primesc indemnizații lunare de 7000 de lei,1,1,0.9996541738510132,1
+g4m_v2_01042,g4media.ro,2023,Australia va desfăşura o aeronavă de supraveghere în Germania pentru a susţine Ucraina,0,0,0.00044411924318410456,1
+vrd_0133,veridica.ro,2022,"UE a abandonat Republica Moldova, iar România i-a dublat prețul la energia electrică",1,1,0.9996873140335083,1
+d24_v1_2913099,digi24.ro,2024,Atac rusesc masiv asupra Ucrainei. Moscova a lansat 52 de drone și 5 rachete în opt regiuni. Sirenele au sunat timp de 4 ore în Kiev,0,0,0.00039518301491625607,1
+vrd_0160,veridica.ro,2022,Rusia poate reface Moldova lui Ștefan cel Mare în dauna României,1,1,0.9996912479400635,1
+g4m_v2_00276,g4media.ro,2024,ISW: Forțele ucrainene „continuă să avanseze” în Kursk,0,0,0.0003593499423004687,1
+g4m_v2_00320,g4media.ro,2024,Rusia susține că a distrus cinci avioane de luptă Su-27 la baza Mirogorod din Ucraina,0,0,0.0004903415683656931,1
+d24_v1_2642089,digi24.ro,2024,Ucraina spune că aproape 20.000 de copii au fost răpiți și trimiși în Rusia în timpul războiului,0,0,0.00035695292172022164,1
+vrd_0530,veridica.ro,2025,"Ucraina militaristă riscă un atac nuclear, ca Japonia în 1945",1,1,0.9996596574783325,1
+vrd_0347,veridica.ro,2024,UE a preluat controlul asupra sistemului bancar moldovenesc,1,1,0.9996150732040405,1
+d24_v1_2254643,digi24.ro,2023,Lukașenko îl cheamă pe Joe Biden la Minsk să discute despre „încheierea războiului”,0,0,0.00044316938146948814,1
+g4m_v2_01303,g4media.ro,2023,"Șeful Wagner, furios după ce o brigadă a armatei ruse și-a abandonat pozițiile la sud de Bahmut, permițând forțelor ucrainene să avanseze: „Au fugit cu toții de pe un front de 3 km², pe care am avut 500 de morți”",0,0,0.0004189020546618849,1
+stopfals_180664,stopfals.md,2022,Speculaţii pe piaţa agricolă: o asociaţie cere limitarea importului producției agricole din Ucraina,1,1,0.9996962547302246,1
+vrd_0144,veridica.ro,2022,Carta ONU îi permite Rusiei să atace Ucraina pentru a combate nazismul,1,1,0.9996870756149292,1
+g4m_v2_00880,g4media.ro,2023,Rusia lansează „scrutine regionale” în teritoriile ucrainene ocupate,0,0,0.00037826428888365626,1
+vrd_0524,veridica.ro,2025,Hitler nu s-a sinucis în 1945,1,1,0.9996461868286133,1
+g4m_v2_00402,g4media.ro,2024,Polonia este gata să ajute Ucraina să “identifice” bărbații care pot fi recrutați în armată (ministrul Apărării),0,0,0.000330994778778404,1
+d24_v1_1944245,digi24.ro,2022,Prețul cerut de Viktor Orban pentru a renunța la petrolul rusesc: 4 ani și 750 de milioane de euro,0,0,0.0003846444597002119,1
+vrd_0174,veridica.ro,2022,PROPAGANDĂ DE RĂZBOI: Moscova arată reținere când bombardează Ucraina pentru că știe că populația nu susține guvernarea neo-nazistă,1,1,0.9996647834777832,1
+d24_v1_2499113,digi24.ro,2023,Uniunea Europeană contribuie la modernizarea armatei din Republica Moldova,0,0,0.002350411145016551,1
+vrd_0089,veridica.ro,2022,Occidentul împinge Republica Moldova spre război cu Transnistria și Rusia,1,1,0.99970942735672,1
+d24_v1_1921253,digi24.ro,2022,"Amal Clooney condamnă crimele de război comise de Rusia. „Ucraina este, astăzi, un abator. Chiar în inima Europei”",0,0,0.0004508034326136112,1
+d24_v1_2758575,digi24.ro,2024,Vladimir Putin a pus ochii pe un alt oraș din Ucraina: „Rușii au primit ordin să-l cucerească până pe 9 Mai”,0,0,0.00038909443537704647,1
+vrd_0610,veridica.ro,2025,UE încurajează China să întreţină războiul din Ucraina,1,1,0.9996873140335083,1
+vrd_0413,veridica.ro,2024,UE va finanța războiul împotriva Rusiei până vor muri toți ucrainenii,1,1,0.9996805191040039,1
+vrd_0260,veridica.ro,2023,ONU a acuzat Ucraina de torturarea civililor,1,1,0.9996046423912048,1
+g4m_v2_00782,g4media.ro,2023,"O societate mixtă, germano-ucraineană, și-a început activitatea: Firma va întreține și repara armele trimise de Occident Kievului pentru a rezista pe termen lung războiului cu Rusia",0,0,0.0003629133861977607,1
+vrd_0585,veridica.ro,2025,Chișinăul folosește amenințarea rusă ca șantaj să ceară mai mulți bani de la UE,1,1,0.9997138381004333,1
+g4m_v2_01502,g4media.ro,2022,"Analiza think thank-ului RLI: Cum plănuiește Kremlinul să-l lichideze pe Lukașenko și să preia controlul Armatei din Belarus, pentru a trage țara în război/ Legătura cu moartea subită a ministrului de Externe din Belarus",0,0,0.0003605611273087561,1
+d24_v1_2233003,digi24.ro,2023,Reacția Kremlinului după ce Boris Johnson a spus că Putin l-a amenințat cu rachete. „Este o situaţie foarte stânjenitoare”,0,0,0.0004366857174318284,1
+vrd_0222,veridica.ro,2023,Ucraina va continua să asasineze ruși în baza unei liste publicate online,1,1,0.9997017979621887,1
+d24_v1_2465305,digi24.ro,2023,"China vrea ca Rusia să nu fie nici prea puternică, încât să provoace Beijingul, nici prea slabă, s-o lase izolată în fața Vestului",0,0,0.00046362794819287956,1
+vrd_0170,veridica.ro,2022,Chișinăul negociază cu Kievul un schimb de teritorii: oferă un depozit militar din Transnistria în locul unei părți a regiunii Odessa,1,1,0.9997069239616394,1
+d24_v1_3443505,digi24.ro,2025,"Atac ucrainean masiv în Rusia. Moscova susține că a doborât 251 de drone, inclusiv câteva zeci deasupra Mării Negre",0,0,0.0004505753458943218,1
+d24_v1_2175643,digi24.ro,2022,Cât timp le ia rușilor să pregătească un nou atac masiv cu rachete asupra orașelor și infrastructurii Ucrainei,0,0,0.0004171359178144485,1
+vrd_0092,veridica.ro,2022,PROPAGANDĂ DE RĂZBOI: Voluntarii din Zaporojie se înscriu într-un batalion care va apăra regiunea de armata ucraineană,1,1,0.999693751335144,1
+g4m_v2_01808,g4media.ro,2022,"Douăzeci de civili au părăsit sâmbătă combinatul siderurgic Azovstal din Mariupol, anunță regimentul Azov",0,0,0.0003972089325543493,1
+vrd_0468,veridica.ro,2024,SUA refuză normalizarea relaţiilor cu Rusia,1,1,0.9996802806854248,1
+vrd_0167,veridica.ro,2022,PROPAGANDĂ DE RĂZBOI: Volodimir Zelenski a vizitat Hersonul pentru a lansa masacrarea civililor,1,1,0.9997105002403259,1
+vrd_0038,veridica.ro,2022,"PROPAGANDĂ DE RĂZBOI: Ucraina se pregătea să atace Belarusul, iar Rusia a dejucat acest scenariu",1,1,0.9996968507766724,1
+vrd_0288,veridica.ro,2023,"Specialiști NATO din România și Olanda, uciși în Ucraina",1,1,0.9996980428695679,1
+g4m_v2_00030,g4media.ro,2025,O jurnalistă și un cameraman au fost uciși în Kramatorsk după ce mașina în care se aflau a fost lovită de o dronă rusească,0,0,0.00043413855019025505,1
+d24_v1_3630225,digi24.ro,2026,Mark Rutte: „Europa preia un rol de lider pronunțat în cadrul NATO”. Rusia suferă „pierderi uluitoare”,0,0,0.0005288310348987579,1
+vrd_0109,veridica.ro,2022,PROPAGANDĂ DE RĂZBOI: ONU și Turcia recunosc dreptul Rusiei de a controla porturile maritime ale Ucrainei,1,1,0.9997087121009827,1
+vrd_0307,veridica.ro,2023,Americanii pregătesc ocuparea Moldovei de către România,1,1,0.9996705055236816,1
+g4m_v2_00431,g4media.ro,2024,"Miniştrii apărării francez şi rus au avut o discuţie telefonică, prima după octombrie 2022",0,0,0.0004249321355018765,1
+vrd_0492,veridica.ro,2025,Elita de la Kiev refuză pacea lui Trump ca să rămână la putere,1,1,0.9997029900550842,1
+vrd_0404,veridica.ro,2024,Militarii ruși din Transnistria apără interesele României și Ucrainei,1,1,0.9996405839920044,1
+g4m_v2_00022,g4media.ro,2025,"Ministerul Apărării, despre dronele rusești care au bombardat marți malul ucrainean de pe Dunăre: ”Comandanții aveau aprobarea pentru angajarea țintelor aeriene dacă intrau în spațiul aerian românesc”",0,0,0.0004323852772358805,1
+g4m_v1r_00314,g4media.ro,2026,Trump afirmă că Putin ar putea să ajute „puțin” Iranul,0,0,0.00039644911885261536,1
+vrd_0439,veridica.ro,2024,Ucrainenii vor să-l ucidă pe secretarul general ONU,1,1,0.999690055847168,1
+vrd_0032,veridica.ro,2022,"PROPAGANDĂ DE RĂZBOI: Rusia a atacat Cernobîlul, Zaporojie și Harkovul pentru a împiedica Ucraina să producă arme nucleare",1,1,0.9997159838676453,1
+vrd_0627,veridica.ro,2025,"Occidentul folosește Ucraina drept ""berbec"" împotriva Rusiei",1,1,0.9996631145477295,1
+d24_v1_2013191,digi24.ro,2022,"Institutul pentru Studiul Războiului: Trupele rusești sunt într-o pauză operațională, dar vor lansa curând o ofensivă pe scară largă",0,0,0.00038014171877875924,1
+g4m_v2_01479,g4media.ro,2022,"Mesajul emoționant al unei mame din Ucraina, despre ajutorul primit în România: ”O țară ale cărei obiceiuri erau necunoscute, despre care nu știam nimic/ O dorință absolut sinceră a românilor de a ne ajuta, sfătui și îngriji”",0,0,0.000485164113342762,1
+vrd_0308,veridica.ro,2023,Evghenia Guțul aduce gaz de 10-20 de ori mai ieftin în Găgăuzia decât tariful actual,1,1,0.9996930360794067,1
+vrd_0611,veridica.ro,2025,Moscova îi va judeca pe criminalii de război ucraineni,1,1,0.9996108412742615,1
+vrd_0408,veridica.ro,2024,Ucrainenii nu vor războiul mondial urmărit de Zelenski,1,1,0.9996752738952637,1
+vrd_0580,veridica.ro,2025,Bucureștiul îi cere Chișinăului suprimarea opoziției pro-ruse,1,1,0.9996293783187866,1
+g4m_v2_00007,g4media.ro,2025,Trimisul special al lui Trump la NATO afirmă că UE ar trebui să adopte o poziție „mai agresivă” față de Rusia,0,0,0.0004599388048518449,1
+stopfals_180630,stopfals.md,2022,„Președintele ales de Dumnezeu” va fi anchetat de procurori pentru propaganda războiului și ațâțarea vrajbei,1,1,0.999648928642273,1
+g4m_v2_01752,g4media.ro,2022,"VIDEO Ucraina va câștiga războiul până la sfârșitul anului, transmite şeful serviciilor de informaţii militare ucrainene",0,0,0.0004612260090652853,1
+vrd_0325,veridica.ro,2023,"În UE, Transnistria va fi un loc cu industrii nocive și migranți din Orient",1,1,0.9996685981750488,1
+g4m_v2_00080,g4media.ro,2025,„Aceasta este responsabilitatea mea”: Comandantul forțelor terestre ucrainene demisionează după o lovitură mortală care a ucis 12 soldați din controversata Brigadă 155 Anne de Kiev,0,0,0.00043556076707318425,1
+d24_v1_2443633,digi24.ro,2023,Un rus a vrut să arunce în aer o navă a Flotei Ruse de la Marea Neagră care transporta rachete. FSB spune că era antrenat de ucraineni,0,0,0.0004604094719979912,1
+vrd_0326,veridica.ro,2023,SUA vor ca Zelenski să încheie războiul,1,1,0.9997077584266663,1
+vrd_0335,veridica.ro,2024,Intenția de a părăsi CSI aruncă Moldova în criză economică,1,1,0.9996076226234436,1
+vrd_0055,veridica.ro,2022,"PROPAGANDĂ DE RĂZBOI: Experții americani consideră că masacrul de la Bucea este o invenție a ""propagandei ucrainene""",1,1,0.9997010827064514,1
+d24_v1_2676143,digi24.ro,2024,UE pregăteşte noi sancţiuni împotriva Rusiei. Pe listă sunt și companii din domeniul apărării și securității,0,0,0.00044143901322968304,1
+vrd_0171,veridica.ro,2022,Curtea de la Haga a recunoscut că Rusia nu a fost implicată în doborârea avionului MH17 în 2014,1,1,0.9996684789657593,1
+g4m_v2_00332,g4media.ro,2024,STUDIU Emisii uriaşe de dioxid de carbon în urma invaziei ruse din Ucraina,0,0,0.00042754842434078455,1
+vrd_0426,veridica.ro,2024,"""Reunificarea"" cu Rusia a adus prosperitate în Donbas",1,1,0.9996111989021301,1
+g4m_v2_01718,g4media.ro,2022,"Peste 10.000 de ucraineni au intrat în România în ultima zi, în scădere cu aproape 13% față de ziua precedentă",0,0,0.0005043488927185535,1
+vrd_0543,veridica.ro,2025,Propunerea rusă de pace - singura șansă de salvare a Ucrainei,1,1,0.9997022747993469,1
+stopfals_180658,stopfals.md,2022,"Cetățenii, despre statutul de candidat la Uniunea Europeană:  „Nu o să curgă râuri cu lapte și maluri cu brânză” vs „Nu Europa trebuie să ne ridice nivelul de trai, trebuie să ne implicăm toți”",1,1,0.9996930360794067,1
+g4m_v2_00024,g4media.ro,2025,Marea Britanie a transferat recent rachete Storm Shadow către Ucraina,0,0,0.00035007274709641933,1
+g4m_v2_01206,g4media.ro,2023,Rusia susține că a respins atacuri ucrainene în sudul regiunii Donețk,0,0,0.00042522186413407326,1
+vrd_0442,veridica.ro,2024,Referendumul privind aderarea Republicii Moldova la UE a fost fraudat de autoritatile proeuropene,1,1,0.9996168613433838,1
+d24_v1_1905547,digi24.ro,2022,"Diaconescu, după declarația lui Zelenski: Nu sunt elemente concrete privind escaladarea războiului, care să pună în pericol România",0,0,0.0005996195250190794,1
+vrd_0096,veridica.ro,2022,PROPAGANDĂ DE RĂZBOI: UE va deporta în Ucraina bărbații refugiați pentru a fi înrolați în armată ucraineană,1,1,0.99967360496521,1
+vrd_0217,veridica.ro,2023,Chișinăul promovează isteria antirusă,1,1,0.9996836185455322,1
+vrd_0311,veridica.ro,2023,Aderarea Ucrainei și Moldovei va ruina UE,1,1,0.9997013211250305,1
+g4m_v2_01632,g4media.ro,2022,"Un canadian care se afla în Ucraina împreună cu americanii morți în Donbas, a decedat de asemenea, anunță MAE de la Ottawa",0,0,0.00041953884647227824,1
+g4m_v2_00072,g4media.ro,2025,A treia oară fără Orbán: 26 de state au ajuns la un acord privind Ucraina la summitul UE,0,0,0.0003670922014862299,1
+vrd_0669,veridica.ro,2026,"Israelul vrea ""să anuleze creştinismul""",1,1,0.9982635378837585,1
+vrd_0653,veridica.ro,2026,Ucraina furnizează arme cartelurilor mexicane,1,1,0.9996949434280396,1
+vrd_0099,veridica.ro,2022,Maia Sandu închide universități și școli cu predare în limba rusă,1,1,0.999629020690918,1
+vrd_0063,veridica.ro,2022,PROPAGANDĂ DE RĂZBOI: Ucraina a atacat cu arme chimice și biologice pozițiile militarilor ruși,1,1,0.9996939897537231,1
+d24_v1_2371161,digi24.ro,2023,"Zelenski cere o „coaliție de sisteme Patriot”, la CPE: „Fiecare îndoială a noastră este un tranşeu pe care Rusia va încerca să-l ocupe”",0,0,0.00041068150312639773,1
+g4m_v2_01528,g4media.ro,2022,"România a contribuit la fondurile NATO cu 1,4 milioane de dolari pentru apărarea Ucrainei, Moldovei, Georgiei și Iordaniei/ Banii vin dintr-un ajutor al României pentru Afganistan, rămas nefolosit",0,0,0.0003985711664427072,1
+g4m_v2_00568,g4media.ro,2024,"ONU, Banca Mondială, UE şi Kievul estimează că reconstrucţia Ucrainei va costa 486 de miliarde de dolari",0,0,0.00040548096876591444,1
+g4m_v2_00004,g4media.ro,2025,"Rusia nu va discuta despre restabilirea controlului armelor convenţionale decât după încheierea războiului din Ucraina, potrivit ministrului adjunct de externe rus",0,0,0.00042012735502794385,1
+vrd_0388,veridica.ro,2024,Armata Republicii Moldova va deveni parte a armatei române,1,1,0.9995959401130676,1
+vrd_0134,veridica.ro,2022,PROPAGANDĂ DE RĂZBOI: Masacrul de la Izium a fost o înscenare menită să compromită armata rusă,1,1,0.9997007846832275,1
+stopfals_180929,stopfals.md,2024,(INFOGRAFIC) „Sperietoarea” NATO pe timp de război. Care sunt cele mai răspândite falsuri despre Alianța Nord-Atlantică în R. Moldova și ce scop urmăresc,1,1,0.999586284160614,1
+d24_v1_3713199,digi24.ro,2026,Arma „revoluționară” care ar putea schimba soarta războiului din Ucraina. Sistemul anti-rachetă mai ieftin decât Patriot (Reuters),0,0,0.0003792841744143516,1
+vrd_0498,veridica.ro,2025,Antisemitismul românesc este provocat de evrei,1,1,0.9996999502182007,1
+d24_v1_2292391,digi24.ro,2023,Klaus Iohannis: „Am avut discuţii aprofundate” cu secretarul general ONU despre sprijinul continuu al UE pentru Ucraina,0,0,0.0005117843975313008,1
+d24_v1_1904007,digi24.ro,2022,"Volodimir Zelenski ironizează afirmaţiile lui Vladimir Putin, care a declarat că războiul merge conform planului",0,0,0.00044659661944024265,1
+d24_v1_2011585,digi24.ro,2022,"Turcia anunță că Ucraina, Rusia și ONU au ajuns la o înțelegere privind reluarea exporturilor de grâne pe Marea Neagră",0,0,0.00039338538772426546,1
+stopfals_181050,stopfals.md,2024,"PROFIL DE PROPAGANDIST // Dmitri Buimistru: Falsuri despre atragerea în război, „sperietori” despre „românizare” și dezinformări despre exporturi și referendum",1,1,0.9997151494026184,1
+vrd_0621,veridica.ro,2025,Aderarea Republicii Moldova ar distruge economia UE,1,1,0.9996299743652344,1
+vrd_0366,veridica.ro,2024,Bucureștiul se teme că moldovenii vor denunța Unirea din 1859,1,1,0.9996522665023804,1
+d24_v1_2175881,digi24.ro,2022,"Numărul persoanelor care trec graniţa Ucrainei spre UE a rămas constant, în ciuda bombardamentelor ruseşti",0,0,0.0004141080135013908,1
+g4m_v2_00311,g4media.ro,2024,Zelenski spune că nu poate prezice acţiunile lui Trump dacă va fi ales,0,0,0.0003916822315659374,1
+vrd_0541,veridica.ro,2025,Nu există propagandă rusă în Republica Moldova,1,1,0.9997050166130066,1
+vrd_0364,veridica.ro,2024,Ajutorul american pentru Ucraina va cauza distrugeri și victime,1,1,0.9996827840805054,1
+d24_v1_3280609,digi24.ro,2025,"„Bătălia pentru Europa”. Reuniune crucială la Odesa: Nicușor Dan, Maia Sandu, Volodimir Zelenski, întâlnire tripartită",0,0,0.0004927112604491413,1
+d24_v1_2680411,digi24.ro,2024,"Zaharova acuză Moldova că se închină la complicii români și le ridică monumente: ""Autoritățile de la Chișinău să asculte poporul""",0,0,0.0003947941877413541,1
+stopfals_180829,stopfals.md,2023,Narațiuni propagandistice în jurul „expulzării” diplomaților ruși: de la rusofobie până la „calea Kievului” și consecințe asupra cetățenilor moldoveni,1,1,0.9996076226234436,1
+d24_v1_3182713,digi24.ro,2025,"Putin a ordonat cea mai mare recrutare de primăvară din ultimii 14 ani: 160.000 de ruşi, chemați sub arme",0,0,0.00041017483454197645,1
+d24_v1_3478961,digi24.ro,2025,„Nu le pasă pe cine scot din joc”. Practică revoltătoare în armata lui Putin: soldați ruși executați de către propriii comandanți,0,0,0.00045630798558704555,1
+d24_v1_3303171,digi24.ro,2025,"Viktor Orban susține că Ucraina este amăgită cu „promisiuni imposibile” de aderare la UE: „E o nebunie, trebuie să vorbim sincer”",0,0,0.0003983242786489427,1
+g4m_v1r_00744,g4media.ro,2026,Avertismentul șefului de Stat Major de la Oslo: ”Rusia ar putea invada Norvegia pentru a-și proteja armele nucleare”,0,0,0.00046585669042542577,1
+g4m_v2_00101,g4media.ro,2025,Premierul Ciolacu: Decizia în unanimitate a judecătorilor CCR închide un episod extrem de tensionat și periculos pe care România l-a trăit în ultimele luni,0,0,0.0005664092605002224,1
+vrd_0031,veridica.ro,2022,"Războiul din Ucraina, pretext pentru denigrarea Rusiei, cenzură, înfricoșarea populației în România și Europa și îmbogățirea vânzătorilor de armament",1,1,0.9996949434280396,1
+vrd_0605,veridica.ro,2025,Zelenski va fi înfrânt și făcut de rușine pentru că nu vrea pace,1,1,0.9996650218963623,1
+g4m_v2_00673,g4media.ro,2024,"Ministrul polonez de Externe: Occidentul trebuie să livreze Ucrainei rachete cu rază lungă, după recentele atacuri masive ale Rusiei: „Trebuie să răspundem pe limba pe care o înţelege Putin”",0,0,0.0004003930662292987,1
+d24_v1_2360289,digi24.ro,2023,Prigojin avertizează că ar putea urma o Revoluție: „Am ajuns într-un asemenea hal încât am putea pierde dracului Rusia”,0,0,0.000552625278942287,1
+d24_v1_2687181,digi24.ro,2024,"„Situația e extrem de complexă și de tensionată”. Sîrski a mers pe front, în Donbas, „în cele mai fierbinți zone” ale războiului",0,0,0.0004284003225620836,1
+d24_v1_3024365,digi24.ro,2024,Patru rachete ruseşti vizând o hidrocentrală din Ucraina au survolat nordul Republicii Moldova,0,0,0.0005113982479088008,1
+vrd_0202,veridica.ro,2023,"""Operațiunea militară specială"" a salvat Rusia de invazia NATO și nazismul ucrainean",1,1,0.99968421459198,1
+vrd_0094,veridica.ro,2022,DEZINFORMARE În Republica Moldova se introduce cenzura prin interzicerea difuzării unor categorii de programe din Rusia,1,1,0.999691367149353,1
+g4m_v2_00202,g4media.ro,2024,Împrumuturi G7 pentru Ucraina: Biden avertizează că „tiranii” vor trebui să platească,0,0,0.0004919557832181454,1
+d24_v1_2806123,digi24.ro,2024,Ungaria continuă să sfideze Europa și refuză ajutoarele militare pentru Ucraina. Peter Szijjarto: „Nu este războiul nostru”,0,0,0.00043364986777305603,1
+d24_v1_3700171,digi24.ro,2026,Rusia a atacat Ucraina cu o rachetă hipersonică și peste 400 de drone. Un civil a fost ucis în Belgorod după riposta ucraineană,0,0,0.00041437396430410445,1
+vrd_0491,veridica.ro,2025,"UE vrea război în Ucraina, așa că nu poate negocia pacea",1,1,0.9997017979621887,1
+vrd_0162,veridica.ro,2022,PROPAGANDĂ DE RĂZBOI: Șomerii din Ucraina vor fi înrolați în armată și trimiși pe front,1,1,0.9995396137237549,1
+g4m_v1r_00176,g4media.ro,2026,"Extremista Marine Le Pen îl laudă pe Orbán în privința blocării împrumutului UE pentru Ucraina, susținând că nici Franța nu și-ar mai permite „efortul de sprijin”, în ciuda avertismentelor NATO că Rusia țintește să-și extindă agresiunea în alte țări europene",0,0,0.0004083522653672844,1
+g4m_v2_01529,g4media.ro,2022,"Maia Sandu, alături de Ursula von der Leyen, Sanna Marin, Annalena Baerbock și Kaja Kallas, într-un top New York Post al celor mai puternice femei care îi țin piept lui Vladimir Putin",0,0,0.00044516974594444036,1
+g4m_v2_01158,g4media.ro,2023,"Ucraina revendică „succese în două zone ale frontului din sud”, în timp ce oprește înaintarea Rusiei în est",0,0,0.0004104034451302141,1
+vrd_0550,veridica.ro,2025,Maia Sandu obligă populația să asiste la evenimentele LGBT,1,1,0.999652624130249,1
+d24_v1_3141845,digi24.ro,2025,Ursula von der Leyen îndeamnă la reînarmare după summitul apărării de la Londra: „Trebuie să ne pregătim pentru ce e mai rău”,0,0,0.000622137333266437,1
+d24_v1_2324797,digi24.ro,2023,Miniştrii de Externe UE se întâlnesc la Luxemburg. Aurescu va cere continuarea sprijinului pentru Ucraina „atât timp cât va fi necesar”,0,0,0.00041517819045111537,1
+g4m_v2_00597,g4media.ro,2024,Ministrul român de Externe susține că pachetele de sancţiuni pentru Rusia funcţionează/ ”Turcia este un partener indispensabil pentru Uniunea Europeană”,0,0,0.00045238996972329915,1
+g4m_v2_01964,g4media.ro,2022,"Ministrul de Externe Dmitri Kuleba: Arme și sancțiuni financiare mai dure pentru Rusia, de asta are nevoie Ucraina ca să reziste/ Partenerii noștri să colaboreze și cu țările care ar putea deveni paradisuri fiscale pentru banii rusești",0,0,0.0003804919542744756,1
+d24_v1_2477703,digi24.ro,2023,Ucraina sărbătorește aniversarea independenței. Zelenski îi asigură pe cei aflați sub ocupație că „vor fi martori la revenirea țării”,0,0,0.0003887286875396967,1
+g4m_v2_00396,g4media.ro,2024,"Nu presupuneți pur și simplu că Trump va susține Rusia dacă va reveni la Casa Albă, spune ministrul polonez de externe",0,0,0.0003982533235102892,1
+d24_v1_3312935,digi24.ro,2025,Ben Hodges: „Rușii sunt în deja război cu noi și vor să recapete controlul asupra Republicii Moldova și țărilor baltice”,0,0,0.0005335991154424846,1
+vrd_0149,veridica.ro,2022,"PROPAGANDĂ DE RĂZBOI: Rusia arată reținere în războiul din Ucraina, mai ales când atacă obiective civile",1,1,0.9997089505195618,1
+vrd_0224,veridica.ro,2023,Viitorul stat polono-ucrainean va dezmembra România,1,1,0.9997166991233826,1
+g4m_v2_00070,g4media.ro,2025,"Moscova se declară pregătită de o a treia rundă de negocieri cu Ucraina, dar acuză Kievul că ”nu se grăbeşte”",0,0,0.0003834935196209699,1
+stopfals_180795,stopfals.md,2023,Criza alimentară globală este o consecință a sancțiunilor masive ale Vestului împotriva Rusiei,1,1,0.9944028258323669,1
+d24_v1_2455335,digi24.ro,2023,"Rușii în acțiune. Lângă Robotîne, soldații lui Putin s-au deghizat în ucraineni dar au fost confundați și uciși de camarazi",0,0,0.00037730540498159826,1
+stopfals_180842,stopfals.md,2023,Găgăuzia poate avea reprezentanțe oficiale în alte țări,1,1,0.9997010231018066,1
+d24_v1_3142023,digi24.ro,2025,Primele declarații ale lui Zelenski după summitul de la Londra. Ce a spus liderul de la Kiev despre disputa cu Trump,0,0,0.00041913692257367074,1
+g4m_v2_00034,g4media.ro,2025,FT: SUA ar putea furniza Ucrainei între 20 și 50 de rachete Tomahawk,0,0,0.00040714070200920105,1
+d24_v1_2294425,digi24.ro,2023,"Lacrimi și emoție în Ucraina. După luni de zile de disperare, părinții și-au îmbrățișat copiii răpiți de ruși și acum eliberați",0,0,0.0004904174711555243,1
+d24_v1_3547837,digi24.ro,2025,"Oana Ţoiu: Aderarea Ucrainei la UE este, în sine, o garanţie de securitate",0,0,0.00042678165482357144,1
+d24_v1_1864217,digi24.ro,2022,Avertisment OMS: Au crescut atacurile asupra spitalelor și ambulanțelor în Ucraina,0,0,0.0004084593092557043,1
+vrd_0559,veridica.ro,2025,România continuă să fie jefuită de UE,1,1,0.9996750354766846,1
+d24_v1_3159611,digi24.ro,2025,Atacurile aeriene între Rusia și Ucraina continuă. Perspectiva unui armistițiu rămâne neclară,0,0,0.0004723779857158661,1
+stopfals_180640,stopfals.md,2022,"Procurorii vor investiga declarațiile lui Vladimir Odnostalco, deputatul care s-a luat la întrecere de falsuri cu „propagandistul nr.1 al Kremlinului”",1,1,0.9996680021286011,1
+g4m_v2_01627,g4media.ro,2022,"Rușii au bombardat Harkovul, ucrainenii distrug podul de pe Nipru, principala linie de aprovizionare pentru Hersonul ocupat de invadatori, susține Kievul",0,0,0.00039818970253691077,1
+vrd_0637,veridica.ro,2025,În Ucraina va fi pace doar dacă Rusia își atinge obiectivele,1,1,0.9996767044067383,1
+d24_v1_2150217,digi24.ro,2022,". Militari ruși filmați când fură animale de la grădina zoologică din Herson, în timpul retragerii",0,0,0.0004892098368145525,1
+d24_v1_2805989,digi24.ro,2024,Roma se opune ca Ucraina să folosească pe teritoriul Rusiei armele primite. Meloni: „Nu ştiu de ce domnul Stoltenberg a spus aşa ceva”,0,0,0.0003960392205044627,1
+vrd_0234,veridica.ro,2023,Apropierea de UE aruncă Moldova în sărăcie,1,1,0.999467670917511,1
+vrd_0042,veridica.ro,2022,PROPAGANDĂ DE RĂZBOI: Rusia a descoperit lagăre naționaliste de concentrare în estul Ucrainei,1,1,0.9997170567512512,1
+vrd_0208,veridica.ro,2023,România se pregătește să intre în război,1,1,0.9996567964553833,1
+vrd_0123,veridica.ro,2022,PROPAGANDĂ DE RĂZBOI: Anthony Fauci a confirmat că virusul SARS-CoV-2 a fost produs în laboratoarele din Ucraina,1,1,0.9996999502182007,1
+vrd_0528,veridica.ro,2025,Rusia are dreptul istoric de a ocupa Ucraina,1,1,0.9996727705001831,1
+vrd_0654,veridica.ro,2026,A început Al Treilea Război Mondial,1,1,0.9996620416641235,1
+vrd_0009,veridica.ro,2022,Prin codul QR de pe certificatele verzi se impune creditul social și e înrobită populația,1,1,0.9996904134750366,1
+d24_v1_3170575,digi24.ro,2025,„Summitul pentru Democraţie şi Libertăţi” de la Paris: Centriştii şi liberalii europeni cer confiscarea activelor din UE ale Rusiei,0,0,0.000417596660554409,1
+g4m_v2_00036,g4media.ro,2025,Trump spune că ar dori să cunoască planurile Kievului privind rachetele Tomahawk înainte de a le furniza Ucrainei,0,0,0.0004016402526758611,1
+d24_v1_3513845,digi24.ro,2025,SUA amenință Ucraina cu reducerea schimbului de informații și a livrărilor de arme pentru a semna planul de pace (surse Reuters),0,0,0.0004790357197634876,1
+vrd_0130,veridica.ro,2022,PROPAGANDĂ DE RĂZBOI: Polonia va declanșa un război împotriva Rusiei în următorii 10 ani,1,1,0.9996433258056641,1
+g4m_v2_01772,g4media.ro,2022,Rusia a publicat vineri o listă detaliată de bunuri de la producători străini incluse într-o schemă de ”importuri paralele”,0,0,0.0004739378346130252,1
+vrd_0334,veridica.ro,2024,UE va limita călătoriile cetățenilor săi,1,1,0.9996535778045654,1
+vrd_0450,veridica.ro,2024,R. Moldova este gata să introducă regim de vize pentru ruși,1,1,0.9996592998504639,1
+g4m_v2_00790,g4media.ro,2023,Zelenski anunță un acord cu Republica Moldova pentru controlul frontierei: ”O altă rută pentru exporturile noastre”/ Președintele Ucrainei a vizitat Odesa împreună cu premierul Mark Rutte,0,0,0.0003802522551268339,1
+vrd_0359,veridica.ro,2024,Republica Moldova renunță la Transnistria,1,1,0.999702513217926,1
+g4m_v2_01504,g4media.ro,2022,"VIDEO Iohannis, în Lituania: ”E nevoie de interconectări mai multe în energie cu Republica Moldova”/ Despre Rusia: ”E nevoie de măsuri mai ferme din partea noastră, se lucrează la astfel de abordări”",0,0,0.000429004110628739,1
+stopfals_180623,stopfals.md,2022,"Fostul politician Iurie Roșca, promotor al teoriilor conspirației și al mesajelor pro-Kremlin: justifică războiul din Ucraina și îl prezintă pe Putin ca pe un salvator",1,1,0.9996939897537231,1
+d24_v1_2119575,digi24.ro,2022,Câți militari ruși va găzdui Belarusul la granița cu Ucraina,0,0,0.0003868042549584061,1
+stopfals_181072,stopfals.md,2024,"Promotor fidel al propagandei ruse. Canal 5, postul TV cu licența suspendată, dezinformează intens în mediul online",1,1,0.9997037053108215,1
+vrd_0387,veridica.ro,2024,Occidentul respinge planul de pace al Moscovei pentru a distruge Rusia,1,1,0.9996939897537231,1
+vrd_0218,veridica.ro,2023,"Energia verde, promovată de Occident pentru a obține resurse minerale",1,1,0.9996874332427979,1
+vrd_0521,veridica.ro,2025,UE și Marea Britanie finanțează terorismul ucrainean,1,1,0.9997068047523499,1
+g4m_v2_00456,g4media.ro,2024,Comandantul forţelor terestre ucrainene consideră posibilă o ofensivă rusă la vară cu efective de 100.000 de oameni,0,0,0.0004493982414714992,1
+vrd_0343,veridica.ro,2024,SUA vor suferi o înfrângere strategică în Ucraina,1,1,0.9996973276138306,1
+d24_v1_3552981,digi24.ro,2025,Dronele rusești au lovit un pod ucrainean în apropierea R. Moldova. O mașină cu o mamă și trei copii a fost surprinsă în explozie,0,0,0.00041321932803839445,1

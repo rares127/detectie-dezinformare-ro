@@ -1,0 +1,215 @@
+{
+  "feature_names": [
+    "nr_cuvinte",
+    "nr_ghilimele",
+    "densitate_ghilimele",
+    "nr_paragrafe",
+    "nr_non_ascii",
+    "pct_non_ascii"
+  ],
+  "stats_per_sursa": {
+    "veridica.ro": {
+      "nr_cuvinte": {
+        "mean": 215.32980332829047,
+        "median": 184.0,
+        "std": 120.18049621723928
+      },
+      "nr_ghilimele": {
+        "mean": 4.91981845688351,
+        "median": 4.0,
+        "std": 4.012244587965548
+      },
+      "densitate_ghilimele": {
+        "mean": 0.024428141248598073,
+        "median": 0.02,
+        "std": 0.01818427183003371
+      },
+      "nr_paragrafe": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "nr_non_ascii": {
+        "mean": 72.32375189107412,
+        "median": 60.0,
+        "std": 43.821585885706476
+      },
+      "pct_non_ascii": {
+        "mean": 5.089638126797082,
+        "median": 5.095759233926129,
+        "std": 0.9081388036582654
+      }
+    },
+    "stopfals.md": {
+      "nr_cuvinte": {
+        "mean": 152.87058823529412,
+        "median": 130.0,
+        "std": 124.79190185066899
+      },
+      "nr_ghilimele": {
+        "mean": 4.447058823529412,
+        "median": 2.0,
+        "std": 4.982124910863936
+      },
+      "densitate_ghilimele": {
+        "mean": 0.03299975722226589,
+        "median": 0.03007518796992481,
+        "std": 0.028881514839768092
+      },
+      "nr_paragrafe": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "nr_non_ascii": {
+        "mean": 117.51764705882353,
+        "median": 64.0,
+        "std": 180.59179249956873
+      },
+      "pct_non_ascii": {
+        "mean": 11.379012877756058,
+        "median": 6.161137440758294,
+        "std": 14.54539076557722
+      }
+    },
+    "digi24.ro": {
+      "nr_cuvinte": {
+        "mean": 213.05398457583547,
+        "median": 216.0,
+        "std": 18.292572595865767
+      },
+      "nr_ghilimele": {
+        "mean": 6.660668380462725,
+        "median": 6.0,
+        "std": 4.953185017759524
+      },
+      "densitate_ghilimele": {
+        "mean": 0.031125497507633982,
+        "median": 0.026905829596412557,
+        "std": 0.022935495518181838
+      },
+      "nr_paragrafe": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "nr_non_ascii": {
+        "mean": 74.30077120822622,
+        "median": 73.0,
+        "std": 14.628898261733815
+      },
+      "pct_non_ascii": {
+        "mean": 5.3980764686200455,
+        "median": 5.4461942257217855,
+        "std": 0.9603226509799516
+      }
+    },
+    "g4media.ro": {
+      "nr_cuvinte": {
+        "mean": 209.4051724137931,
+        "median": 218.0,
+        "std": 32.460566664102245
+      },
+      "nr_ghilimele": {
+        "mean": 6.0488505747126435,
+        "median": 6.0,
+        "std": 4.666444548785218
+      },
+      "densitate_ghilimele": {
+        "mean": 0.029173001491974333,
+        "median": 0.026785714285714284,
+        "std": 0.022970509742093793
+      },
+      "nr_paragrafe": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "nr_non_ascii": {
+        "mean": 73.75862068965517,
+        "median": 74.0,
+        "std": 21.804060916343207
+      },
+      "pct_non_ascii": {
+        "mean": 5.468317830271007,
+        "median": 5.395800127424881,
+        "std": 1.4224459040521276
+      }
+    }
+  },
+  "ks_veridica_vs_stopfals": {
+    "nr_cuvinte": {
+      "ks_stat": 0.39645812939396635,
+      "p_value": 3.7009721425266675e-11
+    },
+    "nr_ghilimele": {
+      "ks_stat": 0.19606656580937973,
+      "p_value": 0.005144370994891332
+    },
+    "densitate_ghilimele": {
+      "ks_stat": 0.20582005873453768,
+      "p_value": 0.002805494025838167
+    },
+    "nr_paragrafe": {
+      "ks_stat": 0.0,
+      "p_value": 1.0
+    },
+    "nr_non_ascii": {
+      "ks_stat": 0.3178072439263149,
+      "p_value": 2.944292076156829e-07
+    },
+    "pct_non_ascii": {
+      "ks_stat": 0.4327489543472457,
+      "p_value": 2.7372788608906623e-13
+    }
+  },
+  "corr_features_vs_loso_pred": {
+    "nr_cuvinte": {
+      "corr_prob_cls1": 0.08514996614666967,
+      "corr_pred": 0.08097685023192888,
+      "mean_at_pred0": 209.06209850107066,
+      "mean_at_pred1": 230.41752577319588,
+      "delta_pred1_minus_pred0": 21.355427272125212
+    },
+    "nr_ghilimele": {
+      "corr_prob_cls1": -0.10396812376503606,
+      "corr_pred": -0.09400838167033282,
+      "mean_at_pred0": 5.162740899357602,
+      "mean_at_pred1": 4.335051546391752,
+      "delta_pred1_minus_pred0": -0.8276893529658498
+    },
+    "densitate_ghilimele": {
+      "corr_prob_cls1": -0.2204491575556668,
+      "corr_pred": -0.20988938819816008,
+      "mean_at_pred0": 0.02688624414886654,
+      "mean_at_pred1": 0.01851095540104459,
+      "delta_pred1_minus_pred0": -0.008375288747821952
+    },
+    "nr_paragrafe": {
+      "corr_prob_cls1": NaN,
+      "corr_pred": NaN,
+      "mean_at_pred0": 1.0,
+      "mean_at_pred1": 1.0,
+      "delta_pred1_minus_pred0": 0.0
+    },
+    "nr_non_ascii": {
+      "corr_prob_cls1": 0.14561829106361232,
+      "corr_pred": 0.14052946780160963,
+      "mean_at_pred0": 68.3576017130621,
+      "mean_at_pred1": 81.87113402061856,
+      "delta_pred1_minus_pred0": 13.51353230755646
+    },
+    "pct_non_ascii": {
+      "corr_prob_cls1": 0.32082304458105354,
+      "corr_pred": 0.31379537530571017,
+      "mean_at_pred0": 4.906105857564932,
+      "mean_at_pred1": 5.531440032629116,
+      "delta_pred1_minus_pred0": 0.6253341750641841
+    }
+  },
+  "candidati_shortcut_structural": [
+    "densitate_ghilimele",
+    "pct_non_ascii"
+  ],
+  "interpretare": "H3 CONFIRMATĂ PARȚIAL: 2 feature(s) candidate (densitate_ghilimele, pct_non_ascii). Explică O PARTE din shortcut, dar probabil se combină cu alte cauze."
+}

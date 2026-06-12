@@ -1,0 +1,56 @@
+{
+  "seed": 42,
+  "ratios": {
+    "train": 0.7,
+    "val": 0.15,
+    "test": 0.15
+  },
+  "stratification_key": "(label, sursa)",
+  "input_files": {
+    "g4media": "g4media_v2_sampled.csv",
+    "digi24": "digi24_v1_sampled.csv",
+    "veridica": "veridica_clean_v5.csv"
+  },
+  "split_stats": {
+    "total": 1427,
+    "train": {
+      "n": 998,
+      "pct": 69.94,
+      "label_counts": {
+        "0": 660,
+        "1": 338
+      },
+      "sursa_counts": {
+        "g4media": 492,
+        "veridica": 338,
+        "digi24": 168
+      }
+    },
+    "val": {
+      "n": 214,
+      "pct": 15.0,
+      "label_counts": {
+        "0": 141,
+        "1": 73
+      },
+      "sursa_counts": {
+        "g4media": 105,
+        "veridica": 73,
+        "digi24": 36
+      }
+    },
+    "test": {
+      "n": 215,
+      "pct": 15.07,
+      "label_counts": {
+        "0": 142,
+        "1": 73
+      },
+      "sursa_counts": {
+        "g4media": 106,
+        "veridica": 73,
+        "digi24": 36
+      }
+    }
+  }
+}

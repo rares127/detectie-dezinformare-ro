@@ -1,0 +1,72 @@
+{
+  "dataset_version": "v2",
+  "model_dir": "models/xlmr_baseline_v2/final",
+  "val": {
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "macro_precision": 1.0,
+    "macro_recall": 1.0,
+    "cls0": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "cls1": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "confusion_matrix": {
+      "TN": 110,
+      "FP": 0,
+      "FN": 0,
+      "TP": 112
+    }
+  },
+  "test": {
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "macro_precision": 1.0,
+    "macro_recall": 1.0,
+    "cls0": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "cls1": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "confusion_matrix": {
+      "TN": 111,
+      "FP": 0,
+      "FN": 0,
+      "TP": 112
+    }
+  },
+  "per_source_test": {
+    "digi24.ro": {
+      "n": 59,
+      "accuracy": 1.0,
+      "majority_class": 0
+    },
+    "g4media.ro": {
+      "n": 52,
+      "accuracy": 1.0,
+      "majority_class": 0
+    },
+    "stopfals.md": {
+      "n": 13,
+      "accuracy": 1.0,
+      "majority_class": 1
+    },
+    "veridica.ro": {
+      "n": 99,
+      "accuracy": 1.0,
+      "majority_class": 1
+    }
+  },
+  "n_errors_test": 0,
+  "delta_val_test_f1": 0.0
+}

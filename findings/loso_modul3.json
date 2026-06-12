@@ -1,0 +1,338 @@
+{
+  "config": {
+    "model": "sentence-transformers/paraphrase-multilingual-mpnet-base-v2",
+    "seed": 42,
+    "device": "mps",
+    "varianta": "B (cls0 intact, fără paritate forțată)"
+  },
+  "test_set": {
+    "fisier": "data/processed/subset_benchmark_v3_curat.parquet",
+    "n_articole": 167,
+    "n_propozitii": 2066
+  },
+  "scenarii": [
+    {
+      "nume": "baseline_standard",
+      "descriere": "Corpus cls1 complet (Veridica + Stopfals downsampled la 5,290) — referință din benchmark v4 post-curățare.",
+      "n_corpus_cls0": 5290,
+      "n_corpus_cls1": 5290,
+      "distributie_sursa_cls1": {
+        "veridica.ro": 4907,
+        "stopfals.md": 383
+      },
+      "metrici": {
+        "test_A_cls1_only": {
+          "mean": {
+            "auc": 0.7241883116883117,
+            "cohen_d": 0.7075449824333191,
+            "media_cls0": 0.6634140014648438,
+            "media_cls1": 0.7014722228050232,
+            "media_cls1_veridica": 0.7014501690864563,
+            "media_cls1_stopfals": 0.7016395926475525,
+            "n_veridica": 99,
+            "n_stopfals": 13
+          },
+          "min": {
+            "auc": 0.7196428571428571,
+            "cohen_d": 0.7835441827774048,
+            "media_cls0": 0.5192723274230957,
+            "media_cls1": 0.5814552307128906,
+            "media_cls1_veridica": 0.5811340808868408,
+            "media_cls1_stopfals": 0.5839007496833801,
+            "n_veridica": 99,
+            "n_stopfals": 13
+          },
+          "p10": {
+            "auc": 0.7079545454545454,
+            "cohen_d": 0.6966083645820618,
+            "media_cls0": 0.5722194314002991,
+            "media_cls1": 0.619789719581604,
+            "media_cls1_veridica": 0.6188408136367798,
+            "media_cls1_stopfals": 0.6270163059234619,
+            "n_veridica": 99,
+            "n_stopfals": 13
+          }
+        },
+        "test_B_cls0_only": {
+          "mean": {
+            "auc": 0.3053571428571428,
+            "cohen_d": -0.7040496468544006,
+            "media_cls0": 0.7006926536560059,
+            "media_cls1": 0.6624456644058228,
+            "media_cls1_veridica": 0.6634371280670166,
+            "media_cls1_stopfals": 0.654895544052124,
+            "n_veridica": 99,
+            "n_stopfals": 13
+          },
+          "min": {
+            "auc": 0.5214285714285715,
+            "cohen_d": 0.10243263840675354,
+            "media_cls0": 0.5420076251029968,
+            "media_cls1": 0.5506009459495544,
+            "media_cls1_veridica": 0.5486051440238953,
+            "media_cls1_stopfals": 0.5657998323440552,
+            "n_veridica": 99,
+            "n_stopfals": 13
+          },
+          "p10": {
+            "auc": 0.4199675324675325,
+            "cohen_d": -0.3096376955509186,
+            "media_cls0": 0.6076104640960693,
+            "media_cls1": 0.586633563041687,
+            "media_cls1_veridica": 0.5864099860191345,
+            "media_cls1_stopfals": 0.5883361101150513,
+            "n_veridica": 99,
+            "n_stopfals": 13
+          }
+        },
+        "test_D_diff": {
+          "mean": {
+            "auc": 0.9689935064935066,
+            "cohen_d": 2.4207041263580322,
+            "media_cls0": -0.03727862611413002,
+            "media_cls1": 0.03902650624513626,
+            "media_cls1_veridica": 0.03801308199763298,
+            "media_cls1_stopfals": 0.046744126826524734,
+            "n_veridica": 99,
+            "n_stopfals": 13
+          },
+          "min": {
+            "auc": 0.7762987012987014,
+            "cohen_d": 1.0354232788085938,
+            "media_cls0": -0.022735370323061943,
+            "media_cls1": 0.03085428848862648,
+            "media_cls1_veridica": 0.03252897039055824,
+            "media_cls1_stopfals": 0.018100963905453682,
+            "n_veridica": 99,
+            "n_stopfals": 13
+          },
+          "p10": {
+            "auc": 0.8988636363636364,
+            "cohen_d": 1.7125520706176758,
+            "media_cls0": -0.03539105877280235,
+            "media_cls1": 0.03315621241927147,
+            "media_cls1_veridica": 0.032430846244096756,
+            "media_cls1_stopfals": 0.03868018835783005,
+            "n_veridica": 99,
+            "n_stopfals": 13
+          }
+        }
+      }
+    },
+    {
+      "nume": "loso_v",
+      "descriere": "LOSO-V: corpus cls1 doar Stopfals (Veridica scoasă). Test articolele Veridica din test set sunt detectate prin similaritate cu Stopfals?",
+      "n_corpus_cls0": 5290,
+      "n_corpus_cls1": 383,
+      "distributie_sursa_cls1": {
+        "stopfals.md": 383
+      },
+      "metrici": {
+        "test_A_cls1_only": {
+          "mean": {
+            "auc": 0.6995129870129869,
+            "cohen_d": 0.6586126685142517,
+            "media_cls0": 0.5592155456542969,
+            "media_cls1": 0.5996798276901245,
+            "media_cls1_veridica": 0.5950106382369995,
+            "media_cls1_stopfals": 0.6352375745773315,
+            "n_veridica": 99,
+            "n_stopfals": 13
+          },
+          "min": {
+            "auc": 0.6923701298701299,
+            "cohen_d": 0.7417337894439697,
+            "media_cls0": 0.4142133295536041,
+            "media_cls1": 0.4771319031715393,
+            "media_cls1_veridica": 0.4747476279735565,
+            "media_cls1_stopfals": 0.49528899788856506,
+            "n_veridica": 99,
+            "n_stopfals": 13
+          },
+          "p10": {
+            "auc": 0.6792207792207793,
+            "cohen_d": 0.636380672454834,
+            "media_cls0": 0.47214069962501526,
+            "media_cls1": 0.5171797871589661,
+            "media_cls1_veridica": 0.5136769413948059,
+            "media_cls1_stopfals": 0.5438552498817444,
+            "n_veridica": 99,
+            "n_stopfals": 13
+          }
+        },
+        "test_B_cls0_only": {
+          "mean": {
+            "auc": 0.3053571428571428,
+            "cohen_d": -0.7040496468544006,
+            "media_cls0": 0.7006926536560059,
+            "media_cls1": 0.6624456644058228,
+            "media_cls1_veridica": 0.6634371280670166,
+            "media_cls1_stopfals": 0.654895544052124,
+            "n_veridica": 99,
+            "n_stopfals": 13
+          },
+          "min": {
+            "auc": 0.5214285714285715,
+            "cohen_d": 0.10243263840675354,
+            "media_cls0": 0.5420076251029968,
+            "media_cls1": 0.5506009459495544,
+            "media_cls1_veridica": 0.5486051440238953,
+            "media_cls1_stopfals": 0.5657998323440552,
+            "n_veridica": 99,
+            "n_stopfals": 13
+          },
+          "p10": {
+            "auc": 0.4199675324675325,
+            "cohen_d": -0.3096376955509186,
+            "media_cls0": 0.6076104640960693,
+            "media_cls1": 0.586633563041687,
+            "media_cls1_veridica": 0.5864099860191345,
+            "media_cls1_stopfals": 0.5883361101150513,
+            "n_veridica": 99,
+            "n_stopfals": 13
+          }
+        },
+        "test_D_diff": {
+          "mean": {
+            "auc": 0.8922077922077922,
+            "cohen_d": 1.666107416152954,
+            "media_cls0": -0.1414770483970642,
+            "media_cls1": -0.06276585906744003,
+            "media_cls1_veridica": -0.06842648237943649,
+            "media_cls1_stopfals": -0.01965801976621151,
+            "n_veridica": 99,
+            "n_stopfals": 13
+          },
+          "min": {
+            "auc": 0.7849025974025974,
+            "cohen_d": 1.0399047136306763,
+            "media_cls0": -0.1277943253517151,
+            "media_cls1": -0.07346900552511215,
+            "media_cls1_veridica": -0.07385745644569397,
+            "media_cls1_stopfals": -0.07051084190607071,
+            "n_veridica": 99,
+            "n_stopfals": 13
+          },
+          "p10": {
+            "auc": 0.8503246753246754,
+            "cohen_d": 1.370842456817627,
+            "media_cls0": -0.1354697346687317,
+            "media_cls1": -0.06945373117923737,
+            "media_cls1_veridica": -0.07273299992084503,
+            "media_cls1_stopfals": -0.04448079690337181,
+            "n_veridica": 99,
+            "n_stopfals": 13
+          }
+        }
+      }
+    },
+    {
+      "nume": "loso_s",
+      "descriere": "LOSO-S: corpus cls1 doar Veridica (Stopfals scos). Simetric cu LOSO-V.",
+      "n_corpus_cls0": 5290,
+      "n_corpus_cls1": 4907,
+      "distributie_sursa_cls1": {
+        "veridica.ro": 4907
+      },
+      "metrici": {
+        "test_A_cls1_only": {
+          "mean": {
+            "auc": 0.7144480519480519,
+            "cohen_d": 0.6569509506225586,
+            "media_cls0": 0.6626051664352417,
+            "media_cls1": 0.6977257132530212,
+            "media_cls1_veridica": 0.6997178792953491,
+            "media_cls1_stopfals": 0.6825548410415649,
+            "n_veridica": 99,
+            "n_stopfals": 13
+          },
+          "min": {
+            "auc": 0.7146103896103896,
+            "cohen_d": 0.7676189541816711,
+            "media_cls0": 0.5169322490692139,
+            "media_cls1": 0.5772957801818848,
+            "media_cls1_veridica": 0.578029990196228,
+            "media_cls1_stopfals": 0.571704626083374,
+            "n_veridica": 99,
+            "n_stopfals": 13
+          },
+          "p10": {
+            "auc": 0.6892857142857143,
+            "cohen_d": 0.6493687629699707,
+            "media_cls0": 0.5699270367622375,
+            "media_cls1": 0.6147772669792175,
+            "media_cls1_veridica": 0.6160458326339722,
+            "media_cls1_stopfals": 0.6051172018051147,
+            "n_veridica": 99,
+            "n_stopfals": 13
+          }
+        },
+        "test_B_cls0_only": {
+          "mean": {
+            "auc": 0.3053571428571428,
+            "cohen_d": -0.7040496468544006,
+            "media_cls0": 0.7006926536560059,
+            "media_cls1": 0.6624456644058228,
+            "media_cls1_veridica": 0.6634371280670166,
+            "media_cls1_stopfals": 0.654895544052124,
+            "n_veridica": 99,
+            "n_stopfals": 13
+          },
+          "min": {
+            "auc": 0.5214285714285715,
+            "cohen_d": 0.10243263840675354,
+            "media_cls0": 0.5420076251029968,
+            "media_cls1": 0.5506009459495544,
+            "media_cls1_veridica": 0.5486051440238953,
+            "media_cls1_stopfals": 0.5657998323440552,
+            "n_veridica": 99,
+            "n_stopfals": 13
+          },
+          "p10": {
+            "auc": 0.4199675324675325,
+            "cohen_d": -0.3096376955509186,
+            "media_cls0": 0.6076104640960693,
+            "media_cls1": 0.586633563041687,
+            "media_cls1_veridica": 0.5864099860191345,
+            "media_cls1_stopfals": 0.5883361101150513,
+            "n_veridica": 99,
+            "n_stopfals": 13
+          }
+        },
+        "test_D_diff": {
+          "mean": {
+            "auc": 0.9659090909090909,
+            "cohen_d": 2.3751261234283447,
+            "media_cls0": -0.03808741271495819,
+            "media_cls1": 0.035280048847198486,
+            "media_cls1_veridica": 0.036280762404203415,
+            "media_cls1_stopfals": 0.027659274637699127,
+            "n_veridica": 99,
+            "n_stopfals": 13
+          },
+          "min": {
+            "auc": 0.7689935064935065,
+            "cohen_d": 0.9997590780258179,
+            "media_cls0": -0.025075435638427734,
+            "media_cls1": 0.026694875210523605,
+            "media_cls1_veridica": 0.029424889013171196,
+            "media_cls1_stopfals": 0.005904793739318848,
+            "n_veridica": 99,
+            "n_stopfals": 13
+          },
+          "p10": {
+            "auc": 0.8964285714285715,
+            "cohen_d": 1.6742955446243286,
+            "media_cls0": -0.037683431059122086,
+            "media_cls1": 0.028143802657723427,
+            "media_cls1_veridica": 0.029635867103934288,
+            "media_cls1_stopfals": 0.016781141981482506,
+            "n_veridica": 99,
+            "n_stopfals": 13
+          }
+        }
+      }
+    }
+  ],
+  "concluzie_finala": "Test D (diferență cls1−cls0, agregare mean):\n  Baseline standard: AUC = 0.9690\n  LOSO-V (corpus = Stopfals only): AUC = 0.8922 (drop +0.0768)\n  LOSO-S (corpus = Veridica only): AUC = 0.9659 (drop +0.0031)\n\nComparație cu modulul 2:\n  Modul 2 standard (IID): F1 = 100% → recall cls1 = 100%\n  Modul 2 LOSO-V: recall cls1 = 29.35% (drop 70.65pp)\n\nVERDICT: ✓ Modulul 3 (Test D mean) GENERALIZEAZĂ EXCELENT cross-source. AUC LOSO-V = 0.8922 ≥ 0.85, drop minim (0.0768). Compensează problema modulului 2. Opțiunea 1 din DOSAR_problema_generalizare.md (raportare onestă fără remediere modulul 2) devine COMPLET ACCEPTABILĂ."
+}

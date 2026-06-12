@@ -1,0 +1,37 @@
+{
+  "model_used": "models/loso_v/final",
+  "replacement": "[ENT]",
+  "n_articole": 661,
+  "distributie_entitati": {
+    "cu_toponime": 177,
+    "cu_oficiali": 150,
+    "cu_media": 56,
+    "cu_orice_entitate": 314
+  },
+  "global_ablatie_toate": {
+    "prob_cls1_orig_mean": 0.20824379943548624,
+    "prob_cls1_ablated_mean": 0.21707612233914142,
+    "delta_mean": -0.008832322903655177,
+    "flip_rate": 0.015128593040847202,
+    "recall_cls1_orig": 0.2934947049924357,
+    "recall_cls1_ablated": 0.3086232980332829
+  },
+  "per_categorie": {
+    "toponime": {
+      "delta_mean": -0.0056187781991730145
+    },
+    "oficiali": {
+      "delta_mean": -0.002931386103632377
+    },
+    "media": {
+      "delta_mean": -5.983999358284401e-05
+    }
+  },
+  "cu_entitati": {
+    "n": 314,
+    "delta_mean": -0.018592883564700863,
+    "flip_rate": 0.03184713375796178
+  },
+  "categoria_top": "media",
+  "interpretare": "H2 RESPINSĂ: ablarea entităților propagandistice nu schimbă predicțiile. Shortcut-ul nu vine din vocabularul specific."
+}

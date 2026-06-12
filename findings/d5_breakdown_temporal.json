@@ -1,0 +1,72 @@
+{
+  "stopfals_distributie_an": {
+    "2022": 36,
+    "2023": 35,
+    "2024": 14
+  },
+  "veridica_distributie_an": {
+    "2022": 177,
+    "2023": 136,
+    "2024": 143,
+    "2025": 168,
+    "2026": 37
+  },
+  "loso_v_per_an": [
+    {
+      "an": 2022,
+      "n_veridica": 177,
+      "n_corecte": 45,
+      "recall_cls1": 0.2542372881355932,
+      "mean_prob_cls1": 0.1829527381854921,
+      "median_prob_cls1": 0.0055144489742815,
+      "n_stopfals_train": 36
+    },
+    {
+      "an": 2023,
+      "n_veridica": 136,
+      "n_corecte": 41,
+      "recall_cls1": 0.3014705882352941,
+      "mean_prob_cls1": 0.21010238195081268,
+      "median_prob_cls1": 0.0069109222386032,
+      "n_stopfals_train": 35
+    },
+    {
+      "an": 2024,
+      "n_veridica": 143,
+      "n_corecte": 51,
+      "recall_cls1": 0.35664335664335667,
+      "mean_prob_cls1": 0.24818723859148217,
+      "median_prob_cls1": 0.0103189833462238,
+      "n_stopfals_train": 14
+    },
+    {
+      "an": 2025,
+      "n_veridica": 168,
+      "n_corecte": 46,
+      "recall_cls1": 0.27380952380952384,
+      "mean_prob_cls1": 0.19768703514446748,
+      "median_prob_cls1": 0.0042014811187982,
+      "n_stopfals_train": 0
+    },
+    {
+      "an": 2026,
+      "n_veridica": 37,
+      "n_corecte": 11,
+      "recall_cls1": 0.2972972972972973,
+      "mean_prob_cls1": 0.2159566432394943,
+      "median_prob_cls1": 0.0132531793788075,
+      "n_stopfals_train": 0
+    }
+  ],
+  "recall_range": 0.10240606850776346,
+  "recall_min": 0.2542372881355932,
+  "recall_max": 0.35664335664335667,
+  "ani_fara_stopfals_train": [
+    2025,
+    2026
+  ],
+  "recall_agregat_ani_fara_stopfals": 0.2780487804878049,
+  "recall_agregat_ani_cu_stopfals": 0.30043859649122806,
+  "gap_cu_minus_fara": 0.022389816003423157,
+  "interpretare": "H6 CONFIRMATĂ SLAB: variație recall 10.2pp între ani. Shift temporal există dar e secundar față de alte cauze."
+}
