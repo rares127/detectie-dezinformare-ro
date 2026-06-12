@@ -1,6 +1,8 @@
-# Exclude fisierele HTML generate (vizualizari XAI) din statisticile de limbaj
-findings/**/*.html linguist-documentation=true
+# Fisierele HTML din findings/ sunt vizualizari generate (LIME, IG, DeepLift)
+# linguist-generated le exclude complet din statisticile de limbaj GitHub
+findings/**/*.html linguist-generated=true
+findings/_archive_modul4/**/*.html linguist-generated=true
 
-# Exclude CSV-urile de date din statistici
+# CSV-urile de date nu sunt cod sursa
 data/**/*.csv linguist-documentation=true
 src/scraping/data/**/*.csv linguist-documentation=true
