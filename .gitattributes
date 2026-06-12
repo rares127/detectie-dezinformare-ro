@@ -1,0 +1,6 @@
+# Exclude fisierele HTML generate (vizualizari XAI) din statisticile de limbaj
+findings/**/*.html linguist-documentation=true
+
+# Exclude CSV-urile de date din statistici
+data/**/*.csv linguist-documentation=true
+src/scraping/data/**/*.csv linguist-documentation=true
