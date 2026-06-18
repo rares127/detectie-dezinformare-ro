@@ -21,8 +21,8 @@ import torch
 # ─────────────────────────────────────────────────────────────────────────────
 APP_TITLE = "Detector Dezinformare Pro-Rusă"
 # Versiunea apare si ca query param pe fisierele statice (cache-busting):
-# orice modificare in app.js/custom.css trebuie insotita de bump aici,
-# altfel browserele pot servi versiunea veche din cache.
+# orice modificare in app.js (sau in CSS-ul inline din index.html) trebuie
+# insotita de bump aici, altfel browserele pot servi versiunea veche din cache.
 APP_VERSION = "1.1.0"
 
 

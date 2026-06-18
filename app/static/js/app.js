@@ -268,7 +268,7 @@ function renderDetaliiTehnice(data) {
     // Motivul borderline — primul, daca exista (cel mai important de inteles)
     if (data.is_borderline && data.motiv_borderline) {
         randuri.push(randDetaliu(
-            '⚠️ De ce e verdictul incert?',
+            'De ce e verdictul incert?',
             '',
             escapeHtml(descriereMotivBorderline(data.motiv_borderline))
         ));
@@ -494,7 +494,7 @@ function afiseazaDetaliiPropozitie(prop) {
             <!-- Match corpusul credibil -->
             <div class="p-3 bg-emerald-50 border border-emerald-200 rounded">
                 <p class="text-xs font-semibold text-emerald-800 mb-1">
-                    🟢 Cel mai bun match din corpusul credibil —
+                    Cel mai bun match din corpusul credibil —
                     ${sim0Pct}% similaritate ·
                     <span class="font-mono">${escapeHtml(prop.match_cls0_sursa)}</span>
                 </p>
@@ -506,7 +506,7 @@ function afiseazaDetaliiPropozitie(prop) {
             <!-- Match corpusul propagandă -->
             <div class="p-3 bg-red-50 border border-red-200 rounded">
                 <p class="text-xs font-semibold text-red-800 mb-1">
-                    🔴 Cel mai bun match din corpusul propagandă —
+                    Cel mai bun match din corpusul propagandă —
                     ${sim1Pct}% similaritate ·
                     <span class="font-mono">${escapeHtml(prop.match_cls1_sursa)}</span>
                 </p>

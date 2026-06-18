@@ -5,65 +5,434 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ app_title }} — v{{ version }}</title>
 
-    <!-- Tailwind CSS prin CDN (fara build step) -->
-    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Singura resursa externa: Google Fonts (Inter) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-    <!-- Override-uri minimale (?v= pentru cache-busting la fiecare versiune) -->
-    <link rel="stylesheet" href="/static/css/custom.css?v={{ version }}">
-
-    <script>
-        // Configurație Tailwind: paleta extinsă pentru semantica clasificator
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        'verdict-cls0': '#10b981',  // verde — credibil
-                        'verdict-cls1': '#dc2626',  // roșu — propagandă
-                        'verdict-incert': '#6b7280', // gri — incert
-                    }
-                }
-            }
+    <style>
+        /* ───────────────────────────────────────────────────────────────────
+           Paleta temei dark — sursa unica de adevar pentru culori
+           ─────────────────────────────────────────────────────────────────── */
+        :root {
+            --bg:           #0f172a;  /* fundal pagina */
+            --surface:      #1e293b;  /* fundal card / suprafete */
+            --border:       #334155;  /* border subtle */
+            --text:         #f1f5f9;  /* text primar */
+            --text-2:       #94a3b8;  /* text secundar / descrieri */
+            --muted:        #64748b;  /* text estompat / placeholder */
+            --accent:       #3b82f6;  /* accent / butoane */
+            --accent-hover: #2563eb;
+            --red:          #ef4444;  /* dezinformare */
+            --green:        #22c55e;  /* credibil */
+            --yellow:       #f59e0b;  /* incert */
         }
-    </script>
-</head>
-<body class="bg-slate-50 min-h-screen">
 
-    <!-- Header -->
-    <header class="bg-white border-b border-slate-200 shadow-sm">
-        <div class="max-w-5xl mx-auto px-6 py-4 flex items-center justify-between">
-            <div>
-                <h1 class="text-xl font-bold text-slate-900">
-                    🛡️ Detector Dezinformare Pro-Rusă
-                </h1>
-                <p class="text-xs text-slate-500 mt-1">
-                    Lucrare de licență · Informatică · 2025-2026 · v{{ version }}
-                </p>
-            </div>
-            <a href="/api/health" target="_blank"
-               class="text-xs text-slate-400 hover:text-slate-600 underline">
-                /health
-            </a>
-        </div>
-    </header>
+        /* ── Reset minimal + baza ─────────────────────────────────────────── */
+        *, *::before, *::after { box-sizing: border-box; }
+        html { scroll-behavior: smooth; }
+        body {
+            margin: 0;
+            font-family: 'Inter', system-ui, -apple-system, sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            line-height: 1.5;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* Reset elemente de formular — fara Tailwind preflight, butoanele
+           pastrau altfel chrome-ul nativ (bordura + bevel macOS) si nu
+           mosteneau fontul Inter. */
+        button, input, textarea, select {
+            font-family: inherit;
+            font-size: 100%;
+            margin: 0;
+        }
+        button {
+            -webkit-appearance: none;
+            appearance: none;
+            border: 0;
+            background: none;
+            color: inherit;
+            cursor: pointer;
+        }
+
+        code {
+            font-family: 'Courier New', monospace;
+            font-size: .85em;
+            background: rgba(148, 163, 184, .12);
+            padding: .1em .35em;
+            border-radius: 3px;
+            color: #cbd5e1;
+        }
+
+        /* ── Bara superioara subtire (doar link /health) ──────────────────── */
+        .topbar {
+            max-width: 64rem;
+            margin: 0 auto;
+            padding: 1rem 1.5rem 0;
+            display: flex;
+            justify-content: flex-end;
+        }
+        .topbar-link {
+            font-size: .75rem;
+            color: var(--muted);
+            text-decoration: none;
+            transition: color .15s;
+        }
+        .topbar-link:hover { color: var(--text-2); text-decoration: underline; }
+
+        /* ── Hero (landing) — integrat in pagina, fara fundal separat ─────── */
+        .hero {
+            max-width: 64rem;
+            margin: 0 auto;
+            padding: 3.5rem 1.5rem 2.5rem;
+            text-align: center;
+        }
+        .hero-title {
+            font-size: 2.75rem;
+            line-height: 1.1;
+            font-weight: 700;
+            letter-spacing: -.02em;
+            color: var(--text);
+            margin: 0 0 1.25rem;
+        }
+        .hero-desc {
+            font-size: 1.1875rem;
+            color: var(--text-2);
+            max-width: 46rem;
+            margin: 0 auto 2.25rem;
+            line-height: 1.7;
+        }
+        .hero-cta {
+            display: inline-block;
+            background-color: var(--accent);
+            color: #fff;
+            font-weight: 600;
+            font-size: .9375rem;
+            padding: .75rem 1.75rem;
+            border: none;
+            border-radius: 6px;
+            text-decoration: none;
+            cursor: pointer;
+            transition: background-color .15s;
+        }
+        .hero-cta:hover { background-color: var(--accent-hover); }
+
+        @media (max-width: 640px) {
+            .hero { padding: 2.5rem 1.25rem 1.5rem; }
+            .hero-title { font-size: 2rem; }
+            .hero-desc { font-size: 1.0625rem; }
+        }
+
+        /* ───────────────────────────────────────────────────────────────────
+           Clase utility (reimplementare subset, mapate pe tema dark).
+           Sunt referite atat din HTML cat si dinamic din app.js — NU le
+           redenumi: app.js le adauga/scoate prin classList.
+           ─────────────────────────────────────────────────────────────────── */
+
+        /* Display & pozitionare */
+        .hidden { display: none !important; }
+        .block { display: block; }
+        .inline-block { display: inline-block; }
+        .flex { display: flex; }
+        .inline-flex { display: inline-flex; }
+        .relative { position: relative; }
+        .absolute { position: absolute; }
+        .top-0 { top: 0; }
+        .left-1\/2 { left: 50%; }
+        .z-10 { z-index: 10; }
+        .overflow-hidden { overflow: hidden; }
+
+        /* Flex */
+        .items-center { align-items: center; }
+        .items-baseline { align-items: baseline; }
+        .justify-between { justify-content: space-between; }
+        .flex-wrap { flex-wrap: wrap; }
+
+        /* Dimensiuni */
+        .w-full { width: 100%; }
+        .w-3 { width: .75rem; }
+        .w-4 { width: 1rem; }
+        .w-0\.5 { width: .125rem; }
+        .h-3 { height: .75rem; }
+        .h-4 { height: 1rem; }
+        .h-full { height: 100%; }
+        .min-h-screen { min-height: 100vh; }
+        .max-w-5xl { max-width: 64rem; }
+        .max-w-2xl { max-width: 42rem; }
+
+        /* Margini */
+        .mx-auto { margin-left: auto; margin-right: auto; }
+        .mt-1 { margin-top: .25rem; }
+        .mt-2 { margin-top: .5rem; }
+        .mt-3 { margin-top: .75rem; }
+        .mt-4 { margin-top: 1rem; }
+        .mt-5 { margin-top: 1.25rem; }
+        .mt-6 { margin-top: 1.5rem; }
+        .mt-12 { margin-top: 3rem; }
+        .mb-1 { margin-bottom: .25rem; }
+        .mb-2 { margin-bottom: .5rem; }
+        .mb-3 { margin-bottom: .75rem; }
+        .mb-4 { margin-bottom: 1rem; }
+
+        /* Padding */
+        .p-3 { padding: .75rem; }
+        .p-4 { padding: 1rem; }
+        .p-5 { padding: 1.25rem; }
+        .p-6 { padding: 1.5rem; }
+        .px-2\.5 { padding-left: .625rem; padding-right: .625rem; }
+        .px-3 { padding-left: .75rem; padding-right: .75rem; }
+        .px-4 { padding-left: 1rem; padding-right: 1rem; }
+        .px-5 { padding-left: 1.25rem; padding-right: 1.25rem; }
+        .px-6 { padding-left: 1.5rem; padding-right: 1.5rem; }
+        .py-1 { padding-top: .25rem; padding-bottom: .25rem; }
+        .py-2 { padding-top: .5rem; padding-bottom: .5rem; }
+        .py-3 { padding-top: .75rem; padding-bottom: .75rem; }
+        .py-4 { padding-top: 1rem; padding-bottom: 1rem; }
+        .py-6 { padding-top: 1.5rem; padding-bottom: 1.5rem; }
+        .py-8 { padding-top: 2rem; padding-bottom: 2rem; }
+        .pt-4 { padding-top: 1rem; }
+
+        /* Gap & spatiere verticala */
+        .gap-1 { gap: .25rem; }
+        .gap-1\.5 { gap: .375rem; }
+        .gap-2 { gap: .5rem; }
+        .gap-3 { gap: .75rem; }
+        .gap-4 { gap: 1rem; }
+        .gap-x-5 { column-gap: 1.25rem; }
+        .gap-y-2 { row-gap: .5rem; }
+        .space-y-3 > * + * { margin-top: .75rem; }
+        .space-y-6 > * + * { margin-top: 1.5rem; }
+
+        /* Colturi rotunjite */
+        .rounded { border-radius: .25rem; }
+        .rounded-md { border-radius: .375rem; }
+        .rounded-lg { border-radius: .5rem; }
+        .rounded-full { border-radius: 9999px; }
+
+        /* Border — latimi (cu stil + culoare implicita) */
+        .border { border-width: 1px; border-style: solid; border-color: var(--border); }
+        .border-2 { border-width: 2px; border-style: solid; border-color: var(--border); }
+        .border-b { border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: var(--border); }
+        .border-t { border-top-width: 1px; border-top-style: solid; border-top-color: var(--border); }
+
+        /* Border — culori (definite DUPA latimi ca sa castige la egalitate de specificitate) */
+        .border-slate-100 { border-color: var(--border); }
+        .border-slate-200 { border-color: var(--border); }
+        .border-slate-300 { border-color: var(--border); }
+        .border-slate-400 { border-color: #475569; }
+        .border-red-200 { border-color: rgba(239, 68, 68, .30); }
+        .border-red-400 { border-color: var(--red); }
+        .border-emerald-200 { border-color: rgba(34, 197, 94, .30); }
+        .border-emerald-400 { border-color: var(--green); }
+        .border-amber-300 { border-color: rgba(245, 158, 11, .40); }
+        .border-amber-400 { border-color: var(--yellow); }
+        .border-blue-200 { border-color: rgba(59, 130, 246, .30); }
+        .border-blue-600 { border-color: var(--accent); }
+        .border-emerald-600 { border-color: #059669; }
+        /* border-t-transparent ultima: anuleaza marginea de sus a spinner-ului */
+        .border-t-transparent { border-top-color: transparent; }
+
+        /* Tipografie — dimensiuni */
+        .text-xs { font-size: .75rem; line-height: 1rem; }
+        .text-sm { font-size: .875rem; line-height: 1.25rem; }
+        .text-xl { font-size: 1.25rem; line-height: 1.75rem; }
+        .text-3xl { font-size: 1.875rem; line-height: 2.25rem; }
+
+        /* Tipografie — greutate / stil */
+        .font-normal { font-weight: 400; }
+        .font-medium { font-weight: 500; }
+        .font-semibold { font-weight: 600; }
+        .font-bold { font-weight: 700; }
+        .font-mono { font-family: 'Courier New', monospace; }
+        .italic { font-style: italic; }
+        .uppercase { text-transform: uppercase; }
+        .tracking-wide { letter-spacing: .025em; }
+        .underline { text-decoration: underline; }
+        .text-center { text-align: center; }
+        .leading-relaxed { line-height: 1.625; }
+        .leading-loose { line-height: 2; }
+
+        /* Tipografie — culori (mapate pe tema dark) */
+        .text-white { color: #fff; }
+        .text-slate-900 { color: var(--text); }
+        .text-slate-800 { color: #e2e8f0; }
+        .text-slate-700 { color: #cbd5e1; }
+        .text-slate-600 { color: var(--text-2); }
+        .text-slate-500 { color: var(--text-2); }
+        .text-slate-400 { color: var(--muted); }
+        .text-red-900 { color: #fca5a5; }
+        .text-red-800 { color: #fca5a5; }
+        .text-emerald-900 { color: #86efac; }
+        .text-emerald-800 { color: #86efac; }
+        .text-emerald-700 { color: #86efac; }
+        .text-amber-900 { color: #fbbf24; }
+        .text-blue-900 { color: #93c5fd; }
+
+        /* Fundaluri */
+        .bg-white { background-color: var(--surface); }
+        .bg-slate-50 { background-color: var(--surface); }
+        .bg-slate-200 { background-color: var(--border); }
+        .bg-slate-500 { background-color: #94a3b8; }
+        .bg-red-50 { background-color: rgba(239, 68, 68, .10); }
+        .bg-emerald-50 { background-color: rgba(34, 197, 94, .10); }
+        .bg-amber-50 { background-color: rgba(245, 158, 11, .10); }
+        .bg-blue-50 { background-color: rgba(59, 130, 246, .10); }
+        .bg-blue-600 { background-color: var(--accent); }
+        .bg-emerald-600 { background-color: #059669; }
+        .bg-red-500 { background-color: var(--red); }
+        .bg-emerald-500 { background-color: var(--green); }
+        .bg-amber-400 { background-color: var(--yellow); }
+
+        /* Opacitate */
+        .opacity-70 { opacity: .7; }
+        .opacity-75 { opacity: .75; }
+        .opacity-80 { opacity: .8; }
+
+        /* Umbre */
+        .shadow-sm { box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .3); }
+
+        /* Diverse */
+        .resize-y { resize: vertical; }
+        .select-none { user-select: none; -webkit-user-select: none; }
+
+        /* Tranzitii (limitate, fara animatii complexe) */
+        .transition { transition: color .15s, background-color .15s, border-color .15s; }
+        .transition-all { transition: all .5s ease; }
+        .transition-transform { transition: transform .2s; }
+        .duration-200 { transition-duration: .2s; }
+        .duration-500 { transition-duration: .5s; }
+
+        /* Hover */
+        .hover\:bg-blue-700:hover { background-color: var(--accent-hover); }
+        .hover\:bg-emerald-700:hover { background-color: #047857; }
+        .hover\:bg-slate-100:hover { background-color: #334155; }
+        .hover\:text-slate-600:hover { color: #cbd5e1; }
+
+        /* Focus & disabled */
+        .focus\:outline-none:focus { outline: none; }
+        .focus\:ring-2:focus { box-shadow: 0 0 0 2px var(--accent); }
+        .focus\:ring-blue-500:focus { box-shadow: 0 0 0 2px var(--accent); }
+        .focus\:border-transparent:focus { border-color: transparent; }
+        .disabled\:opacity-50:disabled { opacity: .5; }
+        .disabled\:cursor-not-allowed:disabled { cursor: not-allowed; }
+
+        /* Spinner — rotatie loader (echivalent animate-spin) */
+        .animate-spin { animation: spin 0.7s linear infinite; }
+        @keyframes spin { to { transform: rotate(360deg); } }
+
+        /* ── Componente specifice (specificitate prin ID) ─────────────────── */
+
+        /* Textarea — fundal surface, font Inter (nu monospace), placeholder estompat */
+        #textInput {
+            font-family: 'Inter', system-ui, sans-serif;
+            line-height: 1.6;
+            background-color: var(--surface);
+            color: var(--text);
+        }
+        #textInput::placeholder { color: var(--muted); }
+
+        /* Contor caractere — estompat conform paletei */
+        #charCount { color: var(--muted); }
+
+        /* Buton principal — outline de focus vizibil pentru accesibilitate */
+        #btnAnalizeaza:focus-visible {
+            outline: 2px solid var(--accent);
+            outline-offset: 2px;
+        }
+
+        /* Caret „detalii" desenat in CSS (inlocuieste glyph-ul ▼) — app.js il roteste */
+        .chevron {
+            display: inline-block;
+            width: 0;
+            height: 0;
+            border-left: 5px solid transparent;
+            border-right: 5px solid transparent;
+            border-top: 6px solid currentColor;
+            margin-top: 1px;
+        }
+
+        /* Card verdict — fundal subtil + border stanga 4px in culoarea verdictului.
+           app.js adauga bg-red-50 / bg-emerald-50 / bg-amber-50 / bg-slate-50. */
+        #verdictBox {
+            border: 1px solid var(--border);
+            border-left-width: 4px;
+            border-radius: .5rem;
+            padding: 1.5rem;
+            text-align: center;
+            background-color: transparent;
+        }
+        #verdictBox.bg-red-50     { background-color: rgba(239, 68, 68, .10);  border-left-color: var(--red); }
+        #verdictBox.bg-emerald-50 { background-color: rgba(34, 197, 94, .10);  border-left-color: var(--green); }
+        #verdictBox.bg-amber-50   { background-color: rgba(245, 158, 11, .10); border-left-color: var(--yellow); }
+        #verdictBox.bg-slate-50   { background-color: rgba(245, 158, 11, .10); border-left-color: var(--yellow); }
+
+        /* Swatch-uri legenda — border subtil ca sa fie vizibile chiar la alfa mic */
+        .legend-swatch { border: 1px solid var(--border); }
+
+        /* ── Stiluri preluate din custom.css (acum inline) ────────────────── */
+
+        /* Dezvaluirea rezultatului */
+        #rezultat:not(.hidden) { animation: fade-in-up 0.3s ease-out; }
+        #panouDetalii:not(.hidden) { animation: fade-in-up 0.2s ease-out; }
+        @keyframes fade-in-up {
+            from { opacity: 0; transform: translateY(8px); }
+            to   { opacity: 1; transform: translateY(0); }
+        }
+
+        /* Propozitii colorate — vizualizare granulara Modul 3 */
+        .prop-colorata {
+            cursor: pointer;
+            border-radius: 3px;
+            padding: 1px 3px;
+            transition: filter 0.12s ease, box-shadow 0.12s ease;
+            line-height: inherit;
+            user-select: none;
+            -webkit-user-select: none;
+        }
+        .prop-colorata:hover { filter: brightness(1.25); }
+        .prop-colorata.prop-selectata {
+            box-shadow: 0 0 0 2px #64748b;
+            filter: brightness(1.2);
+            border-radius: 3px;
+        }
+
+        /* ───────────────────────────────────────────────────────────────────
+           Remapare culori propozitii la tema dark.
+           Culorile de baza sunt setate inline din app.js (culoarePentruDiff);
+           fiecare nivel are un triplet RGB unic, deci le putem remapa aici
+           fara sa atingem JS. !important bate stilul inline.
+           ─────────────────────────────────────────────────────────────────── */
+        .prop-colorata[style*="220, 38, 38"]   { background-color: rgba(239, 68, 68, .25)  !important; color: #fca5a5; }
+        .prop-colorata[style*="252, 165, 165"] { background-color: rgba(239, 68, 68, .12)  !important; color: #fca5a5; }
+        .prop-colorata[style*="203, 213, 225"] { background-color: rgba(148, 163, 184, .08) !important; color: #cbd5e1; }
+        .prop-colorata[style*="134, 239, 172"] { background-color: rgba(34, 197, 94, .12)  !important; color: #86efac; }
+        .prop-colorata[style*="22, 163, 74"]   { background-color: rgba(34, 197, 94, .25)  !important; color: #86efac; }
+    </style>
+</head>
+<body class="min-h-screen">
+
+    <!-- Bara superioara: doar link discret catre /health -->
+    <div class="topbar">
+        <a href="/api/health" target="_blank" class="topbar-link">/health</a>
+    </div>
+
+    <!-- Hero (landing) -->
+    <section class="hero">
+        <h1 class="hero-title">Detector de Dezinformare Pro-Rusă</h1>
+        <p class="hero-desc">
+            Instrument de analiză automată a articolelor din presa românească. 
+            Detectează narațiunile pro-ruse și explică transparent raționamentul fiecărei decizii.
+        </p>
+        <a href="#analiza" class="hero-cta">Începe analiza</a>
+    </section>
 
     <main class="max-w-5xl mx-auto px-6 py-8">
 
-        <!-- Descriere scurta -->
-        <section class="mb-6 bg-white rounded-lg p-5 border border-slate-200">
-            <h2 class="font-semibold text-slate-900 mb-2">Despre acest sistem</h2>
-            <p class="text-sm text-slate-600 leading-relaxed">
-                Sistemul analizează articole din presa românească pentru a detecta
-                narațiuni pro-ruse legate de războiul din Ucraina. Folosește două
-                module complementare:
-                <strong>clasificare globală XLM-RoBERTa</strong> (modul 2) și
-                <strong>similaritate semantică per propoziție</strong> (modul 3,
-                explicabilitate principală, F1 = 0.9454). Pentru articolele credibile,
-                este disponibilă opțional o explicație lexicală LIME.
-            </p>
-        </section>
-
         <!-- Form input -->
-        <section class="bg-white rounded-lg p-6 border border-slate-200 shadow-sm">
+        <section id="analiza" class="bg-white rounded-lg p-6 border border-slate-200 shadow-sm">
             <label for="textInput" class="block text-sm font-semibold text-slate-700 mb-2">
                 Articol de analizat
             </label>
@@ -74,7 +443,7 @@
                 maxlength="50000"
                 class="w-full p-3 border border-slate-300 rounded-md text-sm leading-relaxed
                        focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent
-                       resize-y font-mono"
+                       resize-y"
                 placeholder="Lipiți aici titlul + corpul articolului în limba română..."></textarea>
 
             <div class="flex items-center justify-between mt-3">
@@ -109,7 +478,7 @@
             <!-- Banner trunchiere (warning, nu blocare) -->
             <div id="warningTrunchiere" class="hidden bg-amber-50 border border-amber-300 rounded-lg p-4">
                 <p class="text-sm text-amber-900">
-                    ⚠️ <strong>Atenție:</strong> Textul depășește 256 tokens
+                    <strong>Atenție:</strong> Textul depășește 256 tokens
                     (~1500 caractere). XLM-R analizează doar primele 256 tokens.
                     Modul 3 (similaritate semantică) lucrează pe propoziții
                     individuale și nu este afectat de această limită.
@@ -151,8 +520,8 @@
                         class="inline-flex items-center gap-2 px-5 py-2 bg-white border border-slate-300
                                rounded-md text-sm font-medium text-slate-700
                                hover:bg-slate-100 transition shadow-sm">
-                    <span>🔍 Vezi detaliile analizei</span>
-                    <span id="chevronDetalii" class="text-[10px] transition-transform duration-200">▼</span>
+                    <span>Vezi detaliile analizei</span>
+                    <span id="chevronDetalii" class="chevron transition-transform duration-200" aria-hidden="true"></span>
                 </button>
             </div>
 
@@ -206,7 +575,6 @@
                 <div id="explicatieArchitectura"
                      class="hidden mt-2 mb-4 p-4 bg-blue-50 border border-blue-200 rounded-lg">
                     <h4 class="font-semibold text-blue-900 mb-2 flex items-center gap-1.5 text-sm">
-                        <span>ℹ️</span>
                         <span>De ce apar cuvinte asociate propagandei într-o știre credibilă?</span>
                     </h4>
                     <p id="textExplicatieArh"
@@ -239,28 +607,28 @@
                 <div class="mt-5 pt-4 border-t border-slate-100">
                     <div class="flex flex-wrap gap-x-5 gap-y-2 text-xs text-slate-600 mb-2">
                         <span class="flex items-center gap-1.5">
-                            <span class="inline-block w-3 h-3 rounded"
-                                  style="background:rgba(220,38,38,0.45)"></span>
+                            <span class="legend-swatch inline-block w-3 h-3 rounded"
+                                  style="background:rgba(239,68,68,0.25)"></span>
                             <span id="legCerta">Propagandă certă</span>
                         </span>
                         <span class="flex items-center gap-1.5">
-                            <span class="inline-block w-3 h-3 rounded"
-                                  style="background:rgba(252,165,165,0.60)"></span>
+                            <span class="legend-swatch inline-block w-3 h-3 rounded"
+                                  style="background:rgba(239,68,68,0.12)"></span>
                             <span id="legSuspect">Suspect</span>
                         </span>
                         <span class="flex items-center gap-1.5">
-                            <span class="inline-block w-3 h-3 rounded"
-                                  style="background:rgba(203,213,225,0.60)"></span>
+                            <span class="legend-swatch inline-block w-3 h-3 rounded"
+                                  style="background:rgba(148,163,184,0.08)"></span>
                             <span id="legNeutru">Neutru / borderline</span>
                         </span>
                         <span class="flex items-center gap-1.5">
-                            <span class="inline-block w-3 h-3 rounded"
-                                  style="background:rgba(134,239,172,0.65)"></span>
+                            <span class="legend-swatch inline-block w-3 h-3 rounded"
+                                  style="background:rgba(34,197,94,0.12)"></span>
                             <span id="legProbabil">Probabil credibil</span>
                         </span>
                         <span class="flex items-center gap-1.5">
-                            <span class="inline-block w-3 h-3 rounded"
-                                  style="background:rgba(22,163,74,0.40)"></span>
+                            <span class="legend-swatch inline-block w-3 h-3 rounded"
+                                  style="background:rgba(34,197,94,0.25)"></span>
                             <span id="legClar">Clar credibil</span>
                         </span>
                     </div>
@@ -272,10 +640,6 @@
             </div>
         </section>
     </main>
-
-    <footer class="mt-12 py-6 text-center text-xs text-slate-400">
-        Modulul 5 (FastAPI) · Lucrare de licență · 2025-2026
-    </footer>
 
     <script src="/static/js/app.js?v={{ version }}"></script>
 </body>
